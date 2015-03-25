@@ -1,5 +1,5 @@
 # microinsurance-dashboard
 
-npm install
-bower install
-grunt serve
+- npm install
+- bower install
+- grunt serve
