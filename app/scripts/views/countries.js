@@ -37,6 +37,8 @@ Mi.Views = Mi.Views || {};
             
             console.log(this);
             
+            console.log(Mi.centroids);
+            
             if (!(this.region)) {
               this.region = 'Global';
             }
@@ -67,7 +69,14 @@ Mi.Views = Mi.Views || {};
 		    var _self = this;
             var i = 1;
             
+            
+            Mi.ratiosLayer.clearLayers();
+            
+            
+            
+            
             $.each(this.data, function(index, value) {
+            
             
              if (_self.year === 'all') {
                 _self.mainValue = value.mostRecent.value;
@@ -84,6 +93,32 @@ Mi.Views = Mi.Views || {};
              } else {
                 var filterYear = Mi.year;
              }
+             
+             var centroid = null;
+             $.each(Mi.centroids, function(index, country) {
+                if (country.iso_a3 === value.iso) {
+                   centroid = country.coordinates;
+                }
+             });
+             
+             
+             var radius = _self.mainValue;
+             if (radius > 0 && radius < 4) {
+                radius = 3;
+             } 
+             if (radius > 29) {
+               radius = 30;
+             }
+             
+             if (centroid != null && _self.mainValue != 0) {
+              var markup = '<div class="inner">' + value.country + ', ' + _self.mainValue + '%</div>';
+			  var marker = L.circleMarker([centroid[1], centroid[0]], {radius: radius, opacity: 1, fillOpacity: 0.7, color: '#006DA1'});
+				marker.bindPopup(markup, {
+				autoPan: true
+			  });
+				Mi.ratiosLayer.addLayer(marker);
+			  }
+			 
         
               if (_self.mainValue > 0) {
                 $('#content').append('<div class="col-sm-4 col-md-3 col-xs-6 row-country" data-mi-ratio="' +  _self.mainValue + '">'
@@ -110,6 +145,13 @@ Mi.Views = Mi.Views || {};
                     data: 'mi-ratio',
                     order: 'desc'
               });
+              
+              
+              
+              
+              
+              
+              
                
         },
         

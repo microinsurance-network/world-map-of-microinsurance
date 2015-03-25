@@ -6,9 +6,11 @@ Mi.Routers = Mi.Routers || {};
     'use strict';
 
     L.mapbox.accessToken = 'pk.eyJ1IjoiZGV2c2VlZCIsImEiOiJnUi1mbkVvIn0.018aLhX0Mb0tdtaT2QNe2Q';
-    Mi.map = L.mapbox.map('map', 'devseed.49f9443d')
+    Mi.map = L.mapbox.map('map', 'devseed.49f9443d', {worldCopyJump: true})
     .setView([20, 0], 2);
     Mi.map.scrollWheelZoom.disable();
+    Mi.ratiosLayer = L.mapbox.featureLayer();
+    Mi.map.addLayer(Mi.ratiosLayer);
     
     
     $(document).on('click', '.mi-reset', function(e) {
@@ -26,6 +28,7 @@ Mi.Routers = Mi.Routers || {};
     Mi.year = 'all',
     Mi.region = 'Global',
     Mi.name = 'total-microinsurance-coverage-ratio',
+    Mi.centroids = centroids,
 
 
 
@@ -109,9 +112,7 @@ Mi.Routers = Mi.Routers || {};
            Mi.name = name;
          }
          
-         
-        console.log(Mi.indicators);
-         
+     
          
         $('.menu-type a.mi-filter').each(function() {
            $(this).attr('data-year', Mi.year);
