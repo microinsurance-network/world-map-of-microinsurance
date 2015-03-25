@@ -8,7 +8,11 @@ window.Mi = {
     Routers: {},
     init: function () {
         'use strict';
-        console.log('Hello from Backbone!');
+        
+        //initialize router
+        Mi.router = new Mi.Routers.App();
+        Backbone.history.start();
+        
     }
 };
 

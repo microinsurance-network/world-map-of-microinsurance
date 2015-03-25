@@ -3,9 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Mi</title>
+        <title>Microinsurance</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <!-- build:css(.tmp) styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
@@ -13,6 +14,9 @@
         <!-- build:js scripts/vendor/modernizr.js -->
         <script src="bower_components/modernizr/modernizr.js"></script>
         <!-- endbuild -->
+        <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.6/mapbox.js'></script>
+		<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.6/mapbox.css' rel='stylesheet' />
+
     </head>
     <body>
         <!--[if lt IE 10]>
@@ -20,60 +24,86 @@
         <![endif]-->
 
 
-        <div class="container">
-            <div class="header">
-                <ul class="nav nav-pills pull-right">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <h3 class="text-muted">Mi</h3>
-            </div>
+      
+<nav class="navbar navbar-default navbar-fixed-top">
+   <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand mi-reset" href="#">Microinsurance Dashboard</a>
+    </div>
 
-            <div class="jumbotron">
-                <h1>'Allo, 'Allo!</h1>
-                <p class="lead">Always a pleasure scaffolding your apps.</p>
-                <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
-            </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <!-- <li><a href="#">Link</a></li> -->
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Year <span class="caret"></span></a>
+          <ul class="dropdown-menu menu-year" role="menu">
+            <li><a class="mi-filter" data-var="all" href="#">Show most recent value</a></li>
+            <li class="divider"></li>
+            <li><a class="mi-filter" data-var="2013" href="#">2013</a></li>
+            <li><a class="mi-filter" data-var="2012" href="#">2012</a></li>
+            <li><a class="mi-filter" data-var="2011" href="#">2011</a></li>
+            <li><a class="mi-filter" data-var="2008" href="#">2008</a></li>
+            <li><a class="mi-filter" data-var="2005" href="#">2005</a></li>
+          </ul>
+        </li>
+         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Type <span class="caret"></span></a>
+          <ul class="dropdown-menu menu-type" role="menu">
+            <li><a class="mi-filter" data-var="total-microinsurance-coverage-ratio" href="#">Total microinsruance coverage ratio</a></li>
+            <li><a class="mi-filter" data-var="credit-life-coverage-ratio" href="#">Credit life coverage Ratio</a></li>
+            <li><a class="mi-filter" data-var="health-coverage-ratio" href="#">Health coverage ratio</a></li>
+            <li><a class="mi-filter" data-var="accident-coverage-ratio" href="#">Accident coverage ratio</a></li>
+            <li><a class="mi-filter" data-var="property-coverage-ratio" href="#">Property coverage ratio</a></li>
+            <li><a class="mi-filter" data-var="agriculture-coverage-ratio" href="#">Agriculture coverage ratio</a></li>
+          </ul>
+        </li>
+         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Region <span class="caret"></span></a>
+          <ul class="dropdown-menu menu-region" role="menu">
+           <li><a class="mi-filter" data-var="global" href="#">Global</a></li>
+           <li><a class="mi-filter" data-var="africa" href="#">Africa</a></li>
+           <li><a class="mi-filter" data-var="americas" href="#">Americas</a></li>
+           <li><a class="mi-filter" data-var="asia" href="#">Asia</a></li>
+           <li><a class="mi-filter" data-var="oceania" href="#">Oceania</a></li>
+          </ul>
+        </li>
+      </ul>
+      </div>
+    </div><!-- /.navbar-collapse -->
+</nav>
 
-            <div class="row text-left">
-                <div class="col-md-offset-4">
-                    <h2>Now Try,</h2>
-                    <h4><b>yo backbone:router</b> &lt;router&gt;</h4>
-                    <h4><b>yo backbone:collection</b> &lt;collection&gt;</h4>
-                    <h4><b>yo backbone:model </b> &lt;model&gt;</h4>
-                    <h4><b>yo backbone:view </b> &lt;view&gt;</h4>
-                </div>
-            </div>
-
-            <div class="row marketing">
-                <div class="col-lg-6">
-                    <h4>HTML5 Boilerplate</h4>
-                    <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
-
-                    <h4>Bootstrap</h4>
-                    <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-
-                    <h4>Modernizr</h4>
-                    <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
-
-                </div>
-                <div class="col-lg-6">
-                    <h4>Backbone.js</h4>
-                    <p>Backbone.js gives structure to web applications by providing models, collections, views and connects it all to your existing API over a RESTful JSON interface.</p>
-
-                    <h4>Underscore.js</h4>
-                    <p>Underscore.js is a utility-belt library for JavaScript that provides a lot of the functional programming support</p>
-
-
-                </div>
-            </div>
-
-            <div class="footer">
-                <p>♥ from the Yeoman team</p>
-            </div>
-
-        </div>
+	<div class="container">    
+        
+		<div class="intro">
+		  <p>Microinsurance is the protection of low-income people (those living on between approximately $1 and $4 per day) against specific perils in exchange for regular premium payment proportionate to the likelihood and cost of the risks involved. This definition is exactly the same as one might use for regular insurance except for the clearly prescribed target market: low-income people. The target population typically consists of persons ignored by mainstream commercial and social insurance schemes, as well as persons who have not previously had access to appropriate insurance products.</p>
+		  <h2>Microinsurance ratio is the number identified as covered by microinsurance divided by the total population of the country.</h2>
+		</div>
+		
+		<div class="page-header">
+		    <a id="logo" class="mi-reset" href="#">Microinsurance Network</a>
+		    <div class="filter-breadcrumb">
+			  <span class="region-value">Global</span> &raquo; <span class="year-value">Most recent value</span> &raquo; <span class="type-value">Total microinsurance coverage ratio</span>
+		 	</div>
+		</div>
+		
+		
+		<div id="map"></div>
+		
+         <div id="content"><!-- app lives here --></div>
+         
+         <div class="loader">Loading</div>
+         
+         </div><!-- /.container -->
 
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
@@ -90,6 +120,8 @@
         <script src="bower_components/jquery/dist/jquery.js"></script>
         <script src="bower_components/underscore/underscore.js"></script>
         <script src="bower_components/backbone/backbone.js"></script>
+        <script src="scripts/vendor/d3.v3.min.js"></script>
+        <script src="scripts/vendor/jquery.tinysort.js"></script>
         <!-- endbuild -->
 
         <!-- build:js scripts/plugins.js -->
@@ -110,6 +142,11 @@
         <!-- build:js({.tmp,app}) scripts/main.js -->
         <script src="scripts/main.js"></script>
         <script src="scripts/templates.js"></script>
+        <script src="scripts/routes/app.js"></script>
+        <script src="scripts/models/country.js"></script>
+        <script src="scripts/collections/countries.js"></script>
+        <script src="scripts/views/country.js"></script>
+        <script src="scripts/views/countries.js"></script>
         <!-- endbuild -->
 </body>
 </html>
