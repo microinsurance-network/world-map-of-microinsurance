@@ -85,7 +85,7 @@ Mi.Views = Mi.Views || {};
                 var filterYear = Mi.year;
              }
         
-              if (_self.mainValue >= 0) {
+              if (_self.mainValue > 0) {
                 $('#content').append('<div class="col-sm-4 col-md-3 col-xs-6 row-country" data-mi-ratio="' +  _self.mainValue + '">'
                  					 + '<div class="inner">'
                                      + '<b>' + value.country + '</b><br>' 

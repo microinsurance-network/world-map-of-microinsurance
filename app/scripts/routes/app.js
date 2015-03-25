@@ -47,8 +47,6 @@ Mi.Routers = Mi.Routers || {};
           else {
             if (callback) callback.apply(this, args);
           }
-          
-          
         },
         
         
