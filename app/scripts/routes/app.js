@@ -37,6 +37,7 @@ Mi.Routers = Mi.Routers || {};
     routes: {
        '' : 'viewPage',
        'view/:region/:year/:name' : 'viewPage',
+       'country/:country' : 'viewCountry'
      },
      
      
@@ -159,6 +160,13 @@ Mi.Routers = Mi.Routers || {};
          
      }, 
      
+     
+     viewCountry: function(country) {
+        
+        $('.loader').fadeIn();
+       
+     },
+     
 
     
 
@@ -177,6 +185,8 @@ Mi.Routers = Mi.Routers || {};
       capitalizeFirstLetter: function(string) {
          return string.charAt(0).toUpperCase() + string.slice(1);
        }
+       
+       
      
      
 

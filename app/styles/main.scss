@@ -11,7 +11,9 @@ body {
 h1,h2,h3,h4,h5 {
   font-family: 'Abel', sans-serif;
 }
-
+a:hover {
+  text-decoration: none;
+}
 
 
 .navbar {
@@ -63,6 +65,7 @@ h1,h2,h3,h4,h5 {
   width: 130px;
   height: 70px;
   text-indent: -9999px;
+  outline: none;
 }
 .year-value,
 .region-value {
@@ -127,17 +130,35 @@ h1,h2,h3,h4,h5 {
   background: #fff;
   text-align: center;
 }
-
+.mi-year-value,
+.mi-crude-value {
+  color: #aaa;
+  font-size: 12px;
+}
+.mi-year-value {
+  display: block;
+  float: right;
+}
 .mi-ratio-label {
   display: block;
   text-align: center;
-  margin-bottom: 1rem;
+  margin: -10px 0 5px 0;
+
 }
 .mi-ratio-value {
   display: block;
   font-size: 5rem;
   text-align: center;
-  margin: 40px 0 30px 0;
+  margin: 0;
   color: #006DA1;
   font-weight: bold;
+}
+
+
+.hchart {
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }

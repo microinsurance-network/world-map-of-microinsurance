@@ -23,6 +23,8 @@ Mi.Views = Mi.Views || {};
         
         mainValue: '',
         
+        metaData: '',
+        
         year: '',
         
         type: '',
@@ -38,6 +40,10 @@ Mi.Views = Mi.Views || {};
             console.log(this);
             
             console.log(Mi.centroids);
+            
+            //console.log(Mi);
+            
+            console.log(this.type);
             
             if (!(this.region)) {
               this.region = 'Global';
@@ -72,10 +78,41 @@ Mi.Views = Mi.Views || {};
             
             Mi.ratiosLayer.clearLayers();
             
+            this.metaData = _.groupBy(Mi.data, 'country');
             
+            console.log(this.metaData);
+
             
             
             $.each(this.data, function(index, value) {
+            
+              
+              var crudeCoverage = 0;
+              var crudeCoverageType = '';
+              
+              if (_self.type === 'all') {
+                crudeCoverageType = 'total-microinsurance-coverage';
+              } else {
+                crudeCoverageType = _self.type.slice(0, -6);
+              }
+              
+              console.log(crudeCoverageType);
+              
+              $.each(_self.metaData[value.country], function(index, indicator) {
+                  if (value.country === value.country) {
+                   if (indicator.varName === crudeCoverageType) {
+                     if(_self.year === 'all') {
+                         crudeCoverage = indicator.mostRecent.value;
+                       } else {
+						 $.each(indicator.timeseries, function(index, year) {
+						   if (year.year === parseFloat(_self.year)) {
+							 crudeCoverage = year.value;
+						   }
+						 });  
+                     }
+                   }
+                  }
+              });
             
             
              if (_self.year === 'all') {
@@ -124,15 +161,31 @@ Mi.Views = Mi.Views || {};
                 $('#content').append('<div class="col-sm-4 col-md-3 col-xs-6 row-country" data-mi-ratio="' +  _self.mainValue + '">'
                  					 + '<div class="inner">'
                                      + '<b>' + value.country + '</b><br>' 
-                                     + value.name + '<br>' 
-                                     + '<span class="mi-ratio-value">' + _self.mainValue + '%</span>'
-                                     + 'Year: ' + filterYear
+                                     + '<span class="mi-ratio-value"><a href="#country/ARG">' + _self.mainValue + '%</a></span>'
+                                     + '<span class="mi-ratio-label">' + value.name + '</span>'
+                                     + '<div id="' + value.iso + '-chart" class="hchart"></div>'
+                                     + '<span class="mi-crude-value">' + _self.numberWithCommas(crudeCoverage) + ' policies</span>'
+                                     + '<span class="mi-year-value">Year: ' + filterYear + '</span>'
                                      + '</div>'
                                      + '</div>'
                                      );
                 i++;
                 
+                
+                var chartData = [];
+                var yearLabels = [];
+                $.each(value.timeseries, function(index, year) {
+                  if (year.value != 0) {
+                   chartData.push(year.value);
+                   yearLabels.push(year.year);
+                  }
+                });
+                
+                _self.drawLineChart('#' + value.iso + '-chart', chartData, yearLabels, value.name);
+                
               }
+              
+               
 		
 
              });
@@ -147,12 +200,62 @@ Mi.Views = Mi.Views || {};
               });
               
               
-              
-              
-              
-              
-              
                
+        },
+        
+        
+        drawLineChart: function(id, data, categories, name) {
+
+			$(id).highcharts({
+			
+			    chart: {
+			       plotBorderColor: '#fff'
+			    },
+				title: {
+					text: '',
+					x: -20 //center
+				},
+				subtitle: {
+					text: '',
+					x: -20
+				},
+				xAxis: {
+					categories: categories
+				},
+				yAxis: {
+					title: {
+						text: ''
+					},
+					labels: {
+					   enabled: false
+					},
+					gridLineColor: '#fff'
+				},
+				credits: {
+     			  enabled: false
+ 			    },
+				tooltip: {
+					valueSuffix: '%'
+				},
+				legend: {
+					layout: 'vertical',
+					align: 'right',
+					verticalAlign: 'middle',
+					borderWidth: 0,
+					enabled: false
+				},
+				series: [{
+					name: 'Ratio',
+					color: '#09AE8A',
+					data: data
+				}]
+			});
+		
+        },
+        
+        
+        numberWithCommas: function(x) {
+          return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         },
         
         
