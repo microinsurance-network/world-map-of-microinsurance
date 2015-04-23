@@ -165,6 +165,7 @@ a:hover {
   width: 20px;
   text-align: center;
   color: #fff;
+  cursor: default;
 }
 .more-info:focus,
 .more-info:hover {
@@ -197,10 +198,19 @@ a:hover {
 }
 
 
+.leaflet-popup-content {
+  .inner {
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+  }
+}
+
 @media (max-width: 700px) {
   .filter-breadcrumb {
     display: none;
-  } 
+  }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
   color: #fff;
 }
