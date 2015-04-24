@@ -54,9 +54,14 @@ Mi.Views = Mi.Views || {};
             $.each(this.data, function(index, value) {
 
               var indicatorValue = '';
+              var crudeCoverage;
               if (value.name.indexOf('ratio') >= 0){
                 if (indicatorValue != null) {
                   indicatorValue = value.mostRecent.value + '%';
+                  crudeCoverage = _.filter(_self.data, function(d){
+                    return d.varName === value.varName.replace('-ratio','');
+                  })[0].mostRecent.value;
+
                 }
               } else {
                 indicatorValue = value.mostRecent.value;
@@ -70,8 +75,8 @@ Mi.Views = Mi.Views || {};
                                            + '<span class="mi-ratio-value"><a href="#country/' + value.iso + '">' + indicatorValue + '</a></span>'
                                            + '<span class="mi-ratio-label">' + value.name + '</span>'
                                            + '<div id="' + value.iso + '-chart-' + index + '" class="hchart"></div>'
-                                           + '<span class="mi-crude-value">' + ' policies</span>'
-                                           + '<span class="mi-year-value">Year: '  + '</span>'
+                                           + '<span class="mi-crude-value">' + _self.numberWithCommas(crudeCoverage) + ' policies</span>'
+                                           + '<span class="mi-year-value">Year: '  + value.mostRecent.year + '</span>'
                                            + '</div>'
                                            + '</div>'
                                            );
