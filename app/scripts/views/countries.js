@@ -9,56 +9,42 @@ Mi.Views = Mi.Views || {};
 
         template: JST['app/scripts/templates/countries.ejs'],
 
-        tagName: 'div',
+        el: '#content',
 
-        id: '',
-
-        className: '',
-        
         data: {},
 
         events: {},
-        
+
         region: '',
-        
+
         mainValue: '',
-        
+
         metaData: '',
-        
+
         year: '',
-        
+
         type: '',
 
         initialize: function () {
-            
+
         },
 
         render: function () {
-            
-            //this.$el.html(this.template(this.model.toJSON()));
-            
-            console.log(this);
-            
-            console.log(Mi.centroids);
-            
-            //console.log(Mi);
-            
-            console.log(this.type);
-            
+
             if (!(this.region)) {
               this.region = 'Global';
             }
-            
+
             $('.region-value').text(this.capitalizeFirstLetter(this.region));
-            
+
             if (this.year === 'all') {
               $('.year-value').text('Most recent value');
             } else {
               $('.year-value').text(this.year);
             }
-            
+
             $('.type-value').text(this.capitalizeFirstLetter(this.type.replace(/-/g, ' ')));
-            
+
             if (this.region === 'Africa') {
               Mi.map.setView([4.43, 28.83], 3);
             } else if (this.region === 'Americas') {
@@ -72,146 +58,107 @@ Mi.Views = Mi.Views || {};
             }
 
 
-		    var _self = this;
-            var i = 1;
-            
-            
+		        var _self = this;
+
             Mi.ratiosLayer.clearLayers();
-            
+
             this.metaData = _.groupBy(Mi.data, 'country');
-            
+
             console.log(this.metaData);
 
-            
-            
-            $.each(this.data, function(index, value) {
-            
-              
-              var crudeCoverage = 0;
-              var crudeCoverageType = '';
-              
-              if (_self.type === 'all') {
-                crudeCoverageType = 'total-microinsurance-coverage';
-              } else {
-                crudeCoverageType = _self.type.slice(0, -6);
-              }
-              
-              console.log(crudeCoverageType);
-              
-              $.each(_self.metaData[value.country], function(index, indicator) {
-                  if (value.country === value.country) {
-                   if (indicator.varName === crudeCoverageType) {
-                     if(_self.year === 'all') {
-                         crudeCoverage = indicator.mostRecent.value;
-                       } else {
-						 $.each(indicator.timeseries, function(index, year) {
-						   if (year.year === parseFloat(_self.year)) {
-							 crudeCoverage = year.value;
-						   }
-						 });  
-                     }
+            // data handling
+
+            _.each(this.data, function(d){
+              d.crudeCoverage = 0;
+              d.crudeCoverageType = (_self.type === 'all') ? 'total-microinsurance-coverage' : _self.type.slice(0, -6);
+              _.each(_self.metaData[d.country], function(indicator) {
+                 if (indicator.varName === d.crudeCoverageType) {
+                   if (_self.year === 'all') {
+                       d.crudeCoverage = indicator.mostRecent.value;
+                   } else {
+        						 _.each(indicator.timeseries, function(year) {
+        						   if (year.year === parseFloat(_self.year)) {
+        							   d.crudeCoverage = year.value;
+        						   }
+        						 });
                    }
-                  }
+                 }
+                 if (_self.year === 'all') {
+                    d.mainValue = d.mostRecent.value;
+                 } else {
+                   _.each(d.timeseries, function(year) {
+                     if (parseFloat(_self.year) === year.year) {
+                       d.mainValue = year.value;
+                     }
+                   });
+                 }
+                 if (Mi.year === 'all') {
+                   d.filterYear = d.mostRecent.year;
+                 } else {
+                   d.filterYear = Mi.year;
+                 }
               });
-            
-            
-             if (_self.year === 'all') {
-                _self.mainValue = value.mostRecent.value;
-             } else {
-                $.each(value.timeseries, function(index, year) {
-                  if (parseFloat(_self.year) === year.year) {
-                    _self.mainValue = year.value;
-                  }
-                });
-             }
-             
-             if (Mi.year === 'all') {
-                var filterYear = value.mostRecent.year;
-             } else {
-                var filterYear = Mi.year;
-             }
-             
-             var centroid = null;
-             $.each(Mi.centroids, function(index, country) {
+            });
+
+            this.data.sort( function (a,b) {
+                  return b.mainValue - a.mainValue;
+            });
+
+            this.$el.html(this.template({data: this.data, numberWithCommas: this.numberWithCommas}))
+
+            _.each(this.data, function(value) {
+
+              var centroid = null;
+              _.each(Mi.centroids, function(country) {
                 if (country.iso_a3 === value.iso) {
-                   centroid = country.coordinates;
+                  centroid = country.coordinates;
                 }
-             });
-             
-             
-             var radius = _self.mainValue;
-             if (radius > 0 && radius < 4) {
+              });
+
+              var radius = value.mainValue;
+              if (radius > 0 && radius < 4) {
                 radius = 3;
-             } 
-             if (radius > 29) {
-               radius = 30;
-             }
-             
-             if (centroid != null && _self.mainValue != 0) {
-              var markup = '<div class="inner">' + value.country + ', ' + _self.mainValue + '%</div>';
-			  var marker = L.circleMarker([centroid[1], centroid[0]], {radius: radius, opacity: 1, fillOpacity: 0.7, color: '#006DA1'});
-				marker.bindPopup(markup, {
-				autoPan: true
-			  });
-				Mi.ratiosLayer.addLayer(marker);
-			  }
-			 
-        
-              if (_self.mainValue > 0) {
-                $('#content').append('<div class="col-sm-4 col-md-3 col-xs-6 row-country" data-mi-ratio="' +  _self.mainValue + '">'
-                 					 + '<div class="inner">'
-                 					 + '<a class="more-info" href="#" data-toggle="popover" title="' + value.name + '" data-content=" Vestibulum sed iaculis enim, eu elementum tortor. Morbi efficitur lacus diam, nec aliquam purus consequat et. Quisque a sapien vitae nisi dignissim ultrices vitae et libero.">?</a>'
-                                     + '<b>' + value.country + '</b><br>' 
-                                     + '<span class="mi-ratio-value"><a href="#country/' + value.iso + '">' + _self.mainValue + '%</a></span>'
-                                     + '<span class="mi-ratio-label">' + value.name + '</span>'
-                                     + '<div id="' + value.iso + '-chart" class="hchart"></div>'
-                                     + '<span class="mi-crude-value">' + _self.numberWithCommas(crudeCoverage) + ' policies</span>'
-                                     + '<span class="mi-year-value">Year: ' + filterYear + '</span>'
-                                     + '</div>'
-                                     + '</div>'
-                                     );
-                i++;
-                
-                
+              }
+              if (radius > 29) {
+                radius = 30;
+              }
+
+              if (centroid != null && value.mainValue !== 0) {
+                var markup = '<div class="inner">' + value.country + ', ' + value.mainValue + '%</div>';
+			          var marker = L.circleMarker([centroid[1], centroid[0]], {radius: radius, opacity: 1, fillOpacity: 0.7, color: '#006DA1'});
+				        marker.bindPopup(markup, { autoPan: true });
+				        Mi.ratiosLayer.addLayer(marker);
+			        }
+
+
+              if (value.mainValue > 0) {
+
                 var chartData = [];
                 var yearLabels = [];
-                $.each(value.timeseries, function(index, year) {
+                _.each(value.timeseries, function(year) {
                   if (year.value != 0) {
                    chartData.push(year.value);
                    yearLabels.push(year.year);
                   }
                 });
-                
+
                 _self.drawLineChart('#' + value.iso + '-chart', chartData, yearLabels, value.name);
-                
+
               }
-              
-               
-		
 
              });
-             
-              if (i < 2) {
-                $('#content').append('<h2 class="country-title">No data</h2>');
-              }
-              
-              $('.row-country').tsort({
-                    data: 'mi-ratio',
-                    order: 'desc'
-              });
-              
-              
-              $('#map').animate({height: '400px'});
-              $('.more-info').popover({placement: 'top', trigger: 'hover', viewport: '.row-country'});
-              
-               
+
+             $('#map').animate({height: '400px'});
+             $('.more-info').popover({placement: 'top', trigger: 'hover', viewport: '.row-country'});
+
+
         },
-        
-        
+
+
         drawLineChart: function(id, data, categories, name) {
 
 			$(id).highcharts({
-			
+
 			    chart: {
 			       plotBorderColor: '#fff'
 			    },
@@ -254,15 +201,15 @@ Mi.Views = Mi.Views || {};
 					data: data
 				}]
 			});
-		
+
         },
-        
-        
+
+
         numberWithCommas: function(x) {
           return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         },
-        
-        
+
+
         capitalizeFirstLetter: function(string) {
           return string.charAt(0).toUpperCase() + string.slice(1);
         }
