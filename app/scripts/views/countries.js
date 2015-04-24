@@ -124,7 +124,8 @@ Mi.Views = Mi.Views || {};
               }
 
               if (centroid != null && value.mainValue !== 0) {
-                var markup = '<div class="inner"><span class="popup-value">' + value.country + ', ' + value.mainValue + '%</span><br>' +
+                var markup = '<div class="inner"><span class="country-name">' + value.country + '</span><br>' +
+                '<span class="popup-value">' + _self.capitalizeFirstLetter(_self.type.replace(/-/g, ' ')) + ': ' + value.mainValue + '%</span><br>' +
                              '<a href="#country/' + value.iso +'">Details</a></div>';
 			          var marker = L.circleMarker([centroid[1], centroid[0]], {radius: radius, opacity: 1, fillOpacity: 0.7, color: '#006DA1'});
 				        marker.bindPopup(markup, { autoPan: true });
