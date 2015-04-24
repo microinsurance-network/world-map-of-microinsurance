@@ -11,9 +11,7 @@ Mi.Views = Mi.Views || {};
 
         tagName: 'div',
 
-        id: '',
-
-        className: '',
+        el: '#content',
 
         data: {},
 
@@ -39,8 +37,6 @@ Mi.Views = Mi.Views || {};
 
             var _self = this;
 
-            $('#content').append('<h2 class="country-title">' + this.data[0]["country"] + '</h2>');
-
             var centroid = null;
 
             _.each(Mi.centroids, function(country) {
@@ -51,35 +47,26 @@ Mi.Views = Mi.Views || {};
               }
             });
 
-            $.each(this.data, function(index, value) {
-
-              var indicatorValue = '';
-              var crudeCoverage;
-              if (value.name.indexOf('ratio') >= 0){
-                if (indicatorValue != null) {
-                  indicatorValue = value.mostRecent.value + '%';
-                  crudeCoverage = _.filter(_self.data, function(d){
-                    return d.varName === value.varName.replace('-ratio','');
+            _.each(this.data, function(d){
+              d.indicatorValue = '';
+              if (d.name.indexOf('ratio') >= 0){
+                if (d.indicatorValue != null) {
+                  d.indicatorValue = d.mostRecent.value + '%';
+                  d.crudeCoverage = _.filter(_self.data, function(f){
+                    return f.varName === d.varName.replace('-ratio','');
                   })[0].mostRecent.value;
 
                 }
               } else {
-                indicatorValue = value.mostRecent.value;
+                d.indicatorValue = d.mostRecent.value;
               }
+            });
+
+            this.$el.html(this.template({data: this.data, numberWithCommas: this.numberWithCommas}))
+
+            _.each(this.data, function(value, index) {
 
       			 if (value.name.indexOf('ratio') >= 0 && value.mostRecent.value != null && value.mostRecent.value > 0 && value.name != 'Life coverage ratio (excluding credit life)' && value.name != 'Life and accident coverage ratio (excluding credit life)') {
-                      $('#content').append('<div class="col-sm-4 col-md-3 col-xs-6 row-country ' + value.varName + '" data-mi-ratio="' +  _self.mainValue + '">'
-                       					 + '<div class="inner">'
-                                           + '<b></b><br>'
-                       					 + '<a class="more-info" href="#" data-toggle="popover" title="' + value.name + '" data-content=" Vestibulum sed iaculis enim, eu elementum tortor. Morbi efficitur lacus diam, nec aliquam purus consequat et. Quisque a sapien vitae nisi dignissim ultrices vitae et libero.">?</a>'
-                                           + '<span class="mi-ratio-value"><a href="#country/' + value.iso + '">' + indicatorValue + '</a></span>'
-                                           + '<span class="mi-ratio-label">' + value.name + '</span>'
-                                           + '<div id="' + value.iso + '-chart-' + index + '" class="hchart"></div>'
-                                           + '<span class="mi-crude-value">' + _self.numberWithCommas(crudeCoverage) + ' policies</span>'
-                                           + '<span class="mi-year-value">Year: '  + value.mostRecent.year + '</span>'
-                                           + '</div>'
-                                           + '</div>'
-                                           );
 
                 var chartData = [];
                 var yearLabels = [];
@@ -92,24 +79,10 @@ Mi.Views = Mi.Views || {};
 
                 _self.drawLineChart('#' + value.iso + '-chart-' + index, chartData, yearLabels, value.name);
 
-
-
               }
 
             });
 
-
-
-          // $('.row-country').css('opacity', '0.2');
-
-          /*
-          console.log(Mi.ratiosLayer);
-
-          var i = 0;
-          Mi.ratiosLayer.eachLayer(function (layer) {
-            i++;
-          });
-          */
 
          $('#map').animate({height: '250px'});
 
@@ -168,17 +141,13 @@ Mi.Views = Mi.Views || {};
 
         },
 
-
-
         numberWithCommas: function(x) {
           return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         },
 
-
         capitalizeFirstLetter: function(string) {
           return string.charAt(0).toUpperCase() + string.slice(1);
         }
-
 
     });
 
