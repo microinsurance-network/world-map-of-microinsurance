@@ -162,15 +162,25 @@ Mi.Routers = Mi.Routers || {};
 
      viewCountry: function(country) {
 
+       // if there aren't any markers, call the default view before continuing
+       var markerCount = 0;
+       Mi.ratiosLayer.eachLayer(function(layer){
+         markerCount++;
+       })
+       if (!markerCount){
+         this.viewPage();
+         $('#content').empty();
+       }
+
         $('.loader').fadeIn();
 
-            var countries = [];
-           $.each(Mi.data, function(index, row) {
-           if (country === row.iso && row.category === 'Microinsurance') {
+         var countries = [];
+         $.each(Mi.data, function(index, row) {
+         if (country === row.iso && row.category === 'Microinsurance') {
 
-                countries.push(row);
-            }
-           });
+              countries.push(row);
+          }
+         });
 
          var countryPage = new Mi.Views.Country();
          countryPage.year = Mi.year;
