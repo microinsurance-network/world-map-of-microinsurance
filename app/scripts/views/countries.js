@@ -63,6 +63,13 @@ Mi.Views = Mi.Views || {};
 		    
 		    console.log(this.type);
 		    
+		    
+		    // share links
+		    $('#twitter-share-btn').attr('href', 'https://twitter.com/home?status=' + window.location.href);
+		    $('#facebook-share-btn').attr('href', 'https://www.facebook.com/sharer/sharer.php?u=' + window.location.href);
+		    $('#linkedin-share-btn').attr('href', 'https://www.linkedin.com/shareArticle?mini=true&url=' + window.location.href);
+		    
+		    
 		    // Info hover descriptions
 		    var totalMiDesc = '';
 		    var creditMiDesc = '';
