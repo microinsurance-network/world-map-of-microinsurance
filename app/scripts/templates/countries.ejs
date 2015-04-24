@@ -3,7 +3,7 @@
     <% if (value.mainValue > 0) { %>
       <div class="col-sm-4 col-md-3 col-xs-6 row-country" data-mi-ratio="<%= value.mainValue %>">
         <div class="inner">
-          <a class="more-info" href="#" data-toggle="popover" title="<%= value.name %>" data-content="Vestibulum sed iaculis enim, eu elementum tortor. Morbi efficitur lacus diam, nec aliquam purus consequat et. Quisque a sapien vitae nisi dignissim ultrices vitae et libero.">?</a>
+          <a class="more-info" data-toggle="popover" title="<%= value.name %>" data-content="Vestibulum sed iaculis enim, eu elementum tortor. Morbi efficitur lacus diam, nec aliquam purus consequat et. Quisque a sapien vitae nisi dignissim ultrices vitae et libero.">?</a>
           <b><%= value.country %></b>
           <br>
           <span class="mi-ratio-value"><a href="#country/<%= value.iso %>"><%= value.mainValue %>%</a></span>

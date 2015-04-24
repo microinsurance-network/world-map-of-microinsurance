@@ -11,15 +11,14 @@ Mi.Routers = Mi.Routers || {};
     Mi.map.scrollWheelZoom.disable();
     Mi.ratiosLayer = L.mapbox.featureLayer();
     Mi.map.addLayer(Mi.ratiosLayer);
-    
-    
+
+
     $(document).on('click', '.mi-reset', function(e) {
         Mi.year = 'all',
         Mi.region = 'Global',
         Mi.name = 'total-microinsurance-coverage-ratio';
     });
-    
-    
+
     Mi.dataUrl = 'assets/data/mi-data.csv';
     Mi.data = null,
     Mi.models = {},
@@ -33,17 +32,17 @@ Mi.Routers = Mi.Routers || {};
 
 
     Mi.Routers.App = Backbone.Router.extend({
-    
+
     routes: {
        '' : 'viewPage',
        'view/:region/:year/:name' : 'viewPage',
        'country/:country' : 'viewCountry'
      },
-     
-     
+
+
     execute: function(callback, args) {
         $('#content').empty().hide().fadeIn();
-    
+
           if (!Mi.data) {
             this.loadData(callback, args);
             // maybe spin a loader here
@@ -52,8 +51,8 @@ Mi.Routers = Mi.Routers || {};
             if (callback) callback.apply(this, args);
           }
         },
-        
-        
+
+
     loadData: function(callback, args) {
           var that = this;
           d3.csv(Mi.dataUrl, function(d) {
@@ -93,28 +92,28 @@ Mi.Routers = Mi.Routers || {};
              if (callback) callback.apply(that, args);
             });
         },
-     
 
-     
+
+
       viewPage: function(region, year, name) {
-         
+
          $('.loader').fadeIn();
-         
-         
+
+
          if (region) {
            Mi.region = this.capitalizeFirstLetter(region);
          }
-         
+
          if (year) {
            Mi.year = year;
          }
-         
+
          if (name) {
            Mi.name = name;
          }
-         
-     
-         
+
+
+
         $('.menu-type a.mi-filter').each(function() {
            $(this).attr('data-year', Mi.year);
            $(this).attr('data-region', Mi.region);
@@ -122,7 +121,7 @@ Mi.Routers = Mi.Routers || {};
            var filterValue = $(this).attr('data-var');
            $(this).attr('href', '#view/' +  Mi.region + '/' + Mi.year + '/' + filterValue);
          });
-         
+
          $('.menu-region a.mi-filter').each(function() {
            $(this).attr('data-year', Mi.year);
            $(this).attr('data-region', Mi.region);
@@ -130,7 +129,7 @@ Mi.Routers = Mi.Routers || {};
            var filterValue = $(this).attr('data-var');
            $(this).attr('href', '#view/' +  filterValue + '/' + Mi.year + '/' + Mi.name);
          });
-         
+
          $('.menu-year a.mi-filter').each(function() {
            $(this).attr('data-year', Mi.year);
            $(this).attr('data-region', Mi.region);
@@ -138,8 +137,8 @@ Mi.Routers = Mi.Routers || {};
            var filterValue = $(this).attr('data-var');
            $(this).attr('href', '#view/' +  Mi.region + '/' + filterValue + '/' + Mi.name);
          });
-       
-       
+
+
         var countries = [];
            $.each(Mi.data, function(index, row) {
            if (Mi.region == 'Global' || row.region === Mi.region) {
@@ -148,31 +147,31 @@ Mi.Routers = Mi.Routers || {};
               }
             }
            });
-  
+
          var countriesPage = new Mi.Views.Countries();
          countriesPage.year = Mi.year;
          countriesPage.type = Mi.name;
          countriesPage.region = Mi.region;
          countriesPage.data = countries;
          countriesPage.render();
-         
+
           $('.loader').fadeOut();
-         
-     }, 
-     
-     
+
+     },
+
+
      viewCountry: function(country) {
-        
+
         $('.loader').fadeIn();
-        
+
             var countries = [];
            $.each(Mi.data, function(index, row) {
            if (country === row.iso && row.category === 'Microinsurance') {
-              
+
                 countries.push(row);
             }
            });
-           
+
          var countryPage = new Mi.Views.Country();
          countryPage.year = Mi.year;
          countryPage.type = Mi.name;
@@ -180,13 +179,13 @@ Mi.Routers = Mi.Routers || {};
          countryPage.data = countries;
          countryPage.iso = countries[0].iso;
          countryPage.render();
-         
-          $('.loader').fadeOut();
-       
-     },
-     
 
-    
+          $('.loader').fadeOut();
+
+     },
+
+
+
 
      median: function(values) {
           values.sort(function(a,b) {return a - b;});
@@ -203,10 +202,10 @@ Mi.Routers = Mi.Routers || {};
       capitalizeFirstLetter: function(string) {
          return string.charAt(0).toUpperCase() + string.slice(1);
        }
-       
-       
-     
-     
+
+
+
+
 
     });
 
