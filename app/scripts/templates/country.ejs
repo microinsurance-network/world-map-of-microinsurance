@@ -3,7 +3,7 @@
   <% if (value.name.indexOf('ratio') >= 0 && value.mostRecent.value != null && value.mostRecent.value > 0 && value.name != 'Life coverage ratio (excluding credit life)' && value.name != 'Life and accident coverage ratio (excluding credit life)') { %>
 	  <div class="col-sm-4 col-md-3 col-xs-6 row-country <%= value.varName %>">
 		  <div class="inner">
-			  <a class="more-info" href="#" data-toggle="popover" title="<%= value.name %>" data-content=" Vestibulum sed iaculis enim, eu elementum tortor. Morbi efficitur lacus diam, nec aliquam purus consequat et. Quisque a sapien vitae nisi dignissim ultrices vitae et libero.">?</a>
+			  <a class="more-info" href="#" data-toggle="popover" title="<%= value.name %>" data-content="">?</a>
 				  <span class="mi-ratio-value"><a href="#country/<%= value.iso %>"><%= value.indicatorValue %></a></span>
 					<span class="mi-ratio-label"><%= value.name %></span>
 					<div id="<%= value.iso %>-chart-<%= index %>" class="hchart"></div>

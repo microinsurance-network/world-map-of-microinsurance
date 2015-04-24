@@ -58,13 +58,48 @@ Mi.Views = Mi.Views || {};
             }
 
 
-		        var _self = this;
+		    var _self = this;
+		    
+		    
+		    console.log(this.type);
+		    
+		    // Info hover descriptions
+		    var totalMiDesc = '';
+		    var creditMiDesc = '';
+		    var healthMiDesc = '';
+		    var accidentMiDesc = '';
+		    var propertyMiDesc = '';
+		    var agricultureMiDesc = '';
+		    
+		    if (this.type === 'total-microinsurance-coverage-ratio') {
+		      $('.more-info').attr('data-content', totalMiDesc);
+		    }
+		    if (this.type === 'credit-life-coverage-ratio') {
+		      $('.more-info').attr('data-content', creditMiDesc);
+		    }
+		    if (this.type === 'accident-coverage-ratio') {
+		      $('.more-info').attr('data-content', accidentMiDesc);
+		    }
+		    if (this.type === 'property-coverage-ratio') {
+		      $('.more-info').attr('data-content', propertyMiDesc);
+		    }
+		    if (this.type === 'agriculture-coverage-ratio') {
+		      $('.more-info').attr('data-content', agricultureMiDesc);
+		    }
+		    if (this.type === 'health-coverage-ratio') {
+		      $('.more-info').attr('data-content', healthMiDesc);
+		    }
+
+
+		    
+		    
+		    
 
             Mi.ratiosLayer.clearLayers();
 
             this.metaData = _.groupBy(Mi.data, 'country');
 
-            console.log(this.metaData);
+            //console.log(this.metaData);
 
             // data handling
 
