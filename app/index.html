@@ -16,7 +16,7 @@
         <!-- endbuild -->
         <script src="https://api.tiles.mapbox.com/mapbox.js/v2.1.6/mapbox.js"></script>
 		<link href="https://api.tiles.mapbox.com/mapbox.js/v2.1.6/mapbox.css" rel='stylesheet' />
-		
+
 
     </head>
     <body>
@@ -25,7 +25,7 @@
         <![endif]-->
 
 
-      
+
 <nav class="navbar navbar-default navbar-fixed-top">
    <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -43,11 +43,15 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Data <span class="caret"></span></a>
           <ul class="dropdown-menu menu-share" role="menu">
-           <li><a href="#">Network</a></li>
-           <li><a href="#">Data</a></li>
-           <li><a href="#">Background</a></li>
+           <li><a href="../assets/data/mi-data.csv">Download (csv)</a></li>
+           <li role="presentation" class="divider"></li>
+           <li role="presentation" class="dropdown-header">Landscape Studies (pdf)</li>
+           <li><a href="http://www.microinsurancenetwork.org/sites/default/files/The_landscape_of_microinsurance_in_Asia_and_Oceania_2013__full_report.pdf" target="_blank">Asia and Oceania (2013)</a></li>
+           <li><a href="http://www.microinsurancenetwork.org/sites/default/files/The_Landscape_of_MI_in_Africa_2012_full_study_web.pdf" target="_blank">Africa (2012)</a></li>
+           <li><a href="http://www.microinsurancenetwork.org/sites/default/files/LandscapeLatinAme.pdf" target="_blank">Latin America and the Caribbean (2011)</a></li>
+           <li><a href="http://www.microinsurancenetwork.org//sites/default/files/files/mpaper4_landscape_en.pdf" target="_blank">Africa (2010)</a></li>
           </ul>
         </li>
       </ul>
@@ -90,9 +94,9 @@
          <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Share <span class="caret"></span></a>
           <ul class="dropdown-menu menu-share" role="menu">
-           <li><a href="#">Twitter</a></li>
-           <li><a href="#">Facebook</a></li>
-           <li><a href="#">LinkedIn</a></li>
+           <li><a id="twitter-share-btn" href="#">Twitter</a></li>
+           <li><a id="facebook-share-btn" href="#">Facebook</a></li>
+           <li><a id="linkedin-share-btn" href="#">LinkedIn</a></li>
           </ul>
         </li>
       </ul>
@@ -100,13 +104,13 @@
     </div><!-- /.navbar-collapse -->
 </nav>
 
-	<div class="container">    
-        
+	<div class="container">
+
 		<div class="intro">
 		  <p>Microinsurance is the protection of low-income people (those living on between approximately $1 and $4 per day) against specific perils in exchange for regular premium payment proportionate to the likelihood and cost of the risks involved. This definition is exactly the same as one might use for regular insurance except for the clearly prescribed target market: low-income people. The target population typically consists of persons ignored by mainstream commercial and social insurance schemes, as well as persons who have not previously had access to appropriate insurance products.</p>
 		  <h2>Microinsurance ratio is the number identified as covered by microinsurance divided by the total population of the country.</h2>
 		</div>
-		
+
 		<div class="page-header">
 		    <a id="logo" class="mi-reset" href="#">Microinsurance Network</a>
 		    <div class="filter-breadcrumb">
@@ -114,14 +118,14 @@
 		 	  <!-- <span class="tagline">Tracking trends in microinsurance worldwide</span> -->
 		 	</div>
 		</div>
-		
-		
+
+
 		<div id="map"></div>
-		
+
          <div id="content" class="clearfix"><!-- app lives here --></div>
-         
+
          <div class="loader">Loading</div>
-         
+
          </div><!-- /.container -->
 
 
@@ -134,8 +138,8 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
-        
-        
+
+
 
         <!-- build:js scripts/vendor.js -->
         <script src="bower_components/jquery/dist/jquery.js"></script>
@@ -145,7 +149,7 @@
         <script src="scripts/vendor/jquery.tinysort.js"></script>
         <script src="scripts/vendor/country-centroids.js"></script>
         <!-- endbuild -->
-        
+
         <script src="http://code.highcharts.com/highcharts.js"></script>
 
         <!-- build:js scripts/plugins.js -->
@@ -172,7 +176,7 @@
         <script src="scripts/views/country.js"></script>
         <script src="scripts/views/countries.js"></script>
         <!-- endbuild -->
-        
-   
+
+
 </body>
 </html>

@@ -35,6 +35,7 @@ Mi.Views = Mi.Views || {};
 
         render: function () {
 
+
             var _self = this;
 
             var centroid = null;
