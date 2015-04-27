@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Microinsurance</title>
-        <meta name="description" content="">
+        <meta name="description" content="Explore microinsurance coverage data around the world.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -20,89 +20,91 @@
 
     </head>
     <body>
+    
+    
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
 
 
-<nav class="navbar navbar-default navbar-fixed-top">
-   <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand mi-reset" href="#">Microinsurance Dashboard</a>
-    </div>
+		<nav class="navbar navbar-default navbar-fixed-top">
+		   <div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand mi-reset" href="#">Microinsurance Dashboard</a>
+			</div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Data <span class="caret"></span></a>
-          <ul class="dropdown-menu menu-share" role="menu">
-           <li><a href="../assets/data/mi-data.csv">Download (csv)</a></li>
-           <li role="presentation" class="divider"></li>
-           <li role="presentation" class="dropdown-header">Landscape Studies (pdf)</li>
-           <li><a href="http://www.microinsurancenetwork.org/sites/default/files/The_landscape_of_microinsurance_in_Asia_and_Oceania_2013__full_report.pdf" target="_blank">Asia and Oceania (2013)</a></li>
-           <li><a href="http://www.microinsurancenetwork.org/sites/default/files/The_Landscape_of_MI_in_Africa_2012_full_study_web.pdf" target="_blank">Africa (2012)</a></li>
-           <li><a href="http://www.microinsurancenetwork.org/sites/default/files/LandscapeLatinAme.pdf" target="_blank">Latin America and the Caribbean (2011)</a></li>
-           <li><a href="http://www.microinsurancenetwork.org//sites/default/files/files/mpaper4_landscape_en.pdf" target="_blank">Africa (2010)</a></li>
-          </ul>
-        </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Year <span class="caret"></span></a>
-          <ul class="dropdown-menu menu-year" role="menu">
-            <li><a class="mi-filter" data-var="all" href="#">Show most recent value</a></li>
-            <li class="divider"></li>
-            <li><a class="mi-filter" data-var="2013" href="#">2013</a></li>
-            <li><a class="mi-filter" data-var="2012" href="#">2012</a></li>
-            <li><a class="mi-filter" data-var="2011" href="#">2011</a></li>
-            <li><a class="mi-filter" data-var="2008" href="#">2008</a></li>
-            <li><a class="mi-filter" data-var="2005" href="#">2005</a></li>
-          </ul>
-        </li>
-         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Type <span class="caret"></span></a>
-          <ul class="dropdown-menu menu-type" role="menu">
-            <li><a class="mi-filter" data-var="total-microinsurance-coverage-ratio" href="#">Total microinsruance coverage ratio</a></li>
-            <li class="divider"></li>
-            <li><a class="mi-filter" data-var="credit-life-coverage-ratio" href="#">Credit life coverage Ratio</a></li>
-            <li><a class="mi-filter" data-var="health-coverage-ratio" href="#">Health coverage ratio</a></li>
-            <li><a class="mi-filter" data-var="accident-coverage-ratio" href="#">Accident coverage ratio</a></li>
-            <li><a class="mi-filter" data-var="property-coverage-ratio" href="#">Property coverage ratio</a></li>
-            <li><a class="mi-filter" data-var="agriculture-coverage-ratio" href="#">Agriculture coverage ratio</a></li>
-          </ul>
-        </li>
-         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Region <span class="caret"></span></a>
-          <ul class="dropdown-menu menu-region" role="menu">
-           <li><a class="mi-filter" data-var="global" href="#">Global</a></li>
-           <li class="divider"></li>
-           <li><a class="mi-filter" data-var="africa" href="#">Africa</a></li>
-           <li><a class="mi-filter" data-var="americas" href="#">Americas</a></li>
-           <li><a class="mi-filter" data-var="asia" href="#">Asia</a></li>
-           <li><a class="mi-filter" data-var="oceania" href="#">Oceania</a></li>
-          </ul>
-        </li>
-         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Share <span class="caret"></span></a>
-          <ul class="dropdown-menu menu-share" role="menu">
-           <li><a id="twitter-share-btn" href="#">Twitter</a></li>
-           <li><a id="facebook-share-btn" href="#">Facebook</a></li>
-           <li><a id="linkedin-share-btn" href="#">LinkedIn</a></li>
-          </ul>
-        </li>
-      </ul>
-      </div>
-    </div><!-- /.navbar-collapse -->
-</nav>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav">
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Data <span class="caret"></span></a>
+				  <ul class="dropdown-menu menu-share" role="menu">
+				   <li><a href="../assets/data/mi-data.csv">Download (csv)</a></li>
+				   <li role="presentation" class="divider"></li>
+				   <li role="presentation" class="dropdown-header">Landscape Studies (pdf)</li>
+				   <li><a href="http://www.microinsurancenetwork.org/sites/default/files/The_landscape_of_microinsurance_in_Asia_and_Oceania_2013__full_report.pdf" target="_blank">Asia and Oceania (2013)</a></li>
+				   <li><a href="http://www.microinsurancenetwork.org/sites/default/files/The_Landscape_of_MI_in_Africa_2012_full_study_web.pdf" target="_blank">Africa (2012)</a></li>
+				   <li><a href="http://www.microinsurancenetwork.org/sites/default/files/LandscapeLatinAme.pdf" target="_blank">Latin America and the Caribbean (2011)</a></li>
+				   <li><a href="http://www.microinsurancenetwork.org//sites/default/files/files/mpaper4_landscape_en.pdf" target="_blank">Africa (2010)</a></li>
+				  </ul>
+				</li>
+			  </ul>
+			  <ul class="nav navbar-nav navbar-right">
+				 <li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Year <span class="caret"></span></a>
+				  <ul class="dropdown-menu menu-year" role="menu">
+					<li><a class="mi-filter" data-var="all" href="#">Show most recent value</a></li>
+					<li class="divider"></li>
+					<li><a class="mi-filter" data-var="2013" href="#">2013</a></li>
+					<li><a class="mi-filter" data-var="2012" href="#">2012</a></li>
+					<li><a class="mi-filter" data-var="2011" href="#">2011</a></li>
+					<li><a class="mi-filter" data-var="2008" href="#">2008</a></li>
+					<li><a class="mi-filter" data-var="2005" href="#">2005</a></li>
+				  </ul>
+				</li>
+				 <li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Type <span class="caret"></span></a>
+				  <ul class="dropdown-menu menu-type" role="menu">
+					<li><a class="mi-filter" data-var="total-microinsurance-coverage-ratio" href="#">Total microinsruance coverage ratio</a></li>
+					<li class="divider"></li>
+					<li><a class="mi-filter" data-var="credit-life-coverage-ratio" href="#">Credit life coverage Ratio</a></li>
+					<li><a class="mi-filter" data-var="health-coverage-ratio" href="#">Health coverage ratio</a></li>
+					<li><a class="mi-filter" data-var="accident-coverage-ratio" href="#">Accident coverage ratio</a></li>
+					<li><a class="mi-filter" data-var="property-coverage-ratio" href="#">Property coverage ratio</a></li>
+					<li><a class="mi-filter" data-var="agriculture-coverage-ratio" href="#">Agriculture coverage ratio</a></li>
+				  </ul>
+				</li>
+				 <li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Region <span class="caret"></span></a>
+				  <ul class="dropdown-menu menu-region" role="menu">
+				   <li><a class="mi-filter" data-var="global" href="#">Global</a></li>
+				   <li class="divider"></li>
+				   <li><a class="mi-filter" data-var="africa" href="#">Africa</a></li>
+				   <li><a class="mi-filter" data-var="americas" href="#">Americas</a></li>
+				   <li><a class="mi-filter" data-var="asia" href="#">Asia</a></li>
+				   <li><a class="mi-filter" data-var="oceania" href="#">Oceania</a></li>
+				  </ul>
+				</li>
+				 <li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Share <span class="caret"></span></a>
+				  <ul class="dropdown-menu menu-share" role="menu">
+				   <li><a id="twitter-share-btn" href="#">Twitter</a></li>
+				   <li><a id="facebook-share-btn" href="#">Facebook</a></li>
+				   <li><a id="linkedin-share-btn" href="#">LinkedIn</a></li>
+				  </ul>
+				</li>
+			  </ul>
+			  </div>
+			</div><!-- /.navbar-collapse -->
+		</nav>
 
 	<div class="container">
 
