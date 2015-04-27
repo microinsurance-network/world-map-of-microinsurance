@@ -29,6 +29,16 @@ Mi.Routers = Mi.Routers || {};
     Mi.name = 'total-microinsurance-coverage-ratio',
     Mi.centroids = centroids,
 
+    // Info hover description
+    Mi.description = {
+      "total-microinsurance-coverage-ratio": "Coverage of all included microinsurance products provided.",
+      "credit-life-coverage-ratio": "Coverage that repays the outstanding balance on loans in default due to the death of the borrower. Occasionally, partial or complete disability coverage is also included.",
+      "accident-coverage-ratio": "Insurance providing financial protection against an event that is unforeseen, unexpected, and unintended.",
+      "property-coverage-ratio": "Insurance providing financial protection against the loss of, or damage to, real and personal property caused by such perils as fire, theft, windstorm, hail, explosion, riot, aircraft, motor vehicles, vandalism, malicious mischief, riot and civil commotion, and smoke.",
+      "agriculture-coverage-ratio": "Insurance providing financial protection against loss due to drought, livestock disease and death, flood, and other perils impacting agriculture production.",
+      "health-coverage-ratio": "Coverage that provides benefits as a result of sickness or injury. Policies include insurance for losses from accident, medical expense, disability, or accidental death and dismemberment."
+    },
+
 
 
     Mi.Routers.App = Backbone.Router.extend({
