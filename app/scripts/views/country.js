@@ -62,7 +62,7 @@ Mi.Views = Mi.Views || {};
               }
             });
 
-            this.$el.html(this.template({data: this.data, numberWithCommas: this.numberWithCommas}))
+            this.$el.html(this.template({data: this.data, numberWithCommas: this.numberWithCommas, type: this.type}))
 
             _.each(this.data, function(value, index) {
 
@@ -87,6 +87,11 @@ Mi.Views = Mi.Views || {};
          $('#map').animate({height: '250px'});
 
          $('.more-info').popover({placement: 'top', trigger: 'hover', viewport: '.row-country'});
+
+         // share links
+		 $('#twitter-share-btn').attr('href', 'https://twitter.com/home?status=' + window.location.href);
+		 $('#facebook-share-btn').attr('href', 'https://www.facebook.com/sharer/sharer.php?u=' + window.location.href);
+		 $('#linkedin-share-btn').attr('href', 'https://www.linkedin.com/shareArticle?mini=true&url=' + window.location.href);
 
         },
 
