@@ -1,10 +1,4 @@
 <% if (data.filter(function(d){ return d.mainValue > 0; }).length) { %>
-<<<<<<< Updated upstream
-=======
-
-
-
->>>>>>> Stashed changes
   <% _.each(data, function(value) { %>
     <% if (value.mainValue > 0) { %>
       <div class="col-sm-4 col-md-3 col-xs-6 row-country" data-mi-ratio="<%= value.mainValue %>">
