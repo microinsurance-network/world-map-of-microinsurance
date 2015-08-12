@@ -230,6 +230,14 @@ a:hover {
   cursor: -moz-grab !important;
 }
 
+.leaflet-tile-pane {
+  z-index: 10 !important;
+}
+
+.leaflet-control-layers {
+  cursor: pointer !important;
+}
+
 @media (max-width: 700px) {
   .filter-breadcrumb {
     display: none;

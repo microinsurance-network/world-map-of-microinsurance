@@ -19,7 +19,31 @@ Mi.Routers = Mi.Routers || {};
     Mi.year = 'all',
     Mi.region = 'Global',
     Mi.name = 'total-microinsurance-coverage-ratio',
-    Mi.centroids = centroids,
+    Mi.token = 'pk.eyJ1IjoiZGV2c2VlZCIsImEiOiJnUi1mbkVvIn0.018aLhX0Mb0tdtaT2QNe2Q',
+    Mi.labelControl = L.Control.extend({
+      options: {
+        position: 'bottomleft'
+      },
+
+      initialize: function(options) {
+        L.setOptions(this, options);
+        this._info = {};
+      },
+
+      onAdd: function(map) {
+        this._container = L.DomUtil.create('div', 'leaflet-control-layers leaflet-control');
+        this._content = L.DomUtil.create('div', 'leaflet-control-layers-toggle', this._container);
+
+        L.DomEvent.disableClickPropagation(this._container);
+
+        map
+            .on('layeradd', this._onLayerAdd, this)
+            .on('layerremove', this._onLayerRemove, this);
+
+        return this._container;
+
+      }
+    }),
 
     // Info hover description
     Mi.description = {
@@ -34,34 +58,7 @@ Mi.Routers = Mi.Routers || {};
     Mi.Routers.App = Backbone.Router.extend({
 
     initialize: function () {
-      // initialize map
-      Mi.map = L.map('map', {
-        maxBounds: [[-60,-180],[90,180]],
-        noWrap: true
-      }).setView([20, 0], 2);
-      Mi.map.scrollWheelZoom.disable();
-      Mi.countryGeo = L.geoJson(topojson.feature(worldTopo, worldTopo.objects.ne_50m), { style: function (feature) {
-        return {
-          color: 'white',
-          weight: 1,
-          fillColor: 'url(#hash)',
-          fillOpacity: 1,
-          className: 'no-data'
-        };
-      }});
-      Mi.disputedGeo = L.geoJson(topojson.feature(worldTopoDisputed, worldTopoDisputed.objects.disputed), { style: function (feature) {
-        return { dashArray: '6,3',
-                 fill: false,
-                 color: '#fff',
-                 opacity: 0.8,
-                 weight: 0.5};
-      }});
-
-      Mi.choroLayer = L.featureGroup();
-      Mi.countryGeo.addTo(Mi.choroLayer);
-      Mi.choroLayer.addTo(Mi.map);
-      Mi.disputedGeo.addTo(Mi.map);
-      this.mapNoData();
+      this.mapInit();
     },
 
     routes: {
@@ -232,6 +229,53 @@ Mi.Routers = Mi.Routers || {};
     capitalizeFirstLetter: function(string) {
        return string.charAt(0).toUpperCase() + string.slice(1);
      },
+
+    mapInit: function () {
+      // initialize map
+      Mi.map = L.map('map', {
+        maxBounds: [[-60,-180],[90,180]],
+        noWrap: true
+      }).setView([20, 0], 2);
+      Mi.map.scrollWheelZoom.disable();
+      Mi.countryGeo = L.geoJson(topojson.feature(worldTopo, worldTopo.objects.ne_50m), { style: function (feature) {
+        return {
+          color: 'white',
+          weight: 1,
+          fillColor: 'url(#hash)',
+          fillOpacity: 1,
+          className: 'no-data'
+        };
+      }});
+      Mi.disputedGeo = L.geoJson(topojson.feature(worldTopoDisputed, worldTopoDisputed.objects.disputed), { style: function (feature) {
+        return { dashArray: '6,3',
+                 fill: false,
+                 color: '#fff',
+                 opacity: 0.8,
+                 weight: 0.5};
+      }});
+
+      var url = 'https://{s}.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={token}'
+      Mi.labels = L.tileLayer(url, {
+        id: 'devseed.09eb77b8',
+        token: Mi.token
+      })
+
+      Mi.choroLayer = L.featureGroup();
+      Mi.countryGeo.addTo(Mi.choroLayer);
+      Mi.choroLayer.addTo(Mi.map);
+      Mi.disputedGeo.addTo(Mi.map);
+
+      var control = new Mi.labelControl();
+      control.addTo(Mi.map);
+      $('.leaflet-control-layers').on('click', function(){
+        if (Mi.map.hasLayer(Mi.labels)) {
+          Mi.map.removeLayer(Mi.labels);
+        } else {
+          Mi.map.addLayer(Mi.labels);
+        }
+      })
+      this.mapNoData();
+    },
 
     mapNoData: function () {
       var defs = d3.select('#map svg').insert('defs',":first-child");
