@@ -12,22 +12,16 @@
         <!-- build:css(.tmp) styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
         <!-- endbuild -->
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
         <!-- build:js scripts/vendor/modernizr.js -->
         <script src="bower_components/modernizr/modernizr.js"></script>
         <!-- endbuild -->
-        <script src="https://api.tiles.mapbox.com/mapbox.js/v2.1.6/mapbox.js"></script>
-		<link href="https://api.tiles.mapbox.com/mapbox.js/v2.1.6/mapbox.css" rel='stylesheet' />
-
-
     </head>
     <body>
-
 
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-
 
 		<nav class="navbar navbar-default navbar-fixed-top">
 		   <div class="container">
@@ -123,13 +117,13 @@
 		</div>
 
 
-		<div id="map"></div>
+		<div id="map"><div class="legend"></div></div>
 
-         <div id="content" class="clearfix"><!-- app lives here --></div>
+   <div id="content" class="clearfix"><!-- app lives here --></div>
 
-         <div class="loader">Loading</div>
+   <div class="loader">Loading</div>
 
-         </div><!-- /.container -->
+   </div><!-- /.container -->
 
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
@@ -148,12 +142,19 @@
         <script src="bower_components/jquery/dist/jquery.js"></script>
         <script src="bower_components/underscore/underscore.js"></script>
         <script src="bower_components/backbone/backbone.js"></script>
+        <script src="bower_components/topojson/topojson.js"></script>
         <script src="scripts/vendor/d3.v3.min.js"></script>
         <script src="scripts/vendor/jquery.tinysort.js"></script>
-        <script src="scripts/vendor/country-centroids.js"></script>
+        <script src="scripts/vendor/chroma.min.js"></script>
         <!-- endbuild -->
 
+        <!-- data as js files -->
+        <script src="assets/data/geo/country-centroids.js"></script>
+        <script src="assets/data/geo/disputed.js"></script>
+        <script src="assets/data/geo/ne_50m.js"></script>
+
         <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 
         <!-- build:js scripts/plugins.js -->
         <script src="bower_components/sass-bootstrap/js/affix.js"></script>
