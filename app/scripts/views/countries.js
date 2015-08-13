@@ -110,31 +110,55 @@ var blue = '#006Da1',
 
     drawLineChart: function(id, data, categories, name) {
 
-    $(id).highcharts({
-      chart: { plotBorderColor: '#fff' },
-      title: { text: '', x: -20 /*center*/},
-      subtitle: { text: '', x: -20 },
-      xAxis: { categories: categories },
-      yAxis: {
-        title: { text: '' },
-        labels: { enabled: false },
-        gridLineColor: '#fff'
-      },
-      credits: { enabled: false },
-      tooltip: { valueSuffix: '%' },
-      legend: {
-        layout: 'vertical',
-        align: 'right',
-        verticalAlign: 'middle',
-        borderWidth: 0,
-        enabled: false
-      },
-      series: [{
-        name: 'Ratio',
-        color: '#09AE8A',
-        data: data
-      }]
-    });
+      var _self = this;
+
+      var color = _self.getColor(2).hex()
+
+      $(id).highcharts({
+        chart: {
+          plotBorderColor: '#fff',
+          style: {
+            fontFamily: "'Abel', sans-serif",
+          }
+        },
+        title: { text: '', x: -20 /*center*/},
+        subtitle: { text: '', x: -20 },
+        xAxis: {
+          categories: categories,
+          labels: {
+            enabled: true,
+            style: { color: '#aaa'}
+          }
+        },
+        yAxis: {
+          allowDecimals: false,
+          min: 0,
+          title: { text: '' },
+          labels: {
+            x: -8,
+            enabled: true,
+            style: { color: '#aaa'}
+          },
+          gridLineColor: '#fff',
+          tickWidth: 1,
+          tickLength: 5
+        },
+        credits: { enabled: false },
+        tooltip: { valueSuffix: '%' },
+        legend: {
+          layout: 'vertical',
+          align: 'right',
+          verticalAlign: 'middle',
+          borderWidth: 0,
+          enabled: false
+        },
+        series: [{
+          color: color,
+          name: 'Ratio',
+          data: data
+        }],
+
+      });
 
     },
 
