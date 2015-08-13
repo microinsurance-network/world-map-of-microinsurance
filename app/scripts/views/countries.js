@@ -11,7 +11,7 @@ var blue = '#006Da1',
     red = 'maroon',
     orange = '#a61',
     purple = '#63b',
-    brown = '#431';
+    brown = '#321';
 
   Mi.Views.Countries = Backbone.View.extend({
 
@@ -24,9 +24,9 @@ var blue = '#006Da1',
       this.type = options.type;
       this.region = options.region;
       this.data = options.data;
+      this.extraData = options.extraData // not filtered by type
 
       this.processData();
-      this.setColorScale();
       this.render();
     },
 
@@ -39,14 +39,12 @@ var blue = '#006Da1',
       }
 
       $('.region-value').text(this.capitalizeFirstLetter(this.region));
-
+      $('.type-value').text(this.capitalizeFirstLetter(this.type.replace(/-/g, ' ')));
       if (this.year === 'all') {
         $('.year-value').text('Most recent value');
       } else {
         $('.year-value').text(this.year);
       }
-
-      $('.type-value').text(this.capitalizeFirstLetter(this.type.replace(/-/g, ' ')));
 
       this.setView(this.region);
       this.drawLegend();
@@ -56,20 +54,24 @@ var blue = '#006Da1',
       $('#facebook-share-btn').attr('href', 'https://www.facebook.com/sharer/sharer.php?u=' + window.location.href);
       $('#linkedin-share-btn').attr('href', 'https://www.linkedin.com/shareArticle?mini=true&url=' + window.location.href);
 
+      // render template
       this.$el.html(this.template({
         data: this.data,
         numberWithCommas: this.numberWithCommas,
         type: this.type,
         region: this.region,
+        year: this.year,
+        aggregate: this.aggregate
       }));
 
+      // draw map and charts
       this.resetMapStyle();
-
+      this.drawLineChart('#aggregate-growth-chart', this.aggregate.graph, this.aggregate.years, this.aggregate.name);
       _.each(this.data, function(value) {
 
         Mi.countryGeo.eachLayer(function(layer){
           if (value.iso === layer.feature.properties.iso_a3) {
-            var color = _self.getColor(value.mainValue);
+            var color = _self.getColor(value.mainValue, _self.type);
             layer.setStyle({
               fillColor: color,
               fillOpacity: (value.mainValue) ? 0.8 : 0.3
@@ -117,13 +119,32 @@ var blue = '#006Da1',
       return string.charAt(0).toUpperCase() + string.slice(1);
     },
 
-    drawLineChart: function(id, data, categories, name) {
+    drawLineChart: function(selector, data, categories, name) {
 
       var _self = this;
 
-      var color = _self.getColor(2).hex()
+      var color = _self.getColor(2, _self.type).hex();
+      var oneChart = (typeof data[0] != 'object');
+      var series;
+      if (oneChart) {
+        series = [{
+          color: color,
+          name: 'Ratio',
+          data: data
+        }];
+      } else {
+        series = data.map(function(d){
+          return {
+            type: 'line',
+            color: _self.getColor(2, d.type).hex(),
+            name: d.name,
+            data: d.chartData,
+            marker: { symbol: 'circle'}
+          };
+        });
+      }
 
-      $(id).highcharts({
+      $(selector).highcharts({
         chart: {
           plotBorderColor: '#fff',
           style: {
@@ -140,7 +161,7 @@ var blue = '#006Da1',
           }
         },
         yAxis: {
-          allowDecimals: false,
+          allowDecimals: (oneChart ? false : true),
           min: 0,
           title: { text: '' },
           labels: {
@@ -161,12 +182,7 @@ var blue = '#006Da1',
           borderWidth: 0,
           enabled: false
         },
-        series: [{
-          color: color,
-          name: 'Ratio',
-          data: data
-        }],
-
+        series: series
       });
 
     },
@@ -179,10 +195,6 @@ var blue = '#006Da1',
       return string.charAt(0).toUpperCase() + string.slice(1);
     },
 
-    getColor: function (value) {
-      return (value === 0) ? '#ddd' : this.colorScale(Math.floor(Math.min(value, 3)));
-    },
-
     processData: function () {
       var _self = this;
       this.metaData = _.groupBy(Mi.data, 'country');
@@ -193,37 +205,122 @@ var blue = '#006Da1',
         d.crudeCoverage = 0;
         d.crudeCoverageType = (_self.type === 'all') ? 'total-microinsurance-coverage' : _self.type.slice(0, -6);
         _.each(_self.metaData[d.country], function(indicator) {
-           if (indicator.varName === d.crudeCoverageType) {
-             if (_self.year === 'all') {
-                 d.crudeCoverage = indicator.mostRecent.value;
-             } else {
-               _.each(indicator.timeseries, function(year) {
-                 if (year.year === parseFloat(_self.year)) {
-                   d.crudeCoverage = year.value;
-                 }
-               });
-             }
-           }
-           if (_self.year === 'all') {
-              d.mainValue = d.mostRecent.value;
-           } else {
-             _.each(d.timeseries, function(year) {
-               if (parseFloat(_self.year) === year.year) {
-                 d.mainValue = year.value;
-               }
-             });
-           }
-           if (Mi.year === 'all') {
-             d.filterYear = d.mostRecent.year;
-           } else {
-             d.filterYear = Mi.year;
-           }
+          // get main value, population, and non-ratio values
+          // from either the most recent or selected year
+          if (_self.year === 'all') {
+            d.filterYear = d.mostRecent.year;
+            d.mainValue = d.mostRecent.value;
+            if (indicator.varName === 'population-(total)') {
+              d.population = indicator.mostRecent.value;
+            } else if (indicator.varName === d.crudeCoverageType) {
+              d.crudeCoverage = indicator.mostRecent.value;
+            }
+          } else {
+            d.filterYear = _self.year;
+            _.each(d.timeseries, function(year) {
+              if (parseFloat(_self.year) === year.year) {
+                d.mainValue = year.value;
+              }
+            });
+            if (indicator.varName === 'population-(total)') {
+              _.each(indicator.timeseries, function(year) {
+                if (year.year === parseFloat(_self.year)) {
+                  d.population = year.value;
+                }
+              });
+            } else if (indicator.varName === d.crudeCoverageType) {
+              _.each(indicator.timeseries, function(year) {
+                if (year.year === parseFloat(_self.year)) {
+                  d.crudeCoverage = year.value;
+                }
+              });
+            }
+          }
         });
       });
 
-      this.data.sort( function (a,b) {
-        return b.mainValue - a.mainValue;
+      this.data.sort(function (a,b) { return b.mainValue - a.mainValue; });
+
+      // aggregate ratios desired
+      var ratios = ['credit-life-coverage-ratio','health-coverage-ratio',
+        'accident-coverage-ratio','property-coverage-ratio',
+        'agriculture-coverage-ratio'];
+      // years available
+      var yearLabels = [];
+      // calculate regional aggregated population by year
+      var sumPopulation;
+      _.pluck(_self.extraData.filter(function(f) {
+        return f.varName === 'population-(total)';
+      }), 'timeseries').forEach(function(d) {
+        if (!sumPopulation) {
+          sumPopulation = _.pluck(d, 'value');
+        } else {
+          d.forEach(function (t, i) {
+            sumPopulation[i] += t.value;
+          });
+        }
       });
+      var graph = ratios.map(function (ratio) {
+        // grab the data for just this ratio (but the absolute/crude numbers)
+        var filtered = _self.extraData.filter(function(f) {
+          return f.varName === ratio.slice(0, -6);
+        });
+        // get a timeseries of crude value
+        var timeseries = [];
+        filtered.forEach(function(d) {
+          if (!timeseries.length) {
+            timeseries = _.cloneDeep(d.timeseries);
+          } else {
+            d.timeseries.forEach(function (t, i) {
+              timeseries[i].value += t.value;
+            });
+          }
+        });
+        var chartData = [];
+        _.each(timeseries, function(year, index) {
+           if (sumPopulation[index]) {
+             chartData.push(Number((year.value / sumPopulation[index]).toFixed(4)));
+           } else {
+             chartData.push(0);
+           }
+           yearLabels.push(year.year);
+        });
+        return {
+          type: ratio,
+          chartData: chartData,
+          name: filtered[0].name
+        }
+      });
+      yearLabels = _.unique(yearLabels);
+      yearLabels.sort(function (a,b) { return a - b; });
+      // get rid of years and values where everything is zero
+      var zeroArray = new Array(graph[0].chartData.length);
+      graph.forEach(function(d) {
+        d.chartData.forEach(function(cd, i) {
+          zeroArray[i] = !zeroArray[i] ? 0 : zeroArray[i];
+          zeroArray[i] += cd;
+        });
+      });
+      // do this backwards so we keep the indicies in order
+      zeroArray.reverse();
+      var l = zeroArray.length;
+      zeroArray.forEach(function (d, i) {
+        if (d === 0) {
+          yearLabels.splice(l - i - 1, 1);
+          graph.forEach(function(g) {
+            g.chartData.splice(l - i - 1, 1);
+          });
+        }
+      });
+
+      this.aggregate = {
+        crudeCoverage: d3.sum(_.pluck(this.data, 'crudeCoverage')),
+        mainValue: (d3.sum(_.pluck(this.data, 'crudeCoverage')) / d3.sum(_.pluck(this.data, 'population'))).toFixed(2),
+        year: this.data[0].filterYear,
+        name: this.data[0].name,
+        graph: graph,
+        years: yearLabels
+      };
     },
 
     setView: function (region) {
@@ -267,7 +364,7 @@ var blue = '#006Da1',
         .data(data)
         .enter()
         .append('rect')
-        .attr('fill', function(d) { return _self.getColor(d); })
+        .attr('fill', function(d) { return _self.getColor(d, _self.type); })
         .attr('opacity', function(d) { return d ? 0.8 : 0.4; })
         .attr('width', width / data.length)
         .attr('height', height)
@@ -289,32 +386,35 @@ var blue = '#006Da1',
        });
     },
 
-    setColorScale: function () {
-      switch (this.type) {
+    typeToColor: function (type) {
+      switch (type) {
         case 'total-microinsurance-coverage-ratio':
-          this.colorPalette = ['white', blue];
+          return blue;
           break;
         case 'credit-life-coverage-ratio':
-          this.colorPalette = ['white', red];
+          return red;
           break;
         case 'health-coverage-ratio':
-          this.colorPalette = ['white', green];
+          return green;
           break;
         case 'accident-coverage-ratio':
-          this.colorPalette = ['white', orange];
+          return orange;
           break;
         case 'property-coverage-ratio':
-          this.colorPalette = ['white', brown];
+          return brown;
           break;
         case 'agriculture-coverage-ratio':
-          this.colorPalette = ['white', purple];
+          return purple;
           break;
-
       }
+    },
 
-      this.colorScale = chroma.scale(this.colorPalette)
+    getColor: function (value, type) {
+      var palette = ['white', this.typeToColor(type)];
+      var scale = chroma.scale(palette)
         .mode('hsl')
         .domain([-1, 0, 1, 2, 3, 4]);
+      return (value === 0) ? '#ddd' : scale(Math.floor(Math.min(value, 3)));
     },
 
     resetMapStyle: function () {

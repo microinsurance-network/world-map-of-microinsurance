@@ -208,11 +208,34 @@ a:hover {
   background: #fff !important;
 }
 
+.aggregate-row {
+  @extend .row-country;
+  padding: 0;
+  & > div {
+    padding: 20px;
+  }
+}
+
 .aggregate-main {
   h2 { margin: 0;}
   ul {
     margin-top:15px;
     list-style-type: none;
+  }
+  .mi-ratio-value { margin-top: 15px; }
+  .little-values { margin-top: 15px; }
+  .studies {
+    overflow-y: auto;
+  }
+}
+
+.aggregate-growth {
+  position: relative;
+  height: 100%;
+  #aggregate-growth-chart {
+    height: 100%;
+    width: 90%;
+    margin: 0 5%;
   }
 }
 

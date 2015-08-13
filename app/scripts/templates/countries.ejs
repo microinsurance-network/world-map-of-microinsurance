@@ -1,16 +1,17 @@
-<div class="col-xs-12 row-country">
-  <div class="aggregate-card">
-    <div class="col-xs-12 col-sm-6 col-md-4 aggregate-main">
-      <h2><%= region %> Summary</h2>
-      <ul class="study-list">
-        <% Mi.studies.forEach(function(study) { %>
-          <li><a href="<%= study.link %>">Landscape Study <%= study.year %></a></li>
-        <% }); %>
-      </ul>
+<div class="col-xs-12 aggregate-row">
+  <div class="col-xs-12 col-sm-6 col-md-4 aggregate-main">
+    <a class="more-info" data-toggle="popover" data-content="<%= Mi.description[type] %>">?</a>
+    <b><%= region %> Summary</b>
+    <span class="mi-ratio-value"><a><%= aggregate.mainValue %>%</a></span>
+    <span class="mi-ratio-label"><%= aggregate.name %></span>
+    <div class="little-values">
+      <span class="mi-crude-value"><%= numberWithCommas(aggregate.crudeCoverage) %> lives insured</span>
+      <span class="mi-year-value">Year: <%= aggregate.year %></span>
     </div>
-    <div class="col-xs-12 col-sm-6 col-md-4" aggregate-totals></div>
-    <div class="col-xs-12 col-sm-6 col-md-4" aggregate-growth></div>
-    <div class="aggregate-title"></div>
+    
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-8 aggregate-growth">
+    <div id="aggregate-growth-chart"></div>
   </div>
 </div>
 <% if (data.filter(function(d){ return d.mainValue > 0; }).length) { %>
@@ -18,7 +19,7 @@
     <% if (value.mainValue > 0) { %>
       <div class="col-sm-4 col-md-3 col-xs-6 row-country" data-mi-ratio="<%= value.mainValue %>">
         <div class="inner">
-          <a class="more-info" data-toggle="popover" title="<%= value.name %>" data-content="<%= Mi.description[type] %>">?</a>
+          <a class="more-info" data-toggle="popover" data-content="<%= Mi.description[type] %>">?</a>
           <b><%= value.country %></b>
           <br>
           <span class="mi-ratio-value"><a href="#country/<%= value.iso %>"><%= value.mainValue %>%</a></span>
