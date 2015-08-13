@@ -5,18 +5,10 @@ Mi.Routers = Mi.Routers || {};
 (function () {
     'use strict';
 
-    L.mapbox.accessToken = 'pk.eyJ1IjoiZGV2c2VlZCIsImEiOiJnUi1mbkVvIn0.018aLhX0Mb0tdtaT2QNe2Q';
-    Mi.map = L.mapbox.map('map', 'devseed.49f9443d', {worldCopyJump: true})
-    .setView([20, 0], 2);
-    Mi.map.scrollWheelZoom.disable();
-    Mi.ratiosLayer = L.mapbox.featureLayer();
-    Mi.map.addLayer(Mi.ratiosLayer);
-
-
     $(document).on('click', '.mi-reset', function(e) {
-        Mi.year = 'all',
-        Mi.region = 'Global',
-        Mi.name = 'total-microinsurance-coverage-ratio';
+      Mi.year = 'all',
+      Mi.region = 'Global',
+      Mi.name = 'total-microinsurance-coverage-ratio';
     });
 
     Mi.dataUrl = 'assets/data/mi-data.csv';
@@ -27,7 +19,31 @@ Mi.Routers = Mi.Routers || {};
     Mi.year = 'all',
     Mi.region = 'Global',
     Mi.name = 'total-microinsurance-coverage-ratio',
-    Mi.centroids = centroids,
+    Mi.token = 'pk.eyJ1IjoiZGV2c2VlZCIsImEiOiJnUi1mbkVvIn0.018aLhX0Mb0tdtaT2QNe2Q',
+    Mi.labelControl = L.Control.extend({
+      options: {
+        position: 'bottomleft'
+      },
+
+      initialize: function(options) {
+        L.setOptions(this, options);
+        this._info = {};
+      },
+
+      onAdd: function(map) {
+        this._container = L.DomUtil.create('div', 'leaflet-control-layers leaflet-control');
+        this._content = L.DomUtil.create('div', 'leaflet-control-layers-toggle', this._container);
+
+        L.DomEvent.disableClickPropagation(this._container);
+
+        map
+            .on('layeradd', this._onLayerAdd, this)
+            .on('layerremove', this._onLayerRemove, this);
+
+        return this._container;
+
+      }
+    }),
 
     // Info hover description
     Mi.description = {
@@ -39,16 +55,17 @@ Mi.Routers = Mi.Routers || {};
       "health-coverage-ratio": "Coverage that provides benefits as a result of sickness or injury. Policies include insurance for losses from accident, medical expense, disability, or accidental death and dismemberment."
     },
 
-
-
     Mi.Routers.App = Backbone.Router.extend({
+
+    initialize: function () {
+      this.mapInit();
+    },
 
     routes: {
        '' : 'viewPage',
        'view/:region/:year/:name' : 'viewPage',
        'country/:country' : 'viewCountry'
      },
-
 
     execute: function(callback, args) {
         $('#content').empty().hide().fadeIn();
@@ -61,7 +78,6 @@ Mi.Routers = Mi.Routers || {};
             if (callback) callback.apply(this, args);
           }
         },
-
 
     loadData: function(callback, args) {
           var that = this;
@@ -103,12 +119,9 @@ Mi.Routers = Mi.Routers || {};
             });
         },
 
-
-
       viewPage: function(region, year, name) {
 
          $('.loader').fadeIn();
-
 
          if (region) {
            Mi.region = this.capitalizeFirstLetter(region);
@@ -121,8 +134,6 @@ Mi.Routers = Mi.Routers || {};
          if (name) {
            Mi.name = name;
          }
-
-
 
         $('.menu-type a.mi-filter').each(function() {
            $(this).attr('data-year', Mi.year);
@@ -158,15 +169,15 @@ Mi.Routers = Mi.Routers || {};
             }
            });
 
-         var countriesPage = new Mi.Views.Countries();
-         countriesPage.year = Mi.year;
-         countriesPage.type = Mi.name;
-         countriesPage.region = Mi.region;
-         countriesPage.data = countries;
-         countriesPage.render();
+         var countriesPage = new Mi.Views.Countries({
+           year: Mi.year,
+           type: Mi.name,
+           region: Mi.region,
+           data: countries,
+         });
+
 
           $('.loader').fadeOut();
-
      },
 
 
@@ -204,29 +215,80 @@ Mi.Routers = Mi.Routers || {};
 
      },
 
-
-
-
      median: function(values) {
-          values.sort(function(a,b) {return a - b;});
-          var half = Math.floor(values.length/2);
-          if (values.length % 2) {
-            return values[half];
-          }
-          else {
-              return (values[half-1] + values[half]) / 2.0;
-          }
-        },
+      values.sort(function(a,b) {return a - b;});
+      var half = Math.floor(values.length/2);
+      if (values.length % 2) {
+        return values[half];
+      }
+      else {
+          return (values[half-1] + values[half]) / 2.0;
+      }
+    },
 
+    capitalizeFirstLetter: function(string) {
+       return string.charAt(0).toUpperCase() + string.slice(1);
+     },
 
-      capitalizeFirstLetter: function(string) {
-         return string.charAt(0).toUpperCase() + string.slice(1);
-       }
+    mapInit: function () {
+      // initialize map
+      Mi.map = L.map('map', {
+        maxBounds: [[-60,-180],[90,180]],
+        noWrap: true
+      }).setView([20, 0], 2);
+      Mi.map.scrollWheelZoom.disable();
+      Mi.countryGeo = L.geoJson(topojson.feature(worldTopo, worldTopo.objects.ne_50m), { style: function (feature) {
+        return {
+          color: 'white',
+          weight: 1,
+          fillColor: 'url(#hash)',
+          fillOpacity: 1,
+          className: 'no-data'
+        };
+      }});
+      Mi.disputedGeo = L.geoJson(topojson.feature(worldTopoDisputed, worldTopoDisputed.objects.disputed), { style: function (feature) {
+        return { dashArray: '6,3',
+                 fill: false,
+                 color: '#fff',
+                 opacity: 0.8,
+                 weight: 0.5};
+      }});
 
+      var url = 'https://{s}.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={token}'
+      Mi.labels = L.tileLayer(url, {
+        id: 'devseed.09eb77b8',
+        token: Mi.token
+      })
 
+      Mi.choroLayer = L.featureGroup();
+      Mi.countryGeo.addTo(Mi.choroLayer);
+      Mi.choroLayer.addTo(Mi.map);
+      Mi.disputedGeo.addTo(Mi.map);
 
+      var control = new Mi.labelControl();
+      control.addTo(Mi.map);
+      $('.leaflet-control-layers').on('click', function(){
+        if (Mi.map.hasLayer(Mi.labels)) {
+          Mi.map.removeLayer(Mi.labels);
+        } else {
+          Mi.map.addLayer(Mi.labels);
+        }
+      })
+      this.mapNoData();
+    },
 
-
+    mapNoData: function () {
+      var defs = d3.select('#map svg').insert('defs',":first-child");
+      var dashWidth = 3;
+      var pattern = defs.append("pattern")
+        .attr('id', 'hash')
+        .attr('patternUnits', 'userSpaceOnUse')
+        .attr('width', dashWidth)
+        .attr('height', dashWidth)
+        .attr("x", 0).attr("y", 0)
+        .append("g").style("fill", "none").style("stroke", "#ddd").style("stroke-width", 0.5);
+      pattern.append("path").attr("d", "M"+dashWidth+",0 l-"+dashWidth+","+dashWidth);
+    }
     });
 
 })();
