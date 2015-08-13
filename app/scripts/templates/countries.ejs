@@ -1,3 +1,18 @@
+<div class="col-xs-12 row-country">
+  <div class="aggregate-card">
+    <div class="col-xs-12 col-sm-6 col-md-4 aggregate-main">
+      <h2><%= region %> Summary</h2>
+      <ul class="study-list">
+        <% Mi.studies.forEach(function(study) { %>
+          <li><a href="<%= study.link %>">Landscape Study <%= study.year %></a></li>
+        <% }); %>
+      </ul>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4" aggregate-totals></div>
+    <div class="col-xs-12 col-sm-6 col-md-4" aggregate-growth></div>
+    <div class="aggregate-title"></div>
+  </div>
+</div>
 <% if (data.filter(function(d){ return d.mainValue > 0; }).length) { %>
   <% _.each(data, function(value) { %>
     <% if (value.mainValue > 0) { %>

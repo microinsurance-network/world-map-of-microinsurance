@@ -106,7 +106,12 @@ Mi.Views = Mi.Views || {};
                   return b.mainValue - a.mainValue;
             });
 
-            this.$el.html(this.template({data: this.data, numberWithCommas: this.numberWithCommas, type: this.type}))
+            this.$el.html(this.template({
+              data: this.data,
+              numberWithCommas: this.numberWithCommas,
+              type: this.type,
+              region: this.region,
+            }));
 
             _.each(this.data, function(value) {
 
@@ -217,7 +222,6 @@ Mi.Views = Mi.Views || {};
         capitalizeFirstLetter: function(string) {
           return string.charAt(0).toUpperCase() + string.slice(1);
         }
-
 
     });
 

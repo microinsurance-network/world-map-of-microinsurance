@@ -197,6 +197,13 @@ a:hover {
   background: #fff !important;
 }
 
+.aggregate-main {
+  h2 { margin: 0;}
+  ul {
+    margin-top:15px;
+    list-style-type: none;
+  }
+}
 
 .leaflet-popup-content {
   .inner {
