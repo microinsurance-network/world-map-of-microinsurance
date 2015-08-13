@@ -6,7 +6,7 @@ body {
   font-family: 'Abel', sans-serif;
   color: #000;
   background: #f9f9f9;
-  padding-top: 70px;
+  padding-top: 55px;
 }
 h1,h2,h3,h4,h5 {
   font-family: 'Abel', sans-serif;
@@ -54,15 +54,12 @@ a:hover {
   display: none;
 }
 
-
-
-
 .page-header {
   border-bottom: none;
   background: #fff;
   margin: 0 !important;
   padding: 0 !important;
-  height: 70px;
+  height: 60px;
   position: relative;
 }
 #logo {
@@ -70,7 +67,7 @@ a:hover {
   background: url("../images/logo.jpg") no-repeat;
   background-size: contain;
   width: 130px;
-  height: 70px;
+  height: 60px;
   text-indent: -9999px;
   outline: none;
 }
@@ -93,10 +90,11 @@ a:hover {
 }
 
 #map {
+  position: relative;
   background: #fff;
   border: 1px solid #ccc;
   margin: 0 0 20px 0;
-  height: 400px;
+  height: 450px;
 }
 
 #content {
@@ -129,6 +127,19 @@ a:hover {
   background: #fff url("../images/ajax-loader.gif") center center no-repeat;
   box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
 }
+.legend {
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  right: 20px;
+  top: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  z-index: 100;
+  .label {
+    fill: #777;
+  }
+}
 
 .no-data {
   text-align: center;
@@ -136,7 +147,7 @@ a:hover {
 .mi-year-value,
 .mi-crude-value {
   color: #aaa;
-  font-size: 12px;
+  font-size: 14px;
 }
 .mi-year-value {
   display: block;
@@ -215,6 +226,23 @@ a:hover {
     font-size: 15px;
     font-weight: bold;
   }
+  .year {
+    font-weight: normal;
+    color: #aaa;
+  }
+}
+
+.no-data {
+  cursor: -webkit-grab !important;
+  cursor: -moz-grab !important;
+}
+
+.leaflet-tile-pane {
+  z-index: 10 !important;
+}
+
+.leaflet-control-layers {
+  cursor: pointer !important;
 }
 
 @media (max-width: 700px) {
