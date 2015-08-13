@@ -36,10 +36,6 @@ Mi.Routers = Mi.Routers || {};
 
         L.DomEvent.disableClickPropagation(this._container);
 
-        map
-            .on('layeradd', this._onLayerAdd, this)
-            .on('layerremove', this._onLayerRemove, this);
-
         return this._container;
 
       }
