@@ -93,6 +93,7 @@ var blue = '#006Da1',
           }
         });
 
+
         if (value.mainValue > 0) {
 
           var chartData = [];
@@ -426,9 +427,11 @@ var blue = '#006Da1',
           color: 'white',
           weight: 1,
           fillColor: 'url(#hash)',
-          fillOpacity: 1,
-          className: 'no-data'
+          fillOpacity: 1
         });
+        // hack until https://github.com/Leaflet/Leaflet/issues/2662
+        // is resolved
+        d3.selectAll('.leaflet-overlay-pane path').classed('no-data', true);
       });
     }
   });
