@@ -1,5 +1,18 @@
 <div class="aggregate-country">
   <h2 class="country-title"><%= data[0]["country"] %></h2>
+  <% _.each(countryStats, function(value) { %>
+  <% if (value.info.value) { %>
+    <div class="country-stat">
+      <div class="country-stat-title">
+        <span><%= value.name %></span>
+        <span class="year">(<%= value.info.year%>)</span>
+      </div>
+      <div class="country-stat-info">
+        <span><%= numberWithCommas(value.info.value) %><%= value.suffix %></span>
+      </div>
+    </div>
+  <% } %>
+  <% }); %>
 </div>
 <% _.each(data, function(value, index) { %>
   <% if (value.name.indexOf('ratio') >= 0 && value.mostRecent.value != null && value.mostRecent.value > 0 && value.name != 'Life coverage ratio (excluding credit life)' && value.name != 'Life and accident coverage ratio (excluding credit life)') { %>

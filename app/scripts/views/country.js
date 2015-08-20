@@ -24,6 +24,7 @@ Mi.Views = Mi.Views || {};
     this.region = options.region;
     this.data = options.data;
     this.iso = options.iso;
+    this.extraData = options.extraData;
     this.render();
   },
 
@@ -51,8 +52,28 @@ Mi.Views = Mi.Views || {};
           d.indicatorValue = d.mostRecent.value;
         }
       });
-
-      this.$el.html(this.template({data: this.data, numberWithCommas: this.numberWithCommas, type: this.type}))
+      console.log(this.extraData);
+      this.$el.html(this.template({
+        data: this.data,
+        numberWithCommas: this.numberWithCommas,
+        type: this.type,
+        countryStats: [
+          {
+            name: 'Microinsurance Premiums',
+            info: this.extraData['microinsurance-gross-premium-(usd)'],
+            suffix: '$ (US)'
+          },
+          {
+            name: 'Population',
+            info: this.extraData['population-(total)']
+          },
+          {
+            name: 'GDP',
+            info: this.extraData['gdp-(current-us$)'],
+            suffix: '$ (US)'
+          }
+        ]
+      }));
 
       _.each(this.data, function(value, index) {
         if (value.name.indexOf('ratio') >= 0 &&

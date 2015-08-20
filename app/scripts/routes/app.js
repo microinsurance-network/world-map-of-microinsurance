@@ -191,12 +191,23 @@ Mi.Routers = Mi.Routers || {};
         $('.loader').fadeIn();
 
          var countries = [];
-         $.each(Mi.data, function(index, row) {
-         if (country === row.iso && row.category === 'Microinsurance') {
-
-              countries.push(row);
-          }
+         _.each(Mi.data, function(row) {
+           if (country === row.iso && row.category === 'Microinsurance') {
+             countries.push(row);
+           }
          });
+         var extraData = {};
+        _.each(Mi.data, function(row){
+          if (country === row.iso && _.contains([
+            'Population (Total)',
+            'GDP (current US$)',
+            'Microinsurance Gross Premium (USD)',
+            'Total microinsurance coverage',
+            'Total microinsurance coverage ratio'
+          ], row.name)) {
+            extraData[row.varName] = row.mostRecent;
+          }
+        })
 
          var countryPage = new Mi.Views.Country({
            year: Mi.year,
@@ -204,6 +215,7 @@ Mi.Routers = Mi.Routers || {};
            region: Mi.region,
            data: countries,
            iso: countries[0].iso,
+           extraData: extraData
          });
 
           $('.loader').fadeOut();
