@@ -1,19 +1,20 @@
-<div class="col-xs-12 aggregate-row">
-  <div class="col-xs-12 col-sm-6 col-md-4 aggregate-main">
-    <a class="more-info" data-toggle="popover" data-content="<%= Mi.description[type] %>">?</a>
-    <b><%= region %> Summary</b>
-    <span class="mi-ratio-value"><a><%= aggregate.mainValue %>%</a></span>
-    <span class="mi-ratio-label"><%= aggregate.name %></span>
-    <div class="little-values">
-      <span class="mi-crude-value"><%= numberWithCommas(aggregate.crudeCoverage) %> lives insured</span>
-      <span class="mi-year-value">Year: <%= aggregate.year %></span>
+<% if (region !== 'Global') { %>
+  <div class="col-xs-12 aggregate-row">
+    <div class="col-xs-12 col-sm-4 col-md-4 aggregate-main">
+      <a class="more-info" data-toggle="popover" data-content="<%= Mi.description[type] %>">?</a>
+      <b><%= region %> Summary</b>
+      <span class="mi-ratio-value"><a><%= aggregate.mainValue %>%</a></span>
+      <span class="mi-ratio-label"><%= aggregate.name %></span>
+      <div class="little-values">
+        <span class="mi-crude-value"><%= numberWithCommas(aggregate.crudeCoverage) %> lives insured</span>
+        <span class="mi-year-value">Year: <%= aggregate.year %></span>
+      </div>
     </div>
-    
+    <div class="col-xs-12 col-sm-8 col-md-8 aggregate-growth">
+      <div id="aggregate-growth-chart"></div>
+    </div>
   </div>
-  <div class="col-xs-12 col-sm-6 col-md-8 aggregate-growth">
-    <div id="aggregate-growth-chart"></div>
-  </div>
-</div>
+<% } %>
 <% if (data.filter(function(d){ return d.mainValue > 0; }).length) { %>
   <% _.each(data, function(value) { %>
     <% if (value.mainValue > 0) { %>

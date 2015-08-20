@@ -125,13 +125,14 @@ var blue = '#006Da1',
 
       var color = _self.getColor(2, _self.type).hex();
       var oneChart = (typeof data[0] != 'object');
-      var series;
+      var series, spacingBottom;
       if (oneChart) {
         series = [{
           color: color,
           name: 'Ratio',
           data: data
         }];
+        spacingBottom = 15;
       } else {
         series = data.map(function(d){
           return {
@@ -142,11 +143,13 @@ var blue = '#006Da1',
             marker: { symbol: 'circle'}
           };
         });
+        spacingBottom = 10;
       }
 
       $(selector).highcharts({
         chart: {
           plotBorderColor: '#fff',
+          spacingBottom: spacingBottom,
           style: {
             fontFamily: "'Abel', sans-serif",
           }
