@@ -208,6 +208,41 @@ a:hover {
   background: #fff !important;
 }
 
+.aggregate-row {
+  @extend .row-country;
+  padding: 0;
+  & > div {
+    padding: 20px;
+  }
+}
+
+.aggregate-main {
+  h2 { margin: 0;}
+  ul {
+    margin-top:25px;
+    list-style-type: none;
+  }
+  .mi-ratio-value { margin-top: 25px; }
+  .little-values { margin-top: 25px; }
+}
+.study-list {
+  list-style: none;
+}
+
+.aggregate-growth {
+  position: relative;
+  height: 100%;
+  #aggregate-growth-chart {
+    height: 100%;
+    width: 92%;
+    margin: 0 4%;
+  }
+}
+
+@media (max-width: 768px) {
+  .aggregate-row { height: 380px; }
+  .aggregate-growth { height: 200px; }
+}
 
 .leaflet-popup-content {
   .inner {

@@ -7,7 +7,8 @@
     "underscore": "~1.6.0",
     "backbone": "~1.1.0",
     "modernizr": "~2.7.1",
-    "topojson": "~1.6.19"
+    "topojson": "~1.6.19",
+    "lodash": "~3.10.1"
   },
   "devDependencies": {}
 }
