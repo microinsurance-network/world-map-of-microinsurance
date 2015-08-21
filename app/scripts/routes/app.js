@@ -127,6 +127,8 @@ Mi.Routers = Mi.Routers || {};
     viewPage: function(region, year, name) {
       $('.loader').fadeIn();
 
+      this.closePopups();
+
       if (region) { Mi.region = this.capitalizeFirstLetter(region); }
       if (year) { Mi.year = year; }
       if (name) { Mi.name = name; }
@@ -182,19 +184,12 @@ Mi.Routers = Mi.Routers || {};
 
      viewCountry: function(country) {
 
-       // if we haven't yet, do the full render to get map info
-       if (!countryViewRendered) {
-         this.viewPage();
-       }
+        // if we haven't yet, do the full render to get map info
+        if (!countryViewRendered) {
+          this.viewPage();
+        }
 
-       Mi.countryGeo.eachLayer(function (layer) {
-         try {
-           layer.closePopup();
-         } catch (e) {
-           console.log(e);
-           console.log(layer);
-         }
-       });
+        this.closePopups();
 
         $('.loader').fadeIn();
 
@@ -303,7 +298,19 @@ Mi.Routers = Mi.Routers || {};
         .attr("x", 0).attr("y", 0)
         .append("g").style("fill", "none").style("stroke", "#ddd").style("stroke-width", 0.5);
       pattern.append("path").attr("d", "M"+dashWidth+",0 l-"+dashWidth+","+dashWidth);
+    },
+
+    closePopups: function () {
+      Mi.countryGeo.eachLayer(function (layer) {
+        try {
+          layer.closePopup();
+        } catch (e) {
+          _.each(layer._layers, function(subLayer){
+            subLayer.closePopup();
+          });
+        }
+      });
     }
-    });
+  });
 
 })();
