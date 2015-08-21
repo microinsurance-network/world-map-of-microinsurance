@@ -210,7 +210,7 @@ a:hover {
 .aggregate-main {
   h2 { margin: 0;}
   ul {
-    margin-top:25px;
+    margin-top: 25px;
     list-style-type: none;
   }
   .mi-ratio-value { margin-top: 25px; }
@@ -283,6 +283,7 @@ a:hover {
 .no-data {
   cursor: -webkit-grab !important;
   cursor: -moz-grab !important;
+  pointer-events: none;
 }
 
 .leaflet-tile-pane {
