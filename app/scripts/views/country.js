@@ -52,7 +52,7 @@ Mi.Views = Mi.Views || {};
           d.indicatorValue = d.mostRecent.value;
         }
       });
-      console.log(this.extraData);
+
       this.$el.html(this.template({
         data: this.data,
         numberWithCommas: this.numberWithCommas,
@@ -62,15 +62,15 @@ Mi.Views = Mi.Views || {};
             name: 'Microinsurance Premiums',
             info: this.extraData['microinsurance-gross-premium-(usd)'],
             suffix: '$ (US)'
-          },
-          {
-            name: 'Population',
-            info: this.extraData['population-(total)']
-          },
+          },        
           {
             name: 'GDP',
             info: this.extraData['gdp-(current-us$)'],
             suffix: '$ (US)'
+          },
+          {
+            name: 'Population',
+            info: this.extraData['population-(total)']
           }
         ]
       }));
