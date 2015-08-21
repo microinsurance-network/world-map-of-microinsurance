@@ -66,7 +66,10 @@ var blue = '#006Da1',
 
       // draw map and charts
       this.resetMapStyle();
-      this.drawLineChart('#aggregate-growth-chart', this.aggregate.graph, this.aggregate.years, this.aggregate.name);
+      _.each(this.aggregate.graphs, function (graph) {
+        _self.drawLineChart('#chart-' + graph.type, graph.chartData, _self.aggregate.years, graph.name, graph.type, true);
+      });
+      //this.drawLineChart('#aggregate-growth-chart', this.aggregate.graph, this.aggregate.years, this.aggregate.name);
       _.each(this.data, function(value) {
 
         Mi.countryGeo.eachLayer(function(layer){
@@ -120,37 +123,15 @@ var blue = '#006Da1',
       return string.charAt(0).toUpperCase() + string.slice(1);
     },
 
-    drawLineChart: function(selector, data, categories, name) {
+    drawLineChart: function(selector, data, categories, name, type, agg) {
 
       var _self = this;
-
-      var color = _self.getColor(2, _self.type).hex();
-      var oneChart = (typeof data[0] != 'object');
-      var series, spacingBottom;
-      if (oneChart) {
-        series = [{
-          color: color,
-          name: 'Ratio',
-          data: data
-        }];
-        spacingBottom = 15;
-      } else {
-        series = data.map(function(d){
-          return {
-            type: 'line',
-            color: _self.getColor(2, d.type).hex(),
-            name: d.name,
-            data: d.chartData,
-            marker: { symbol: 'circle'}
-          };
-        });
-        spacingBottom = 10;
-      }
+      var typeUsed = type || this.type;
+      var color = _self.getColor(2, typeUsed).hex();
 
       $(selector).highcharts({
         chart: {
           plotBorderColor: '#fff',
-          spacingBottom: spacingBottom,
           style: {
             fontFamily: "'Abel', sans-serif",
           }
@@ -165,7 +146,7 @@ var blue = '#006Da1',
           }
         },
         yAxis: {
-          allowDecimals: (oneChart ? false : true),
+          allowDecimals: (!!agg),
           min: 0,
           title: { text: '' },
           labels: {
@@ -186,7 +167,11 @@ var blue = '#006Da1',
           borderWidth: 0,
           enabled: false
         },
-        series: series
+        series: [{
+          color: color,
+          name: 'Ratio',
+          data: data
+        }]
       });
 
     },
@@ -246,7 +231,8 @@ var blue = '#006Da1',
       this.data.sort(function (a,b) { return b.mainValue - a.mainValue; });
 
       // aggregate ratios desired
-      var ratios = ['credit-life-coverage-ratio','health-coverage-ratio',
+      var ratios = ['total-microinsurance-coverage-ratio',
+        'credit-life-coverage-ratio','health-coverage-ratio',
         'accident-coverage-ratio','property-coverage-ratio',
         'agriculture-coverage-ratio'];
       // years available
@@ -264,7 +250,7 @@ var blue = '#006Da1',
           });
         }
       });
-      var graph = ratios.map(function (ratio) {
+      var graphs = ratios.map(function (ratio) {
         // grab the data for just this ratio (but the absolute/crude numbers)
         var filtered = _self.extraData.filter(function(f) {
           return f.varName === ratio.slice(0, -6);
@@ -281,25 +267,29 @@ var blue = '#006Da1',
           }
         });
         var chartData = [];
+        var popYear = [];
         _.each(timeseries, function(year, index) {
            if (sumPopulation[index]) {
-             chartData.push(Number((year.value / sumPopulation[index]).toFixed(4)));
+             chartData.push(Number((year.value / sumPopulation[index] * 100).toFixed(2)));
+             popYear.push(sumPopulation[index]);
            } else {
              chartData.push(0);
+             popYear.push(0);
            }
            yearLabels.push(year.year);
         });
         return {
           type: ratio,
           chartData: chartData,
+          popYear: popYear,
           name: filtered[0].name
         }
       });
       yearLabels = _.unique(yearLabels);
       yearLabels.sort(function (a,b) { return a - b; });
       // get rid of years and values where everything is zero
-      var zeroArray = new Array(graph[0].chartData.length);
-      graph.forEach(function(d) {
+      var zeroArray = new Array(graphs[0].chartData.length);
+      graphs.forEach(function(d) {
         d.chartData.forEach(function(cd, i) {
           zeroArray[i] = !zeroArray[i] ? 0 : zeroArray[i];
           zeroArray[i] += cd;
@@ -311,19 +301,25 @@ var blue = '#006Da1',
       zeroArray.forEach(function (d, i) {
         if (d === 0) {
           yearLabels.splice(l - i - 1, 1);
-          graph.forEach(function(g) {
+          graphs.forEach(function(g) {
             g.chartData.splice(l - i - 1, 1);
+            g.popYear.splice(l - i - 1, 1);
           });
         }
       });
 
+      // grab most recent or selected year to display
+      graphs.forEach(function(g) {
+        g.mainValue = g.chartData[g.chartData.length - 1];
+      });
+      graphs.forEach(function(g) {
+        g.crudeCoverage = (g.chartData[g.chartData.length - 1] * g.popYear[g.popYear.length - 1] / 100);
+      });
+
       this.aggregate = {
-        crudeCoverage: d3.sum(_.pluck(this.data, 'crudeCoverage')),
-        mainValue: (d3.sum(_.pluck(this.data, 'crudeCoverage')) / d3.sum(_.pluck(this.data, 'population'))).toFixed(2),
-        year: this.data[0].filterYear,
-        name: this.data[0].name,
-        graph: graph,
-        years: yearLabels
+        graphs: graphs,
+        years: yearLabels//,
+        //regionStats:
       };
     },
 

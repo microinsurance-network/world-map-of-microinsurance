@@ -1,13 +1,13 @@
-<div class="aggregate-country">
-  <h2 class="country-title"><%= data[0]["country"] %></h2>
+<div class="aggregate-bar">
+  <h2 class="aggregate-title"><%= data[0]["country"] %></h2>
   <% _.each(countryStats, function(value) { %>
   <% if (value.info.value) { %>
-    <div class="country-stat">
-      <div class="country-stat-title">
+    <div class="aggregate-stat">
+      <div class="aggregate-stat-title">
         <span><%= value.name %></span>
         <span class="year">(<%= value.info.year%>)</span>
       </div>
-      <div class="country-stat-info">
+      <div class="aggregate-stat-info">
         <span><%= numberWithCommas(value.info.value) %><%= value.suffix %></span>
       </div>
     </div>

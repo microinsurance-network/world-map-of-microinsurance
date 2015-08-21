@@ -187,6 +187,12 @@ Mi.Routers = Mi.Routers || {};
          this.viewPage();
        }
 
+       Mi.countryGeo.eachLayer(function (layer) {
+         try {
+           layer.closePopup();
+         } catch (e) {}
+       });
+
         $('.loader').fadeIn();
 
         var countries = [];

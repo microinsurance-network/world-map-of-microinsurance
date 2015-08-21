@@ -1,18 +1,40 @@
 <% if (region !== 'Global') { %>
-  <div class="col-xs-12 aggregate-row">
-    <div class="col-xs-12 col-sm-4 col-md-4 aggregate-main">
-      <a class="more-info" data-toggle="popover" data-content="<%= Mi.description[type] %>">?</a>
-      <b><%= region %> Summary</b>
-      <span class="mi-ratio-value"><a><%= aggregate.mainValue %>%</a></span>
-      <span class="mi-ratio-label"><%= aggregate.name %></span>
-      <div class="little-values">
-        <span class="mi-crude-value"><%= numberWithCommas(aggregate.crudeCoverage) %> lives insured</span>
-        <span class="mi-year-value">Year: <%= aggregate.year %></span>
+  <div class="aggregate-bar">
+    <h2 class="aggregate-title"><%= region %> Summary</h2>
+    <% if (false) { %>
+    <% _.each(regionStats, function(value) { %>
+    <% if (value.info.value) { %>
+      <div class="aggregate-stat">
+        <div class="aggregate-stat-title">
+          <span><%= value.name %></span>
+          <span class="year">(<%= value.info.year%>)</span>
+        </div>
+        <div class="aggregate-stat-info">
+          <span><%= numberWithCommas(value.info.value) %><%= value.suffix %></span>
+        </div>
       </div>
-    </div>
-    <div class="col-xs-12 col-sm-8 col-md-8 aggregate-growth">
-      <div id="aggregate-growth-chart"></div>
-    </div>
+    <% } %>
+    <% }); %>
+    <% } %>
+  </div>
+<% } %>
+<% _.each(aggregate.graphs, function(value, index) { %>
+  <% if (true) { %>
+	  <div class="col-sm-4 col-md-4 col-xs-6 row-country">
+		  <div class="inner">
+			  <a class="more-info" href="#" data-toggle="popover" title="<%= value.name %>" data-content="<%= Mi.description[value.type] %>">?</a>
+				  <span class="mi-ratio-value"><a><%= value.mainValue.toFixed(2) %>%</a></span>
+					<span class="mi-ratio-label"><%= value.name %></span>
+					<div id="chart-<%= value.type %>" class="hchart"></div>
+					<span class="mi-crude-value"><%= numberWithCommas(Number(value.crudeCoverage.toFixed(0))) %> lives insured</span>
+					<span class="mi-year-value">Year: <%= aggregate.years[aggregate.years.length - 1] %></span>
+				</div>
+			</div>
+  <% } %>
+<% }) %>
+<% if (region !== 'Global') { %>
+  <div class="aggregate-bar">
+    <h2 class="aggregate-title">Countries</h2>
   </div>
 <% } %>
 <% if (data.filter(function(d){ return d.mainValue > 0; }).length) { %>
