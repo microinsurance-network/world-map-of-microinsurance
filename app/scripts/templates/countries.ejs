@@ -17,21 +17,21 @@
     <% }); %>
     <% } %>
   </div>
+  <% _.each(aggregate.graphs, function(value, index) { %>
+    <% if (true) { %>
+  	  <div class="col-sm-4 col-md-4 col-xs-6 row-country">
+  		  <div class="inner">
+  			  <a class="more-info" href="#" data-toggle="popover" title="<%= value.name %>" data-content="<%= Mi.description[value.type] %>">?</a>
+  				  <span class="mi-ratio-value"><a><%= value.mainValue.toFixed(2) %>%</a></span>
+  					<span class="mi-ratio-label"><%= value.name %></span>
+  					<div id="chart-<%= value.type %>" class="hchart"></div>
+  					<span class="mi-crude-value"><%= numberWithCommas(Number(value.crudeCoverage.toFixed(0))) %> lives insured</span>
+  					<span class="mi-year-value">Year: <%= aggregate.years[aggregate.years.length - 1] %></span>
+  				</div>
+  			</div>
+    <% } %>
+  <% }) %>
 <% } %>
-<% _.each(aggregate.graphs, function(value, index) { %>
-  <% if (true) { %>
-	  <div class="col-sm-4 col-md-4 col-xs-6 row-country">
-		  <div class="inner">
-			  <a class="more-info" href="#" data-toggle="popover" title="<%= value.name %>" data-content="<%= Mi.description[value.type] %>">?</a>
-				  <span class="mi-ratio-value"><a><%= value.mainValue.toFixed(2) %>%</a></span>
-					<span class="mi-ratio-label"><%= value.name %></span>
-					<div id="chart-<%= value.type %>" class="hchart"></div>
-					<span class="mi-crude-value"><%= numberWithCommas(Number(value.crudeCoverage.toFixed(0))) %> lives insured</span>
-					<span class="mi-year-value">Year: <%= aggregate.years[aggregate.years.length - 1] %></span>
-				</div>
-			</div>
-  <% } %>
-<% }) %>
 <% if (region !== 'Global') { %>
   <div class="aggregate-bar">
     <h2 class="aggregate-title">Countries</h2>
