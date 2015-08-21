@@ -190,7 +190,10 @@ Mi.Routers = Mi.Routers || {};
        Mi.countryGeo.eachLayer(function (layer) {
          try {
            layer.closePopup();
-         } catch (e) {}
+         } catch (e) {
+           console.log(e);
+           console.log(layer);
+         }
        });
 
         $('.loader').fadeIn();
