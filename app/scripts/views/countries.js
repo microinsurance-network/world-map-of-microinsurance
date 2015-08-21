@@ -189,7 +189,6 @@ var blue = '#006Da1',
       this.metaData = _.groupBy(Mi.data, 'country');
 
       // data handling
-
       _.each(this.data, function(d){
         d.crudeCoverage = 0;
         d.crudeCoverageType = (_self.type === 'all') ? 'total-microinsurance-coverage' : _self.type.slice(0, -6);
@@ -251,6 +250,7 @@ var blue = '#006Da1',
         }
       });
       var graphs = ratios.map(function (ratio) {
+        var mainValue, crudeCoverage;
         // grab the data for just this ratio (but the absolute/crude numbers)
         var filtered = _self.extraData.filter(function(f) {
           return f.varName === ratio.slice(0, -6);
@@ -277,12 +277,18 @@ var blue = '#006Da1',
              popYear.push(0);
            }
            yearLabels.push(year.year);
+           if (year.year === parseFloat(_self.year)) {
+             mainValue = Number((year.value / sumPopulation[index] * 100).toFixed(2));
+             crudeCoverage = year.value.toFixed(0);
+           }
         });
         return {
           type: ratio,
           chartData: chartData,
-          popYear: popYear,
-          name: filtered[0].name
+          name: filtered[0].name,
+          mainValue: mainValue,
+          crudeCoverage: crudeCoverage,
+          popYear: popYear
         }
       });
       yearLabels = _.unique(yearLabels);
@@ -303,18 +309,18 @@ var blue = '#006Da1',
           yearLabels.splice(l - i - 1, 1);
           graphs.forEach(function(g) {
             g.chartData.splice(l - i - 1, 1);
-            g.popYear.splice(l - i - 1, 1);
+            g.popYear.splice(l - i - 1, 1)
           });
         }
       });
-
-      // grab most recent or selected year to display
-      graphs.forEach(function(g) {
-        g.mainValue = g.chartData[g.chartData.length - 1];
-      });
-      graphs.forEach(function(g) {
-        g.crudeCoverage = (g.chartData[g.chartData.length - 1] * g.popYear[g.popYear.length - 1] / 100);
-      });
+      // for "most recent" grab certain values now
+      if (this.year === 'all') {
+        graphs.forEach(function (g) {
+          g.mainValue = g.chartData[g.chartData.length - 1];
+          g.crudeCoverage = (g.chartData[g.chartData.length - 1] *
+            g.popYear[g.popYear.length - 1] / 100).toFixed(0);
+        });
+      }
 
       this.aggregate = {
         graphs: graphs,

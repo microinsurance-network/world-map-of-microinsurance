@@ -96,7 +96,9 @@ Mi.Routers = Mi.Routers || {};
           name: d.Indicator,
           // iterate over our numeric keys
           timeseries: _.map(_.filter(_.keys(d),function(key){ return !isNaN(Number(key)); }), function(numericKey){
-            return { year: Number(numericKey), value: Number(d[numericKey]) };
+            return {
+              year: Number(numericKey),
+              value: (d[numericKey] === '' ? '' : Number(d[numericKey])) };
           }),
           varName: d.Indicator.split(' ').join('-').toLowerCase(),
           country: d.Country,
@@ -120,6 +122,7 @@ Mi.Routers = Mi.Routers || {};
             d.median = indicatorMedian;
           });
         });
+
         if (callback) callback.apply(that, args);
       });
     },
