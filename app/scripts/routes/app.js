@@ -5,6 +5,8 @@ Mi.Routers = Mi.Routers || {};
 (function () {
     'use strict';
 
+    var countryViewRendered = false;
+
     $(document).on('click', '.mi-reset', function(e) {
       Mi.year = 'all',
       Mi.region = 'Global',
@@ -172,38 +174,49 @@ Mi.Routers = Mi.Routers || {};
         extraData: countries
       });
 
+      countryViewRendered = true;
+
       $('.loader').fadeOut();
      },
 
 
      viewCountry: function(country) {
 
-       // if there aren't any markers, call the default view before continuing
-      //  var markerCount = 0;
-      //  Mi.ratiosLayer.eachLayer(function(layer){
-      //    markerCount++;
-      //  })
-      //  if (!markerCount){
-      //    this.viewPage();
-      //    $('#content').empty();
-      //  }
+       // if we haven't yet, do the full render to get map info
+       if (!countryViewRendered) {
+         this.viewPage();
+       }
 
         $('.loader').fadeIn();
 
         var countries = [];
-        $.each(Mi.data, function(index, row) {
+        _.each(Mi.data, function(row) {
           if (country === row.iso && row.category === 'Microinsurance') {
-            countries.push(row);
+             countries.push(row);
+           }
+         });
+
+        var extraData = {};
+        _.each(Mi.data, function(row){
+          if (country === row.iso && _.contains([
+            'Population (Total)',
+            'GDP (current US$)',
+            'Microinsurance Gross Premium (USD)',
+            'Total microinsurance coverage',
+            'Total microinsurance coverage ratio'
+          ], row.name)) {
+            extraData[row.varName] = row.mostRecent;
           }
         });
 
-        var countryPage = new Mi.Views.Country();
-        countryPage.year = Mi.year;
-        countryPage.type = Mi.name;
-        countryPage.region = Mi.region;
-        countryPage.data = countries;
-        countryPage.iso = countries[0].iso;
-        countryPage.render();
+        var countryPage = new Mi.Views.Country({
+          year: Mi.year,
+          type: Mi.name,
+          region: Mi.region,
+          data: countries,
+          iso: countries[0].iso,
+          extraData: extraData
+        });
 
         $('.loader').fadeOut();
      },

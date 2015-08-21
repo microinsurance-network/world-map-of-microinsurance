@@ -195,15 +195,6 @@ a:hover {
   bottom: 0;
 }
 
-.country-title {
-  margin-left: 20px;
-  border-bottom: 1px solid #ccc;
-  background: #fff;
-  padding: 20px 0 20px 20px;
-  margin: 0 0 0 0;
-  border-right: 1px solid #ccc;
-}
-
 #agriculture-coverage-ratio .agriculture-coverage-ratio {
   background: #fff !important;
 }
@@ -239,9 +230,37 @@ a:hover {
   }
 }
 
+.aggregate-country {
+  padding: 24px 20px;
+  margin: 0;
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  background: #fff;
+  .country-title {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  & > div {
+    float: right;
+    display: inline-block;
+    padding: 0 15px;
+    text-align: center;
+    .country-stat-info { color: #777; }
+  }
+}
+
 @media (max-width: 768px) {
   .aggregate-row { height: 380px; }
   .aggregate-growth { height: 200px; }
+  .aggregate-country {
+    .country-title { display: block; }
+    & > div {
+      margin-top: 10px;
+      float: none;
+    }
+  }
 }
 
 .leaflet-popup-content {
@@ -254,10 +273,11 @@ a:hover {
     font-size: 15px;
     font-weight: bold;
   }
-  .year {
-    font-weight: normal;
-    color: #aaa;
-  }
+}
+
+.year {
+  font-weight: normal;
+  color: #aaa;
 }
 
 .no-data {
