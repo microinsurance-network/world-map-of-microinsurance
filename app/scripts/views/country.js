@@ -62,7 +62,7 @@ Mi.Views = Mi.Views || {};
             name: 'Microinsurance Premiums',
             info: this.extraData['microinsurance-gross-premium-(usd)'],
             suffix: '$ (US)'
-          },        
+          },
           {
             name: 'GDP',
             info: this.extraData['gdp-(current-us$)'],
@@ -111,7 +111,10 @@ Mi.Views = Mi.Views || {};
       $(id).highcharts({
         chart: {
       	  plotBorderColor: 'transparent',
-      	  backgroundColor: 'transparent'
+      	  backgroundColor: 'transparent',
+          style: {
+            fontFamily: "'Abel', sans-serif",
+          }
       	},
       	title: {
       		text: '',
@@ -121,11 +124,25 @@ Mi.Views = Mi.Views || {};
       		text: '',
       		x: -20
       	},
-      	xAxis: { categories: categories },
+      	xAxis: {
+          categories: categories,
+          labels: {
+            enabled: true,
+            style: { color: '#aaa'}
+          }
+        },
       	yAxis: {
+          allowDecimals: false,
+          min: 0,
       		title: { text: '' },
-      		labels: { enabled: false },
-      		gridLineColor: '#fff'
+          labels: {
+            x: -8,
+            enabled: true,
+            style: { color: '#aaa'}
+          },
+          gridLineColor: '#fff',
+          tickWidth: 1,
+          tickLength: 5
       	},
       	credits: { enabled: false },
       	tooltip: { valueSuffix: '%' },
