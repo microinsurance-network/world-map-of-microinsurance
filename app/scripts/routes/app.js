@@ -123,7 +123,6 @@ Mi.Routers = Mi.Routers || {};
     },
 
     viewPage: function(region, year, name) {
-
       $('.loader').fadeIn();
 
       if (region) { Mi.region = this.capitalizeFirstLetter(region); }
@@ -191,24 +190,22 @@ Mi.Routers = Mi.Routers || {};
 
         $('.loader').fadeIn();
 
-         var countries = [];
-         $.each(Mi.data, function(index, row) {
-         if (country === row.iso && row.category === 'Microinsurance') {
-
-              countries.push(row);
+        var countries = [];
+        $.each(Mi.data, function(index, row) {
+          if (country === row.iso && row.category === 'Microinsurance') {
+            countries.push(row);
           }
-         });
+        });
 
-         var countryPage = new Mi.Views.Country();
-         countryPage.year = Mi.year;
-         countryPage.type = Mi.name;
-         countryPage.region = Mi.region;
-         countryPage.data = countries;
-         countryPage.iso = countries[0].iso;
-         countryPage.render();
+        var countryPage = new Mi.Views.Country();
+        countryPage.year = Mi.year;
+        countryPage.type = Mi.name;
+        countryPage.region = Mi.region;
+        countryPage.data = countries;
+        countryPage.iso = countries[0].iso;
+        countryPage.render();
 
-          $('.loader').fadeOut();
-
+        $('.loader').fadeOut();
      },
 
      median: function(values) {
