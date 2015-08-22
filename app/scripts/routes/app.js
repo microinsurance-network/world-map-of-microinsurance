@@ -262,7 +262,7 @@ Mi.Routers = Mi.Routers || {};
 
       var url = 'https://{s}.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={token}'
       Mi.labels = L.tileLayer(url, {
-        id: 'devseed.09eb77b8',
+        id: 'devseed.9d887945',
         token: Mi.token
       })
 
