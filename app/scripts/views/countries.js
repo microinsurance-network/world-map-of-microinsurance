@@ -245,7 +245,7 @@ var blue = '#006Da1',
           sumPopulation = _.pluck(d, 'value');
         } else {
           d.forEach(function (t, i) {
-            sumPopulation[i] += t.value;
+            sumPopulation[i] = Number(sumPopulation[i]) + Number(t.value);
           });
         }
       });
@@ -262,7 +262,7 @@ var blue = '#006Da1',
             timeseries = _.cloneDeep(d.timeseries);
           } else {
             d.timeseries.forEach(function (t, i) {
-              timeseries[i].value += t.value;
+              timeseries[i].value = Number(timeseries[i].value) + Number(t.value);
             });
           }
         });
