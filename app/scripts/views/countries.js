@@ -321,6 +321,8 @@ var blue = '#006Da1',
             g.popYear[g.popYear.length - 1] / 100).toFixed(0);
         });
       }
+      // sort graphs by main value
+      graphs.sort(function(a,b){ return b.mainValue - a.mainValue; })
 
       this.aggregate = {
         graphs: graphs,
