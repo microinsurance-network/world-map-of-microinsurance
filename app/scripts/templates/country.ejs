@@ -19,7 +19,7 @@
 	  <div class="col-sm-4 col-md-3 col-xs-6 row-country <%= value.varName %>">
 		  <div class="inner">
 			  <a class="more-info" href="#" data-toggle="popover" title="<%= value.name %>" data-content="<%= Mi.description[value.varName] %>">?</a>
-				  <span class="mi-ratio-value"><a href="#country/<%= value.iso %>"><%= value.indicatorValue %></a></span>
+				  <span class="mi-ratio-value"><a href="#country/<%= value.iso %>"><%= value.indicatorValue.toFixed(2) %>%</a></span>
 					<span class="mi-ratio-label"><%= value.name %></span>
 					<div id="<%= value.iso %>-chart-<%= index %>" class="hchart"></div>
 					<span class="mi-crude-value"><%= numberWithCommas(value.crudeCoverage) %> lives insured</span>

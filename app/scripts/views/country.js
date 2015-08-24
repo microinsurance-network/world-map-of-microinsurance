@@ -43,7 +43,7 @@ Mi.Views = Mi.Views || {};
         d.indicatorValue = '';
         if (d.name.indexOf('ratio') >= 0){
           if (d.indicatorValue != null) {
-            d.indicatorValue = d.mostRecent.value + '%';
+            d.indicatorValue = d.mostRecent.value;
             d.crudeCoverage = _.filter(_self.data, function(f){
               return f.varName === d.varName.replace('-ratio','');
             })[0].mostRecent.value;
@@ -74,7 +74,7 @@ Mi.Views = Mi.Views || {};
           }
         ]
       }));
-      
+
       _.each(this.data, function(value, index) {
         if (value.name.indexOf('ratio') >= 0 &&
           value.mostRecent.value != null &&
