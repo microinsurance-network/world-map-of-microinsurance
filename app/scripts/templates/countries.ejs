@@ -18,18 +18,16 @@
     <% } %>
   </div>
   <% _.each(aggregate.graphs, function(value, index) { %>
-    <% if (true) { %>
-  	  <div class="col-sm-4 col-md-4 col-xs-6 row-country">
-  		  <div class="inner">
-  			  <a class="more-info" href="#" data-toggle="popover" title="<%= value.name %>" data-content="<%= Mi.description[value.type] %>">?</a>
-  				  <span class="mi-ratio-value"><a><%= value.mainValue %>%</a></span>
-  					<span class="mi-ratio-label"><%= value.name %></span>
-  					<div id="chart-<%= value.type %>" class="hchart"></div>
-  					<span class="mi-crude-value"><%= numberWithCommas(value.crudeCoverage) %> lives insured</span>
-  					<span class="mi-year-value">Year: <%= year %></span>
-  				</div>
-  			</div>
-    <% } %>
+	  <div class="col-sm-4 col-md-4 col-xs-6 row-country">
+		  <div class="inner">
+			  <a class="more-info" href="#" data-toggle="popover" title="<%= value.name %>" data-content="<%= Mi.description[value.type] %>">?</a>
+				  <span class="mi-ratio-value"><a><%= value.mainValue.toFixed(2) %>%</a></span>
+					<span class="mi-ratio-label"><%= value.name %></span>
+					<div id="chart-<%= value.type %>" class="hchart"></div>
+					<span class="mi-crude-value"><%= numberWithCommas(value.crudeCoverage) %> lives insured</span>
+					<span class="mi-year-value">Year: <%= year %></span>
+				</div>
+			</div>
   <% }) %>
 <% } %>
 <% if (region !== 'Global') { %>
@@ -45,7 +43,7 @@
           <a class="more-info" data-toggle="popover" data-content="<%= Mi.description[type] %>">?</a>
           <b><%= value.country %></b>
           <br>
-          <span class="mi-ratio-value"><a href="#country/<%= value.iso %>"><%= value.mainValue %>%</a></span>
+          <span class="mi-ratio-value"><a href="#country/<%= value.iso %>"><%= value.mainValue.toFixed(2) %>%</a></span>
           <span class="mi-ratio-label"><%= value.name %></span>
           <div id="<%= value.iso %>-chart" class="hchart"></div>
           <span class="mi-crude-value"><%= numberWithCommas(value.crudeCoverage) %> lives insured</span>
