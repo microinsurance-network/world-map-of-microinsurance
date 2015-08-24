@@ -73,11 +73,11 @@ a:hover {
 }
 .year-value,
 .region-value {
-  font-size: 20px;
+  font-size: inherit;
   color: #999;
 }
 .type-value {
-  font-size: 20px;
+  font-size: inherit;
   color: #000;
 }
 
@@ -301,15 +301,27 @@ a:hover {
   }
 }
 
-@media (max-width: 700px) {
-  .filter-breadcrumb {
-    display: none;
+@media (max-width: 992px) {
+  .page-header {
+    height: auto;
   }
+  .filter-breadcrumb {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 700px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-  color: #fff;
-}
-.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
-.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
-  color: #eee;
-}
+    color: #fff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: #eee;
+  }
+  .filter-breadcrumb {
+    font-size: 16px;
+  }
 }

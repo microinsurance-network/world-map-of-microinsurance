@@ -35,10 +35,10 @@ var blue = '#006Da1',
       var _self = this;
 
       if (!(this.region)) {
-        this.region = 'Global';
+        this.region = 'global';
       }
 
-      $('.region-value').text(this.capitalizeFirstLetter(this.region));
+      $('.region-value').text(Mi.regions[this.region]);
       $('.type-value').text(this.capitalizeFirstLetter(this.type.replace(/-/g, ' ')));
       if (this.year === 'all') {
         $('.year-value').text('Most recent value');
@@ -59,7 +59,7 @@ var blue = '#006Da1',
         data: this.data,
         numberWithCommas: this.numberWithCommas,
         type: this.type,
-        region: this.region,
+        region: this.capitalizeFirstLetter(this.region),
         year: ((this.year === 'all') ? (this.aggregate.years[this.aggregate.years.length - 1])
           : this.year) ,
         aggregate: this.aggregate
@@ -333,17 +333,14 @@ var blue = '#006Da1',
 
     setView: function (region) {
       switch (region) {
-        case 'Africa':
+        case 'africa':
           Mi.map.setView([4.43, 28.83], 3);
           break;
-        case 'Americas':
+        case 'americas':
           Mi.map.setView([2.20, -77.26], 3);
           break;
-        case 'Asia':
+        case 'asia':
           Mi.map.setView([26.98, 87.10], 3);
-          break;
-        case 'Oceania':
-          Mi.map.setView([-7.36, 162.60], 3);
           break;
         default:
           Mi.map.setView([20, 0], 2);
@@ -438,6 +435,7 @@ var blue = '#006Da1',
         d3.selectAll('.leaflet-overlay-pane path').classed('no-data', true);
       });
     }
+
   });
 
 })();

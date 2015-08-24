@@ -14,6 +14,7 @@ Mi.Views = Mi.Views || {};
 
     initialize: function (options) {
       this.studies = options.studies;
+      this.regions = options.regions;
       this.render();
     },
 
@@ -23,18 +24,10 @@ Mi.Views = Mi.Views || {};
 
     render: function () {
 
-      // make object of region names and codes
-      var regions = {};
-      _.each(this.studies, function (study) {
-        if (study.region_name) {
-          regions[study.region_code] = study.region_name;
-        }    
-      });
-
       // render template
       this.$el.html(this.template({
         studies: this.studies,
-        regions: regions
+        regions: this.regions
       }));
 
     },

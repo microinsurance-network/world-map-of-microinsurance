@@ -9,7 +9,7 @@ Mi.Routers = Mi.Routers || {};
 
     $(document).on('click', '.mi-reset', function(e) {
       Mi.year = 'all',
-      Mi.region = 'Global',
+      Mi.region = 'global',
       Mi.name = 'total-microinsurance-coverage-ratio';
     });
 
@@ -20,7 +20,7 @@ Mi.Routers = Mi.Routers || {};
     Mi.collections = {},
     Mi.views = {},
     Mi.year = 'all',
-    Mi.region = 'Global',
+    Mi.region = 'global',
     Mi.name = 'total-microinsurance-coverage-ratio',
     Mi.token = 'pk.eyJ1IjoiZGV2c2VlZCIsImEiOiJnUi1mbkVvIn0.018aLhX0Mb0tdtaT2QNe2Q',
     Mi.labelControl = L.Control.extend({
@@ -97,7 +97,7 @@ Mi.Routers = Mi.Routers || {};
           }),
           varName: d.Indicator.split(' ').join('-').toLowerCase(),
           country: d.Country,
-          region: d.Region,
+          region: d.Region.toLowerCase(),
           iso: d.iso3
         };
       }, function(error, data) {
@@ -123,15 +123,16 @@ Mi.Routers = Mi.Routers || {};
     },
 
     viewPage: function(region, year, name) {
-      $('.loader').fadeIn();
+      var _self = this;
 
+      $('.loader').fadeIn();
       this.closePopups();
 
-      if (region) { Mi.region = this.capitalizeFirstLetter(region); }
+      if (region) { Mi.region = region; }
       if (year) { Mi.year = year; }
       if (name) { Mi.name = name; }
 
-      if (Mi.region === 'Global') {
+      if (Mi.region === 'global') {
         var data = [];
         var population = [];
         var crudeCoverage = [];
@@ -157,7 +158,7 @@ Mi.Routers = Mi.Routers || {};
         var countriesFiltered = [];
         var countries = [];
         $.each(Mi.data, function(index, row) {
-          if (Mi.region === 'Global' || row.region === Mi.region) {
+          if (_self.regionMatch(row.region, Mi.regions[Mi.region])) {
             countries.push(row);
             if (row.varName === Mi.name) {
               countriesFiltered.push(row);
@@ -301,7 +302,15 @@ Mi.Routers = Mi.Routers || {};
     headerInit: function () {
       d3.csv(Mi.studyUrl, function(error, data){
         var studies = data;
-        Mi.header = new Mi.Views.Header({studies: studies });
+        // make object of region names and codes
+        var regions = {};
+        _.each(studies, function (study) {
+          if (study.region_name) {
+            regions[study.region_code] = study.region_name;
+          }
+        });
+        Mi.regions = regions;
+        Mi.header = new Mi.Views.Header({studies: studies, regions: regions });
       });
     },
 
@@ -315,7 +324,13 @@ Mi.Routers = Mi.Routers || {};
           });
         }
       });
-    }
+    },
+
+    regionMatch: function (region, fullName) {
+      return _.contains(fullName.split(' ').map(function(m){
+        return m.toLowerCase();
+      }), region);
+    },
   });
 
 })();
