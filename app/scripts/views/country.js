@@ -74,18 +74,17 @@ Mi.Views = Mi.Views || {};
           }
         ]
       }));
-      
+
       _.each(this.data, function(value, index) {
         if (value.name.indexOf('ratio') >= 0 &&
-          value.mostRecent.value != null &&
-          value.mostRecent.value > 0 &&
+          value.mostRecent.value !== '' &&
           value.name != 'Life coverage ratio (excluding credit life)' &&
           value.name != 'Life and accident coverage ratio (excluding credit life)') {
-
+  
           var chartData = [];
           var yearLabels = [];
           $.each(value.timeseries, function(index, year) {
-            if (year.value !== "") {
+            if (year.value !== '') {
              chartData.push(year.value);
              yearLabels.push(year.year);
             }

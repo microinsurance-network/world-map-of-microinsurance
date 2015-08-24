@@ -98,12 +98,12 @@ var blue = '#006Da1',
         });
 
 
-        if (value.mainValue > 0) {
+        if (value.mainValue !== '') {
 
           var chartData = [];
           var yearLabels = [];
           _.each(value.timeseries, function(year) {
-            if (year.value != 0) {
+            if (year.value !== '') {
              chartData.push(year.value);
              yearLabels.push(year.year);
             }

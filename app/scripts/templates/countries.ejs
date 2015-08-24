@@ -37,9 +37,9 @@
     <h2 class="aggregate-title">Countries</h2>
   </div>
 <% } %>
-<% if (data.filter(function(d){ return d.mainValue > 0; }).length) { %>
+<% if (data.filter(function(d){ return d.mainValue !== ''; }).length) { %>
   <% _.each(data, function(value) { %>
-    <% if (value.mainValue > 0) { %>
+    <% if (value.mainValue !== '') { %>
       <div class="col-sm-4 col-md-3 col-xs-6 row-country" data-mi-ratio="<%= value.mainValue %>">
         <div class="inner">
           <a class="more-info" data-toggle="popover" data-content="<%= Mi.description[type] %>">?</a>
