@@ -1,0 +1,115 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: devseed.33074b4e
+  rev: ''
+  saveCenter: true
+attribution: ''
+center: 
+  - 1.8396
+  - 5.2323
+  - 0
+description: ''
+Layer: 
+  - id: centroids
+    Datasource: 
+      file: /Users/andrewbollinger/github-repos/microinsurance-dashboard/centroids.geojson
+      layer: OGRGeoJSON
+      type: ogr
+    description: ''
+    fields: 
+      ABBREV: String
+      ADM0_A3: String
+      ADM0_DIF: Number
+      ADMIN: String
+      FeatureCla: String
+      FIPS_10_: Number
+      GDP_MD_EST: Number
+      GEOU_DIF: Number
+      GEOUNIT: String
+      GU_A3: String
+      ISO_A2: String
+      ISO_A3: String
+      ISO_N3: Number
+      LabelRank: Number
+      LEVEL: Number
+      MAP_COLOR: Number
+      mr_col_10: Number
+      mr_col_11: Number
+      mr_col_12: Number
+      mr_col_13: Number
+      mr_col_14: Number
+      mr_col_15: Number
+      mr_col_16: String
+      mr_col_17: Number
+      mr_col_18: Number
+      mr_col_19: Number
+      mr_col_2: Number
+      mr_col_20: Number
+      mr_col_21: String
+      mr_col_22: String
+      mr_col_23: Number
+      mr_col_24: String
+      mr_col_25: String
+      mr_col_26: String
+      mr_col_27: String
+      mr_col_28: Number
+      mr_col_29: Number
+      mr_col_3: String
+      mr_col_30: Number
+      mr_col_31: String
+      mr_col_32: String
+      mr_col_33: String
+      mr_col_34: Number
+      mr_col_35: String
+      mr_col_36: String
+      mr_col_37: String
+      mr_col_38: String
+      mr_col_39: String
+      mr_col_4: Number
+      mr_col_40: Number
+      mr_col_41: Number
+      mr_col_42: Number
+      mr_col_43: Number
+      mr_col_44: Number
+      mr_col_45: Number
+      mr_col_46: Number
+      mr_col_47: String
+      mr_col_48: Number
+      mr_col_49: Number
+      mr_col_5: String
+      mr_col_50: Number
+      mr_col_51: String
+      mr_col_52: String
+      mr_col_53: String
+      mr_col_54: String
+      mr_col_55: String
+      mr_col_56: Number
+      mr_col_57: Number
+      mr_col_58: Number
+      mr_col_59: Number
+      mr_col_6: String
+      mr_col_7: String
+      mr_col_8: String
+      mr_col_9: String
+      NAME: String
+      NAME_FORMA: String
+      NAME_SORT: String
+      ne_10m_adm: String
+      OID_: Number
+      POP_EST: Number
+      POSTAL: String
+      ScaleRank: Number
+      SOV_A3: String
+      SOVEREIGNT: String
+      SU_A3: String
+      SU_DIF: Number
+      SUBUNIT: String
+      TERR_: String
+      TYPE: String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+maxzoom: 6
+minzoom: 0
+name: Microinsurance Country Centroids
