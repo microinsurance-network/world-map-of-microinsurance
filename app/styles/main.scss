@@ -294,6 +294,13 @@ a:hover {
   cursor: pointer !important;
 }
 
+.menu-study, .menu-data {
+  min-width: 260px;
+  & > li > a {
+    white-space: normal;
+  }
+}
+
 @media (max-width: 700px) {
   .filter-breadcrumb {
     display: none;

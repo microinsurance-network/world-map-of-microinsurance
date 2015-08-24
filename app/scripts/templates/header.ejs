@@ -15,14 +15,13 @@
     <ul class="nav navbar-nav">
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Data <span class="caret"></span></a>
-        <ul class="dropdown-menu menu-share" role="menu">
+        <ul class="dropdown-menu menu-data" role="menu">
           <li><a href="assets/data/mi-data.csv">Download (csv)</a></li>
           <li role="presentation" class="divider"></li>
           <li role="presentation" class="dropdown-header">Landscape Studies (pdf)</li>
-          <li><a href="http://www.microinsurancenetwork.org/sites/default/files/The_landscape_of_microinsurance_in_Asia_and_Oceania_2013__full_report.pdf" target="_blank">Asia and Oceania (2013)</a></li>
-          <li><a href="http://www.microinsurancenetwork.org/sites/default/files/The_Landscape_of_MI_in_Africa_2012_full_study_web.pdf" target="_blank">Africa (2012)</a></li>
-          <li><a href="http://www.microinsurancenetwork.org/sites/default/files/LandscapeLatinAme.pdf" target="_blank">Latin America and the Caribbean (2011)</a></li>
-          <li><a href="http://www.microinsurancenetwork.org//sites/default/files/files/mpaper4_landscape_en.pdf" target="_blank">Africa (2010)</a></li>
+          <% _.each(studies.filter(function(f) { return f.link; }), function(study) { %>
+            <li><a href="<%= study.link %>" target="_blank"><%= study.name %></a></li>
+          <% }); %>
         </ul>
       </li>
     </ul>
@@ -30,11 +29,9 @@
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Study <span class="caret"></span></a>
         <ul class="dropdown-menu menu-study" role="menu">
-          <li><a class="mi-filter" data-var="asia 2012" href="#">Asia and Oceania 2013</a></li>
-          <li><a class="mi-filter" data-var="africa 2011" href="#">Africa 2012</a></li>
-          <li><a class="mi-filter" data-var="americas 2011" href="#">Latin America and the Caribbean 2011</a></li>
-          <li><a class="mi-filter" data-var="africa 2008" href="#">Africa 2010</a></li>
-          <li><a class="mi-filter" data-var="global 2005" href="#">The Landscape of Microinsurance in the World’s 100 Poorest Countries</a></li>
+          <% _.each(studies, function(study) { %>
+            <li><a class="mi-filter" data-var="<%= study.region_code %> <%= study.data_year %>" target="_blank"><%= study.name %></a></li>
+          <% }); %>
         </ul>
       </li>
       <li class="dropdown">
@@ -42,9 +39,9 @@
         <ul class="dropdown-menu menu-region" role="menu">
           <li><a class="mi-filter" data-var="global" href="#">Global</a></li>
           <li class="divider"></li>
-          <li><a class="mi-filter" data-var="africa" href="#">Africa</a></li>
-          <li><a class="mi-filter" data-var="americas" href="#">Latin America and the Caribbean</a></li>
-          <li><a class="mi-filter" data-var="asia" href="#">Asia and Oceania</a></li>
+          <% _.each(regions, function(region, key) { %>
+            <li><a class="mi-filter" data-var="<%= key %>" target="_blank"><%= region %></a></li>
+          <% }); %>
         </ul>
       </li>
       <li class="dropdown">

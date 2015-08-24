@@ -14,6 +14,7 @@ Mi.Routers = Mi.Routers || {};
     });
 
     Mi.dataUrl = 'assets/data/mi-data.csv';
+    Mi.studyUrl = 'assets/data/studies.csv'
     Mi.data = null,
     Mi.models = {},
     Mi.collections = {},
@@ -52,13 +53,6 @@ Mi.Routers = Mi.Routers || {};
       "agriculture-coverage-ratio": "Insurance providing financial protection against loss due to drought, livestock disease and death, flood, and other perils impacting agriculture production.",
       "health-coverage-ratio": "Coverage that provides benefits as a result of sickness or injury. Policies include insurance for losses from accident, medical expense, disability, or accidental death and dismemberment."
     },
-
-    Mi.studies = [
-      { link: "http://www.microinsurancenetwork.org/sites/default/files/The_landscape_of_microinsurance_in_Asia_and_Oceania_2013__full_report.pdf", country: 'asia', year: 2013 },
-      { link: "http://www.microinsurancenetwork.org/sites/default/files/The_Landscape_of_MI_in_Africa_2012_full_study_web.pdf", country: 'africa', year: 2012 },
-      { link: "http://www.microinsurancenetwork.org/sites/default/files/LandscapeLatinAme.pdf", country: 'la', year: 2011 },
-      { link: "http://www.microinsurancenetwork.org//sites/default/files/files/mpaper4_landscape_en.pdf", country: 'africa', year: 2010 }
-    ];
 
     Mi.Routers.App = Backbone.Router.extend({
 
@@ -274,7 +268,10 @@ Mi.Routers = Mi.Routers || {};
     },
 
     headerInit: function () {
-      Mi.header = new Mi.Views.Header();
+      d3.csv(Mi.studyUrl, function(error, data){
+        var studies = data;
+        Mi.header = new Mi.Views.Header({studies: studies });
+      });
     }
   });
 
