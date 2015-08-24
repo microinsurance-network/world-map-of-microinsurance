@@ -160,24 +160,48 @@ Mi.Routers = Mi.Routers || {};
         $(this).attr('href', '#view/' +  Mi.region + '/' + filterValue + '/' + Mi.name);
        });
 
-      var countriesFiltered = [];
-      var countries = [];
-      $.each(Mi.data, function(index, row) {
-        if (Mi.region == 'Global' || row.region === Mi.region) {
-          countries.push(row);
+      if (Mi.region === 'Global') {
+        var data = [];
+        var population = [];
+        var crudeCoverage = [];
+        $.each(Mi.data, function(index, row) {
           if (row.varName === Mi.name) {
-            countriesFiltered.push(row);
+            data.push(row);
+          } else if (row.varName === 'population-(total)') {
+            population.push(row);
+          } else if (row.varName === Mi.name.slice(0, -6)) {
+            crudeCoverage.push(row);
           }
-        }
-      });
+        });
+        var countriesPage = new Mi.Views.Global({
+          year: Mi.year,
+          type: Mi.name,
+          data: data,
+          graphData: {
+            population: population,
+            crudeCoverage: crudeCoverage
+          }
+        });
+      } else {
+        var countriesFiltered = [];
+        var countries = [];
+        $.each(Mi.data, function(index, row) {
+          if (Mi.region === 'Global' || row.region === Mi.region) {
+            countries.push(row);
+            if (row.varName === Mi.name) {
+              countriesFiltered.push(row);
+            }
+          }
+        });
 
-      var countriesPage = new Mi.Views.Countries({
-        year: Mi.year,
-        type: Mi.name,
-        region: Mi.region,
-        data: countriesFiltered,
-        extraData: countries
-      });
+        var countriesPage = new Mi.Views.Countries({
+          year: Mi.year,
+          type: Mi.name,
+          region: Mi.region,
+          data: countriesFiltered,
+          extraData: countries
+        });  
+      }
 
       countryViewRendered = true;
 
