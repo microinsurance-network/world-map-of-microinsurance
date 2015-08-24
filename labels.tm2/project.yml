@@ -1,5 +1,5 @@
 _prefs: 
-  mapid: ''
+  mapid: devseed.9d887945
   saveCenter: true
 _properties: {}
 attribution: ''
@@ -9,9 +9,9 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - 16.6113
-  - -5.7034
-  - 3
+  - 1.8396
+  - 5.2323
+  - 0
 description: ''
 format: "png8:m=h"
 interactivity_layer: ''
@@ -19,7 +19,7 @@ layers: null
 maxzoom: 6
 minzoom: 0
 name: ''
-source: "tmsource:///Users/andrewbollinger/github-repos/microinsurance-dashboard/labels.tm2source"
+source: "mapbox:///devseed.33074b4e"
 styles: 
   - style.mss
 template: ''

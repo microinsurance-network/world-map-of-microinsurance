@@ -27,5 +27,5 @@
     text-halo-opacity: 0.5;
     text-avoid-edges: true;
   }
-  
 }
+
