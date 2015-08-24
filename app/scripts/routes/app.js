@@ -63,6 +63,7 @@ Mi.Routers = Mi.Routers || {};
     Mi.Routers.App = Backbone.Router.extend({
 
     initialize: function () {
+      this.headerInit();
       this.mapInit();
     },
 
@@ -130,30 +131,6 @@ Mi.Routers = Mi.Routers || {};
       if (region) { Mi.region = this.capitalizeFirstLetter(region); }
       if (year) { Mi.year = year; }
       if (name) { Mi.name = name; }
-
-      $('.menu-type a.mi-filter').each(function() {
-        $(this).attr('data-year', Mi.year);
-        $(this).attr('data-region', Mi.region);
-        $(this).attr('data-type', Mi.name);
-        var filterValue = $(this).attr('data-var');
-        $(this).attr('href', '#view/' +  Mi.region + '/' + Mi.year + '/' + filterValue);
-       });
-
-       $('.menu-region a.mi-filter').each(function() {
-        $(this).attr('data-year', Mi.year);
-        $(this).attr('data-region', Mi.region);
-        $(this).attr('data-type', Mi.name);
-        var filterValue = $(this).attr('data-var');
-        $(this).attr('href', '#view/' +  filterValue + '/' + Mi.year + '/' + Mi.name);
-       });
-
-       $('.menu-year a.mi-filter').each(function() {
-        $(this).attr('data-year', Mi.year);
-        $(this).attr('data-region', Mi.region);
-        $(this).attr('data-type', Mi.name);
-        var filterValue = $(this).attr('data-var');
-        $(this).attr('href', '#view/' +  Mi.region + '/' + filterValue + '/' + Mi.name);
-       });
 
       var countriesFiltered = [];
       var countries = [];
@@ -294,7 +271,11 @@ Mi.Routers = Mi.Routers || {};
         .attr("x", 0).attr("y", 0)
         .append("g").style("fill", "none").style("stroke", "#ddd").style("stroke-width", 0.5);
       pattern.append("path").attr("d", "M"+dashWidth+",0 l-"+dashWidth+","+dashWidth);
+    },
+
+    headerInit: function () {
+      Mi.header = new Mi.Views.Header();
     }
-    });
+  });
 
 })();
