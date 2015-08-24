@@ -30,6 +30,10 @@ var blue = '#006Da1',
       this.render();
     },
 
+    events: {
+      'click .region-nav': 'regionNav'
+    },
+
     render: function () {
 
       var _self = this;
@@ -413,6 +417,13 @@ var blue = '#006Da1',
 
     regionMatch: function (region, fullName) {
       return _.contains(fullName.split(' '), region);
+    },
+
+    regionNav: function (e) {
+      e.preventDefault();
+      Mi.router.navigate('view/' + e.target.id.toLowerCase() + '/' + Mi.year +
+        '/' + Mi.name, {trigger: true});
+
     }
   });
 
