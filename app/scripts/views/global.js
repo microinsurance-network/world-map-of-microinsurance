@@ -67,13 +67,13 @@ var blue = '#006Da1',
       // draw map and charts
       this.resetMapStyle();
       _.each(this.regions, function (region, key) {
-        _self.drawLineChart('#' + key.split(' ')[0] + '-chart', region.chartData, region.yearLabels, _self.data[0].name, _self.type, true);
+        _self.drawLineChart('#' + key + '-chart', region.chartData, region.yearLabels, _self.data[0].name, _self.type, true);
       });
 
       _.each(this.data, function(value) {
 
         Mi.countryGeo.eachLayer(function(layer){
-          if (value.iso === layer.feature.properties.iso_a3) {
+          if (value.iso === layer.feature.properties.iso_a3 && value.mainValue !== '') {
             var color = _self.getColor(value.mainValue, _self.type);
             layer.setStyle({
               fillColor: color,
@@ -214,9 +214,9 @@ var blue = '#006Da1',
       this.data.sort(function (a,b) { return b.mainValue - a.mainValue; });
 
       var regions = {
-        'Americas': {},
-        'Africa': {},
-        'Asia and Oceania': {}
+        'americas': {},
+        'africa': {},
+        'asia': {}
       };
       _.each(regions, function (r, key) {
         // years available
@@ -395,7 +395,7 @@ var blue = '#006Da1',
       var scale = chroma.scale(palette)
         .mode('hsl')
         .domain([-1, 0, 1, 2, 3, 4]);
-      return (value === 0) ? '#ddd' : scale(Math.floor(Math.min(value, 3)));
+      return (Number(value) === 0) ? '#ddd' : scale(Math.floor(Math.min(value, 3)));
     },
 
     resetMapStyle: function () {
@@ -412,10 +412,18 @@ var blue = '#006Da1',
       });
     },
 
-    regionMatch: function (region, fullName) {
-      return _.contains(fullName.split(' ').map(function(m){
-        return m.toLowerCase();
-      }), region);
+    regionMatch: function (region, regionGroup) {
+      switch (regionGroup) {
+        case 'africa':
+          return region === 'africa';
+          break;
+        case 'americas':
+          return region === 'americas';
+          break;
+        case 'asia':
+          return _.contains(['asia','oceania'], region);
+          break;
+      }
     },
 
     regionNav: function (e) {

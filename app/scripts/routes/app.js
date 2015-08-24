@@ -158,7 +158,7 @@ Mi.Routers = Mi.Routers || {};
         var countriesFiltered = [];
         var countries = [];
         $.each(Mi.data, function(index, row) {
-          if (_self.regionMatch(row.region, Mi.regions[Mi.region])) {
+          if (_self.regionMatch(row.region, Mi.region)) {
             countries.push(row);
             if (row.varName === Mi.name) {
               countriesFiltered.push(row);
@@ -326,10 +326,18 @@ Mi.Routers = Mi.Routers || {};
       });
     },
 
-    regionMatch: function (region, fullName) {
-      return _.contains(fullName.split(' ').map(function(m){
-        return m.toLowerCase();
-      }), region);
+    regionMatch: function (region, regionGroup) {
+      switch (regionGroup) {
+        case 'africa':
+          return region === 'africa';
+          break;
+        case 'americas':
+          return region === 'americas';
+          break;
+        case 'asia':
+          return _.contains(['asia','oceania'], region);
+          break;
+      }
     },
   });
 

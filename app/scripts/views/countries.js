@@ -59,7 +59,7 @@ var blue = '#006Da1',
         data: this.data,
         numberWithCommas: this.numberWithCommas,
         type: this.type,
-        region: this.capitalizeFirstLetter(this.region),
+        region: Mi.regions[this.region],
         year: ((this.year === 'all') ? (this.aggregate.years[this.aggregate.years.length - 1])
           : this.year) ,
         aggregate: this.aggregate
@@ -74,7 +74,7 @@ var blue = '#006Da1',
       _.each(this.data, function(value) {
 
         Mi.countryGeo.eachLayer(function(layer){
-          if (value.iso === layer.feature.properties.iso_a3) {
+          if (value.iso === layer.feature.properties.iso_a3 && value.mainValue !== '') {
             var color = _self.getColor(value.mainValue, _self.type);
             layer.setStyle({
               fillColor: color,
@@ -419,7 +419,7 @@ var blue = '#006Da1',
       var scale = chroma.scale(palette)
         .mode('hsl')
         .domain([-1, 0, 1, 2, 3, 4]);
-      return (value === 0) ? '#ddd' : scale(Math.floor(Math.min(value, 3)));
+      return (Number(value) === 0) ? '#ddd' : scale(Math.floor(Math.min(value, 3)));
     },
 
     resetMapStyle: function () {
