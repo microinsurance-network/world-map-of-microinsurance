@@ -13,30 +13,30 @@ var blue = '#006Da1',
     purple = '#63b',
     brown = '#321';
 
-  Mi.Views.Countries = Backbone.View.extend({
+  Mi.Views.Global = Backbone.View.extend({
 
-    template: JST['app/scripts/templates/countries.ejs'],
+    template: JST['app/scripts/templates/global.ejs'],
 
     el: '#content',
 
     initialize: function (options) {
       this.year = options.year;
       this.type = options.type;
-      this.region = options.region;
+      this.region = 'Global';
       this.data = options.data;
-      this.extraData = options.extraData // not filtered by type
+      this.graphData = options.graphData;
 
       this.processData();
       this.render();
     },
 
+    events: {
+      'click .region-nav': 'regionNav'
+    },
+
     render: function () {
 
       var _self = this;
-
-      if (!(this.region)) {
-        this.region = 'Global';
-      }
 
       $('.region-value').text(this.capitalizeFirstLetter(this.region));
       $('.type-value').text(this.capitalizeFirstLetter(this.type.replace(/-/g, ' ')));
@@ -56,19 +56,18 @@ var blue = '#006Da1',
 
       // render template
       this.$el.html(this.template({
-        data: this.data,
         numberWithCommas: this.numberWithCommas,
         type: this.type,
         region: this.region,
-        year: ((this.year === 'all') ? (this.aggregate.years[this.aggregate.years.length - 1])
-          : this.year) ,
-        aggregate: this.aggregate
+        year: this.year,
+        regions: this.regions,
+        name: this.data[0].name
       }));
 
       // draw map and charts
       this.resetMapStyle();
-      _.each(this.aggregate.graphs, function (graph) {
-        _self.drawLineChart('#chart-' + graph.type, graph.chartData, _self.aggregate.years, graph.name, graph.type, true);
+      _.each(this.regions, function (region, key) {
+        _self.drawLineChart('#' + key.split(' ')[0] + '-chart', region.chartData, region.yearLabels, _self.data[0].name, _self.type, true);
       });
 
       _.each(this.data, function(value) {
@@ -96,23 +95,6 @@ var blue = '#006Da1',
             layer.bindPopup(markup, { autoPan: true });
           }
         });
-
-
-        if (value.mainValue > 0) {
-
-          var chartData = [];
-          var yearLabels = [];
-          _.each(value.timeseries, function(year) {
-            if (year.value != 0) {
-             chartData.push(year.value);
-             yearLabels.push(year.year);
-            }
-          });
-
-          _self.drawLineChart('#' + value.iso + '-chart', chartData, yearLabels, value.name);
-
-        }
-
        });
 
        $('#map').animate({height: '450px'});
@@ -187,6 +169,8 @@ var blue = '#006Da1',
 
     processData: function () {
       var _self = this;
+
+      // for the map
       this.metaData = _.groupBy(Mi.data, 'country');
       // data handling
       _.each(this.data, function(d){
@@ -229,43 +213,45 @@ var blue = '#006Da1',
 
       this.data.sort(function (a,b) { return b.mainValue - a.mainValue; });
 
-      // aggregate ratios desired
-      var ratios = ['total-microinsurance-coverage-ratio',
-        'credit-life-coverage-ratio','health-coverage-ratio',
-        'accident-coverage-ratio','property-coverage-ratio',
-        'agriculture-coverage-ratio'];
-      // years available
-      var yearLabels = [];
-      // calculate regional aggregated population by year
-      var sumPopulation;
-      _.pluck(_self.extraData.filter(function(f) {
-        return f.varName === 'population-(total)';
-      }), 'timeseries').forEach(function(d) {
-        if (!sumPopulation) {
-          sumPopulation = _.pluck(d, 'value');
-        } else {
-          d.forEach(function (t, i) {
-            sumPopulation[i] = Number(sumPopulation[i]) + Number(t.value);
-          });
-        }
-      });
-      var graphs = ratios.map(function (ratio) {
-        var mainValue, crudeCoverage;
-        // grab the data for just this ratio (but the absolute/crude numbers)
-        var filtered = _self.extraData.filter(function(f) {
-          return f.varName === ratio.slice(0, -6);
+      var regions = {
+        'Americas': {},
+        'Africa': {},
+        'Asia and Oceania': {}
+      };
+      _.each(regions, function (r, key) {
+        // years available
+        var yearLabels = [];
+        // calculate regional aggregated population by year
+        var sumPopulation = false;
+        _.pluck(_self.graphData.population.filter(function (f) {
+          return _self.regionMatch(f.region, key);
+        }), 'timeseries').forEach(function(d) {
+          if (!sumPopulation) {
+            sumPopulation = _.pluck(d, 'value');
+          } else {
+            d.forEach(function (t, i) {
+              sumPopulation[i] = Number(sumPopulation[i]) + Number(t.value);
+            });
+          }
         });
+        r.sumPopulation = sumPopulation;
+
         // get a timeseries of crude value
         var timeseries = [];
-        filtered.forEach(function(d) {
+        _.pluck(_self.graphData.crudeCoverage.filter(function (f) {
+          return _self.regionMatch(f.region, key);
+        }), 'timeseries').forEach(function(d) {
           if (!timeseries.length) {
-            timeseries = _.cloneDeep(d.timeseries);
+            timeseries = _.cloneDeep(d);
           } else {
-            d.timeseries.forEach(function (t, i) {
+            d.forEach(function (t, i) {
               timeseries[i].value = Number(timeseries[i].value) + Number(t.value);
             });
           }
         });
+
+        // calculate data for charts
+        var mainValue, crudeCoverage;
         var chartData = [];
         var popYear = [];
         _.each(timeseries, function(year, index) {
@@ -282,53 +268,43 @@ var blue = '#006Da1',
              crudeCoverage = year.value.toFixed(0);
            }
         });
-        return {
-          type: ratio,
-          chartData: chartData,
-          name: filtered[0].name,
-          mainValue: mainValue,
-          crudeCoverage: crudeCoverage,
-          popYear: popYear
-        }
-      });
-      yearLabels = _.unique(yearLabels);
-      yearLabels.sort(function (a,b) { return a - b; });
-      // get rid of years and values where everything is zero
-      var zeroArray = new Array(graphs[0].chartData.length);
-      graphs.forEach(function(d) {
-        d.chartData.forEach(function(cd, i) {
+
+        yearLabels = _.unique(yearLabels);
+        yearLabels.sort(function (a,b) { return a - b; });
+
+        // get rid of years and values where everything is zero
+        var zeroArray = new Array(chartData.length);
+        chartData.forEach(function(cd, i) {
           zeroArray[i] = !zeroArray[i] ? 0 : zeroArray[i];
           zeroArray[i] += cd;
         });
-      });
-      // do this backwards so we keep the indicies in order
-      zeroArray.reverse();
-      var l = zeroArray.length;
-      zeroArray.forEach(function (d, i) {
-        if (d === 0) {
-          yearLabels.splice(l - i - 1, 1);
-          graphs.forEach(function(g) {
-            g.chartData.splice(l - i - 1, 1);
-            g.popYear.splice(l - i - 1, 1)
-          });
-        }
-      });
-      // for "most recent" grab certain values now
-      if (this.year === 'all') {
-        graphs.forEach(function (g) {
-          g.mainValue = g.chartData[g.chartData.length - 1];
-          g.crudeCoverage = (g.chartData[g.chartData.length - 1] *
-            g.popYear[g.popYear.length - 1] / 100).toFixed(0);
+        // do this backwards so we keep the indicies in order
+        zeroArray.reverse();
+        var l = zeroArray.length;
+        zeroArray.forEach(function (d, i) {
+          if (d === 0) {
+            yearLabels.splice(l - i - 1, 1);
+            chartData.splice(l - i - 1, 1);
+            popYear.splice(l - i - 1, 1);
+          }
         });
-      }
-      // sort graphs by main value
-      graphs.sort(function(a,b){ return b.mainValue - a.mainValue; })
+        // for "most recent" grab certain values now
+        if (_self.year === 'all') {
+          mainValue = chartData[chartData.length - 1];
+          crudeCoverage = (chartData[chartData.length - 1] *
+              popYear[popYear.length - 1] / 100).toFixed(0);
+        }
 
-      this.aggregate = {
-        graphs: graphs,
-        years: yearLabels//,
-        //regionStats:
-      };
+        r.chartData = chartData;
+        r.mainValue = mainValue,
+        r.crudeCoverage = crudeCoverage;
+        r.popYear = popYear;
+        r.yearLabels = yearLabels;
+        r.year = yearLabels[yearLabels.length - 1];
+
+      });
+
+      this.regions = regions;
     },
 
     setView: function (region) {
@@ -437,6 +413,17 @@ var blue = '#006Da1',
         // is resolved
         d3.selectAll('.leaflet-overlay-pane path').classed('no-data', true);
       });
+    },
+
+    regionMatch: function (region, fullName) {
+      return _.contains(fullName.split(' '), region);
+    },
+
+    regionNav: function (e) {
+      e.preventDefault();
+      Mi.router.navigate('view/' + e.target.id.toLowerCase() + '/' + Mi.year +
+        '/' + Mi.name, {trigger: true});
+
     }
   });
 

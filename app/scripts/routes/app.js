@@ -96,7 +96,9 @@ Mi.Routers = Mi.Routers || {};
           name: d.Indicator,
           // iterate over our numeric keys
           timeseries: _.map(_.filter(_.keys(d),function(key){ return !isNaN(Number(key)); }), function(numericKey){
-            return { year: Number(numericKey), value: Number(d[numericKey]) };
+            return {
+              year: Number(numericKey),
+              value: (d[numericKey] === '' ? '' : Number(d[numericKey])) };
           }),
           varName: d.Indicator.split(' ').join('-').toLowerCase(),
           country: d.Country,
@@ -120,12 +122,15 @@ Mi.Routers = Mi.Routers || {};
             d.median = indicatorMedian;
           });
         });
+
         if (callback) callback.apply(that, args);
       });
     },
 
     viewPage: function(region, year, name) {
       $('.loader').fadeIn();
+
+      this.closePopups();
 
       if (region) { Mi.region = this.capitalizeFirstLetter(region); }
       if (year) { Mi.year = year; }
@@ -155,24 +160,48 @@ Mi.Routers = Mi.Routers || {};
         $(this).attr('href', '#view/' +  Mi.region + '/' + filterValue + '/' + Mi.name);
        });
 
-      var countriesFiltered = [];
-      var countries = [];
-      $.each(Mi.data, function(index, row) {
-        if (Mi.region == 'Global' || row.region === Mi.region) {
-          countries.push(row);
+      if (Mi.region === 'Global') {
+        var data = [];
+        var population = [];
+        var crudeCoverage = [];
+        $.each(Mi.data, function(index, row) {
           if (row.varName === Mi.name) {
-            countriesFiltered.push(row);
+            data.push(row);
+          } else if (row.varName === 'population-(total)') {
+            population.push(row);
+          } else if (row.varName === Mi.name.slice(0, -6)) {
+            crudeCoverage.push(row);
           }
-        }
-      });
+        });
+        var countriesPage = new Mi.Views.Global({
+          year: Mi.year,
+          type: Mi.name,
+          data: data,
+          graphData: {
+            population: population,
+            crudeCoverage: crudeCoverage
+          }
+        });
+      } else {
+        var countriesFiltered = [];
+        var countries = [];
+        $.each(Mi.data, function(index, row) {
+          if (Mi.region === 'Global' || row.region === Mi.region) {
+            countries.push(row);
+            if (row.varName === Mi.name) {
+              countriesFiltered.push(row);
+            }
+          }
+        });
 
-      var countriesPage = new Mi.Views.Countries({
-        year: Mi.year,
-        type: Mi.name,
-        region: Mi.region,
-        data: countriesFiltered,
-        extraData: countries
-      });
+        var countriesPage = new Mi.Views.Countries({
+          year: Mi.year,
+          type: Mi.name,
+          region: Mi.region,
+          data: countriesFiltered,
+          extraData: countries
+        });  
+      }
 
       countryViewRendered = true;
 
@@ -182,10 +211,12 @@ Mi.Routers = Mi.Routers || {};
 
      viewCountry: function(country) {
 
-       // if we haven't yet, do the full render to get map info
-       if (!countryViewRendered) {
-         this.viewPage();
-       }
+        // if we haven't yet, do the full render to get map info
+        if (!countryViewRendered) {
+          this.viewPage();
+        }
+
+        this.closePopups();
 
         $('.loader').fadeIn();
 
@@ -294,7 +325,19 @@ Mi.Routers = Mi.Routers || {};
         .attr("x", 0).attr("y", 0)
         .append("g").style("fill", "none").style("stroke", "#ddd").style("stroke-width", 0.5);
       pattern.append("path").attr("d", "M"+dashWidth+",0 l-"+dashWidth+","+dashWidth);
+    },
+
+    closePopups: function () {
+      Mi.countryGeo.eachLayer(function (layer) {
+        try {
+          layer.closePopup();
+        } catch (e) {
+          _.each(layer._layers, function(subLayer){
+            subLayer.closePopup();
+          });
+        }
+      });
     }
-    });
+  });
 
 })();

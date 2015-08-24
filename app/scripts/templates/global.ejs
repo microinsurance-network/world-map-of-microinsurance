@@ -1,0 +1,16 @@
+<% _.each(regions, function(value, key) { %>
+  <% if (value.mainValue > 0) { %>
+    <div class="col-sm-4 col-md-4 col-xs-6 row-country" data-mi-ratio="<%= value.mainValue %>">
+      <div class="inner">
+        <a class="more-info" data-toggle="popover" data-content="<%= Mi.description[type] %>">?</a>
+        <b><%= key %></b>
+        <br>
+        <span class="mi-ratio-value"><a href="" class="region-nav" id="<%= key.split(' ')[0] %>"><%= value.mainValue %>%</a></span>
+        <span class="mi-ratio-label"><%= name %></span>
+        <div id="<%= key.split(' ')[0] %>-chart" class="hchart"></div>
+        <span class="mi-crude-value"><%= numberWithCommas(value.crudeCoverage) %> lives insured</span>
+        <span class="mi-year-value">Year: <%= value.year %></span>
+      </div>
+    </div>
+  <% } %>
+<% }) %>
