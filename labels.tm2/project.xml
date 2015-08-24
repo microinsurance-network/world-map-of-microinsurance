@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+
+<Parameters>
+  <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
+  <Parameter name="center">1.8396,5.2323,0</Parameter>
+  <Parameter name="format">png8:m=h</Parameter>
+  <Parameter name="maxzoom">6</Parameter>
+  <Parameter name="minzoom">0</Parameter>
+  <Parameter name="source"><![CDATA[mapbox:///devseed.33074b4e]]></Parameter>
+</Parameters>
+
+
+<Style name="centroids" filter-mode="first">
+  <Rule>
+    <MinScaleDenominator>50000000</MinScaleDenominator>
+    <Filter>([ISO_A3] != 'BDI') and ([ISO_A3] != 'SLE') and ([ISO_A3] != 'CIV') and ([ISO_A3] != 'VNM') and ([ISO_A3] != 'NIC')</Filter>
+    <TextSymbolizer face-name="Source Sans Pro Semibold" fill="#ffffff" size="12" halo-radius="1" halo-fill="#555555" halo-opacity="0.5" avoid-edges="true" ><![CDATA[[ISO_A3]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <Filter>([ISO_A3] != 'BDI') and ([ISO_A3] != 'SLE') and ([ISO_A3] != 'CIV') and ([ISO_A3] != 'VNM') and ([ISO_A3] != 'NIC')</Filter>
+    <TextSymbolizer face-name="Source Sans Pro Semibold" fill="#ffffff" size="12" halo-radius="1" halo-fill="rgba(85, 85, 85, 0.5)" halo-rasterizer="fast" avoid-edges="true" ><![CDATA[[ISO_A3]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <TextSymbolizer face-name="Source Sans Pro Semibold" fill="#ffffff" size="12" halo-radius="1" halo-fill="rgba(85, 85, 85, 0.5)" halo-rasterizer="fast" avoid-edges="true" ><![CDATA[[ISO_A3]]]></TextSymbolizer>
+  </Rule>
+</Style>
+<Layer name="centroids"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>centroids</StyleName>  </Layer>
+
+</Map>

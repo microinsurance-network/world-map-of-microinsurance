@@ -74,7 +74,7 @@ Mi.Views = Mi.Views || {};
           }
         ]
       }));
-
+      
       _.each(this.data, function(value, index) {
         if (value.name.indexOf('ratio') >= 0 &&
           value.mostRecent.value != null &&
@@ -85,7 +85,7 @@ Mi.Views = Mi.Views || {};
           var chartData = [];
           var yearLabels = [];
           $.each(value.timeseries, function(index, year) {
-            if (year.value != 0) {
+            if (year.value !== "") {
              chartData.push(year.value);
              yearLabels.push(year.year);
             }

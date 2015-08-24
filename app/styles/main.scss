@@ -230,7 +230,7 @@ a:hover {
   }
 }
 
-.aggregate-country {
+.aggregate-bar {
   padding: 24px 20px;
   margin: 0;
   float: left;
@@ -238,7 +238,7 @@ a:hover {
   border-bottom: 1px solid #ccc;
   border-right: 1px solid #ccc;
   background: #fff;
-  .country-title {
+  .aggregate-title {
     display: inline-block;
     margin: 0 5px;
   }
@@ -247,15 +247,15 @@ a:hover {
     display: inline-block;
     padding: 0 15px;
     text-align: center;
-    .country-stat-info { color: #777; }
+    .aggregate-stat-info { color: #777; }
   }
 }
 
 @media (max-width: 768px) {
   .aggregate-row { height: 380px; }
   .aggregate-growth { height: 200px; }
-  .aggregate-country {
-    .country-title { display: block; }
+  .aggregate-bar {
+    .aggregate-title { display: block; }
     & > div {
       margin-top: 10px;
       float: none;
