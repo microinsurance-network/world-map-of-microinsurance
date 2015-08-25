@@ -15,7 +15,7 @@
   <% }); %>
 </div>
 <% _.each(data, function(value, index) { %>
-  <% if (value.name.indexOf('ratio') >= 0 && value.mostRecent.value !== "" && value.name !=='Life coverage ratio (excluding credit life)' && value.name !== 'Life and accident coverage ratio (excluding credit life)') { %>
+  <% if (value.name.indexOf('ratio') >= 0 && value.indicatorValue !== '' && value.name !=='Life coverage ratio (excluding credit life)' && value.name !== 'Life and accident coverage ratio (excluding credit life)') { %>
 	  <div class="col-sm-4 col-md-3 col-xs-6 row-country <%= value.varName %>">
 		  <div class="inner">
 			  <a class="more-info" href="#" data-toggle="popover" title="<%= value.name %>" data-content="<%= Mi.description[value.varName] %>">?</a>
@@ -23,7 +23,7 @@
 					<span class="mi-ratio-label"><%= value.name %></span>
 					<div id="<%= value.iso %>-chart-<%= index %>" class="hchart"></div>
 					<span class="mi-crude-value"><%= numberWithCommas(value.crudeCoverage) %> lives insured</span>
-					<span class="mi-year-value">Year: <%= value.mostRecent.year %></span>
+					<span class="mi-year-value">Year: <%= value.indicatorYear %></span>
 				</div>
 			</div>
   <% } %>
