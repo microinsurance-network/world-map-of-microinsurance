@@ -1,0 +1,69 @@
+<div class="container">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand mi-reset" href="#">Microinsurance Dashboard</a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Data <span class="caret"></span></a>
+        <ul class="dropdown-menu menu-data" role="menu">
+          <li><a href="assets/data/mi-data.csv">Download (csv)</a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation" class="dropdown-header">Landscape Studies (pdf)</li>
+          <% _.each(studies.filter(function(f) { return f.link; }), function(study) { %>
+            <li><a href="<%= study.link %>" target="_blank"><%= study.name %></a></li>
+          <% }); %>
+        </ul>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Study <span class="caret"></span></a>
+        <ul class="dropdown-menu menu-study" role="menu">
+          <% _.each(studies, function(study) { %>
+            <li><a class="mi-filter" data-var="<%= study.region_code %> <%= study.data_year %>" target="_blank"><%= study.name %></a></li>
+          <% }); %>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Region <span class="caret"></span></a>
+        <ul class="dropdown-menu menu-region" role="menu">
+          <li><a class="mi-filter" data-var="global" href="#">Global</a></li>
+          <li class="divider"></li>
+          <% _.each(regions, function(region, key) { %>
+            <li><a class="mi-filter" data-var="<%= key %>" target="_blank"><%= region %></a></li>
+          <% }); %>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Type <span class="caret"></span></a>
+        <ul class="dropdown-menu menu-type" role="menu">
+          <li><a class="mi-filter" data-var="total-microinsurance-coverage-ratio" href="#">Total microinsurance coverage ratio</a></li>
+          <li class="divider"></li>
+          <li><a class="mi-filter" data-var="credit-life-coverage-ratio" href="#">Credit life coverage Ratio</a></li>
+          <li><a class="mi-filter" data-var="health-coverage-ratio" href="#">Health coverage ratio</a></li>
+          <li><a class="mi-filter" data-var="accident-coverage-ratio" href="#">Accident coverage ratio</a></li>
+          <li><a class="mi-filter" data-var="property-coverage-ratio" href="#">Property coverage ratio</a></li>
+          <li><a class="mi-filter" data-var="agriculture-coverage-ratio" href="#">Agriculture coverage ratio</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Share <span class="caret"></span></a>
+        <ul class="dropdown-menu menu-share" role="menu">
+          <li><a id="twitter-share-btn" href="#">Twitter</a></li>
+          <li><a id="facebook-share-btn" href="#">Facebook</a></li>
+          <li><a id="linkedin-share-btn" href="#">LinkedIn</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div><!-- /.navbar-collapse -->

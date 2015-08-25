@@ -9,17 +9,18 @@ Mi.Routers = Mi.Routers || {};
 
     $(document).on('click', '.mi-reset', function(e) {
       Mi.year = 'all',
-      Mi.region = 'Global',
+      Mi.region = 'global',
       Mi.name = 'total-microinsurance-coverage-ratio';
     });
 
     Mi.dataUrl = 'assets/data/mi-data.csv';
+    Mi.studyUrl = 'assets/data/studies.csv'
     Mi.data = null,
     Mi.models = {},
     Mi.collections = {},
     Mi.views = {},
     Mi.year = 'all',
-    Mi.region = 'Global',
+    Mi.region = 'global',
     Mi.name = 'total-microinsurance-coverage-ratio',
     Mi.token = 'pk.eyJ1IjoiZGV2c2VlZCIsImEiOiJnUi1mbkVvIn0.018aLhX0Mb0tdtaT2QNe2Q',
     Mi.labelControl = L.Control.extend({
@@ -53,16 +54,10 @@ Mi.Routers = Mi.Routers || {};
       "health-coverage-ratio": "Coverage that provides benefits as a result of sickness or injury. Policies include insurance for losses from accident, medical expense, disability, or accidental death and dismemberment."
     },
 
-    Mi.studies = [
-      { link: "http://www.microinsurancenetwork.org/sites/default/files/The_landscape_of_microinsurance_in_Asia_and_Oceania_2013__full_report.pdf", country: 'asia', year: 2013 },
-      { link: "http://www.microinsurancenetwork.org/sites/default/files/The_Landscape_of_MI_in_Africa_2012_full_study_web.pdf", country: 'africa', year: 2012 },
-      { link: "http://www.microinsurancenetwork.org/sites/default/files/LandscapeLatinAme.pdf", country: 'la', year: 2011 },
-      { link: "http://www.microinsurancenetwork.org//sites/default/files/files/mpaper4_landscape_en.pdf", country: 'africa', year: 2010 }
-    ];
-
     Mi.Routers.App = Backbone.Router.extend({
 
     initialize: function () {
+      this.headerInit();
       this.mapInit();
     },
 
@@ -102,7 +97,7 @@ Mi.Routers = Mi.Routers || {};
           }),
           varName: d.Indicator.split(' ').join('-').toLowerCase(),
           country: d.Country,
-          region: d.Region,
+          region: d.Region.toLowerCase(),
           iso: d.iso3
         };
       }, function(error, data) {
@@ -128,39 +123,16 @@ Mi.Routers = Mi.Routers || {};
     },
 
     viewPage: function(region, year, name) {
-      $('.loader').fadeIn();
+      var _self = this;
 
+      $('.loader').fadeIn();
       this.closePopups();
 
-      if (region) { Mi.region = this.capitalizeFirstLetter(region); }
+      if (region) { Mi.region = region; }
       if (year) { Mi.year = year; }
       if (name) { Mi.name = name; }
 
-      $('.menu-type a.mi-filter').each(function() {
-        $(this).attr('data-year', Mi.year);
-        $(this).attr('data-region', Mi.region);
-        $(this).attr('data-type', Mi.name);
-        var filterValue = $(this).attr('data-var');
-        $(this).attr('href', '#view/' +  Mi.region + '/' + Mi.year + '/' + filterValue);
-       });
-
-       $('.menu-region a.mi-filter').each(function() {
-        $(this).attr('data-year', Mi.year);
-        $(this).attr('data-region', Mi.region);
-        $(this).attr('data-type', Mi.name);
-        var filterValue = $(this).attr('data-var');
-        $(this).attr('href', '#view/' +  filterValue + '/' + Mi.year + '/' + Mi.name);
-       });
-
-       $('.menu-year a.mi-filter').each(function() {
-        $(this).attr('data-year', Mi.year);
-        $(this).attr('data-region', Mi.region);
-        $(this).attr('data-type', Mi.name);
-        var filterValue = $(this).attr('data-var');
-        $(this).attr('href', '#view/' +  Mi.region + '/' + filterValue + '/' + Mi.name);
-       });
-
-      if (Mi.region === 'Global') {
+      if (Mi.region === 'global') {
         var data = [];
         var population = [];
         var crudeCoverage = [];
@@ -186,7 +158,7 @@ Mi.Routers = Mi.Routers || {};
         var countriesFiltered = [];
         var countries = [];
         $.each(Mi.data, function(index, row) {
-          if (Mi.region === 'Global' || row.region === Mi.region) {
+          if (_self.regionMatch(row.region, Mi.region)) {
             countries.push(row);
             if (row.varName === Mi.name) {
               countriesFiltered.push(row);
@@ -200,7 +172,7 @@ Mi.Routers = Mi.Routers || {};
           region: Mi.region,
           data: countriesFiltered,
           extraData: countries
-        });  
+        });
       }
 
       countryViewRendered = true;
@@ -327,6 +299,21 @@ Mi.Routers = Mi.Routers || {};
       pattern.append("path").attr("d", "M"+dashWidth+",0 l-"+dashWidth+","+dashWidth);
     },
 
+    headerInit: function () {
+      d3.csv(Mi.studyUrl, function(error, data){
+        var studies = data;
+        // make object of region names and codes
+        var regions = {};
+        _.each(studies, function (study) {
+          if (study.region_name) {
+            regions[study.region_code] = study.region_name;
+          }
+        });
+        Mi.regions = regions;
+        Mi.header = new Mi.Views.Header({studies: studies, regions: regions });
+      });
+    },
+
     closePopups: function () {
       Mi.countryGeo.eachLayer(function (layer) {
         try {
@@ -337,7 +324,21 @@ Mi.Routers = Mi.Routers || {};
           });
         }
       });
-    }
+    },
+
+    regionMatch: function (region, regionGroup) {
+      switch (regionGroup) {
+        case 'africa':
+          return region === 'africa';
+          break;
+        case 'americas':
+          return region === 'americas';
+          break;
+        case 'asia':
+          return _.contains(['asia','oceania'], region);
+          break;
+      }
+    },
   });
 
 })();
