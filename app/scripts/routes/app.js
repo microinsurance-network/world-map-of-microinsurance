@@ -104,6 +104,9 @@ Mi.Routers = Mi.Routers || {};
         _.each(Mi.countryGrouped, function (country, key) {
           Mi.doubledGrouped[key] = _.groupBy(country, 'varName');
         });
+        Mi.years = _.pluck(Mi.data[0].timeseries, 'year');
+        Mi.nameObject = _.zipObject(_.unique(_.pluck(Mi.data, 'varName')),
+           _.unique(_.pluck(Mi.data, 'name')));
 
         if (callback) callback.apply(that, args);
       });

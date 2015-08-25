@@ -18,7 +18,6 @@ var blue = '#006Da1',
     el: '#content',
 
     drawLineChart: function(selector, data, categories, name, type, agg) {
-
       var _self = this;
       var typeUsed = type || this.type;
       var color = _self.getColor(2, typeUsed).hex();
@@ -238,10 +237,14 @@ var blue = '#006Da1',
       });
     },
 
-    getFromTimeseries: function (timeseries, matchYear) {
+    getFromTimeseries: function (timeseries, matchYear, altPluck) {
+      var toPluck = altPluck || 'value';
+      if (matchYear === 'all') {
+        return this.lastNonEmptyElement(_.pluck(timeseries, toPluck))
+      }
       _.each(timeseries, function(y) {
         if (parseFloat(matchYear) === parseFloat(y.year)) {
-          return y.value;
+          return y[toPluck];
         }
       });
     },
@@ -253,6 +256,24 @@ var blue = '#006Da1',
          return { year: c.year, value: Number(c.value) + Number(d.value) }
         })
       })
+    },
+
+    // our timeseries arrays are always the same length
+    // made into a function for clarity
+    yearToIndex: function (year) {
+      return Mi.years.indexOf(year);
+    },
+
+    lastNonEmptyElement: function (array) {
+      var backwards = array.slice(0).reverse();
+      var toReturn = '';
+      for (var i = 0; i < backwards.length; i++) {
+        if (backwards[i] !== '' && backwards[i] !== undefined) {
+          var toReturn = backwards[i];
+          break;
+        };
+      }
+      return toReturn;
     }
   });
 

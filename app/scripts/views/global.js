@@ -53,7 +53,9 @@ Mi.Views = Mi.Views || {};
       // draw map and charts
       this.resetMapStyle();
       _.each(this.regions, function (region, key) {
-        _self.drawLineChart('#' + key + '-chart', region.chartData, region.yearLabels, _self.data[0].name, _self.type, true);
+        _self.drawLineChart('#' + key + '-chart',
+          _.pluck(region.chartData,'value'), _.pluck(region.chartData,'year'),
+          _self.data[0].name, _self.type, true);
       });
 
       _.each(this.data, function(value) {
@@ -71,13 +73,8 @@ Mi.Views = Mi.Views || {};
       // data handling (for the map only)
       _.each(this.data, function(d){
         // set our year and get the most recent value for the map
-        if (_self.year === 'all') {
-          d.filterYear = d.mostRecent.year;
-          d.mainValue = d.mostRecent.value;
-        } else {
-          d.filterYear = _self.year;
-          d.mainValue = _self.getFromTimeseries(d.timeseries, _self.year);
-        }
+        d.mainValue = _self.getFromTimeseries(d.timeseries, _self.year);
+        d.filterYear = _self.getFromTimeseries(d.timeseries, _self.year, 'year');
       });
 
       var regions = {
@@ -103,57 +100,26 @@ Mi.Views = Mi.Views || {};
         var sumCrude = _self.aggregateTimeseries(crudeArray);
 
         // calculate data for charts
-        var mainValue, crudeCoverage;
-        var chartData = [];
-        var popYear = [];
-        _.each(sumCrude, function(year, index) {
-           if (sumPopulation[index].value) {
-             chartData.push(Number((year.value / sumPopulation[index].value * 100).toFixed(2)));
-             popYear.push(sumPopulation[index].value);
-           } else {
-             chartData.push(0);
-             popYear.push(0);
-           }
-           yearLabels.push(year.year);
-           if (year.year === parseFloat(_self.year)) {
-             mainValue = Number((year.value / sumPopulation[index].value * 100).toFixed(2));
-             crudeCoverage = year.value.toFixed(0);
-           }
-        });
-
-        yearLabels = _.unique(yearLabels);
-        yearLabels.sort(function (a,b) { return a - b; });
-
-        // get rid of years and values where everything is zero
-        var zeroArray = new Array(chartData.length);
-        chartData.forEach(function(cd, i) {
-          zeroArray[i] = !zeroArray[i] ? 0 : zeroArray[i];
-          zeroArray[i] += cd;
-        });
-        // do this backwards so we keep the indicies in order
-        zeroArray.reverse();
-        var l = zeroArray.length;
-        zeroArray.forEach(function (d, i) {
-          if (d === 0) {
-            yearLabels.splice(l - i - 1, 1);
-            chartData.splice(l - i - 1, 1);
-            popYear.splice(l - i - 1, 1);
+        var chartData = sumCrude.map(function (m, i) {
+          if (sumPopulation[i].value && m.value) {
+            return {
+              year: m.year,
+              value: Number((m.value / sumPopulation[i].value * 100).toFixed(2))
+            };
+          } else {
+            // do this to keep the same array size, filter out later
+            return false
           }
         });
-        // for "most recent" grab certain values now
-        if (_self.year === 'all') {
-          mainValue = chartData[chartData.length - 1];
-          crudeCoverage = (chartData[chartData.length - 1] *
-              popYear[popYear.length - 1] / 100).toFixed(0);
-        }
 
-        r.chartData = chartData;
+        var mainValue = _self.getFromTimeseries(chartData, _self.year);
+        var crudeCoverage = _self.getFromTimeseries(sumCrude, _self.year);
+        var year = _self.getFromTimeseries(chartData, _self.year, 'year');
+
+        r.chartData = chartData.filter(function(f) { return !!f; });
         r.mainValue = mainValue,
         r.crudeCoverage = crudeCoverage;
-        r.popYear = popYear;
-        r.yearLabels = yearLabels;
-        r.year = yearLabels[yearLabels.length - 1];
-
+        r.year = year;
       });
 
       this.regions = regions;
