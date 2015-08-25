@@ -19,7 +19,7 @@ Mi.Views = Mi.Views || {};
     },
 
     events: {
-      'click .dropdown-menu': 'dropdownNav'
+      'click .dropdown-menu:not(".menu-data")': 'dropdownNav'
     },
 
     render: function () {

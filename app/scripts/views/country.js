@@ -16,6 +16,7 @@ Mi.Views = Mi.Views || {};
     this.region = options.region;
     this.data = options.data;
     this.iso = options.iso;
+    this.country = options.country;
     this.extraData = options.extraData;
     this.render();
   },
@@ -35,15 +36,20 @@ Mi.Views = Mi.Views || {};
         d.indicatorValue = '';
         if (d.name.indexOf('ratio') >= 0){
           if (d.indicatorValue != null) {
-            d.indicatorValue = d.mostRecent.value + '%';
-            d.crudeCoverage = _.filter(_self.data, function(f){
-              return f.varName === d.varName.replace('-ratio','');
-            })[0].mostRecent.value;
+            d.indicatorValue = _self.getFromTimeseries(d.timeseries, 'all');
+            d.indicatorYear = _self.getFromTimeseries(d.timeseries, 'all', 'year');
+            d.crudeCoverage = _self.getFromTimeseries(
+              Mi.doubledGrouped[_self.country][d.varName.replace('-ratio','')][0].timeseries,
+              'all');
+              console.log(d.varName);
+            console.log(d.timeseries);
           }
         } else {
-          d.indicatorValue = d.mostRecent.value;
+          d.indicatorValue = _self.getFromTimeseries(d.timeseries, 'all');
         }
       });
+
+      this.data.sort(function(a,b){ return b.indicatorValue - a.indicatorValue; });
 
       this.$el.html(this.template({
         data: this.data,
@@ -69,7 +75,7 @@ Mi.Views = Mi.Views || {};
 
       _.each(this.data, function(value, index) {
         if (value.name.indexOf('ratio') >= 0 &&
-          value.mostRecent.value !== '' &&
+          value.indicatorValue !== '' &&
           value.name != 'Life coverage ratio (excluding credit life)' &&
           value.name != 'Life and accident coverage ratio (excluding credit life)') {
 

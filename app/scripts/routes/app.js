@@ -80,10 +80,6 @@ Mi.Routers = Mi.Routers || {};
       d3.csv(Mi.dataUrl, function(d) {
         return {
           category: d.Category,
-          mostRecent: _.reduce(d, function(a, b, key){
-            // numeric key, later year, has a value
-            return (!isNaN(Number(key)) && Number(key) > a.year && b !== "") ? { year: Number(key), value: Number(b) } : a },
-            { year: 0, value: ""}),
           name: d.Indicator,
           // iterate over our numeric keys
           timeseries: _.map(_.filter(_.keys(d),function(key){ return !isNaN(Number(key)); }), function(numericKey){
@@ -155,7 +151,7 @@ Mi.Routers = Mi.Routers || {};
 
 
      viewCountry: function(country) {
-
+       var _self = this;
         // if we haven't yet, do the full render to get map info
         if (!countryViewRendered) {
           this.viewPage();
@@ -179,7 +175,7 @@ Mi.Routers = Mi.Routers || {};
             'Total microinsurance coverage',
             'Total microinsurance coverage ratio'
           ], row.name)) {
-            extraData[row.varName] = row.mostRecent;
+            extraData[row.varName] = _self.getFromTimeseries(row.timeseries, 'all');
           }
         });
 
@@ -189,6 +185,7 @@ Mi.Routers = Mi.Routers || {};
           region: Mi.region,
           data: countries,
           iso: countries[0].iso,
+          country: countries[0].country,
           extraData: extraData
         });
 
@@ -295,6 +292,58 @@ Mi.Routers = Mi.Routers || {};
           break;
       }
     },
+
+    // TODO: duplicated from base.js, add to a utils file to remove cruft
+    getFromTimeseries: function (timeseries, matchYear, altPluck, skipZeroes) {
+      var toPluck = altPluck || 'value';
+      if (matchYear === 'all') {
+        var index = this.lastNonEmptyIndex(_.pluck(timeseries, 'value'), skipZeroes);
+        return (index > 0) ? timeseries[index][toPluck] : '';
+      } else {
+        var toReturn = '';
+        _.each(timeseries, function(y) {
+          if (parseFloat(matchYear) === parseFloat(y.year)) {
+            toReturn = y[toPluck];
+          }
+        });
+        return toReturn;
+      }
+    },
+
+    // I hate that the word series is its own plural
+    aggregateTimeseries: function (array) {
+      return array.reduce(function(a,b) {
+        return _.merge(_.cloneDeep(a), b, function(c, d) {
+         return { year: c.year, value: Number(c.value) + Number(d.value) }
+        })
+      })
+    },
+
+    // our timeseries arrays are always the same length
+    // made into a function for clarity
+    yearToIndex: function (year) {
+      return Mi.years.indexOf(year);
+    },
+
+    lastNonEmptyElement: function (array, skipZeroes) {
+      var index = this.lastNonEmptyIndex(array, skipZeroes);
+      return (index > 0) ? array[index] : '';
+    },
+
+    lastNonEmptyIndex: function (array, skipZeroes) {
+      var backwards = array.slice(0).reverse();
+      var toReturn = '';
+      for (var i = 0; i < backwards.length; i++) {
+        if (backwards[i] !== '' && backwards[i] !== undefined) {
+          if (!skipZeroes || backwards[i] !== 0){
+            return backwards.length - i - 1
+            break;
+          }
+        };
+      }
+      return -1;
+    }
+
   });
 
 })();

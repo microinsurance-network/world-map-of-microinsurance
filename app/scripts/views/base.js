@@ -237,16 +237,20 @@ var blue = '#006Da1',
       });
     },
 
-    getFromTimeseries: function (timeseries, matchYear, altPluck) {
+    getFromTimeseries: function (timeseries, matchYear, altPluck, skipZeroes) {
       var toPluck = altPluck || 'value';
       if (matchYear === 'all') {
-        return this.lastNonEmptyElement(_.pluck(timeseries, toPluck))
+        var index = this.lastNonEmptyIndex(_.pluck(timeseries, 'value'), skipZeroes);
+        return (index > 0) ? timeseries[index][toPluck] : '';
+      } else {
+        var toReturn = '';
+        _.each(timeseries, function(y) {
+          if (parseFloat(matchYear) === parseFloat(y.year)) {
+            toReturn = y[toPluck];
+          }
+        });
+        return toReturn;
       }
-      _.each(timeseries, function(y) {
-        if (parseFloat(matchYear) === parseFloat(y.year)) {
-          return y[toPluck];
-        }
-      });
     },
 
     // I hate that the word series is its own plural
@@ -264,16 +268,23 @@ var blue = '#006Da1',
       return Mi.years.indexOf(year);
     },
 
-    lastNonEmptyElement: function (array) {
+    lastNonEmptyElement: function (array, skipZeroes) {
+      var index = this.lastNonEmptyIndex(array, skipZeroes);
+      return (index > 0) ? array[index] : '';
+    },
+
+    lastNonEmptyIndex: function (array, skipZeroes) {
       var backwards = array.slice(0).reverse();
       var toReturn = '';
       for (var i = 0; i < backwards.length; i++) {
         if (backwards[i] !== '' && backwards[i] !== undefined) {
-          var toReturn = backwards[i];
-          break;
+          if (!skipZeroes || backwards[i] !== 0){
+            return backwards.length - i - 1
+            break;
+          }
         };
       }
-      return toReturn;
+      return -1;
     }
   });
 

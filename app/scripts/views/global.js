@@ -72,7 +72,7 @@ Mi.Views = Mi.Views || {};
 
       // data handling (for the map only)
       _.each(this.data, function(d){
-        // set our year and get the most recent value for the map
+        // set our year and get the correct value for the map
         d.mainValue = _self.getFromTimeseries(d.timeseries, _self.year);
         d.filterYear = _self.getFromTimeseries(d.timeseries, _self.year, 'year');
       });
@@ -113,7 +113,7 @@ Mi.Views = Mi.Views || {};
         });
 
         var mainValue = _self.getFromTimeseries(chartData, _self.year);
-        var crudeCoverage = _self.getFromTimeseries(sumCrude, _self.year);
+        var crudeCoverage = _self.getFromTimeseries(sumCrude, _self.year, false, true);
         var year = _self.getFromTimeseries(chartData, _self.year, 'year');
 
         r.chartData = chartData.filter(function(f) { return !!f; });

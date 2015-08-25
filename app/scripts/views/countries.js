@@ -91,7 +91,6 @@ Mi.Views = Mi.Views || {};
         d.crudeCoverage = _self.getFromTimeseries(crudeObject.timeseries, _self.year);
         d.filterYear = _self.getFromTimeseries(d.timeseries, _self.year, 'year');
       });
-
       this.data.sort(function (a,b) { return b.mainValue - a.mainValue; });
 
       // aggregate ratios desired
@@ -127,7 +126,7 @@ Mi.Views = Mi.Views || {};
         });
 
         var mainValue = _self.getFromTimeseries(chartData, _self.year);
-        var crudeCoverage = _self.getFromTimeseries(sumCrude, _self.year);
+        var crudeCoverage = _self.getFromTimeseries(sumCrude, _self.year, false, true);
         var year = _self.getFromTimeseries(chartData, _self.year, 'year');
 
         return {
