@@ -3,58 +3,54 @@
 Mi.Routers = Mi.Routers || {};
 
 (function () {
-    'use strict';
+  'use strict';
 
-    var countryViewRendered = false;
+  var countryViewRendered = false;
 
-    $(document).on('click', '.mi-reset', function(e) {
-      Mi.year = 'all',
-      Mi.region = 'global',
-      Mi.name = 'total-microinsurance-coverage-ratio';
-    });
-
-    Mi.dataUrl = 'assets/data/mi-data.csv';
-    Mi.studyUrl = 'assets/data/studies.csv'
-    Mi.data = null,
-    Mi.models = {},
-    Mi.collections = {},
-    Mi.views = {},
+  $(document).on('click', '.mi-reset', function(e) {
     Mi.year = 'all',
     Mi.region = 'global',
-    Mi.name = 'total-microinsurance-coverage-ratio',
-    Mi.token = 'pk.eyJ1IjoiZGV2c2VlZCIsImEiOiJnUi1mbkVvIn0.018aLhX0Mb0tdtaT2QNe2Q',
-    Mi.labelControl = L.Control.extend({
-      options: {
-        position: 'bottomleft'
-      },
+    Mi.name = 'total-microinsurance-coverage-ratio';
+  });
 
-      initialize: function(options) {
-        L.setOptions(this, options);
-        this._info = {};
-      },
-
-      onAdd: function(map) {
-        this._container = L.DomUtil.create('div', 'leaflet-control-layers leaflet-control');
-        this._content = L.DomUtil.create('div', 'leaflet-control-layers-toggle', this._container);
-
-        L.DomEvent.disableClickPropagation(this._container);
-
-        return this._container;
-
-      }
-    }),
-
-    // Info hover description
-    Mi.description = {
-      "total-microinsurance-coverage-ratio": "Coverage of all included microinsurance products provided.",
-      "credit-life-coverage-ratio": "Coverage that repays the outstanding balance on loans in default due to the death of the borrower. Occasionally, partial or complete disability coverage is also included.",
-      "accident-coverage-ratio": "Insurance providing financial protection against an event that is unforeseen, unexpected, and unintended.",
-      "property-coverage-ratio": "Insurance providing financial protection against the loss of, or damage to, real and personal property caused by such perils as fire, theft, windstorm, hail, explosion, riot, aircraft, motor vehicles, vandalism, malicious mischief, riot and civil commotion, and smoke.",
-      "agriculture-coverage-ratio": "Insurance providing financial protection against loss due to drought, livestock disease and death, flood, and other perils impacting agriculture production.",
-      "health-coverage-ratio": "Coverage that provides benefits as a result of sickness or injury. Policies include insurance for losses from accident, medical expense, disability, or accidental death and dismemberment."
+  Mi.dataUrl = 'assets/data/mi-data.csv',
+  Mi.studyUrl = 'assets/data/studies.csv',
+  Mi.year = 'all',
+  Mi.region = 'global',
+  Mi.name = 'total-microinsurance-coverage-ratio',
+  Mi.token = 'pk.eyJ1IjoiZGV2c2VlZCIsImEiOiJnUi1mbkVvIn0.018aLhX0Mb0tdtaT2QNe2Q',
+  Mi.labelControl = L.Control.extend({
+    options: {
+      position: 'bottomleft'
     },
 
-    Mi.Routers.App = Backbone.Router.extend({
+    initialize: function(options) {
+      L.setOptions(this, options);
+      this._info = {};
+    },
+
+    onAdd: function(map) {
+      this._container = L.DomUtil.create('div', 'leaflet-control-layers leaflet-control');
+      this._content = L.DomUtil.create('div', 'leaflet-control-layers-toggle', this._container);
+
+      L.DomEvent.disableClickPropagation(this._container);
+
+      return this._container;
+
+    }
+  }),
+
+  // Info hover description
+  Mi.description = {
+    "total-microinsurance-coverage-ratio": "Coverage of all included microinsurance products provided.",
+    "credit-life-coverage-ratio": "Coverage that repays the outstanding balance on loans in default due to the death of the borrower. Occasionally, partial or complete disability coverage is also included.",
+    "accident-coverage-ratio": "Insurance providing financial protection against an event that is unforeseen, unexpected, and unintended.",
+    "property-coverage-ratio": "Insurance providing financial protection against the loss of, or damage to, real and personal property caused by such perils as fire, theft, windstorm, hail, explosion, riot, aircraft, motor vehicles, vandalism, malicious mischief, riot and civil commotion, and smoke.",
+    "agriculture-coverage-ratio": "Insurance providing financial protection against loss due to drought, livestock disease and death, flood, and other perils impacting agriculture production.",
+    "health-coverage-ratio": "Coverage that provides benefits as a result of sickness or injury. Policies include insurance for losses from accident, medical expense, disability, or accidental death and dismemberment."
+  },
+
+  Mi.Routers.App = Backbone.Router.extend({
 
     initialize: function () {
       this.headerInit();
@@ -69,15 +65,15 @@ Mi.Routers = Mi.Routers || {};
 
     execute: function(callback, args) {
       $('#content').empty().hide().fadeIn();
-
-        if (!Mi.data) {
-          this.loadData(callback, args);
-          // maybe spin a loader here
-        }
-        else {
-          if (callback) callback.apply(this, args);
-        }
-      },
+      $('.loader').fadeIn();
+      if (!Mi.data) {
+        this.loadData(callback, args);
+        // maybe spin a loader here
+      }
+      else {
+        if (callback) callback.apply(this, args);
+      }
+    },
 
     loadData: function(callback, args) {
       var that = this;
@@ -102,20 +98,11 @@ Mi.Routers = Mi.Routers || {};
         };
       }, function(error, data) {
         Mi.data = data;
-        Mi.countries = _.unique(_.pluck(Mi.data,'country'));
-        Mi.iso = _.unique(_.pluck(Mi.data,'iso'));
-        Mi.indicators = _.unique(_.pluck(Mi.data,'name'));
-        // add max and median per indicator
-        var mostRecentArray, indicatorMax, indicatorMedian;
-        _.each(Mi.indicators, function(indicator) {
-          // match our indicator and has a reasonable mostRecent value
-          mostRecentArray = _.pluck(_.filter(Mi.data, function(d){ return (d.name === indicator && d.mostRecent.value !== ""); }),'mostRecent');
-          indicatorMax = _.max(_.pluck(mostRecentArray,'value'))
-          indicatorMedian = that.median(_.pluck(mostRecentArray,'value'));
-          _.each(_.filter(Mi.data, function(d){ return (d.name === indicator); }), function(d) {
-            d.max = indicatorMax;
-            d.median = indicatorMedian;
-          });
+        Mi.countryGrouped = _.groupBy(Mi.data, 'country');
+        Mi.varNameGrouped = _.groupBy(Mi.data, 'varName');
+        Mi.doubledGrouped = {};
+        _.each(Mi.countryGrouped, function (country, key) {
+          Mi.doubledGrouped[key] = _.groupBy(country, 'varName');
         });
 
         if (callback) callback.apply(that, args);
@@ -125,7 +112,6 @@ Mi.Routers = Mi.Routers || {};
     viewPage: function(region, year, name) {
       var _self = this;
 
-      $('.loader').fadeIn();
       this.closePopups();
 
       if (region) { Mi.region = region; }
@@ -133,45 +119,29 @@ Mi.Routers = Mi.Routers || {};
       if (name) { Mi.name = name; }
 
       if (Mi.region === 'global') {
-        var data = [];
-        var population = [];
-        var crudeCoverage = [];
-        $.each(Mi.data, function(index, row) {
-          if (row.varName === Mi.name) {
-            data.push(row);
-          } else if (row.varName === 'population-(total)') {
-            population.push(row);
-          } else if (row.varName === Mi.name.slice(0, -6)) {
-            crudeCoverage.push(row);
-          }
-        });
         var countriesPage = new Mi.Views.Global({
           year: Mi.year,
           type: Mi.name,
-          data: data,
+          data: Mi.varNameGrouped[Mi.name],
           graphData: {
-            population: population,
-            crudeCoverage: crudeCoverage
+            population: Mi.varNameGrouped['population-(total)'],
+            crudeCoverage: Mi.varNameGrouped[Mi.name.slice(0, -6)]
           }
         });
       } else {
-        var countriesFiltered = [];
-        var countries = [];
-        $.each(Mi.data, function(index, row) {
-          if (_self.regionMatch(row.region, Mi.region)) {
-            countries.push(row);
-            if (row.varName === Mi.name) {
-              countriesFiltered.push(row);
-            }
-          }
+        var extraData = Mi.data.filter(function (f) {
+          return _self.regionMatch(f.region, Mi.region);
+        });
+        var data = Mi.varNameGrouped[Mi.name].filter(function (f) {
+          return _self.regionMatch(f.region, Mi.region);
         });
 
         var countriesPage = new Mi.Views.Countries({
           year: Mi.year,
           type: Mi.name,
           region: Mi.region,
-          data: countriesFiltered,
-          extraData: countries
+          data: data,
+          extraData: extraData
         });
       }
 
@@ -189,8 +159,6 @@ Mi.Routers = Mi.Routers || {};
         }
 
         this.closePopups();
-
-        $('.loader').fadeIn();
 
         var countries = [];
         _.each(Mi.data, function(row) {
@@ -222,21 +190,6 @@ Mi.Routers = Mi.Routers || {};
         });
 
         $('.loader').fadeOut();
-     },
-
-     median: function(values) {
-      values.sort(function(a,b) {return a - b;});
-      var half = Math.floor(values.length/2);
-      if (values.length % 2) {
-        return values[half];
-      }
-      else {
-          return (values[half-1] + values[half]) / 2.0;
-      }
-    },
-
-    capitalizeFirstLetter: function(string) {
-       return string.charAt(0).toUpperCase() + string.slice(1);
      },
 
     mapInit: function () {

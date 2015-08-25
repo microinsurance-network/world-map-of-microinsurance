@@ -80,44 +80,22 @@ Mi.Views = Mi.Views || {};
 
     processData: function () {
       var _self = this;
-      this.metaData = _.groupBy(Mi.data, 'country');
+
       // data handling
       _.each(this.data, function(d){
-        d.crudeCoverage = 0;
-        d.crudeCoverageType = (_self.type === 'all') ? 'total-microinsurance-coverage' : _self.type.slice(0, -6);
-        _.each(_self.metaData[d.country], function(indicator) {
-          // get main value, population, and non-ratio values
-          // from either the most recent or selected year
-          if (_self.year === 'all') {
-            d.filterYear = d.mostRecent.year;
-            d.mainValue = d.mostRecent.value;
-            if (indicator.varName === 'population-(total)') {
-              d.population = indicator.mostRecent.value;
-            } else if (indicator.varName === d.crudeCoverageType) {
-              d.crudeCoverage = indicator.mostRecent.value;
-            }
-          } else {
-            d.filterYear = _self.year;
-            _.each(d.timeseries, function(year) {
-              if (parseFloat(_self.year) === year.year) {
-                d.mainValue = year.value;
-              }
-            });
-            if (indicator.varName === 'population-(total)') {
-              _.each(indicator.timeseries, function(year) {
-                if (year.year === parseFloat(_self.year)) {
-                  d.population = year.value;
-                }
-              });
-            } else if (indicator.varName === d.crudeCoverageType) {
-              _.each(indicator.timeseries, function(year) {
-                if (year.year === parseFloat(_self.year)) {
-                  d.crudeCoverage = year.value;
-                }
-              });
-            }
-          }
-        });
+        d.crudeCoverageType = _self.type.slice(0, -6);
+        var crudeObject = Mi.doubledGrouped[d.country][d.crudeCoverageType][0];
+        // set our year and get the most recent value for the
+        // map and main display ratio
+        if (_self.year === 'all') {
+          d.filterYear = d.mostRecent.year;
+          d.mainValue = d.mostRecent.value;
+          d.crudeCoverage = crudeObject.mostRecent.value;
+        } else {
+          d.filterYear = _self.year;
+          d.mainValue = _self.getFromTimeseries(d.timeseries, _self.year);
+          d.crudeCoverage = _self.getFromTimeseries(crudeObject.timeseries, _self.year);
+        }
       });
 
       this.data.sort(function (a,b) { return b.mainValue - a.mainValue; });
@@ -129,63 +107,52 @@ Mi.Views = Mi.Views || {};
         'agriculture-coverage-ratio'];
       // years available
       var yearLabels = [];
+
       // calculate regional aggregated population by year
-      var sumPopulation;
-      _.pluck(_self.extraData.filter(function(f) {
+      var populationArray = _.pluck(_self.extraData.filter(function(f) {
         return f.varName === 'population-(total)';
-      }), 'timeseries').forEach(function(d) {
-        if (!sumPopulation) {
-          sumPopulation = _.pluck(d, 'value');
-        } else {
-          d.forEach(function (t, i) {
-            sumPopulation[i] = Number(sumPopulation[i]) + Number(t.value);
-          });
-        }
-      });
+      }), 'timeseries');
+      var sumPopulation = _self.aggregateTimeseries(populationArray);
+
       var graphs = ratios.map(function (ratio) {
         var mainValue, crudeCoverage;
         // grab the data for just this ratio (but the absolute/crude numbers)
-        var filtered = _self.extraData.filter(function(f) {
+        var crudeArray = _.pluck(_self.extraData.filter(function(f) {
           return f.varName === ratio.slice(0, -6);
-        });
+        }), 'timeseries');
         // get a timeseries of crude value
-        var timeseries = [];
-        filtered.forEach(function(d) {
-          if (!timeseries.length) {
-            timeseries = _.cloneDeep(d.timeseries);
-          } else {
-            d.timeseries.forEach(function (t, i) {
-              timeseries[i].value = Number(timeseries[i].value) + Number(t.value);
-            });
-          }
-        });
+        var sumCrude = _self.aggregateTimeseries(crudeArray);
+
         var chartData = [];
         var popYear = [];
-        _.each(timeseries, function(year, index) {
-           if (sumPopulation[index]) {
-             chartData.push(Number((year.value / sumPopulation[index] * 100).toFixed(2)));
-             popYear.push(sumPopulation[index]);
+        _.each(sumCrude, function(year, index) {
+           if (sumPopulation[index].value) {
+             chartData.push(Number((year.value / sumPopulation[index].value * 100).toFixed(2)));
+             popYear.push(sumPopulation[index].value);
            } else {
              chartData.push(0);
              popYear.push(0);
            }
            yearLabels.push(year.year);
            if (year.year === parseFloat(_self.year)) {
-             mainValue = Number((year.value / sumPopulation[index] * 100).toFixed(2));
+             mainValue = Number((year.value / sumPopulation[index].value * 100).toFixed(2));
              crudeCoverage = year.value.toFixed(0);
            }
         });
+
         return {
           type: ratio,
           chartData: chartData,
-          name: filtered[0].name,
+          name: ratio.slice(0, -6),
           mainValue: mainValue,
           crudeCoverage: crudeCoverage,
           popYear: popYear
         }
       });
+
       yearLabels = _.unique(yearLabels);
       yearLabels.sort(function (a,b) { return a - b; });
+
       // get rid of years and values where everything is zero
       var zeroArray = new Array(graphs[0].chartData.length);
       graphs.forEach(function(d) {
@@ -219,8 +186,7 @@ Mi.Views = Mi.Views || {};
 
       this.aggregate = {
         graphs: graphs,
-        years: yearLabels//,
-        //regionStats:
+        years: yearLabels
       };
     }
 

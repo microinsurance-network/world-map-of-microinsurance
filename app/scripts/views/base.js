@@ -236,6 +236,23 @@ var blue = '#006Da1',
           layer.bindPopup(markup, { autoPan: true });
         }
       });
+    },
+
+    getFromTimeseries: function (timeseries, matchYear) {
+      _.each(timeseries, function(y) {
+        if (parseFloat(matchYear) === parseFloat(y.year)) {
+          return y.value;
+        }
+      });
+    },
+
+    // I hate that the word series is its own plural
+    aggregateTimeseries: function (array) {
+      return array.reduce(function(a,b) {
+        return _.merge(_.cloneDeep(a), b, function(c, d) {
+         return { year: c.year, value: Number(c.value) + Number(d.value) }
+        })
+      })
     }
   });
 
