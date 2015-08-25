@@ -196,7 +196,7 @@ Mi.Routers = Mi.Routers || {};
       // initialize map
       Mi.map = L.map('map', {
         maxBounds: [[-60,-180],[90,180]],
-        noWrap: true
+        noWrap: true,
       }).setView([20, 0], 2);
       Mi.map.scrollWheelZoom.disable();
       Mi.countryGeo = L.geoJson(topojson.feature(worldTopo, worldTopo.objects.ne_50m), { style: function (feature) {
@@ -218,8 +218,9 @@ Mi.Routers = Mi.Routers || {};
 
       var url = 'https://{s}.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={token}'
       Mi.labels = L.tileLayer(url, {
-        id: 'devseed.9d887945',
-        token: Mi.token
+        id: 'devseed.3255becb',
+        token: Mi.token,
+        noWrap: true,
       })
 
       Mi.choroLayer = L.featureGroup();
