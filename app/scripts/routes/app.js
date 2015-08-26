@@ -217,7 +217,7 @@ Mi.Routers = Mi.Routers || {};
                  weight: 0.5};
       }});
 
-      Mi.labels = L.mapbox.tileLayer('devseed.3255becb', {
+      Mi.labels = L.mapbox.tileLayer('devseed.549da763', {
         noWrap: true
       });
 

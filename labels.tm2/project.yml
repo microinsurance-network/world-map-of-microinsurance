@@ -1,5 +1,5 @@
 _prefs: 
-  mapid: devseed.3255becb
+  mapid: devseed.549da763
   saveCenter: false
 _properties: 
   bridge: 
@@ -14,14 +14,14 @@ center:
   - 15.293
   - 50.8476
   - 4
-description: ''
+description: A monotone basemap that's easy to recolor.
 format: "png8:m=h"
 interactivity_layer: ''
 layers: null
-maxzoom: 6
+maxzoom: 22
 minzoom: 0
-name: microinsurance-labels
-source: "mapbox:///devseed.33074b4e"
+name: Mapbox Light
+source: "mapbox:///ascalamogna.d9e4cc3e,devseed.33074b4e"
 styles: 
-  - labels.mss
+  - style.mss
 template: ''
