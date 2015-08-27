@@ -312,6 +312,13 @@ a:hover {
   background-color: #FFFFFF;
   background-image: url("../images/globe.svg");
   background-size: 15px;
+  cursor: pointer;
+}
+
+.leaflet-control-layers, .leaflet-control-reset {
+  &:hover {
+    background-color: #f8f8f8;
+  }
 }
 
 .menu-study, .menu-data {
