@@ -213,6 +213,8 @@ Mi.Routers = Mi.Routers || {};
      },
 
     mapInit: function () {
+
+      var _self = this;
       // initialize map
       L.mapbox.accessToken = Mi.token;
       Mi.map = L.map('map', {
@@ -249,15 +251,7 @@ Mi.Routers = Mi.Routers || {};
       var resetControl = new Mi.resetControl();
       resetControl.addTo(Mi.map);
        $('.leaflet-control-reset').on('click', function(){
-          var countriesPage = new Mi.Views.Global({
-          year: Mi.year,
-          type: Mi.name,
-          data: Mi.varNameGrouped[Mi.name],
-          graphData: {
-            population: Mi.varNameGrouped['population-(total)'],
-            crudeCoverage: Mi.varNameGrouped[Mi.name.slice(0, -6)]
-          }
-        })
+        _self.navigate('/view/global' + "/" + Mi.year +"/" + Mi.name, {trigger: true});
           $('.region-value').text("Global");
         });
 
