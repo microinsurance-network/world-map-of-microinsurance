@@ -41,8 +41,6 @@ Mi.Views = Mi.Views || {};
             d.crudeCoverage = _self.getFromTimeseries(
               Mi.doubledGrouped[_self.country][d.varName.replace('-ratio','')][0].timeseries,
               'all');
-              console.log(d.varName);
-            console.log(d.timeseries);
           }
         } else {
           d.indicatorValue = _self.getFromTimeseries(d.timeseries, 'all');

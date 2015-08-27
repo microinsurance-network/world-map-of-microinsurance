@@ -175,7 +175,10 @@ Mi.Routers = Mi.Routers || {};
             'Total microinsurance coverage',
             'Total microinsurance coverage ratio'
           ], row.name)) {
-            extraData[row.varName] = _self.getFromTimeseries(row.timeseries, 'all');
+            extraData[row.varName] = {
+              value: _self.getFromTimeseries(row.timeseries, 'all'),
+              year: _self.getFromTimeseries(row.timeseries, 'all', 'year')
+            };
           }
         });
 
