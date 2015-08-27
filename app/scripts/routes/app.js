@@ -39,6 +39,23 @@ Mi.Routers = Mi.Routers || {};
 
     }
   }),
+  Mi.resetControl = L.Control.extend({
+    options: {
+      position: 'topleft',
+
+    },
+
+    initialize: function(options) {
+      L.setOptions(this, options);
+      this._info = {};
+    },
+
+    onAdd: function(map) {
+        this._container = L.DomUtil.create('div', 'leaflet-control');
+         this._content = L.DomUtil.create('div', 'leaflet-control-reset', this._container);
+        return this._container;
+    }
+  }),
 
   // Info hover description
   Mi.description = {
@@ -229,6 +246,21 @@ Mi.Routers = Mi.Routers || {};
       Mi.choroLayer.addTo(Mi.map);
       Mi.disputedGeo.addTo(Mi.map);
 
+      var resetControl = new Mi.resetControl();
+      resetControl.addTo(Mi.map);
+       $('.leaflet-control-reset').on('click', function(){
+          var countriesPage = new Mi.Views.Global({
+          year: Mi.year,
+          type: Mi.name,
+          data: Mi.varNameGrouped[Mi.name],
+          graphData: {
+            population: Mi.varNameGrouped['population-(total)'],
+            crudeCoverage: Mi.varNameGrouped[Mi.name.slice(0, -6)]
+          }
+        })
+          $('.region-value').text("Global");
+        });
+
       var control = new Mi.labelControl();
       control.addTo(Mi.map);
       $('.leaflet-control-layers').on('click', function(){
@@ -240,6 +272,7 @@ Mi.Routers = Mi.Routers || {};
       })
       this.mapNoData();
     },
+
 
     mapNoData: function () {
       var defs = d3.select('#map svg').insert('defs',":first-child");
