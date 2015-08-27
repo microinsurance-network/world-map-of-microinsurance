@@ -1,3 +1,3 @@
-mapbox-studio-default-style
+Mapbox light
 ===========================
-Default style used by new style projects in Mapbox Studio.
+Light basemap style for [Mapbox Studio](https://github.com/mapbox/mapbox-studio).

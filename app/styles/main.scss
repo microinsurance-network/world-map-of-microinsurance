@@ -287,7 +287,8 @@ a:hover {
 }
 
 .leaflet-tile-pane {
-  z-index: 10 !important;
+  z-index: 6 !important;
+  pointer-events: none;
 }
 
 .leaflet-control-layers {

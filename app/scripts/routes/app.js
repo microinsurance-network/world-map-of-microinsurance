@@ -197,6 +197,7 @@ Mi.Routers = Mi.Routers || {};
 
     mapInit: function () {
       // initialize map
+      L.mapbox.accessToken = Mi.token;
       Mi.map = L.map('map', {
         maxBounds: [[-60,-180],[90,180]],
         noWrap: true
@@ -219,11 +220,9 @@ Mi.Routers = Mi.Routers || {};
                  weight: 0.5};
       }});
 
-      var url = 'https://{s}.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={token}'
-      Mi.labels = L.tileLayer(url, {
-        id: 'devseed.9d887945',
-        token: Mi.token
-      })
+      Mi.labels = L.mapbox.tileLayer('devseed.549da763', {
+        noWrap: true
+      });
 
       Mi.choroLayer = L.featureGroup();
       Mi.countryGeo.addTo(Mi.choroLayer);
