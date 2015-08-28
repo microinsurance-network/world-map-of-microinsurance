@@ -39,6 +39,23 @@ Mi.Routers = Mi.Routers || {};
 
     }
   }),
+  Mi.resetControl = L.Control.extend({
+    options: {
+      position: 'topleft',
+
+    },
+
+    initialize: function(options) {
+      L.setOptions(this, options);
+      this._info = {};
+    },
+
+    onAdd: function(map) {
+        this._container = L.DomUtil.create('div', 'leaflet-control');
+         this._content = L.DomUtil.create('div', 'leaflet-control-reset', this._container);
+        return this._container;
+    }
+  }),
 
   // Info hover description
   Mi.description = {
@@ -239,6 +256,13 @@ Mi.Routers = Mi.Routers || {};
         noWrap: true
       });
 
+      var resetControl = new Mi.resetControl();
+      resetControl.addTo(Mi.map);
+      $('.leaflet-control-reset').on('click', function(){
+        Mi.region = 'global';
+        _self.navigate('/view/' + Mi.region + '/' + Mi.year + '/' + Mi.name, {trigger: true});
+      });
+
       var control = new Mi.labelControl();
       control.addTo(Mi.map);
       $('.leaflet-control-layers').on('click', function(){
@@ -249,6 +273,7 @@ Mi.Routers = Mi.Routers || {};
         }
       });
     },
+
 
     mapNoData: function () {
       var defs = d3.select('#map svg').insert('defs',":first-child");
