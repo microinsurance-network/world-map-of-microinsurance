@@ -12,9 +12,9 @@ Mi.Routers = Mi.Routers || {};
     Mi.region = 'global',
     Mi.name = 'total-microinsurance-coverage-ratio';
   });
-
-  Mi.dataUrl = 'assets/data/mi-data.csv',
-  Mi.studyUrl = 'assets/data/studies.csv',
+  Mi.dataFolder = 'assets/data/',
+  Mi.dataUrl = Mi.dataFolder + 'mi-data.csv',
+  Mi.studyUrl = Mi.dataFolder + 'studies.csv',
   Mi.year = 'all',
   Mi.region = 'global',
   Mi.name = 'total-microinsurance-coverage-ratio',
@@ -71,7 +71,6 @@ Mi.Routers = Mi.Routers || {};
 
     initialize: function () {
       this.headerInit();
-      this.mapInit();
     },
 
     routes: {
@@ -93,7 +92,7 @@ Mi.Routers = Mi.Routers || {};
     },
 
     loadData: function(callback, args) {
-      var that = this;
+      var _self = this;
       d3.csv(Mi.dataUrl, function(d) {
         return {
           category: d.Category,
@@ -121,7 +120,10 @@ Mi.Routers = Mi.Routers || {};
         Mi.nameObject = _.zipObject(_.unique(_.pluck(Mi.data, 'varName')),
            _.unique(_.pluck(Mi.data, 'name')));
 
-        if (callback) callback.apply(that, args);
+        // load maps
+        _self.mapInit(function () {
+          if (callback) callback.apply(_self, args);
+        });
       });
     },
 
@@ -212,8 +214,7 @@ Mi.Routers = Mi.Routers || {};
         $('.loader').fadeOut();
      },
 
-    mapInit: function () {
-
+    mapInit: function (callback) {
       var _self = this;
       // initialize map
       L.mapbox.accessToken = Mi.token;
@@ -222,38 +223,45 @@ Mi.Routers = Mi.Routers || {};
         noWrap: true
       }).setView([20, 0], 2);
       Mi.map.scrollWheelZoom.disable();
-      Mi.countryGeo = L.geoJson(topojson.feature(worldTopo, worldTopo.objects.ne_50m), { style: function (feature) {
-        return {
-          color: 'white',
-          weight: 1,
-          fillColor: 'url(#hash)',
-          fillOpacity: 1,
-          className: 'no-data'
-        };
-      }});
-      Mi.disputedGeo = L.geoJson(topojson.feature(worldTopoDisputed, worldTopoDisputed.objects.disputed), { style: function (feature) {
-        return { dashArray: '6,3',
-                 fill: false,
-                 color: '#fff',
-                 opacity: 0.8,
-                 weight: 0.5};
-      }});
+
+      d3.json(Mi.dataFolder + 'geo/ne_50m.topojson', function (error, countries) {
+        d3.json(Mi.dataFolder + 'geo/disputed.topojson', function (error, disputed) {
+          Mi.countryGeo = L.geoJson(topojson.feature(countries, countries.objects.ne_50m), { style: function (feature) {
+            return {
+              color: 'white',
+              weight: 1,
+              fillColor: 'url(#hash)',
+              fillOpacity: 1,
+              className: 'no-data'
+            };
+          }});
+          Mi.disputedGeo = L.geoJson(topojson.feature(disputed, disputed.objects.disputed), { style: function (feature) {
+            return { dashArray: '6,3',
+                     fill: false,
+                     color: '#fff',
+                     opacity: 0.8,
+                     weight: 0.5};
+          }});
+
+          Mi.choroLayer = L.featureGroup();
+          Mi.countryGeo.addTo(Mi.choroLayer);
+          Mi.choroLayer.addTo(Mi.map);
+          Mi.disputedGeo.addTo(Mi.map);
+          _self.mapNoData();
+          callback();
+        });
+      });
 
       Mi.labels = L.mapbox.tileLayer('devseed.549da763', {
         noWrap: true
       });
 
-      Mi.choroLayer = L.featureGroup();
-      Mi.countryGeo.addTo(Mi.choroLayer);
-      Mi.choroLayer.addTo(Mi.map);
-      Mi.disputedGeo.addTo(Mi.map);
-
       var resetControl = new Mi.resetControl();
       resetControl.addTo(Mi.map);
-       $('.leaflet-control-reset').on('click', function(){
-        _self.navigate('/view/global' + "/" + Mi.year +"/" + Mi.name, {trigger: true});
-          $('.region-value').text("Global");
-        });
+      $('.leaflet-control-reset').on('click', function(){
+        Mi.region = 'global';
+        _self.navigate('/view/' + Mi.region + '/' + Mi.year + '/' + Mi.name, {trigger: true});
+      });
 
       var control = new Mi.labelControl();
       control.addTo(Mi.map);
@@ -263,8 +271,7 @@ Mi.Routers = Mi.Routers || {};
         } else {
           Mi.map.addLayer(Mi.labels);
         }
-      })
-      this.mapNoData();
+      });
     },
 
 
@@ -297,15 +304,18 @@ Mi.Routers = Mi.Routers || {};
     },
 
     closePopups: function () {
-      Mi.countryGeo.eachLayer(function (layer) {
-        try {
-          layer.closePopup();
-        } catch (e) {
-          _.each(layer._layers, function(subLayer){
-            subLayer.closePopup();
-          });
-        }
-      });
+      // in case it hasn't loaded yet
+      if (Mi.countryGeo) {
+        Mi.countryGeo.eachLayer(function (layer) {
+          try {
+            layer.closePopup();
+          } catch (e) {
+            _.each(layer._layers, function(subLayer){
+              subLayer.closePopup();
+            });
+          }
+        });
+      }
     },
 
     regionMatch: function (region, regionGroup) {

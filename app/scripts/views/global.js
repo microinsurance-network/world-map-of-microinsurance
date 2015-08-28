@@ -29,7 +29,7 @@ Mi.Views = Mi.Views || {};
 
       var _self = this;
 
-      $('.region-value').text(Mi.regions[this.region]);
+      $('.region-value').text('Global');
       $('.type-value').text(this.capitalizeFirstLetter(this.type.replace(/-/g, ' ')));
       if (this.year === 'all') {
         $('.year-value').text('Most recent value');
