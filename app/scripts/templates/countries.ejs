@@ -3,7 +3,7 @@
 </div>
 <% _.each(aggregate.graphs, function(value, index) { %>
   <% if (value.mainValue !== '') { %>
-  <div class="col-sm-3 col-md-3 col-xs-6 row-country">
+  <div class="col-sm-3 col-md-3 col-xs-6 row-type">
 	  <div class="inner">
 		  <a class="more-info" href="#" data-toggle="popover" title="<%= value.name %>" data-content="<%= Mi.description[value.type] %>">?</a>
 			  <span class="mi-ratio-value"><a><%= value.mainValue.toFixed(2) %>%</a></span>
@@ -15,7 +15,7 @@
 		</div>
   <% } %>
 <% }) %>
-<div class="aggregate-bar">
+<div class="aggregate-bar added-top">
   <h2 class="aggregate-title">Countries</h2>
 </div>
 <% if (data.filter(function(d){ return d.mainValue !== ''; }).length) { %>
@@ -37,6 +37,6 @@
   <% }) %>
 <% } else { %>
   <div class="aggregate-bar">
-    <h2 class="aggregate-title">No data</h2>
+    <h4 class="aggregate-title">Life insurance data reported for Asia 2013 is all inclusive of credit and non-credit life coverages; No data is shown for the subcategories.</h4>
   </div>
 <% } %>

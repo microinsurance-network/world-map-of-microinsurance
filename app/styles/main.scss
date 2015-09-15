@@ -79,6 +79,17 @@ a:hover {
 .type-value {
   font-size: inherit;
   color: #000;
+  .popover {
+    font-size: 14px;
+    width: 400px;
+  }
+}
+
+.asterisk {
+  cursor: pointer;
+  &:hover {
+    color: #999;
+  }
 }
 
 .filter-breadcrumb {
@@ -105,13 +116,30 @@ a:hover {
 }
 
 
-.row-country  {
+.card {
   border-right: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
   height: 240px;
   background: #fff;
   padding: 20px;
+  .popover {
+    width: 400px;
+  }
 }
+
+.row-country {
+  @extend .card;
+}
+
+.row-type {
+  @extend .card;
+  border-bottom: 0;
+  &:nth-of-type(1) { border-bottom: 1px solid #ccc;}
+  &:nth-of-type(2) { border-bottom: 1px solid #ccc;}
+  &:nth-of-type(3) { border-bottom: 1px solid #ccc;}
+  &:nth-of-type(4) { border-bottom: 1px solid #ccc;}
+}
+
 .loader {
   position: absolute;
   right: 0;
@@ -183,9 +211,7 @@ a:hover {
   opacity: 0.5;
   color: #fff;
 }
-.popover {
-  width: 400px;
-}
+
 
 .hchart {
   height: 80px;
@@ -242,6 +268,9 @@ a:hover {
     display: inline-block;
     margin: 0 5px;
   }
+  &.added-top {
+    border-top: 1px solid #ccc;
+  }
   & > div {
     float: right;
     display: inline-block;
@@ -250,6 +279,8 @@ a:hover {
     .aggregate-stat-info { color: #777; }
   }
 }
+
+
 
 @media (max-width: 768px) {
   .aggregate-row { height: 380px; }

@@ -29,13 +29,21 @@ Mi.Views = Mi.Views || {};
         this.region = 'global';
       }
 
+      var asterisk = '';
+      if (this.region === 'asia' && !!this.type.match(/life/i)) {
+        console.log('asterisk');
+        asterisk = '<span class="asterisk" data-content="Life insurance data reported for Asia 2013 is all inclusive of credit and non-credit life coverages; No data is shown for the subcategories.">*</span>'
+      }
+
       $('.region-value').text(Mi.regions[this.region]);
-      $('.type-value').text(this.capitalizeFirstLetter(this.type.replace(/-/g, ' ')));
+      $('.type-value').html(this.capitalizeFirstLetter(this.type.replace(/-/g, ' ')) + asterisk);
       if (this.year === 'all') {
         $('.year-value').text('Most recent value');
       } else {
         $('.year-value').text(this.year);
       }
+      $('.asterisk').popover({placement: 'left', trigger: 'hover'});
+
 
       this.setView(this.region);
       this.drawLegend();
