@@ -55,7 +55,7 @@ Mi.Views = Mi.Views || {};
       _.each(this.regions, function (region, key) {
         _self.drawLineChart('#' + key + '-chart',
           _.pluck(region.chartData,'value'), _.pluck(region.chartData,'year'),
-          _self.data[0].name, _self.type, true);
+          _self.data[0].name, _self.type, true, Math.round(_self.globalMax / 5) * 5);
       });
 
       _.each(this.data, function(value) {
@@ -123,6 +123,11 @@ Mi.Views = Mi.Views || {};
       });
 
       this.regions = regions;
+      this.globalMax = d3.max(_.flatten(_.map(regions, function (m) {
+        return _.map(m.chartData, function (c) {
+          return c.value;
+        });
+      })));
     }
   });
 

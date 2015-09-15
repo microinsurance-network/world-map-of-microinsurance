@@ -17,10 +17,27 @@ var blue = '#006Da1',
 
     el: '#content',
 
-    drawLineChart: function(selector, data, categories, name, type, agg) {
+    drawLineChart: function(selector, data, categories, name, type, agg, fixedMax) {
       var _self = this;
       var typeUsed = type || this.type;
       var color = _self.getColor(2, typeUsed).hex();
+
+      var yAxis = {
+        allowDecimals: (!!agg),
+        min: 0,
+        title: { text: '' },
+        labels: {
+          x: -8,
+          enabled: true,
+          style: { color: '#aaa'}
+        },
+        gridLineColor: '#fff',
+        tickWidth: 1,
+        tickLength: 5
+      };
+      if (fixedMax) {
+        yAxis.max = fixedMax;
+      }
 
       $(selector).highcharts({
         chart: {
@@ -38,19 +55,7 @@ var blue = '#006Da1',
             style: { color: '#aaa'}
           }
         },
-        yAxis: {
-          allowDecimals: (!!agg),
-          min: 0,
-          title: { text: '' },
-          labels: {
-            x: -8,
-            enabled: true,
-            style: { color: '#aaa'}
-          },
-          gridLineColor: '#fff',
-          tickWidth: 1,
-          tickLength: 5
-        },
+        yAxis: yAxis,
         credits: { enabled: false },
         tooltip: { valueSuffix: '%' },
         legend: {
