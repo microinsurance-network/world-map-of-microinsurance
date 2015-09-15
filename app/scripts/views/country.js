@@ -73,9 +73,7 @@ Mi.Views = Mi.Views || {};
 
       _.each(this.data, function(value, index) {
         if (value.name.indexOf('ratio') >= 0 &&
-          value.indicatorValue !== '' &&
-          value.name != 'Life coverage ratio (excluding credit life)' &&
-          value.name != 'Life and accident coverage ratio (excluding credit life)') {
+          value.indicatorValue !== '') {
 
           var chartData = [];
           var yearLabels = [];

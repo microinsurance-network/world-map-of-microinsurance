@@ -3,12 +3,12 @@
 </div>
 <% _.each(aggregate.graphs, function(value, index) { %>
   <% if (value.mainValue !== '') { %>
-  <div class="col-sm-4 col-md-4 col-xs-6 row-country">
+  <div class="col-sm-3 col-md-3 col-xs-6 row-country">
 	  <div class="inner">
 		  <a class="more-info" href="#" data-toggle="popover" title="<%= value.name %>" data-content="<%= Mi.description[value.type] %>">?</a>
 			  <span class="mi-ratio-value"><a><%= value.mainValue.toFixed(2) %>%</a></span>
 				<span class="mi-ratio-label"><%= value.name %></span>
-				<div id="chart-<%= value.type %>" class="hchart"></div>
+				<div id="chart-<%= value.type.slice(0,15) %>" class="hchart"></div>
 				<span class="mi-crude-value"><%= numberWithCommas(value.crudeCoverage) %> lives insured</span>
 				<span class="mi-year-value">Year: <%= value.year %></span>
 			</div>

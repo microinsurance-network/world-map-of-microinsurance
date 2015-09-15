@@ -143,7 +143,7 @@ Mi.Routers = Mi.Routers || {};
           data: Mi.varNameGrouped[Mi.name],
           graphData: {
             population: Mi.varNameGrouped['population-(total)'],
-            crudeCoverage: Mi.varNameGrouped[Mi.name.slice(0, -6)]
+            crudeCoverage: Mi.varNameGrouped[Mi.name.replace('-ratio','')]
           }
         });
       } else {

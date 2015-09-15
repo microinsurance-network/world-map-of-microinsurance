@@ -11,7 +11,9 @@ var blue = '#006Da1',
     red = 'maroon',
     orange = '#a61',
     purple = '#63b',
-    brown = '#321';
+    brown = '#321',
+    teal = '#099',
+    darkGreen = '#030';
 
   Mi.Views.Base = Backbone.View.extend({
 
@@ -161,6 +163,12 @@ var blue = '#006Da1',
           break;
         case 'agriculture-coverage-ratio':
           return purple;
+          break;
+        case 'life-coverage-ratio-(excluding-credit-life)':
+          return teal;
+          break;
+        case 'life-and-accident-coverage-ratio-(excluding-credit-life)':
+          return darkGreen;
           break;
       }
     },
