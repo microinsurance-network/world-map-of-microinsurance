@@ -31,7 +31,6 @@ Mi.Views = Mi.Views || {};
 
       var asterisk = '';
       if (this.region === 'asia' && !!this.type.match(/life/i)) {
-        console.log('asterisk');
         asterisk = '<span class="asterisk" data-content="Life insurance data reported for Asia 2013 is all inclusive of credit and non-credit life coverages; No data is shown for the subcategories.">*</span>'
       }
 
@@ -102,11 +101,7 @@ Mi.Views = Mi.Views || {};
       this.data.sort(function (a,b) { return b.mainValue - a.mainValue; });
 
       // aggregate ratios desired
-      var ratios = ['total-microinsurance-coverage-ratio',
-        'credit-life-coverage-ratio','health-coverage-ratio',
-        'accident-coverage-ratio','property-coverage-ratio',
-        'agriculture-coverage-ratio', 'life-coverage-ratio-(excluding-credit-life)',
-        'life-and-accident-coverage-ratio-(excluding-credit-life)'];
+      var ratios = _.keys(Mi.description);
 
       // calculate regional aggregated population by year
       var populationArray = _.pluck(_self.extraData.filter(function(f) {
