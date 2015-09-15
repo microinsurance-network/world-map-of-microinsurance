@@ -16,6 +16,7 @@ Mi.Routers = Mi.Routers || {};
   Mi.dataUrl = Mi.dataFolder + 'mi-data.csv',
   Mi.studyUrl = Mi.dataFolder + 'studies.csv',
   Mi.typeUrl = Mi.dataFolder + 'types.csv',
+  Mi.linkUrl = Mi.dataFolder + 'links.csv',
   Mi.year = 'all',
   Mi.region = 'global',
   Mi.name = 'total-microinsurance-coverage-ratio',
@@ -280,13 +281,18 @@ Mi.Routers = Mi.Routers || {};
     },
 
     headerInit: function () {
+      d3.csv(Mi.linkUrl, function(error, links){
+        // Info hover description
+        Mi.links = {};
+        _.each(links, function (link) {
+          Mi.links[link.countryCode] = link.link;
+        });
+      });
       d3.csv(Mi.typeUrl, function(error, types){
         // Info hover description
         var descriptions = {};
         _.each(types, function (type) {
-          if (type.type) {
-            descriptions[type.type] = type.description;
-          }
+          descriptions[type.type] = type.description;
         });
         Mi.description = descriptions;
         d3.csv(Mi.studyUrl, function(error, studies){

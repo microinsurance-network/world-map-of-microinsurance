@@ -68,7 +68,8 @@ Mi.Views = Mi.Views || {};
             name: 'Population',
             info: this.extraData['population-(total)']
           }
-        ]
+        ],
+        extraLink: Mi.links[_self.iso]
       }));
 
       _.each(this.data, function(value, index) {

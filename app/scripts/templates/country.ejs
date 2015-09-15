@@ -1,5 +1,15 @@
 <div class="aggregate-bar">
   <h2 class="aggregate-title"><%= data[0]["country"] %></h2>
+  <% if (extraLink) { %>
+    <div class="aggregate-stat">
+      <div class="aggregate-stat-title">
+        <span>More Info</span>
+      </div>
+      <div class="aggregate-stat-info">
+        <span><a href="<%= extraLink %>" target="_blank"><%= data[0]["country"] %></a></span>
+      </div>
+    </div>
+  <% } %>
   <% _.each(countryStats, function(value) { %>
   <% if (value.info.value) { %>
     <div class="aggregate-stat">
