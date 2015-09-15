@@ -165,7 +165,7 @@ var blue = '#006Da1',
       var scale = chroma.scale(palette)
         .mode('hsl')
         .domain([-1, 0, 1, 2, 3, 4]);
-      return (Number(value) === 0) ? '#ddd' : scale(Math.floor(Math.min(value, 3)));
+      return (Number(value) === 0) ? '#ccc' : scale(Math.floor(Math.min(value, 3)));
     },
 
     resetMapStyle: function () {

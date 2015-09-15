@@ -277,7 +277,7 @@ Mi.Routers = Mi.Routers || {};
 
     mapNoData: function () {
       var defs = d3.select('#map svg').insert('defs',":first-child");
-      var dashWidth = 3;
+      var dashWidth = 4;
       var pattern = defs.append("pattern")
         .attr('id', 'hash')
         .attr('patternUnits', 'userSpaceOnUse')
