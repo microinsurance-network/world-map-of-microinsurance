@@ -109,7 +109,7 @@ a:hover {
 }
 
 #content {
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   border-left: 1px solid #ccc;
   position: relative;
   margin-top: -20px;
@@ -277,6 +277,20 @@ a:hover {
     padding: 0 15px;
     text-align: center;
     .aggregate-stat-info { color: #777; }
+  }
+}
+
+.footer {
+  & > div {
+    padding: 15px;
+    text-align: center;
+  }
+  .footer-links {
+    a { margin: 0 10px; }
+  }
+  .footer-social {
+    font-size: 18px;
+    a { margin: 0 5px; }
   }
 }
 
