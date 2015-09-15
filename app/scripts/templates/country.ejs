@@ -18,7 +18,7 @@
         <span class="year">(<%= value.info.year%>)</span>
       </div>
       <div class="aggregate-stat-info">
-        <span><%= numberWithCommas(value.info.value) %><%= value.suffix %></span>
+        <span><%= numberWithCommas(Math.round(value.info.value)) %><%= value.suffix %></span>
       </div>
     </div>
   <% } %>

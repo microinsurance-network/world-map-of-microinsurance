@@ -60,8 +60,11 @@ Mi.Views = Mi.Views || {};
             suffix: '$ (US)'
           },
           {
-            name: 'GDP',
-            info: this.extraData['gdp-(current-us$)'],
+            name: 'GDP per capita',
+            info: {
+              value: this.extraData['gdp-(current-us$)'].value / this.extraData['population-(total)'].value,
+              year: this.extraData['gdp-(current-us$)'].year
+            },
             suffix: '$ (US)'
           },
           {
