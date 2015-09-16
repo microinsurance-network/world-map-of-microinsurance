@@ -13,17 +13,9 @@
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav">
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Data <span class="caret"></span></a>
-        <ul class="dropdown-menu menu-data" role="menu">
-          <li><a href="assets/data/mi-data.csv">Download (csv)</a></li>
-          <li role="presentation" class="divider"></li>
-          <li role="presentation" class="dropdown-header">Landscape Studies (pdf)</li>
-          <% _.each(studies.filter(function(f) { return f.link; }), function(study) { %>
-            <li><a href="<%= study.link %>" target="_blank"><%= study.name %></a></li>
-          <% }); %>
-        </ul>
-      </li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#partners">Partners</a></li>
+      <li><a href="http://www.microinsurancenetwork.org/community/blogs">Blog</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li class="dropdown">
@@ -64,6 +56,17 @@
           <li><a id="twitter-share-btn" href="#">Twitter</a></li>
           <li><a id="facebook-share-btn" href="#">Facebook</a></li>
           <li><a id="linkedin-share-btn" href="#">LinkedIn</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Data <span class="caret"></span></a>
+        <ul class="dropdown-menu menu-data" role="menu">
+          <li><a href="assets/data/mi-data.csv">Download (csv)</a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation" class="dropdown-header">Landscape Studies (pdf)</li>
+          <% _.each(studies.filter(function(f) { return f.link; }), function(study) { %>
+            <li><a href="<%= study.link %>" target="_blank"><%= study.name %></a></li>
+          <% }); %>
         </ul>
       </li>
     </ul>

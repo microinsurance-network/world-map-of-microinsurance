@@ -18,6 +18,7 @@ a:hover {
 
 .navbar {
   min-height: 40px !important;
+  color: #fff;
 }
 .navbar-default {
   background: #006DA1;
@@ -34,7 +35,7 @@ a:hover {
 }
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
-  color: #fff;
+  color: #fff !important;
 }
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a:hover {
@@ -44,6 +45,12 @@ a:hover {
  border-bottom-color: #fff !important;
  border-top-color: #fff !important;
 }
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #00628F;
+}
+
 .navbar-toggle {
   padding: 4px 10px;
 }
@@ -370,6 +377,29 @@ a:hover {
   min-width: 260px;
   & > li > a {
     white-space: normal;
+  }
+}
+
+#content.about, #content.partners {
+  margin: 0;
+  padding: 10px 0 30px;
+  border: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  .container {
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  p { margin-bottom: 1.5em; }
+  p, tbody, ul { font-family: 'DIN Next W01', serif; }
+}
+
+#content.partners {
+  img {
+    width: auto;
   }
 }
 

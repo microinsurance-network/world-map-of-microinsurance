@@ -68,7 +68,9 @@ Mi.Routers = Mi.Routers || {};
     routes: {
       '' : 'viewPage',
       'view/:region/:year/:name' : 'viewPage',
-      'country/:country' : 'viewCountry'
+      'country/:country' : 'viewCountry',
+      'about': 'about',
+      'partners': 'partners'
      },
 
     execute: function(callback, args) {
@@ -79,6 +81,10 @@ Mi.Routers = Mi.Routers || {};
         // maybe spin a loader here
       }
       else {
+        $('.page-header').css('display','block');
+        $('#map').css('display','block');
+        $('#content').removeClass('about');
+        $('#content').removeClass('partners');
         if (callback) callback.apply(this, args);
       }
     },
@@ -206,6 +212,16 @@ Mi.Routers = Mi.Routers || {};
         $('.loader').fadeOut();
      },
 
+     about: function () {
+       new Mi.Views.About();
+       $('.loader').fadeOut();
+     },
+
+     partners: function () {
+       new Mi.Views.Partners();
+       $('.loader').fadeOut();
+     },
+
     mapInit: function (callback) {
       var _self = this;
       // initialize map
@@ -287,27 +303,26 @@ Mi.Routers = Mi.Routers || {};
         _.each(links, function (link) {
           Mi.links[link.countryCode] = link.link;
         });
-      });
-      d3.csv(Mi.typeUrl, function(error, types){
-        // Info hover description
-        var descriptions = {};
-        _.each(types, function (type) {
-          descriptions[type.type] = type.description;
-        });
-        Mi.description = descriptions;
-        d3.csv(Mi.studyUrl, function(error, studies){
-          // make object of region names and codes
-          var regions = {};
-          _.each(studies, function (study) {
-            if (study.region_name) {
-              regions[study.region_code] = study.region_name;
-            }
+        d3.csv(Mi.typeUrl, function(error, types){
+          // Info hover description
+          var descriptions = {};
+          _.each(types, function (type) {
+            descriptions[type.type] = type.description;
           });
-          Mi.regions = regions;
-          Mi.header = new Mi.Views.Header({studies: studies, regions: regions });
+          Mi.description = descriptions;
+          d3.csv(Mi.studyUrl, function(error, studies){
+            // make object of region names and codes
+            var regions = {};
+            _.each(studies, function (study) {
+              if (study.region_name) {
+                regions[study.region_code] = study.region_name;
+              }
+            });
+            Mi.regions = regions;
+            Mi.header = new Mi.Views.Header({studies: studies, regions: regions });
+          });
         });
       });
-
     },
 
     closePopups: function () {
