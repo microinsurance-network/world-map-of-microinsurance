@@ -12,8 +12,8 @@ var blue = '#006Da1',
     orange = '#a61',
     purple = '#63b',
     brown = '#321',
-    teal = '#099',
-    darkGreen = '#030';
+    teal = '#0B2F35',
+    darkGreen = '#092317';
 
   Mi.Views.Base = Backbone.View.extend({
 
