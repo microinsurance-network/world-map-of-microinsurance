@@ -16,7 +16,7 @@ Mi.Views = Mi.Views || {};
     render: function () {
       // fetch and render template
       var _self = this;
-      $.get("../../about.html", function(template){
+      $.get("../about.html", function(template){
         _self.$el.html(template);
       });
     },
