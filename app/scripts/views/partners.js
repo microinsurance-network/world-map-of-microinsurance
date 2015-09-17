@@ -15,7 +15,7 @@ Mi.Views = Mi.Views || {};
     },
     render: function () {
       var _self = this;
-      $.get("../partners.html", function(template){
+      $.get("partners.html", function(template){
         _self.$el.html(template);
       });
     },
