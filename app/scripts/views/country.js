@@ -60,22 +60,24 @@ Mi.Views = Mi.Views || {};
             suffix: '$ (US)'
           },
           {
-            name: 'GDP',
-            info: this.extraData['gdp-(current-us$)'],
+            name: 'GDP per capita',
+            info: {
+              value: this.extraData['gdp-(current-us$)'].value / this.extraData['population-(total)'].value,
+              year: this.extraData['gdp-(current-us$)'].year
+            },
             suffix: '$ (US)'
           },
           {
             name: 'Population',
             info: this.extraData['population-(total)']
           }
-        ]
+        ],
+        extraLink: Mi.links[_self.iso]
       }));
 
       _.each(this.data, function(value, index) {
         if (value.name.indexOf('ratio') >= 0 &&
-          value.indicatorValue !== '' &&
-          value.name != 'Life coverage ratio (excluding credit life)' &&
-          value.name != 'Life and accident coverage ratio (excluding credit life)') {
+          value.indicatorValue !== '') {
 
           var chartData = [];
           var yearLabels = [];

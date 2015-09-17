@@ -29,13 +29,20 @@ Mi.Views = Mi.Views || {};
         this.region = 'global';
       }
 
+      var asterisk = '';
+      if (this.region === 'asia' && !!this.type.match(/life/i)) {
+        asterisk = '<span class="asterisk" data-content="Life insurance data reported for Asia 2013 is all inclusive of credit and non-credit life coverages; No data is shown for the subcategories.">*</span>'
+      }
+
       $('.region-value').text(Mi.regions[this.region]);
-      $('.type-value').text(this.capitalizeFirstLetter(this.type.replace(/-/g, ' ')));
+      $('.type-value').html(this.capitalizeFirstLetter(this.type.replace(/-/g, ' ')) + asterisk);
       if (this.year === 'all') {
         $('.year-value').text('Most recent value');
       } else {
         $('.year-value').text(this.year);
       }
+      $('.asterisk').popover({placement: 'left', trigger: 'hover'});
+
 
       this.setView(this.region);
       this.drawLegend();
@@ -52,7 +59,7 @@ Mi.Views = Mi.Views || {};
       // draw map and charts
       this.resetMapStyle();
       _.each(this.aggregate.graphs, function (graph) {
-        _self.drawLineChart('#chart-' + graph.type,
+        _self.drawLineChart('#chart-' + graph.type.slice(0,15),
           _.pluck(graph.chartData,'value'), _.pluck(graph.chartData,'year'),
           graph.name, graph.type, true);
       });
@@ -83,7 +90,7 @@ Mi.Views = Mi.Views || {};
 
       // data handling
       _.each(this.data, function(d){
-        d.crudeCoverageType = _self.type.slice(0, -6);
+        d.crudeCoverageType = _self.type.replace('-ratio','');
         var crudeObject = Mi.doubledGrouped[d.country][d.crudeCoverageType][0];
         // set our year and get the most recent value for the
         // map and main display ratio
@@ -94,10 +101,7 @@ Mi.Views = Mi.Views || {};
       this.data.sort(function (a,b) { return b.mainValue - a.mainValue; });
 
       // aggregate ratios desired
-      var ratios = ['total-microinsurance-coverage-ratio',
-        'credit-life-coverage-ratio','health-coverage-ratio',
-        'accident-coverage-ratio','property-coverage-ratio',
-        'agriculture-coverage-ratio'];
+      var ratios = _.keys(Mi.description);
 
       // calculate regional aggregated population by year
       var populationArray = _.pluck(_self.extraData.filter(function(f) {
@@ -108,7 +112,7 @@ Mi.Views = Mi.Views || {};
       var graphs = ratios.map(function (ratio) {
         // grab the data for just this ratio (but the absolute/crude numbers)
         var crudeArray = _.pluck(_self.extraData.filter(function(f) {
-          return f.varName === ratio.slice(0, -6);
+          return f.varName === ratio.replace('-ratio','');
         }), 'timeseries');
         // get a timeseries of crude value
         var sumCrude = _self.aggregateTimeseries(crudeArray);
@@ -132,7 +136,7 @@ Mi.Views = Mi.Views || {};
         return {
           type: ratio,
           chartData: chartData.filter(function(f) { return !!f; }),
-          name: Mi.nameObject[ratio.slice(0, -6)],
+          name: Mi.nameObject[ratio.replace('-ratio','')],
           mainValue: mainValue,
           crudeCoverage: crudeCoverage,
           year: year

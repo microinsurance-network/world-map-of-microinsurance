@@ -11,16 +11,35 @@ var blue = '#006Da1',
     red = 'maroon',
     orange = '#a61',
     purple = '#63b',
-    brown = '#321';
+    brown = '#321',
+    teal = '#0B2F35',
+    darkGreen = '#092317';
 
   Mi.Views.Base = Backbone.View.extend({
 
     el: '#content',
 
-    drawLineChart: function(selector, data, categories, name, type, agg) {
+    drawLineChart: function(selector, data, categories, name, type, agg, fixedMax) {
       var _self = this;
       var typeUsed = type || this.type;
       var color = _self.getColor(2, typeUsed).hex();
+
+      var yAxis = {
+        allowDecimals: (!!agg),
+        min: 0,
+        title: { text: '' },
+        labels: {
+          x: -8,
+          enabled: true,
+          style: { color: '#aaa'}
+        },
+        gridLineColor: '#fff',
+        tickWidth: 1,
+        tickLength: 5
+      };
+      if (fixedMax) {
+        yAxis.max = fixedMax;
+      }
 
       $(selector).highcharts({
         chart: {
@@ -38,19 +57,7 @@ var blue = '#006Da1',
             style: { color: '#aaa'}
           }
         },
-        yAxis: {
-          allowDecimals: (!!agg),
-          min: 0,
-          title: { text: '' },
-          labels: {
-            x: -8,
-            enabled: true,
-            style: { color: '#aaa'}
-          },
-          gridLineColor: '#fff',
-          tickWidth: 1,
-          tickLength: 5
-        },
+        yAxis: yAxis,
         credits: { enabled: false },
         tooltip: { valueSuffix: '%' },
         legend: {
@@ -157,6 +164,12 @@ var blue = '#006Da1',
         case 'agriculture-coverage-ratio':
           return purple;
           break;
+        case 'life-coverage-ratio-(excluding-credit-life)':
+          return teal;
+          break;
+        case 'life-and-accident-coverage-ratio-(excluding-credit-life)':
+          return darkGreen;
+          break;
       }
     },
 
@@ -165,7 +178,7 @@ var blue = '#006Da1',
       var scale = chroma.scale(palette)
         .mode('hsl')
         .domain([-1, 0, 1, 2, 3, 4]);
-      return (Number(value) === 0) ? '#ddd' : scale(Math.floor(Math.min(value, 3)));
+      return (Number(value) === 0) ? '#ccc' : scale(Math.floor(Math.min(value, 3)));
     },
 
     resetMapStyle: function () {

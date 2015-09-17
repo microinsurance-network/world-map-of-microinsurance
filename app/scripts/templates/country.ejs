@@ -1,5 +1,15 @@
 <div class="aggregate-bar">
   <h2 class="aggregate-title"><%= data[0]["country"] %></h2>
+  <% if (extraLink) { %>
+    <div class="aggregate-stat">
+      <div class="aggregate-stat-title">
+        <span>More Info</span>
+      </div>
+      <div class="aggregate-stat-info">
+        <span><a href="<%= extraLink %>" target="_blank"><%= data[0]["country"] %></a></span>
+      </div>
+    </div>
+  <% } %>
   <% _.each(countryStats, function(value) { %>
   <% if (value.info.value) { %>
     <div class="aggregate-stat">
@@ -8,18 +18,18 @@
         <span class="year">(<%= value.info.year%>)</span>
       </div>
       <div class="aggregate-stat-info">
-        <span><%= numberWithCommas(value.info.value) %><%= value.suffix %></span>
+        <span><%= numberWithCommas(Math.round(value.info.value)) %><%= value.suffix %></span>
       </div>
     </div>
   <% } %>
   <% }); %>
 </div>
 <% _.each(data, function(value, index) { %>
-  <% if (value.name.indexOf('ratio') >= 0 && value.indicatorValue !== '' && value.name !=='Life coverage ratio (excluding credit life)' && value.name !== 'Life and accident coverage ratio (excluding credit life)') { %>
+  <% if (value.name.indexOf('ratio') >= 0 && value.indicatorValue !== '') { %>
 	  <div class="col-sm-4 col-md-3 col-xs-6 row-country <%= value.varName %>">
 		  <div class="inner">
 			  <a class="more-info" href="#" data-toggle="popover" title="<%= value.name %>" data-content="<%= Mi.description[value.varName] %>">?</a>
-				  <span class="mi-ratio-value"><a href="#country/<%= value.iso %>"><%= value.indicatorValue.toFixed(2) %>%</a></span>
+				  <span class="mi-ratio-value"><a><%= value.indicatorValue.toFixed(2) %>%</a></span>
 					<span class="mi-ratio-label"><%= value.name %></span>
 					<div id="<%= value.iso %>-chart-<%= index %>" class="hchart"></div>
 					<span class="mi-crude-value"><%= numberWithCommas(value.crudeCoverage) %> lives insured</span>

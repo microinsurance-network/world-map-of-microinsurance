@@ -15,6 +15,8 @@ Mi.Routers = Mi.Routers || {};
   Mi.dataFolder = 'assets/data/',
   Mi.dataUrl = Mi.dataFolder + 'mi-data.csv',
   Mi.studyUrl = Mi.dataFolder + 'studies.csv',
+  Mi.typeUrl = Mi.dataFolder + 'types.csv',
+  Mi.linkUrl = Mi.dataFolder + 'links.csv',
   Mi.year = 'all',
   Mi.region = 'global',
   Mi.name = 'total-microinsurance-coverage-ratio',
@@ -57,16 +59,6 @@ Mi.Routers = Mi.Routers || {};
     }
   }),
 
-  // Info hover description
-  Mi.description = {
-    "total-microinsurance-coverage-ratio": "Coverage of all included microinsurance products provided.",
-    "credit-life-coverage-ratio": "Coverage that repays the outstanding balance on loans in default due to the death of the borrower. Occasionally, partial or complete disability coverage is also included.",
-    "accident-coverage-ratio": "Insurance providing financial protection against an event that is unforeseen, unexpected, and unintended.",
-    "property-coverage-ratio": "Insurance providing financial protection against the loss of, or damage to, real and personal property caused by such perils as fire, theft, windstorm, hail, explosion, riot, aircraft, motor vehicles, vandalism, malicious mischief, riot and civil commotion, and smoke.",
-    "agriculture-coverage-ratio": "Insurance providing financial protection against loss due to drought, livestock disease and death, flood, and other perils impacting agriculture production.",
-    "health-coverage-ratio": "Coverage that provides benefits as a result of sickness or injury. Policies include insurance for losses from accident, medical expense, disability, or accidental death and dismemberment."
-  },
-
   Mi.Routers.App = Backbone.Router.extend({
 
     initialize: function () {
@@ -76,7 +68,9 @@ Mi.Routers = Mi.Routers || {};
     routes: {
       '' : 'viewPage',
       'view/:region/:year/:name' : 'viewPage',
-      'country/:country' : 'viewCountry'
+      'country/:country' : 'viewCountry',
+      'about': 'about',
+      'partners': 'partners'
      },
 
     execute: function(callback, args) {
@@ -87,6 +81,10 @@ Mi.Routers = Mi.Routers || {};
         // maybe spin a loader here
       }
       else {
+        $('.page-header').css('display','block');
+        $('#map').css('display','block');
+        $('#content').removeClass('about');
+        $('#content').removeClass('partners');
         if (callback) callback.apply(this, args);
       }
     },
@@ -143,7 +141,7 @@ Mi.Routers = Mi.Routers || {};
           data: Mi.varNameGrouped[Mi.name],
           graphData: {
             population: Mi.varNameGrouped['population-(total)'],
-            crudeCoverage: Mi.varNameGrouped[Mi.name.slice(0, -6)]
+            crudeCoverage: Mi.varNameGrouped[Mi.name.replace('-ratio','')]
           }
         });
       } else {
@@ -214,6 +212,16 @@ Mi.Routers = Mi.Routers || {};
         $('.loader').fadeOut();
      },
 
+     about: function () {
+       new Mi.Views.About();
+       $('.loader').fadeOut();
+     },
+
+     partners: function () {
+       new Mi.Views.Partners();
+       $('.loader').fadeOut();
+     },
+
     mapInit: function (callback) {
       var _self = this;
       // initialize map
@@ -277,7 +285,7 @@ Mi.Routers = Mi.Routers || {};
 
     mapNoData: function () {
       var defs = d3.select('#map svg').insert('defs',":first-child");
-      var dashWidth = 3;
+      var dashWidth = 4;
       var pattern = defs.append("pattern")
         .attr('id', 'hash')
         .attr('patternUnits', 'userSpaceOnUse')
@@ -289,17 +297,31 @@ Mi.Routers = Mi.Routers || {};
     },
 
     headerInit: function () {
-      d3.csv(Mi.studyUrl, function(error, data){
-        var studies = data;
-        // make object of region names and codes
-        var regions = {};
-        _.each(studies, function (study) {
-          if (study.region_name) {
-            regions[study.region_code] = study.region_name;
-          }
+      d3.csv(Mi.linkUrl, function(error, links){
+        // Info hover description
+        Mi.links = {};
+        _.each(links, function (link) {
+          Mi.links[link.countryCode] = link.link;
         });
-        Mi.regions = regions;
-        Mi.header = new Mi.Views.Header({studies: studies, regions: regions });
+        d3.csv(Mi.typeUrl, function(error, types){
+          // Info hover description
+          var descriptions = {};
+          _.each(types, function (type) {
+            descriptions[type.type] = type.description;
+          });
+          Mi.description = descriptions;
+          d3.csv(Mi.studyUrl, function(error, studies){
+            // make object of region names and codes
+            var regions = {};
+            _.each(studies, function (study) {
+              if (study.region_name) {
+                regions[study.region_code] = study.region_name;
+              }
+            });
+            Mi.regions = regions;
+            Mi.header = new Mi.Views.Header({studies: studies, regions: regions });
+          });
+        });
       });
     },
 
