@@ -47,15 +47,17 @@ instance, "<0.1" will cause a display error).
 ##### links.csv
 
 This file stores which countries have links to additional information. The first
-column should match the country's `iso3` found in the `mi-data.csv` file.
+column should match the country's `iso3` found in the `mi-data.csv` file. The
+second column should contain the full link to the page where additional
+information can be found.
 
 ##### studies.csv
 
 This file stores all the landscape study links. Match the existing format for
-all columns
+all columns.
 
 ##### types.csv
 
 This file provides descriptions for the eight main microinsurance indicators.
-Any text in the column, "description" will be shown on the info tooltips on the
+Any text in the column, "description", will be shown on the info tooltips on the
 site.
