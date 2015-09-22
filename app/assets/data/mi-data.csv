@@ -7563,3 +7563,6 @@ Zimbabwe,ZWE,Africa,Poverty,"Life expectancy at birth, female",43.26,48.50,51.09
 Zimbabwe,ZWE,Africa,Poverty,"Life expectancy at birth, male",44.48,49.10,51.21,53.38,55.46,57.31,
 Zimbabwe,ZWE,Africa,Poverty,"Life expectancy at birth, total",43.89,48.81,51.15,53.59,55.95,58.05,
 Zimbabwe,ZWE,Africa,Poverty,"Physicians (per 1,000 people)",,,0.06,,,,
+Temp Country Asia,TCS,Asia,Demographics,Population (Total),,,,,,13371521.00,
+Temp Country Africa,TCF,Africa,Demographics,Population (Total),,,,,-29643702.00,,
+Temp Country Americas,TCM,Americas,Demographics,Population (Total),,,,,16382971.00,,19155582.00
