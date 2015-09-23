@@ -289,8 +289,10 @@ a:hover {
 
 .footer {
   & > div {
-    padding: 15px;
+    padding: 0 15px;
     text-align: center;
+    height: 60px;
+    line-height: 60px;
   }
   .footer-links {
     a { margin: 0 10px; }
@@ -397,9 +399,17 @@ a:hover {
   p, tbody, ul { font-family: 'DIN Next W01', serif; }
 }
 
-#content.partners {
+#content.partners img {
+  width: auto;
+}
+
+.copyright {
   img {
     width: auto;
+    margin-left: 12px;
+  }
+  .logo-box {
+    display: inline-block;
   }
 }
 
@@ -425,5 +435,11 @@ a:hover {
   }
   .filter-breadcrumb {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 470px) {
+  .footer > div.copyright {
+    height: 120px;
   }
 }
