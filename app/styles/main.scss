@@ -291,8 +291,8 @@ a:hover {
   & > div {
     padding: 0 15px;
     text-align: center;
-    height: 60px;
-    line-height: 60px;
+    height: 80px;
+    line-height: 80px;
   }
   .footer-links {
     a { margin: 0 10px; }
@@ -440,6 +440,6 @@ a:hover {
 
 @media (max-width: 470px) {
   .footer > div.copyright {
-    height: 120px;
+    height: 160px;
   }
 }
