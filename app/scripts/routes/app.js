@@ -260,7 +260,7 @@ Mi.Routers = Mi.Routers || {};
         });
       });
 
-      Mi.labels = L.mapbox.tileLayer('devseed.549da763', {
+      Mi.labels = L.mapbox.tileLayer('wmm2016.8a3ec4fa', {
         noWrap: true
       });
 
