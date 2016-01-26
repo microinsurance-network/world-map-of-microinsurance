@@ -11,7 +11,6 @@
   <Parameter name="maxzoom">22</Parameter>
   <Parameter name="minzoom">0</Parameter>
   <Parameter name="name"><![CDATA[Mapbox Light]]></Parameter>
-  <Parameter name="source"><![CDATA[mapbox:///devseed.33074b4e]]></Parameter>
 </Parameters>
 
 

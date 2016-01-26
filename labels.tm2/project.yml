@@ -1,27 +1,25 @@
 _prefs: 
-  mapid: devseed.549da763
-  saveCenter: false
-_properties: 
-  bridge: 
-    "group-by": layer
-attribution: "<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>"
+  mapid: wmm2016.8a3ec4fa
+  saveCenter: true
+_properties: {}
+attribution: ''
 bounds: 
   - -180
   - -85.0511
   - 180
   - 85.0511
 center: 
-  - 15.293
-  - 50.8476
-  - 4
-description: A monotone basemap that's easy to recolor.
+  - 17.2266
+  - 28.6135
+  - 2
+description: ''
 format: "png8:m=h"
 interactivity_layer: ''
 layers: null
 maxzoom: 22
 minzoom: 0
-name: Mapbox Light
-source: "mapbox:///ascalamogna.d9e4cc3e,devseed.33074b4e"
+name: ''
+source: "mapbox:///wmm2016.5dfb14b7"
 styles: 
   - style.mss
 template: ''
