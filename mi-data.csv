@@ -49,8 +49,8 @@ Afghanistan,AFG,Asia,Microinsurance,Health coverage ratio,,,,,,0,,
 Afghanistan,AFG,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 Afghanistan,AFG,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Afghanistan,AFG,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Afghanistan,AFG,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Afghanistan,AFG,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0,,
+Afghanistan,AFG,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Afghanistan,AFG,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 Afghanistan,AFG,Asia,Poverty,Income share held by lowest 20%,,9.4,,,,,,
 Afghanistan,AFG,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Afghanistan,AFG,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,36,,,,,,
@@ -111,8 +111,8 @@ Algeria,DZA,Africa,Microinsurance,Health coverage ratio,0,0,,,0,,,0
 Algeria,DZA,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0
 Algeria,DZA,Africa,Microinsurance,Property coverage ratio,0,0,,,0.01,,,0.31
 Algeria,DZA,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0.01,,,0.31
-Algeria,DZA,Africa,Microinsurance,Total Gross Premium (USD millions),   ,,,,,,,"1,597.00"
-Algeria,DZA,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),   ,,,,,,,0.63
+Algeria,DZA,Africa,Microinsurance,Total Gross Premium (USD),   ,,,,,,,"1,597,000,000.00"
+Algeria,DZA,Africa,Microinsurance,Microinsurance Gross Premium (USD),   ,,,,,,,625000
 Algeria,DZA,Africa,Poverty,Income share held by lowest 20%, ,,,,,,,
 Algeria,DZA,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population), ,,,,,,,
 Algeria,DZA,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population), ,,,,,,,
@@ -173,8 +173,8 @@ Angola,AGO,Africa,Microinsurance,Health coverage ratio,0,,,,0,,,0
 Angola,AGO,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0
 Angola,AGO,Africa,Microinsurance,Property coverage ratio,0,,,,0,,,0
 Angola,AGO,Africa,Microinsurance,Agriculture coverage ratio,,,,,0,,,0
-Angola,AGO,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,"1,142.00"
-Angola,AGO,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0
+Angola,AGO,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,"1,142,000,000.00"
+Angola,AGO,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,0
 Angola,AGO,Africa,Poverty,Income share held by lowest 20%,,,5.4,,,,,
 Angola,AGO,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,67.42,,,,,
 Angola,AGO,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,36.6,,,,,,
@@ -235,8 +235,8 @@ Argentina,ARG,Americas,Microinsurance,Health coverage ratio,,,,,0.05,,0.33,
 Argentina,ARG,Americas,Microinsurance,Accident coverage ratio,,,,,1.06,,0.33,
 Argentina,ARG,Americas,Microinsurance,Property coverage ratio,,,,,0,,0,
 Argentina,ARG,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,
-Argentina,ARG,Americas,Microinsurance,Total Gross Premium (USD millions),,,,,,,"17,362.09",
-Argentina,ARG,Americas,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,27.03,,51.71,
+Argentina,ARG,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,"17,362,091,300.00",
+Argentina,ARG,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,27026428,,51711841,
 Argentina,ARG,Americas,Poverty,Income share held by lowest 20%,3.44,3.93,3.92,4.38,,,,
 Argentina,ARG,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),9.41,3.66,3.44,1.87,,,,
 Argentina,ARG,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -297,8 +297,8 @@ Armenia,ARM,Asia,Microinsurance,Health coverage ratio,,,,,,0,,
 Armenia,ARM,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 Armenia,ARM,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Armenia,ARM,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Armenia,ARM,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Armenia,ARM,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0,,
+Armenia,ARM,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Armenia,ARM,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 Armenia,ARM,Asia,Poverty,Income share held by lowest 20%,7.98,8.78,,8.82,,,,
 Armenia,ARM,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),23.29,12.43,,19.91,,,,
 Armenia,ARM,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,27.6,34.1,35.8,35,32.4,,
@@ -359,8 +359,8 @@ Azerbaijan,AZE,Asia,Microinsurance,Health coverage ratio,,,,,,0,,
 Azerbaijan,AZE,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 Azerbaijan,AZE,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Azerbaijan,AZE,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Azerbaijan,AZE,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Azerbaijan,AZE,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0.02,,
+Azerbaijan,AZE,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Azerbaijan,AZE,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,20000,,
 Azerbaijan,AZE,Asia,Poverty,Income share held by lowest 20%,,7.99,,,,,,
 Azerbaijan,AZE,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,2.81,,,,,,
 Azerbaijan,AZE,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,13.2,10.9,9.1,7.6,6,,
@@ -421,8 +421,8 @@ Bangladesh,BGD,Asia,Microinsurance,Health coverage ratio,,,,,,3.45,,
 Bangladesh,BGD,Asia,Microinsurance,Accident coverage ratio,,,,,,0.93,,
 Bangladesh,BGD,Asia,Microinsurance,Property coverage ratio,,,,,,0.01,,
 Bangladesh,BGD,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0.1,,
-Bangladesh,BGD,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Bangladesh,BGD,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,145.28,,
+Bangladesh,BGD,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Bangladesh,BGD,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,145280000,,
 Bangladesh,BGD,Asia,Poverty,Income share held by lowest 20%,8.79,,,8.88,,,,
 Bangladesh,BGD,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),80.32,,,76.54,,,,
 Bangladesh,BGD,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),40,,,31.51,,,,
@@ -483,8 +483,8 @@ Belize,BLZ,Americas,Microinsurance,Health coverage ratio,0,,,,0,,0,
 Belize,BLZ,Americas,Microinsurance,Accident coverage ratio,0,,,,0,,0.13,
 Belize,BLZ,Americas,Microinsurance,Property coverage ratio,0,,,,0.16,,0.03,
 Belize,BLZ,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,
-Belize,BLZ,Americas,Microinsurance,Total Gross Premium (USD millions),,,,,,,63.45,
-Belize,BLZ,Americas,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,0.0064,,0.039,
+Belize,BLZ,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,63456885.92,
+Belize,BLZ,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,6392,,39859,
 Belize,BLZ,Americas,Poverty,Income share held by lowest 20%, ,,,,,,,
 Belize,BLZ,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population), ,,,,,,,
 Belize,BLZ,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population), ,,,,,,,
@@ -545,8 +545,8 @@ Benin,BEN,Africa,Microinsurance,Health coverage ratio,0.45,1.41,,,1.78,,,1.02
 Benin,BEN,Africa,Microinsurance,Accident coverage ratio,0.04,,,,0.26,,,0.29
 Benin,BEN,Africa,Microinsurance,Property coverage ratio,0,0,,,0.03,,,0.01
 Benin,BEN,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0.01,,,0.01
-Benin,BEN,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,30.47
-Benin,BEN,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,1.47
+Benin,BEN,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,30470800
+Benin,BEN,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,1466049.396
 Benin,BEN,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
 Benin,BEN,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Benin,BEN,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,35.2,,,
@@ -607,8 +607,8 @@ Bhutan,BTN,Asia,Microinsurance,Health coverage ratio,,,,,,0,,
 Bhutan,BTN,Asia,Microinsurance,Accident coverage ratio,,,,,,0.1,,
 Bhutan,BTN,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Bhutan,BTN,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Bhutan,BTN,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Bhutan,BTN,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,, -   ,,
+Bhutan,BTN,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Bhutan,BTN,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 Bhutan,BTN,Asia,Poverty,Income share held by lowest 20%,,,,,,6.75,,
 Bhutan,BTN,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,12.57,,
 Bhutan,BTN,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,12,,
@@ -669,8 +669,8 @@ Bolivia,BOL,Americas,Microinsurance,Health coverage ratio,2.73,,,,0.06,,0.21,
 Bolivia,BOL,Americas,Microinsurance,Accident coverage ratio,0,,,,4.71,,0.42,
 Bolivia,BOL,Americas,Microinsurance,Property coverage ratio,0,,,,0.01,,0,
 Bolivia,BOL,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,
-Bolivia,BOL,Americas,Microinsurance,Total Gross Premium (USD millions),,,,,,,376.31,
-Bolivia,BOL,Americas,Microinsurance,Microinsurance Gross Premium (USD millions),0.49,,,,6.54,,4.52,
+Bolivia,BOL,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,376310792,
+Bolivia,BOL,Americas,Microinsurance,Microinsurance Gross Premium (USD),489000,,,,6543035,,4520999,
 Bolivia,BOL,Americas,Poverty,Income share held by lowest 20%,1.95,,2.13,,,,,
 Bolivia,BOL,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),27.96,,24.89,,,,,
 Bolivia,BOL,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),59.6,,57.3,51.3,,,,
@@ -731,8 +731,8 @@ Botswana,BWA,Africa,Microinsurance,Health coverage ratio,0,0.5,,,0,,,0
 Botswana,BWA,Africa,Microinsurance,Accident coverage ratio,0,,,,1.2,,,0
 Botswana,BWA,Africa,Microinsurance,Property coverage ratio,0,0.6,,,0,,,0.01
 Botswana,BWA,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0
-Botswana,BWA,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,447.48
-Botswana,BWA,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0.82
+Botswana,BWA,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,447480000
+Botswana,BWA,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,815814.687
 Botswana,BWA,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
 Botswana,BWA,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Botswana,BWA,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,19.3,,,,
@@ -793,8 +793,8 @@ Brazil,BRA,Americas,Microinsurance,Health coverage ratio,,,,,2.1,,1.12,
 Brazil,BRA,Americas,Microinsurance,Accident coverage ratio,,,,,4.92,,5.38,
 Brazil,BRA,Americas,Microinsurance,Property coverage ratio,,,,,1.05,,0.12,
 Brazil,BRA,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,
-Brazil,BRA,Americas,Microinsurance,Total Gross Premium (USD millions),,,,,,,"89,032.32",
-Brazil,BRA,Americas,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,339,,242.1,
+Brazil,BRA,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,"89,032,320,000.00",
+Brazil,BRA,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,339150689,,242096889,
 Brazil,BRA,Americas,Poverty,Income share held by lowest 20%,2.76,,2.87,2.85,,,,
 Brazil,BRA,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),16.63,,11.32,10.82,,,,
 Brazil,BRA,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),30.8,,22.6,21.4,,15.9,,
@@ -855,8 +855,8 @@ Brunei Darussalam,BRN,Asia,Microinsurance,Health coverage ratio,,,,,,0,,
 Brunei Darussalam,BRN,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 Brunei Darussalam,BRN,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Brunei Darussalam,BRN,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Brunei Darussalam,BRN,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Brunei Darussalam,BRN,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,, -   ,,
+Brunei Darussalam,BRN,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Brunei Darussalam,BRN,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 Brunei Darussalam,BRN,Asia,Poverty,Income share held by lowest 20%,,,,,,,,
 Brunei Darussalam,BRN,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Brunei Darussalam,BRN,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -917,8 +917,8 @@ Burkina Faso,BFA,Africa,Microinsurance,Health coverage ratio,0.11,0.2,,,0.2,,,0.
 Burkina Faso,BFA,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,2.17
 Burkina Faso,BFA,Africa,Microinsurance,Property coverage ratio,0,0.1,,,0,,,0.11
 Burkina Faso,BFA,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0.06
-Burkina Faso,BFA,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,42.6
-Burkina Faso,BFA,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,5.96
+Burkina Faso,BFA,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,42599000
+Burkina Faso,BFA,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,5955320.618
 Burkina Faso,BFA,Africa,Poverty,Income share held by lowest 20%,,,,6.72,,,,
 Burkina Faso,BFA,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,72.56,,,,
 Burkina Faso,BFA,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,46.7,,,,
@@ -979,8 +979,8 @@ Burundi,BDI,Africa,Microinsurance,Health coverage ratio,0,0.2,,,1,,,1.08
 Burundi,BDI,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0
 Burundi,BDI,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,0
 Burundi,BDI,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0
-Burundi,BDI,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Burundi,BDI,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0.1
+Burundi,BDI,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Burundi,BDI,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,99498.0105
 Burundi,BDI,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
 Burundi,BDI,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Burundi,BDI,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -1041,8 +1041,8 @@ Cambodia,KHM,Asia,Microinsurance,Health coverage ratio,,,,,,1.87,,
 Cambodia,KHM,Asia,Microinsurance,Accident coverage ratio,,,,,,1.27,,
 Cambodia,KHM,Asia,Microinsurance,Property coverage ratio,,,,,,0.06,,
 Cambodia,KHM,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0.06,,
-Cambodia,KHM,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Cambodia,KHM,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,1.25,,
+Cambodia,KHM,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Cambodia,KHM,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,1250000,,
 Cambodia,KHM,Asia,Poverty,Income share held by lowest 20%,,,7.54,7.93,,,,
 Cambodia,KHM,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,53.27,49.54,,,,
 Cambodia,KHM,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,,38.8,23.9,22.1,,,
@@ -1103,8 +1103,8 @@ Cameroon,CMR,Africa,Microinsurance,Health coverage ratio,0.72,0.7,,,1.7,,,1.78
 Cameroon,CMR,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0.01
 Cameroon,CMR,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,0
 Cameroon,CMR,Africa,Microinsurance,Agriculture coverage ratio,,0.1,,,0,,,0
-Cameroon,CMR,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,112.18
-Cameroon,CMR,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0.75
+Cameroon,CMR,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,112179200
+Cameroon,CMR,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,747627
 Cameroon,CMR,Africa,Poverty,Income share held by lowest 20%, ,,,,,,,
 Cameroon,CMR,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population), ,,,,,,,
 Cameroon,CMR,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population), ,,,,,,,
@@ -1165,8 +1165,8 @@ Cape Verde,CPV,Africa,Microinsurance,Health coverage ratio,0,,,,0,,,0
 Cape Verde,CPV,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0
 Cape Verde,CPV,Africa,Microinsurance,Property coverage ratio,0,,,,0,,,0
 Cape Verde,CPV,Africa,Microinsurance,Agriculture coverage ratio,,,,,0,,,0
-Cape Verde,CPV,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,24.64
-Cape Verde,CPV,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0
+Cape Verde,CPV,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,24635600
+Cape Verde,CPV,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,0
 Cape Verde,CPV,Africa,Poverty,Income share held by lowest 20%, ,,,,,,,
 Cape Verde,CPV,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population), ,,,,,,,
 Cape Verde,CPV,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population), ,,,,,,,
@@ -1227,8 +1227,8 @@ Cent African Rep,CAF,Africa,Microinsurance,Health coverage ratio,0,,,,0,,,0
 Cent African Rep,CAF,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0
 Cent African Rep,CAF,Africa,Microinsurance,Property coverage ratio,0,,,,0,,,0
 Cent African Rep,CAF,Africa,Microinsurance,Agriculture coverage ratio,,,,,0,,,0
-Cent African Rep,CAF,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,0.47
-Cent African Rep,CAF,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,, -   
+Cent African Rep,CAF,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,467600
+Cent African Rep,CAF,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,0
 Cent African Rep,CAF,Africa,Poverty,Income share held by lowest 20%,,,3.37,,,,,
 Cent African Rep,CAF,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,80.09,,,,,
 Cent African Rep,CAF,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,62,,,,,
@@ -1289,8 +1289,8 @@ Chad,TCD,Africa,Microinsurance,Health coverage ratio,0,,,,0,,,0
 Chad,TCD,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0
 Chad,TCD,Africa,Microinsurance,Property coverage ratio,0,,,,0,,,0
 Chad,TCD,Africa,Microinsurance,Agriculture coverage ratio,,,,,0,,,0
-Chad,TCD,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,4.37
-Chad,TCD,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0
+Chad,TCD,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,4369000
+Chad,TCD,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,0
 Chad,TCD,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
 Chad,TCD,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Chad,TCD,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -1351,8 +1351,8 @@ Chile,CHL,Americas,Microinsurance,Health coverage ratio,,,,,0.7,,3.67,
 Chile,CHL,Americas,Microinsurance,Accident coverage ratio,,,,,1.69,,5.63,
 Chile,CHL,Americas,Microinsurance,Property coverage ratio,,,,,0.5,,2.04,
 Chile,CHL,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,
-Chile,CHL,Americas,Microinsurance,Total Gross Premium (USD millions),,,,,,,"11,602.61",
-Chile,CHL,Americas,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,8.9,,61.7,
+Chile,CHL,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,"11,602,610,000.00",
+Chile,CHL,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,8904782,,61695844,
 Chile,CHL,Americas,Poverty,Income share held by lowest 20%,,,,4.26,,,,
 Chile,CHL,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,2.72,,,,
 Chile,CHL,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,15.1,,,,
@@ -1413,8 +1413,8 @@ China,CHN,Asia,Microinsurance,Health coverage ratio,,,,,,0,,
 China,CHN,Asia,Microinsurance,Accident coverage ratio,,,,,,0.88,,
 China,CHN,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 China,CHN,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-China,CHN,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-China,CHN,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,35.89,,
+China,CHN,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+China,CHN,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,35890000,,
 China,CHN,Asia,Poverty,Income share held by lowest 20%,4.99,,4.78,4.67,,,,
 China,CHN,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),36.94,,29.79,27.21,,,,
 China,CHN,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -1475,8 +1475,8 @@ Colombia,COL,Americas,Microinsurance,Health coverage ratio,0,,,,0.26,,0.65,
 Colombia,COL,Americas,Microinsurance,Accident coverage ratio,0,,,,5.36,,3.21,
 Colombia,COL,Americas,Microinsurance,Property coverage ratio,0,,,,0.47,,0.86,
 Colombia,COL,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,
-Colombia,COL,Americas,Microinsurance,Total Gross Premium (USD millions),,,,,,,"9,201.50",
-Colombia,COL,Americas,Microinsurance,Microinsurance Gross Premium (USD millions),18.6,,,,128.84,,114.7,
+Colombia,COL,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,"9,201,506,617.45",
+Colombia,COL,Americas,Microinsurance,Microinsurance Gross Premium (USD),18598287,,,,128842554,,114702730,
 Colombia,COL,Americas,Poverty,Income share held by lowest 20%,2.79,,2.52,2.73,3,,,
 Colombia,COL,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),23.54,,20.89,18.46,15.82,,,
 Colombia,COL,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),45,,42,40.3,37.2,32.7,,
@@ -1537,8 +1537,8 @@ Comoros,COM,Africa,Microinsurance,Health coverage ratio,0.56,1.3,,,2.6,,,8.47
 Comoros,COM,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0
 Comoros,COM,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,0
 Comoros,COM,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0
-Comoros,COM,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Comoros,COM,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0.13
+Comoros,COM,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Comoros,COM,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,131367.15
 Comoros,COM,Africa,Poverty,Income share held by lowest 20%,,,,,2.55,,,
 Comoros,COM,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Comoros,COM,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -1599,8 +1599,8 @@ Congo,COG,Africa,Microinsurance,Health coverage ratio,0.31,0.5,,,0.8,,,0
 Congo,COG,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0
 Congo,COG,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,0
 Congo,COG,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0
-Congo,COG,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,23.77
-Congo,COG,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0.82
+Congo,COG,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,23767600
+Congo,COG,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,822000
 Congo,COG,Africa,Poverty,Income share held by lowest 20%,4.96,,,,,,,
 Congo,COG,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),74.4,,,,,,,
 Congo,COG,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),50.7,,,,,,,
@@ -1661,8 +1661,8 @@ Costa Rica,CRI,Americas,Microinsurance,Health coverage ratio,,,,,0,,0.68,
 Costa Rica,CRI,Americas,Microinsurance,Accident coverage ratio,,,,,0,,6.1,
 Costa Rica,CRI,Americas,Microinsurance,Property coverage ratio,,,,,0,,0,
 Costa Rica,CRI,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,
-Costa Rica,CRI,Americas,Microinsurance,Total Gross Premium (USD millions),,,,,,,"1,035.96",
-Costa Rica,CRI,Americas,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,0,,,
+Costa Rica,CRI,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,"1,035,960,000.00",
+Costa Rica,CRI,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,0,,,
 Costa Rica,CRI,Americas,Poverty,Income share held by lowest 20%,4.1,,4.27,3.85,,,,
 Costa Rica,CRI,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),8.08,,4.99,5.97,,,,
 Costa Rica,CRI,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,21.3,20.3,,
@@ -1723,8 +1723,8 @@ Cote d'Ivoire,CIV,Africa,Microinsurance,Health coverage ratio,0,0.1,,,0,,,0.16
 Cote d'Ivoire,CIV,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0.57
 Cote d'Ivoire,CIV,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,0
 Cote d'Ivoire,CIV,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0.001
-Cote d'Ivoire,CIV,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,250.69
-Cote d'Ivoire,CIV,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,6.25
+Cote d'Ivoire,CIV,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,250693000
+Cote d'Ivoire,CIV,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,6247675.182
 Cote d'Ivoire,CIV,Africa,Poverty,Income share held by lowest 20%,,,5.6,,,,,
 Cote d'Ivoire,CIV,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,46.34,,,,,
 Cote d'Ivoire,CIV,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,42.7,,,,,
@@ -1785,8 +1785,8 @@ Dem. Rep. of Congo,COD,Africa,Microinsurance,Health coverage ratio,0.53,0.2,,,0.
 Dem. Rep. of Congo,COD,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0
 Dem. Rep. of Congo,COD,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,0.15
 Dem. Rep. of Congo,COD,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0.0003
-Dem. Rep. of Congo,COD,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Dem. Rep. of Congo,COD,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,2.46
+Dem. Rep. of Congo,COD,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Dem. Rep. of Congo,COD,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,2457800
 Dem. Rep. of Congo,COD,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
 Dem. Rep. of Congo,COD,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Dem. Rep. of Congo,COD,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),71.3,,,,,,,
@@ -1847,8 +1847,8 @@ Djibouti,DJI,Africa,Microinsurance,Health coverage ratio,0,,,,0,,,0
 Djibouti,DJI,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0
 Djibouti,DJI,Africa,Microinsurance,Property coverage ratio,0,,,,0,,,0
 Djibouti,DJI,Africa,Microinsurance,Agriculture coverage ratio,,,,,0,,,0
-Djibouti,DJI,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Djibouti,DJI,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0
+Djibouti,DJI,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Djibouti,DJI,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,0
 Djibouti,DJI,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
 Djibouti,DJI,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Djibouti,DJI,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -1909,8 +1909,8 @@ Dominican Republic,DOM,Americas,Microinsurance,Health coverage ratio,0,,,,0.65,,
 Dominican Republic,DOM,Americas,Microinsurance,Accident coverage ratio,0,,,,2.26,,1.05,
 Dominican Republic,DOM,Americas,Microinsurance,Property coverage ratio,0,,,,0.29,,0.4,
 Dominican Republic,DOM,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,
-Dominican Republic,DOM,Americas,Microinsurance,Total Gross Premium (USD millions),,,,,,,750.69,
-Dominican Republic,DOM,Americas,Microinsurance,Microinsurance Gross Premium (USD millions),0.03,,,,2.34,,1.4,
+Dominican Republic,DOM,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,750699900,
+Dominican Republic,DOM,Americas,Microinsurance,Microinsurance Gross Premium (USD),30000,,,,2336774,,1404668,
 Dominican Republic,DOM,Americas,Poverty,Income share held by lowest 20%,3.82,4.5,4.49,4.67,,,,
 Dominican Republic,DOM,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),14.94,11.08,9.97,9.88,,,,
 Dominican Republic,DOM,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),47.8,44.2,42.1,41.6,40.4,40.9,,
@@ -1971,8 +1971,8 @@ Ecuador,ECU,Americas,Microinsurance,Health coverage ratio,0.01,,,,10.88,,9.12,
 Ecuador,ECU,Americas,Microinsurance,Accident coverage ratio,0,,,,3.64,,10.94,
 Ecuador,ECU,Americas,Microinsurance,Property coverage ratio,0,,,,3.36,,4.78,
 Ecuador,ECU,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0.22,
-Ecuador,ECU,Americas,Microinsurance,Total Gross Premium (USD millions),,,,,,,"1,659.00",
-Ecuador,ECU,Americas,Microinsurance,Microinsurance Gross Premium (USD millions),1.19,,,,52.62,,51.41,
+Ecuador,ECU,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,"1,659,000,000.00",
+Ecuador,ECU,Americas,Microinsurance,Microinsurance Gross Premium (USD),1188552,,,,52622074,,51408498,
 Ecuador,ECU,Americas,Poverty,Income share held by lowest 20%,3.09,3.74,3.88,4.29,,,,
 Ecuador,ECU,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),18.52,13.02,13.49,10.59,,,,
 Ecuador,ECU,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),42.2,35.1,36,32.8,28.6,27.3,,
@@ -2033,8 +2033,8 @@ Egypt,EGY,Africa,Microinsurance,Health coverage ratio,0,0,,,0,,,0
 Egypt,EGY,Africa,Microinsurance,Accident coverage ratio,0,,,,0.22,,,0.32
 Egypt,EGY,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,0
 Egypt,EGY,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0
-Egypt,EGY,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,"2,042.00"
-Egypt,EGY,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0.21
+Egypt,EGY,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,"2,041,920,000.00"
+Egypt,EGY,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,208282
 Egypt,EGY,Africa,Poverty,Income share held by lowest 20%,8.96,9.24,,,,,,
 Egypt,EGY,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),18.46,15.43,,,,,,
 Egypt,EGY,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),19.6,,21.6,,25.2,,,
@@ -2095,8 +2095,8 @@ El Salvador,SLV,Americas,Microinsurance,Health coverage ratio,0,,,,0.2,,1.33,
 El Salvador,SLV,Americas,Microinsurance,Accident coverage ratio,0,,,,1.26,,1.68,
 El Salvador,SLV,Americas,Microinsurance,Property coverage ratio,0,,,,0.2,,0,
 El Salvador,SLV,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,
-El Salvador,SLV,Americas,Microinsurance,Total Gross Premium (USD millions),,,,,,,464.3,
-El Salvador,SLV,Americas,Microinsurance,Microinsurance Gross Premium (USD millions),0.5,,,,1.55,,4.33,
+El Salvador,SLV,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,464300000,
+El Salvador,SLV,Americas,Microinsurance,Microinsurance Gross Premium (USD),496517,,,,1547632,,4328323,
 El Salvador,SLV,Americas,Poverty,Income share held by lowest 20%,3,4.51,3.71,,,,,
 El Salvador,SLV,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),20.49,14.03,16.94,,,,,
 El Salvador,SLV,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),35.2,40,37.8,36.5,40.6,34.5,,
@@ -2157,8 +2157,8 @@ Equatorial Guinea,GNQ,Africa,Microinsurance,Health coverage ratio,,,,,0,,,0
 Equatorial Guinea,GNQ,Africa,Microinsurance,Accident coverage ratio,,,,,0,,,0
 Equatorial Guinea,GNQ,Africa,Microinsurance,Property coverage ratio,,,,,0,,,0
 Equatorial Guinea,GNQ,Africa,Microinsurance,Agriculture coverage ratio,,,,,0,,,0
-Equatorial Guinea,GNQ,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,3.27
-Equatorial Guinea,GNQ,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0
+Equatorial Guinea,GNQ,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,3269800
+Equatorial Guinea,GNQ,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,0
 Equatorial Guinea,GNQ,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
 Equatorial Guinea,GNQ,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Equatorial Guinea,GNQ,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -2219,8 +2219,8 @@ Eritrea,ERI,Africa,Microinsurance,Health coverage ratio,0,,,,0,,,0
 Eritrea,ERI,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0
 Eritrea,ERI,Africa,Microinsurance,Property coverage ratio,0,,,,0,,,0
 Eritrea,ERI,Africa,Microinsurance,Agriculture coverage ratio,,,,,0,,,0
-Eritrea,ERI,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Eritrea,ERI,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0
+Eritrea,ERI,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Eritrea,ERI,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,0
 Eritrea,ERI,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
 Eritrea,ERI,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Eritrea,ERI,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -2281,8 +2281,8 @@ Ethiopia,ETH,Africa,Microinsurance,Health coverage ratio,0,0,,,0,,,0
 Ethiopia,ETH,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0
 Ethiopia,ETH,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,0.03
 Ethiopia,ETH,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0.02,,,0.03
-Ethiopia,ETH,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,254.53
-Ethiopia,ETH,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,15.55
+Ethiopia,ETH,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,254526386.4
+Ethiopia,ETH,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,15546367.27
 Ethiopia,ETH,Africa,Poverty,Income share held by lowest 20%,9.26,,,,7.96,,,
 Ethiopia,ETH,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),77.63,,,,66,,,
 Ethiopia,ETH,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,29.6,,,
@@ -2343,8 +2343,8 @@ Fiji,FJI,Oceania,Microinsurance,Health coverage ratio,,,,,,0,,
 Fiji,FJI,Oceania,Microinsurance,Accident coverage ratio,,,,,,0.34,,
 Fiji,FJI,Oceania,Microinsurance,Property coverage ratio,,,,,,0,,
 Fiji,FJI,Oceania,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Fiji,FJI,Oceania,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Fiji,FJI,Oceania,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,
+Fiji,FJI,Oceania,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Fiji,FJI,Oceania,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,
 Fiji,FJI,Oceania,Poverty,Income share held by lowest 20%,,,6.2,,,,,
 Fiji,FJI,Oceania,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,22.9,,,,,
 Fiji,FJI,Oceania,Poverty,Poverty headcount ratio at national poverty line (% of population),,,35.2,,,,,
@@ -2405,8 +2405,8 @@ Gabon,GAB,Africa,Microinsurance,Health coverage ratio,0,,,,0,,,0
 Gabon,GAB,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0
 Gabon,GAB,Africa,Microinsurance,Property coverage ratio,0,,,,0,,,0
 Gabon,GAB,Africa,Microinsurance,Agriculture coverage ratio,,,,,0,,,0
-Gabon,GAB,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,56.87
-Gabon,GAB,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0
+Gabon,GAB,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,56868000
+Gabon,GAB,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,0
 Gabon,GAB,Africa,Poverty,Income share held by lowest 20%,6.16,,,,,,,
 Gabon,GAB,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),19.59,,,,,,,
 Gabon,GAB,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),32.7,,,,,,,
@@ -2467,8 +2467,8 @@ Gambia,GMB,Africa,Microinsurance,Health coverage ratio,0,,,,0.46,,,0
 Gambia,GMB,Africa,Microinsurance,Accident coverage ratio,0,,,,0.33,,,0
 Gambia,GMB,Africa,Microinsurance,Property coverage ratio,0,,,,0,,,0
 Gambia,GMB,Africa,Microinsurance,Agriculture coverage ratio,,,,,0,,,0
-Gambia,GMB,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,5.78
-Gambia,GMB,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0
+Gambia,GMB,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,5783986.5
+Gambia,GMB,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,0
 Gambia,GMB,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
 Gambia,GMB,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Gambia,GMB,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,48.4,,,,
@@ -2529,8 +2529,8 @@ Georgia,GEO,Asia,Microinsurance,Health coverage ratio,,,,,,0,,
 Georgia,GEO,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 Georgia,GEO,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Georgia,GEO,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Georgia,GEO,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Georgia,GEO,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0,,
+Georgia,GEO,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Georgia,GEO,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 Georgia,GEO,Asia,Poverty,Income share held by lowest 20%,5.38,5.32,5.4,5.03,,,,
 Georgia,GEO,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),33.52,32.21,32.74,35.6,,,,
 Georgia,GEO,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,17.7,17.4,20.9,17.7,14.8,,
@@ -2591,8 +2591,8 @@ Ghana,GHA,Africa,Microinsurance,Health coverage ratio,0,0,,,0.03,,,15.47
 Ghana,GHA,Africa,Microinsurance,Accident coverage ratio,0,,,,0.32,,,18.22
 Ghana,GHA,Africa,Microinsurance,Property coverage ratio,0,0.19,,,1.95,,,0.005
 Ghana,GHA,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0.01,,,0.01
-Ghana,GHA,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,415.72
-Ghana,GHA,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,4.51
+Ghana,GHA,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,415722859.1
+Ghana,GHA,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,4505238.332
 Ghana,GHA,Africa,Poverty,Income share held by lowest 20%, ,,,,,,,
 Ghana,GHA,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population), ,,,,,,,
 Ghana,GHA,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population), ,,,,,,,
@@ -2653,8 +2653,8 @@ Guatemala,GTM,Americas,Microinsurance,Health coverage ratio,0,,,,2.65,,2.77,
 Guatemala,GTM,Americas,Microinsurance,Accident coverage ratio,1.71,,,,3.86,,1.09,
 Guatemala,GTM,Americas,Microinsurance,Property coverage ratio,0,,,,0,,0,
 Guatemala,GTM,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,
-Guatemala,GTM,Americas,Microinsurance,Total Gross Premium (USD millions),,,,,,,695.3,
-Guatemala,GTM,Americas,Microinsurance,Microinsurance Gross Premium (USD millions),0.97,,,,15.46,,18.61,
+Guatemala,GTM,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,695304000,
+Guatemala,GTM,Americas,Microinsurance,Microinsurance Gross Premium (USD),973835,,,,15457508,,18613457,
 Guatemala,GTM,Americas,Poverty,Income share held by lowest 20%,,,,,,,,
 Guatemala,GTM,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Guatemala,GTM,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,53.7,,,
@@ -2715,8 +2715,8 @@ Guinea,GIN,Africa,Microinsurance,Health coverage ratio,0.16,1.42,,,0.32,,,0.31
 Guinea,GIN,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0
 Guinea,GIN,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,0
 Guinea,GIN,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0
-Guinea,GIN,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Guinea,GIN,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0.02
+Guinea,GIN,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Guinea,GIN,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,22232.5
 Guinea,GIN,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
 Guinea,GIN,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Guinea,GIN,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,55.2,,
@@ -2777,8 +2777,8 @@ Guinea-Bissau,GNB,Africa,Microinsurance,Health coverage ratio,0,,,,0,,,0
 Guinea-Bissau,GNB,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0
 Guinea-Bissau,GNB,Africa,Microinsurance,Property coverage ratio,0,,,,0,,,0
 Guinea-Bissau,GNB,Africa,Microinsurance,Agriculture coverage ratio,,,,,0,,,0
-Guinea-Bissau,GNB,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Guinea-Bissau,GNB,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,0,,,0
+Guinea-Bissau,GNB,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Guinea-Bissau,GNB,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,0,,,0
 Guinea-Bissau,GNB,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
 Guinea-Bissau,GNB,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Guinea-Bissau,GNB,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,69.3,,,,
@@ -2839,8 +2839,8 @@ Haiti,HTI,Americas,Microinsurance,Health coverage ratio,0,,,,0,,0,
 Haiti,HTI,Americas,Microinsurance,Accident coverage ratio,0,,,,0,,0,
 Haiti,HTI,Americas,Microinsurance,Property coverage ratio,0,,,,0.59,,0,
 Haiti,HTI,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,
-Haiti,HTI,Americas,Microinsurance,Total Gross Premium (USD millions),,,,,,,50.35,
-Haiti,HTI,Americas,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,0.24,,0.7,
+Haiti,HTI,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,50347500,
+Haiti,HTI,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,243174,,698398,
 Haiti,HTI,Americas,Poverty,Income share held by lowest 20%, ,,,,,,,
 Haiti,HTI,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population), ,,,,,,,
 Haiti,HTI,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population), ,,,,,,,
@@ -2901,8 +2901,8 @@ Honduras,HND,Americas,Microinsurance,Health coverage ratio,0,,,,0.13,,0.01,
 Honduras,HND,Americas,Microinsurance,Accident coverage ratio,0,,,,0.13,,0.36,
 Honduras,HND,Americas,Microinsurance,Property coverage ratio,0,,,,0,,0,
 Honduras,HND,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,
-Honduras,HND,Americas,Microinsurance,Total Gross Premium (USD millions),,,,,,,486.76,
-Honduras,HND,Americas,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,0.34,,0.5,
+Honduras,HND,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,486764616,
+Honduras,HND,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,344113,,498279,
 Honduras,HND,Americas,Poverty,Income share held by lowest 20%,1.86,1.51,2.02,,,,,
 Honduras,HND,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),40.07,32.61,29.84,,,,,
 Honduras,HND,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),63.7,59.2,58.8,60,,,,
@@ -2963,8 +2963,8 @@ India,IND,Asia,Microinsurance,Health coverage ratio,,,,,,1.26,,
 India,IND,Asia,Microinsurance,Accident coverage ratio,,,,,,4.72,,
 India,IND,Asia,Microinsurance,Property coverage ratio,,,,,,0.39,,
 India,IND,Asia,Microinsurance,Agriculture coverage ratio,,,,,,1.78,,
-India,IND,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-India,IND,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,544.9,,
+India,IND,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+India,IND,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,544900000,,
 India,IND,Asia,Poverty,Income share held by lowest 20%,8.64,,,8.54,,,,
 India,IND,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),75.62,,,68.76,,,,
 India,IND,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),37.2,,,29.8,,21.9,,
@@ -3025,8 +3025,8 @@ Indonesia,IDN,Asia,Microinsurance,Health coverage ratio,,,,,,0.02,,
 Indonesia,IDN,Asia,Microinsurance,Accident coverage ratio,,,,,,>0.01,,
 Indonesia,IDN,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Indonesia,IDN,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Indonesia,IDN,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Indonesia,IDN,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,2.13,,
+Indonesia,IDN,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Indonesia,IDN,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,2130000,,
 Indonesia,IDN,Asia,Poverty,Income share held by lowest 20%,8.34,8.11,,7.63,7.27,,,
 Indonesia,IDN,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),53.8,54.4,52.68,46.12,43.33,,,
 Indonesia,IDN,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),16,15.4,14.2,13.3,12.5,12,,
@@ -3087,8 +3087,8 @@ Iraq,IRQ,Asia,Microinsurance,Health coverage ratio,,,,,,0,,
 Iraq,IRQ,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 Iraq,IRQ,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Iraq,IRQ,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Iraq,IRQ,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Iraq,IRQ,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,, -   ,,
+Iraq,IRQ,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Iraq,IRQ,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 Iraq,IRQ,Asia,Poverty,Income share held by lowest 20%,,,,,,,,
 Iraq,IRQ,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Iraq,IRQ,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,19.8,,
@@ -3149,8 +3149,8 @@ Jamaica,JAM,Americas,Microinsurance,Health coverage ratio,0,,,,0,,0.02,
 Jamaica,JAM,Americas,Microinsurance,Accident coverage ratio,0,,,,1.85,,4.44,
 Jamaica,JAM,Americas,Microinsurance,Property coverage ratio,0,,,,0,,0,
 Jamaica,JAM,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,
-Jamaica,JAM,Americas,Microinsurance,Total Gross Premium (USD millions),,,,,,,738.16,
-Jamaica,JAM,Americas,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,0,,0.12,
+Jamaica,JAM,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,738165248.4,
+Jamaica,JAM,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,0,,117662,
 Jamaica,JAM,Americas,Poverty,Income share held by lowest 20%,,,,,,,,
 Jamaica,JAM,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Jamaica,JAM,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),14.8,12.3,16.5,17.6,,,,
@@ -3211,8 +3211,8 @@ Jordan,JOR,Asia,Microinsurance,Health coverage ratio,,,,,,1.44,,
 Jordan,JOR,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 Jordan,JOR,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Jordan,JOR,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Jordan,JOR,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Jordan,JOR,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,, -   ,,
+Jordan,JOR,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Jordan,JOR,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 Jordan,JOR,Asia,Poverty,Income share held by lowest 20%,,8.09,,7.71,,,,
 Jordan,JOR,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,2.11,,1.59,,,,
 Jordan,JOR,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,13.3,,,,,,
@@ -3273,8 +3273,8 @@ Kazakhstan,KAZ,Asia,Microinsurance,Health coverage ratio,,,,,,0,,
 Kazakhstan,KAZ,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 Kazakhstan,KAZ,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Kazakhstan,KAZ,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Kazakhstan,KAZ,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Kazakhstan,KAZ,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,, -   ,,
+Kazakhstan,KAZ,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Kazakhstan,KAZ,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 Kazakhstan,KAZ,Asia,Poverty,Income share held by lowest 20%,,9.21,9.12,,,,,
 Kazakhstan,KAZ,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,0.89,1.12,,,,,
 Kazakhstan,KAZ,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),31.6,12.1,8.2,6.5,5.5,3.8,,
@@ -3335,8 +3335,8 @@ Kenya,KEN,Africa,Microinsurance,Health coverage ratio,0,1.26,,,0.66,,,1.73
 Kenya,KEN,Africa,Microinsurance,Accident coverage ratio,0,,,,0.5,,,0.89
 Kenya,KEN,Africa,Microinsurance,Property coverage ratio,0,0.23,,,0.3,,,0.64
 Kenya,KEN,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0.06,,,0.38
-Kenya,KEN,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,"1,860.00"
-Kenya,KEN,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,28.53
+Kenya,KEN,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,"1,860,640,000.00"
+Kenya,KEN,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,28526667.3
 Kenya,KEN,Africa,Poverty,Income share held by lowest 20%,4.84,,,,,,,
 Kenya,KEN,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),67.21,,,,,,,
 Kenya,KEN,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),45.9,,,,,,,
@@ -3397,8 +3397,8 @@ Kiribati,KIR,Oceania,Microinsurance,Health coverage ratio,,,,,,0,,
 Kiribati,KIR,Oceania,Microinsurance,Accident coverage ratio,,,,,,0,,
 Kiribati,KIR,Oceania,Microinsurance,Property coverage ratio,,,,,,0,,
 Kiribati,KIR,Oceania,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Kiribati,KIR,Oceania,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Kiribati,KIR,Oceania,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0,,
+Kiribati,KIR,Oceania,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Kiribati,KIR,Oceania,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 Kiribati,KIR,Oceania,Poverty,Income share held by lowest 20%,,,,,,,,
 Kiribati,KIR,Oceania,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Kiribati,KIR,Oceania,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -3459,8 +3459,8 @@ Kuwait,KWT,Asia,Microinsurance,Health coverage ratio,,,,,,0,,
 Kuwait,KWT,Asia,Microinsurance,Accident coverage ratio,,,,,,0.01,,
 Kuwait,KWT,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Kuwait,KWT,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Kuwait,KWT,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Kuwait,KWT,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0.42,,
+Kuwait,KWT,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Kuwait,KWT,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,420000,,
 Kuwait,KWT,Asia,Poverty,Income share held by lowest 20%,,,,,,,,
 Kuwait,KWT,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Kuwait,KWT,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -3521,8 +3521,8 @@ Kyrgyzstan,KGZ,Asia,Microinsurance,Health coverage ratio,,,,,,0,,
 Kyrgyzstan,KGZ,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 Kyrgyzstan,KGZ,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Kyrgyzstan,KGZ,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Kyrgyzstan,KGZ,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Kyrgyzstan,KGZ,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0,,
+Kyrgyzstan,KGZ,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Kyrgyzstan,KGZ,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 Kyrgyzstan,KGZ,Asia,Poverty,Income share held by lowest 20%,6,6.39,6.82,6.77,7.68,,,
 Kyrgyzstan,KGZ,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),45.8,20.74,21.69,22.9,21.64,,,
 Kyrgyzstan,KGZ,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,31.7,31.7,33.7,36.8,38,,
@@ -3583,8 +3583,8 @@ Lao People's Dem. Rep.,LAO,Asia,Microinsurance,Health coverage ratio,,,,,,0,,
 Lao People's Dem. Rep.,LAO,Asia,Microinsurance,Accident coverage ratio,,,,,,0.02,,
 Lao People's Dem. Rep.,LAO,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Lao People's Dem. Rep.,LAO,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Lao People's Dem. Rep.,LAO,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Lao People's Dem. Rep.,LAO,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,
+Lao People's Dem. Rep.,LAO,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Lao People's Dem. Rep.,LAO,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,
 Lao People's Dem. Rep.,LAO,Asia,Poverty,Income share held by lowest 20%,,7.64,,,,,,
 Lao People's Dem. Rep.,LAO,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,66,,,,,,
 Lao People's Dem. Rep.,LAO,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,27.6,,,,,,
@@ -3645,8 +3645,8 @@ Lebanon,LBN,Asia,Microinsurance,Health coverage ratio,,,,,,0.02,,
 Lebanon,LBN,Asia,Microinsurance,Accident coverage ratio,,,,,,2.28,,
 Lebanon,LBN,Asia,Microinsurance,Property coverage ratio,,,,,,1.44,,
 Lebanon,LBN,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Lebanon,LBN,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Lebanon,LBN,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0.28,,
+Lebanon,LBN,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Lebanon,LBN,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,280000,,
 Lebanon,LBN,Asia,Poverty,Income share held by lowest 20%,,,,,,,,
 Lebanon,LBN,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Lebanon,LBN,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -3707,8 +3707,8 @@ Lesotho,LSO,Africa,Microinsurance,Health coverage ratio,0,,,,0,,,0
 Lesotho,LSO,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0
 Lesotho,LSO,Africa,Microinsurance,Property coverage ratio,0,,,,0,,,0
 Lesotho,LSO,Africa,Microinsurance,Agriculture coverage ratio,,,,,0,,,0
-Lesotho,LSO,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,84.08
-Lesotho,LSO,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0
+Lesotho,LSO,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,84084000
+Lesotho,LSO,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,0
 Lesotho,LSO,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
 Lesotho,LSO,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Lesotho,LSO,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -3769,8 +3769,8 @@ Liberia,LBR,Africa,Microinsurance,Health coverage ratio,,,,,0,,,0
 Liberia,LBR,Africa,Microinsurance,Accident coverage ratio,,,,,0,,,0
 Liberia,LBR,Africa,Microinsurance,Property coverage ratio,,,,,0,,,0
 Liberia,LBR,Africa,Microinsurance,Agriculture coverage ratio,,,,,0,,,0
-Liberia,LBR,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Liberia,LBR,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0
+Liberia,LBR,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Liberia,LBR,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,0
 Liberia,LBR,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
 Liberia,LBR,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Liberia,LBR,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -3831,8 +3831,8 @@ Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Health coverage ratio,,,,,0,,,0
 Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Accident coverage ratio,,,,,0,,,0
 Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Property coverage ratio,,,,,0,,,0
 Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Agriculture coverage ratio,,,,,0,,,0
-Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,681.1
-Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0
+Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,681100000
+Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,0
 Libyan Arab Jamahiriya,LBY,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
 Libyan Arab Jamahiriya,LBY,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Libyan Arab Jamahiriya,LBY,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -3893,8 +3893,8 @@ Madagascar,MDG,Africa,Microinsurance,Health coverage ratio,0,0,,,0,,,0.01
 Madagascar,MDG,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0.21
 Madagascar,MDG,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,0
 Madagascar,MDG,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0
-Madagascar,MDG,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Madagascar,MDG,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0.23
+Madagascar,MDG,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Madagascar,MDG,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,227052
 Madagascar,MDG,Africa,Poverty,Income share held by lowest 20%,6.15,,,5.41,,,,
 Madagascar,MDG,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),89.61,,,92.62,,,,
 Madagascar,MDG,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),75,,,75.3,,,,
@@ -3955,8 +3955,8 @@ Malawi,MWI,Africa,Microinsurance,Health coverage ratio,0,0.25,,,0.34,,,0.73
 Malawi,MWI,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0.72
 Malawi,MWI,Africa,Microinsurance,Property coverage ratio,0,0.09,,,0.36,,,0.71
 Malawi,MWI,Africa,Microinsurance,Agriculture coverage ratio,,0.03,,,0,,,0
-Malawi,MWI,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,87.84
-Malawi,MWI,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,1.15
+Malawi,MWI,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,87840000
+Malawi,MWI,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,1154400
 Malawi,MWI,Africa,Poverty,Income share held by lowest 20%,,,,5.64,,,,
 Malawi,MWI,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,82.31,,,,
 Malawi,MWI,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,50.7,,,,
@@ -4017,8 +4017,8 @@ Malaysia,MYS,Asia,Microinsurance,Health coverage ratio,,,,,,0,,
 Malaysia,MYS,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 Malaysia,MYS,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Malaysia,MYS,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Malaysia,MYS,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Malaysia,MYS,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,24.51,,
+Malaysia,MYS,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Malaysia,MYS,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,24510000,,
 Malaysia,MYS,Asia,Poverty,Income share held by lowest 20%,,,4.54,,,,,
 Malaysia,MYS,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,2.27,,,,,
 Malaysia,MYS,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,,3.8,,,1.7,,
@@ -4079,8 +4079,8 @@ Maldives,MDV,Asia,Microinsurance,Health coverage ratio,,,,,,0,,
 Maldives,MDV,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 Maldives,MDV,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Maldives,MDV,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Maldives,MDV,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Maldives,MDV,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0,,
+Maldives,MDV,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Maldives,MDV,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 Maldives,MDV,Asia,Poverty,Income share held by lowest 20%,,,,,,,,
 Maldives,MDV,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Maldives,MDV,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -4141,8 +4141,8 @@ Mali,MLI,Africa,Microinsurance,Health coverage ratio,0.57,0.33,,,0.32,,,0.4
 Mali,MLI,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0.44
 Mali,MLI,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,0
 Mali,MLI,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0.0015
-Mali,MLI,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,20.77
-Mali,MLI,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0.98
+Mali,MLI,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,20765600
+Mali,MLI,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,983017.81
 Mali,MLI,Africa,Poverty,Income share held by lowest 20%,,,,7.97,,,,
 Mali,MLI,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,78.66,,,,
 Mali,MLI,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,43.6,,,,
@@ -4203,8 +4203,8 @@ Marshall Islands,MHL,Oceania,Microinsurance,Health coverage ratio,,,,,,0,,
 Marshall Islands,MHL,Oceania,Microinsurance,Accident coverage ratio,,,,,,0,,
 Marshall Islands,MHL,Oceania,Microinsurance,Property coverage ratio,,,,,,0,,
 Marshall Islands,MHL,Oceania,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Marshall Islands,MHL,Oceania,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Marshall Islands,MHL,Oceania,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,, -   ,,
+Marshall Islands,MHL,Oceania,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Marshall Islands,MHL,Oceania,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 Marshall Islands,MHL,Oceania,Poverty,Income share held by lowest 20%,,,,,,,,
 Marshall Islands,MHL,Oceania,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Marshall Islands,MHL,Oceania,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -4265,8 +4265,8 @@ Mauritania,MRT,Africa,Microinsurance,Health coverage ratio,0.1,0.38,,,0.16,,,0.2
 Mauritania,MRT,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0
 Mauritania,MRT,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,0
 Mauritania,MRT,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0
-Mauritania,MRT,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Mauritania,MRT,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0.02
+Mauritania,MRT,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Mauritania,MRT,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,21530.67
 Mauritania,MRT,Africa,Poverty,Income share held by lowest 20%,,6.02,,,,,,
 Mauritania,MRT,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,47.69,,,,,,
 Mauritania,MRT,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,42,,,,,,
@@ -4327,8 +4327,8 @@ Mauritius,MUS,Africa,Microinsurance,Health coverage ratio,,,,,6.1,,,0
 Mauritius,MUS,Africa,Microinsurance,Accident coverage ratio,,,,,6.1,,,0
 Mauritius,MUS,Africa,Microinsurance,Property coverage ratio,,,,,0,,,0
 Mauritius,MUS,Africa,Microinsurance,Agriculture coverage ratio,,,,,0,,,0
-Mauritius,MUS,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,766
-Mauritius,MUS,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0
+Mauritius,MUS,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,766000000
+Mauritius,MUS,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,0
 Mauritius,MUS,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
 Mauritius,MUS,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Mauritius,MUS,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -4389,8 +4389,8 @@ Mexico,MEX,Americas,Microinsurance,Health coverage ratio,,,,,3.18,,1.58,
 Mexico,MEX,Americas,Microinsurance,Accident coverage ratio,,,,,4.71,,2.74,
 Mexico,MEX,Americas,Microinsurance,Property coverage ratio,,,,,0,,0.01,
 Mexico,MEX,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,1.66,
-Mexico,MEX,Americas,Microinsurance,Total Gross Premium (USD millions),,,,,,,"27,361.75",
-Mexico,MEX,Americas,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,123.99,,210.49,
+Mexico,MEX,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,"27,361,756,800.00",
+Mexico,MEX,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,123990658,,210488579,
 Mexico,MEX,Americas,Poverty,Income share held by lowest 20%,3.68,4.73,,4.93,,,,
 Mexico,MEX,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),10.59,5.19,,4.54,,,,
 Mexico,MEX,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),47,47.8,,51.1,,52.3,,
@@ -4451,8 +4451,8 @@ Mongolia,MNG,Asia,Microinsurance,Health coverage ratio,,,,,,0.08,,
 Mongolia,MNG,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 Mongolia,MNG,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Mongolia,MNG,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0.66,,
-Mongolia,MNG,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Mongolia,MNG,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,1.18,,
+Mongolia,MNG,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Mongolia,MNG,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,1180000,,
 Mongolia,MNG,Asia,Poverty,Income share held by lowest 20%,,7.1,,,,,,
 Mongolia,MNG,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Mongolia,MNG,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,38.7,33.7,27.4,,
@@ -4513,8 +4513,8 @@ Morocco,MAR,Africa,Microinsurance,Health coverage ratio,0,0,,,0,,,1.05
 Morocco,MAR,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0.85
 Morocco,MAR,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,0.12
 Morocco,MAR,Africa,Microinsurance,Agriculture coverage ratio,,0.03,,,0.06,,,0.09
-Morocco,MAR,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,"3,435.00"
-Morocco,MAR,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,3.59
+Morocco,MAR,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,"3,434,594,800.00"
+Morocco,MAR,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,3594322.57
 Morocco,MAR,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
 Morocco,MAR,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Morocco,MAR,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -4575,8 +4575,8 @@ Mozambique,MOZ,Africa,Microinsurance,Health coverage ratio,0,,,,0,,,0.09
 Mozambique,MOZ,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0
 Mozambique,MOZ,Africa,Microinsurance,Property coverage ratio,0,,,,0,,,0
 Mozambique,MOZ,Africa,Microinsurance,Agriculture coverage ratio,,,,,0,,,0.08
-Mozambique,MOZ,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,275.01
-Mozambique,MOZ,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,1.28
+Mozambique,MOZ,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,275005430
+Mozambique,MOZ,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,1278900
 Mozambique,MOZ,Africa,Poverty,Income share held by lowest 20%,,5.23,,,,,,
 Mozambique,MOZ,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,81.77,,,,,,
 Mozambique,MOZ,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,54.7,,,,,
@@ -4637,8 +4637,8 @@ Myanmar (Burma),MMR,Asia,Microinsurance,Health coverage ratio,,,,,,0,,
 Myanmar (Burma),MMR,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 Myanmar (Burma),MMR,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Myanmar (Burma),MMR,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Myanmar (Burma),MMR,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Myanmar (Burma),MMR,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0,,
+Myanmar (Burma),MMR,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Myanmar (Burma),MMR,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 Myanmar (Burma),MMR,Asia,Poverty,Income share held by lowest 20%,,,,,,,,
 Myanmar (Burma),MMR,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Myanmar (Burma),MMR,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -4699,8 +4699,8 @@ Namibia,NAM,Africa,Microinsurance,Health coverage ratio,0,2.48,,,0.6,,,1.39
 Namibia,NAM,Africa,Microinsurance,Accident coverage ratio,0,,,,0.21,,,2.31
 Namibia,NAM,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,5.02
 Namibia,NAM,Africa,Microinsurance,Agriculture coverage ratio,,2.27,,,0,,,0
-Namibia,NAM,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,995.29
-Namibia,NAM,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,15.36
+Namibia,NAM,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,995286138
+Namibia,NAM,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,15361573.92
 Namibia,NAM,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
 Namibia,NAM,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Namibia,NAM,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,28.7,,,,,
@@ -4761,8 +4761,8 @@ Nepal,NPL,Asia,Microinsurance,Health coverage ratio,,,,,,0.17,,
 Nepal,NPL,Asia,Microinsurance,Accident coverage ratio,,,,,,>0.01,,
 Nepal,NPL,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Nepal,NPL,Asia,Microinsurance,Agriculture coverage ratio,,,,,,1.07,,
-Nepal,NPL,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Nepal,NPL,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0.8,,
+Nepal,NPL,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Nepal,NPL,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,800000,,
 Nepal,NPL,Asia,Poverty,Income share held by lowest 20%,,,,8.27,,,,
 Nepal,NPL,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,57.25,,,,
 Nepal,NPL,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,25.2,,,,
@@ -4823,8 +4823,8 @@ Nicaragua,NIC,Americas,Microinsurance,Health coverage ratio,0,,,,0.01,,0.15,
 Nicaragua,NIC,Americas,Microinsurance,Accident coverage ratio,0,,,,1.73,,1.26,
 Nicaragua,NIC,Americas,Microinsurance,Property coverage ratio,0,,,,0,,0,
 Nicaragua,NIC,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,
-Nicaragua,NIC,Americas,Microinsurance,Total Gross Premium (USD millions),,,,,,,153.08,
-Nicaragua,NIC,Americas,Microinsurance,Microinsurance Gross Premium (USD millions),0.04,,,,1.04,,7.19,
+Nicaragua,NIC,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,153080000,
+Nicaragua,NIC,Americas,Microinsurance,Microinsurance Gross Premium (USD),34535,,,,1037225,,7189340,
 Nicaragua,NIC,Americas,Poverty,Income share held by lowest 20%,6.22,,,,,,,
 Nicaragua,NIC,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),31.74,,,,,,,
 Nicaragua,NIC,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),48.3,,42.5,,,,,
@@ -4885,8 +4885,8 @@ Niger,NER,Africa,Microinsurance,Health coverage ratio,0,0.02,,,0,,,0.17
 Niger,NER,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0
 Niger,NER,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,0
 Niger,NER,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0
-Niger,NER,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,14.68
-Niger,NER,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,
+Niger,NER,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,14682600
+Niger,NER,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,
 Niger,NER,Africa,Poverty,Income share held by lowest 20%,5.85,8.09,,,,,,
 Niger,NER,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),85.58,75.23,,,,,,
 Niger,NER,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -4947,8 +4947,8 @@ Nigeria,NGA,Africa,Microinsurance,Health coverage ratio,0,0.04,,,0.06,,,0.37
 Nigeria,NGA,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0.91
 Nigeria,NGA,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,0.31
 Nigeria,NGA,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0.31
-Nigeria,NGA,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,"1,714.00"
-Nigeria,NGA,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,7.8
+Nigeria,NGA,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,"1,713,929,200.00"
+Nigeria,NGA,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,7803829.817
 Nigeria,NGA,Africa,Poverty,Income share held by lowest 20%,,,,4.41,,,,
 Nigeria,NGA,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,84.49,,,,
 Nigeria,NGA,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,46,,,,
@@ -5009,8 +5009,8 @@ Oman,OMN,Asia,Microinsurance,Health coverage ratio,,,,,,0,,
 Oman,OMN,Asia,Microinsurance,Accident coverage ratio,,,,,,0.23,,
 Oman,OMN,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Oman,OMN,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Oman,OMN,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Oman,OMN,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0.01,,
+Oman,OMN,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Oman,OMN,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,10000,,
 Oman,OMN,Asia,Poverty,Income share held by lowest 20%,,,,,,,,
 Oman,OMN,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Oman,OMN,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -5071,8 +5071,8 @@ Pakistan,PAK,Asia,Microinsurance,Health coverage ratio,,,,,,2.65,,
 Pakistan,PAK,Asia,Microinsurance,Accident coverage ratio,,,,,,0.08,,
 Pakistan,PAK,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Pakistan,PAK,Asia,Microinsurance,Agriculture coverage ratio,,,,,,>0.01,,
-Pakistan,PAK,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Pakistan,PAK,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,4.52,,
+Pakistan,PAK,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Pakistan,PAK,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,4520000,,
 Pakistan,PAK,Asia,Poverty,Income share held by lowest 20%,9.16,9.6,,,,,,
 Pakistan,PAK,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),60.31,60.19,,,,,,
 Pakistan,PAK,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),23.9,,,,,,,
@@ -5133,8 +5133,8 @@ Palau,PLW,Oceania,Microinsurance,Health coverage ratio,,,,,,0,,
 Palau,PLW,Oceania,Microinsurance,Accident coverage ratio,,,,,,0,,
 Palau,PLW,Oceania,Microinsurance,Property coverage ratio,,,,,,0,,
 Palau,PLW,Oceania,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Palau,PLW,Oceania,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Palau,PLW,Oceania,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0,,
+Palau,PLW,Oceania,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Palau,PLW,Oceania,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 Palau,PLW,Oceania,Poverty,Income share held by lowest 20%,,,,,,,,
 Palau,PLW,Oceania,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Palau,PLW,Oceania,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -5195,8 +5195,8 @@ Palestinian Territories,PSE,Asia,Microinsurance,Health coverage ratio,,,,,,0,,
 Palestinian Territories,PSE,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 Palestinian Territories,PSE,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Palestinian Territories,PSE,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Palestinian Territories,PSE,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Palestinian Territories,PSE,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0.02,,
+Palestinian Territories,PSE,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Palestinian Territories,PSE,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,20000,,
 Palestinian Territories,PSE,Asia,Poverty,Income share held by lowest 20%,,,7.44,,,,,
 Palestinian Territories,PSE,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,0.34,,,,,
 Palestinian Territories,PSE,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,,21.9,,,,,
@@ -5257,8 +5257,8 @@ Panama,PAN,Americas,Microinsurance,Health coverage ratio,0,,,,1.42,,0,
 Panama,PAN,Americas,Microinsurance,Accident coverage ratio,0,,,,1.53,,0.94,
 Panama,PAN,Americas,Microinsurance,Property coverage ratio,0,,,,0,,0,
 Panama,PAN,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,
-Panama,PAN,Americas,Microinsurance,Total Gross Premium (USD millions),,,,,,,"1,211.60",
-Panama,PAN,Americas,Microinsurance,Microinsurance Gross Premium (USD millions),1.1,,,,0.65,,0.08,
+Panama,PAN,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,"1,211,600,000.00",
+Panama,PAN,Americas,Microinsurance,Microinsurance Gross Premium (USD),1100000,,,,650372,,75675,
 Panama,PAN,Americas,Poverty,Income share held by lowest 20%,2.74,,3.55,3.3,,,,
 Panama,PAN,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),16.94,,14.63,13.8,,,,
 Panama,PAN,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),,33.8,33.4,29.8,27.6,,,
@@ -5319,8 +5319,8 @@ Papua New Guinea,PNG,Oceania,Microinsurance,Health coverage ratio,,,,,,0,,
 Papua New Guinea,PNG,Oceania,Microinsurance,Accident coverage ratio,,,,,,5.06,,
 Papua New Guinea,PNG,Oceania,Microinsurance,Property coverage ratio,,,,,,0.31,,
 Papua New Guinea,PNG,Oceania,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Papua New Guinea,PNG,Oceania,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Papua New Guinea,PNG,Oceania,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,
+Papua New Guinea,PNG,Oceania,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Papua New Guinea,PNG,Oceania,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,
 Papua New Guinea,PNG,Oceania,Poverty,Income share held by lowest 20%,,,,,,,,
 Papua New Guinea,PNG,Oceania,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Papua New Guinea,PNG,Oceania,Poverty,Poverty headcount ratio at national poverty line (% of population),,,39.9,,,,,
@@ -5381,8 +5381,8 @@ Paraguay,PRY,Americas,Microinsurance,Health coverage ratio,0,,,,0,,0,
 Paraguay,PRY,Americas,Microinsurance,Accident coverage ratio,0,,,,0.83,,4.44,
 Paraguay,PRY,Americas,Microinsurance,Property coverage ratio,0,,,,0,,4.39,
 Paraguay,PRY,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,
-Paraguay,PRY,Americas,Microinsurance,Total Gross Premium (USD millions),,,,,,,359.26,
-Paraguay,PRY,Americas,Microinsurance,Microinsurance Gross Premium (USD millions),374,,,,1.05,,2.36,
+Paraguay,PRY,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,359260000,
+Paraguay,PRY,Americas,Microinsurance,Microinsurance Gross Premium (USD),374,,,,1049120,,2359011,
 Paraguay,PRY,Americas,Poverty,Income share held by lowest 20%,3.42,3.65,3.34,3.26,,,,
 Paraguay,PRY,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),14.44,13.56,14.23,13.22,,,,
 Paraguay,PRY,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),38.6,37.9,35.1,34.7,32.4,,,
@@ -5443,8 +5443,8 @@ People's Republic of Korea,PRK,Asia,Microinsurance,Health coverage ratio,,,,,,0,
 People's Republic of Korea,PRK,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 People's Republic of Korea,PRK,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 People's Republic of Korea,PRK,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-People's Republic of Korea,PRK,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-People's Republic of Korea,PRK,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0,,
+People's Republic of Korea,PRK,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+People's Republic of Korea,PRK,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 People's Republic of Korea,PRK,Asia,Poverty,Income share held by lowest 20%,,,,,,,,
 People's Republic of Korea,PRK,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 People's Republic of Korea,PRK,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -5505,8 +5505,8 @@ Peru,PER,Americas,Microinsurance,Health coverage ratio,0.13,,,,0.71,,1.09,
 Peru,PER,Americas,Microinsurance,Accident coverage ratio,0,,,,11.1,,3.67,
 Peru,PER,Americas,Microinsurance,Property coverage ratio,0,,,,0,,0.25,
 Peru,PER,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0.61,
-Peru,PER,Americas,Microinsurance,Total Gross Premium (USD millions),,,,,,,"3,413.26",
-Peru,PER,Americas,Microinsurance,Microinsurance Gross Premium (USD millions),5.17,,,,37.5,,53.28,
+Peru,PER,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,"3,413,262,600.00",
+Peru,PER,Americas,Microinsurance,Microinsurance Gross Premium (USD),5169463,,,,37498866,,53278905,
 Peru,PER,Americas,Poverty,Income share held by lowest 20%,3.86,3.79,3.79,3.91,,,,
 Peru,PER,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),20.48,14.81,14.01,12.74,,,,
 Peru,PER,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),55.6,37.3,33.5,30.8,27.8,25.8,,
@@ -5567,8 +5567,8 @@ Philippines,PHL,Asia,Microinsurance,Health coverage ratio,,,,,,1.76,,
 Philippines,PHL,Asia,Microinsurance,Accident coverage ratio,,,,,,0.02,,
 Philippines,PHL,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Philippines,PHL,Asia,Microinsurance,Agriculture coverage ratio,,,,,,1.24,,
-Philippines,PHL,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Philippines,PHL,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,56.49,,
+Philippines,PHL,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Philippines,PHL,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,56490000,,
 Philippines,PHL,Asia,Poverty,Income share held by lowest 20%,,,5.98,,,,,
 Philippines,PHL,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,41.53,,,,,
 Philippines,PHL,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,,26.3,,,25.2,,
@@ -5629,8 +5629,8 @@ Rwanda,RWA,Africa,Microinsurance,Health coverage ratio,3.09,,,,0,,,0
 Rwanda,RWA,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0.0017
 Rwanda,RWA,Africa,Microinsurance,Property coverage ratio,0,,,,0,,,0
 Rwanda,RWA,Africa,Microinsurance,Agriculture coverage ratio,,,,,0.07,,,1.19
-Rwanda,RWA,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,118.5
-Rwanda,RWA,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0.01
+Rwanda,RWA,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,118500000
+Rwanda,RWA,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,7140
 Rwanda,RWA,Africa,Poverty,Income share held by lowest 20%,,,,,5.16,,,
 Rwanda,RWA,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,82.37,,,
 Rwanda,RWA,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,44.9,,,
@@ -5691,8 +5691,8 @@ Samoa,WSM,Oceania,Microinsurance,Health coverage ratio,,,,,,0,,
 Samoa,WSM,Oceania,Microinsurance,Accident coverage ratio,,,,,,0,,
 Samoa,WSM,Oceania,Microinsurance,Property coverage ratio,,,,,,0,,
 Samoa,WSM,Oceania,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Samoa,WSM,Oceania,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Samoa,WSM,Oceania,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0,,
+Samoa,WSM,Oceania,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Samoa,WSM,Oceania,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 Samoa,WSM,Oceania,Poverty,Income share held by lowest 20%,,,,,,,,
 Samoa,WSM,Oceania,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Samoa,WSM,Oceania,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -5703,68 +5703,68 @@ Samoa,WSM,Oceania,Poverty,"Life expectancy at birth, female",74.23,75.06,75.35,7
 Samoa,WSM,Oceania,Poverty,"Life expectancy at birth, male",67.91,68.77,69.05,69.33,69.61,69.88,,
 Samoa,WSM,Oceania,Poverty,"Life expectancy at birth, total",71,71.84,72.12,72.41,72.7,72.98,,
 Samoa,WSM,Oceania,Poverty,"Physicians (per 1,000 people)",0.27,0.45,,0.48,,,,
-Sao Tome and Príncipe,STP,Africa,Demographics,Population (Total),,,,,,,,197882
-Sao Tome and Príncipe,STP,Africa,Demographics,Population ages 15-64 (% of total),,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Demographics,Population density (people per sq. km of land area),,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Demographics,Population growth (annual %),,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Demographics,Urban population (% of total),,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Development,Human Development Index,,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Development,"Literacy rate, adult female (% of females ages 15 and above)",,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Development,"Literacy rate, adult male (% of males ages 15 and above)",,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Development,"Literacy rate, adult total (% of people ages 15 and above)",,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Economy,GDP (current US$),,,,,,,,337413478
-Sao Tome and Príncipe,STP,Africa,Economy,GDP growth (annual %),,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Economy,GDP per capita (current US$),,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Finance,Commercial_deposit_accounts_2010,,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Finance,Coop_and_credit_union_deposit_accounts_2010,,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Finance,State_Financial_Institution_deposit_accounts_2010,,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Finance,MFI_deposit_accounts_2010,,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Finance,Remittances received (US$),,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Finance,Number_of_MFIs_2011,,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Finance,Number_of_active_MFI_borrowers_2011,,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Finance,MFI_Gross_Loan_Portfolio_2011,,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Health,External resources for health (% of total expenditure on health),,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Health,Health expenditure per capita (current US$),,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Health,"Health expenditure, private (% of GDP)",,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Health,"Health expenditure, public (% of GDP)",,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Health,Out-of-pocket health expenditure (% of private expenditure on health),,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Health,"Under-5 mortality rate (per 1,000)",,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Health,"Maternal mortality ratio (per 100,000 live births)",,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Health,"Life expectancy at birth, female",,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Health,"Life expectancy at birth, male",,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Health,"Life expectancy at birth, total",,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Health,"Physicians (per 1,000 people)",,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Index Coverage Indicators,Permanent cropland (% of land area),,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Microinsurance,Total microinsurance coverage,,,,,,,,0
-Sao Tome and Príncipe,STP,Africa,Microinsurance,Credit life coverage,,,,,,,,0
-Sao Tome and Príncipe,STP,Africa,Microinsurance,Life coverage (excluding credit life),,,,,,,,0
-Sao Tome and Príncipe,STP,Africa,Microinsurance,Life and accident coverage (excluding credit life),,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Microinsurance,Health coverage,,,,,,,,0
-Sao Tome and Príncipe,STP,Africa,Microinsurance,Accident coverage,,,,,,,,0
-Sao Tome and Príncipe,STP,Africa,Microinsurance,Property coverage,,,,,,,,0
-Sao Tome and Príncipe,STP,Africa,Microinsurance,Agriculture coverage,,,,,,,,0
-Sao Tome and Príncipe,STP,Africa,Microinsurance,Total microinsurance coverage ratio,,,,,,,,0
-Sao Tome and Príncipe,STP,Africa,Microinsurance,Credit life coverage ratio,,,,,,,,0
-Sao Tome and Príncipe,STP,Africa,Microinsurance,Life coverage ratio (excluding credit life),,,,,,,,0
-Sao Tome and Príncipe,STP,Africa,Microinsurance,Life and accident coverage ratio (excluding credit life),,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Microinsurance,Health coverage ratio,,,,,,,,0
-Sao Tome and Príncipe,STP,Africa,Microinsurance,Accident coverage ratio,,,,,,,,0
-Sao Tome and Príncipe,STP,Africa,Microinsurance,Property coverage ratio,,,,,,,,0
-Sao Tome and Príncipe,STP,Africa,Microinsurance,Agriculture coverage ratio,,,,,,,,0
-Sao Tome and Príncipe,STP,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,2.15
-Sao Tome and Príncipe,STP,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0
-Sao Tome and Príncipe,STP,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Poverty,Poverty headcount ratio at rural poverty line (% of rural population),,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Poverty,Poverty headcount ratio at urban poverty line (% of urban population),,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Poverty,GINI index,,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Poverty,"Life expectancy at birth, female",,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Poverty,"Life expectancy at birth, male",,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Poverty,"Life expectancy at birth, total",,,,,,,,
-Sao Tome and Príncipe,STP,Africa,Poverty,"Physicians (per 1,000 people)",,,,,,,,
+Sao Tome and Principe,STP,Africa,Demographics,Population (Total),,,,,,,,197882
+Sao Tome and Principe,STP,Africa,Demographics,Population ages 15-64 (% of total),,,,,,,,
+Sao Tome and Principe,STP,Africa,Demographics,Population density (people per sq. km of land area),,,,,,,,
+Sao Tome and Principe,STP,Africa,Demographics,Population growth (annual %),,,,,,,,
+Sao Tome and Principe,STP,Africa,Demographics,Urban population (% of total),,,,,,,,
+Sao Tome and Principe,STP,Africa,Development,Human Development Index,,,,,,,,
+Sao Tome and Principe,STP,Africa,Development,"Literacy rate, adult female (% of females ages 15 and above)",,,,,,,,
+Sao Tome and Principe,STP,Africa,Development,"Literacy rate, adult male (% of males ages 15 and above)",,,,,,,,
+Sao Tome and Principe,STP,Africa,Development,"Literacy rate, adult total (% of people ages 15 and above)",,,,,,,,
+Sao Tome and Principe,STP,Africa,Economy,GDP (current US$),,,,,,,,337413478
+Sao Tome and Principe,STP,Africa,Economy,GDP growth (annual %),,,,,,,,
+Sao Tome and Principe,STP,Africa,Economy,GDP per capita (current US$),,,,,,,,
+Sao Tome and Principe,STP,Africa,Finance,Commercial_deposit_accounts_2010,,,,,,,,
+Sao Tome and Principe,STP,Africa,Finance,Coop_and_credit_union_deposit_accounts_2010,,,,,,,,
+Sao Tome and Principe,STP,Africa,Finance,State_Financial_Institution_deposit_accounts_2010,,,,,,,,
+Sao Tome and Principe,STP,Africa,Finance,MFI_deposit_accounts_2010,,,,,,,,
+Sao Tome and Principe,STP,Africa,Finance,Remittances received (US$),,,,,,,,
+Sao Tome and Principe,STP,Africa,Finance,Number_of_MFIs_2011,,,,,,,,
+Sao Tome and Principe,STP,Africa,Finance,Number_of_active_MFI_borrowers_2011,,,,,,,,
+Sao Tome and Principe,STP,Africa,Finance,MFI_Gross_Loan_Portfolio_2011,,,,,,,,
+Sao Tome and Principe,STP,Africa,Health,External resources for health (% of total expenditure on health),,,,,,,,
+Sao Tome and Principe,STP,Africa,Health,Health expenditure per capita (current US$),,,,,,,,
+Sao Tome and Principe,STP,Africa,Health,"Health expenditure, private (% of GDP)",,,,,,,,
+Sao Tome and Principe,STP,Africa,Health,"Health expenditure, public (% of GDP)",,,,,,,,
+Sao Tome and Principe,STP,Africa,Health,Out-of-pocket health expenditure (% of private expenditure on health),,,,,,,,
+Sao Tome and Principe,STP,Africa,Health,"Under-5 mortality rate (per 1,000)",,,,,,,,
+Sao Tome and Principe,STP,Africa,Health,"Maternal mortality ratio (per 100,000 live births)",,,,,,,,
+Sao Tome and Principe,STP,Africa,Health,"Life expectancy at birth, female",,,,,,,,
+Sao Tome and Principe,STP,Africa,Health,"Life expectancy at birth, male",,,,,,,,
+Sao Tome and Principe,STP,Africa,Health,"Life expectancy at birth, total",,,,,,,,
+Sao Tome and Principe,STP,Africa,Health,"Physicians (per 1,000 people)",,,,,,,,
+Sao Tome and Principe,STP,Africa,Index Coverage Indicators,Permanent cropland (% of land area),,,,,,,,
+Sao Tome and Principe,STP,Africa,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,,,,,
+Sao Tome and Principe,STP,Africa,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,,,,,
+Sao Tome and Principe,STP,Africa,Microinsurance,Total microinsurance coverage,,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Credit life coverage,,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Life coverage (excluding credit life),,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Life and accident coverage (excluding credit life),,,,,,,,
+Sao Tome and Principe,STP,Africa,Microinsurance,Health coverage,,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Accident coverage,,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Property coverage,,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Agriculture coverage,,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Total microinsurance coverage ratio,,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Credit life coverage ratio,,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Life coverage ratio (excluding credit life),,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Life and accident coverage ratio (excluding credit life),,,,,,,,
+Sao Tome and Principe,STP,Africa,Microinsurance,Health coverage ratio,,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Accident coverage ratio,,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Property coverage ratio,,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Agriculture coverage ratio,,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,2150000
+Sao Tome and Principe,STP,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,0
+Sao Tome and Principe,STP,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
+Sao Tome and Principe,STP,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
+Sao Tome and Principe,STP,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
+Sao Tome and Principe,STP,Africa,Poverty,Poverty headcount ratio at rural poverty line (% of rural population),,,,,,,,
+Sao Tome and Principe,STP,Africa,Poverty,Poverty headcount ratio at urban poverty line (% of urban population),,,,,,,,
+Sao Tome and Principe,STP,Africa,Poverty,GINI index,,,,,,,,
+Sao Tome and Principe,STP,Africa,Poverty,"Life expectancy at birth, female",,,,,,,,
+Sao Tome and Principe,STP,Africa,Poverty,"Life expectancy at birth, male",,,,,,,,
+Sao Tome and Principe,STP,Africa,Poverty,"Life expectancy at birth, total",,,,,,,,
+Sao Tome and Principe,STP,Africa,Poverty,"Physicians (per 1,000 people)",,,,,,,,
 Saudi Arabia,SAU,Asia,Demographics,Population (Total),24690067,26366358,26796375,27258387,27761728,28287855,,
 Saudi Arabia,SAU,Asia,Demographics,Population ages 15-64 (% of total),62.61,64.95,65.66,66.3,66.88,67.4,,
 Saudi Arabia,SAU,Asia,Demographics,Population density (people per sq. km of land area),11.49,12.27,12.47,12.68,12.91,13.16,,
@@ -5815,8 +5815,8 @@ Saudi Arabia,SAU,Asia,Microinsurance,Health coverage ratio,,,,,,0,,
 Saudi Arabia,SAU,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 Saudi Arabia,SAU,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Saudi Arabia,SAU,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Saudi Arabia,SAU,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Saudi Arabia,SAU,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0,,
+Saudi Arabia,SAU,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Saudi Arabia,SAU,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 Saudi Arabia,SAU,Asia,Poverty,Income share held by lowest 20%,,,,,,,,
 Saudi Arabia,SAU,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Saudi Arabia,SAU,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -5877,8 +5877,8 @@ Senegal,SEN,Africa,Microinsurance,Health coverage ratio,5.3,2.26,,,4.9,,,0.39
 Senegal,SEN,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0.69
 Senegal,SEN,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,0
 Senegal,SEN,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0.04
-Senegal,SEN,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,68.17
-Senegal,SEN,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,1.31
+Senegal,SEN,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,68166000
+Senegal,SEN,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,1306592.528
 Senegal,SEN,Africa,Poverty,Income share held by lowest 20%,6.22,,,,6.05,,,
 Senegal,SEN,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),60.36,,,,55.22,,,
 Senegal,SEN,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),48.3,,,,46.7,,,
@@ -5939,8 +5939,8 @@ Seychelles,SYC,Africa,Microinsurance,Health coverage ratio,,0,,,0,,,0
 Seychelles,SYC,Africa,Microinsurance,Accident coverage ratio,,,,,0,,,0
 Seychelles,SYC,Africa,Microinsurance,Property coverage ratio,,4.6,,,0,,,0
 Seychelles,SYC,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0
-Seychelles,SYC,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,17.56
-Seychelles,SYC,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0
+Seychelles,SYC,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,17557305.58
+Seychelles,SYC,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,0
 Seychelles,SYC,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
 Seychelles,SYC,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Seychelles,SYC,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -6001,8 +6001,8 @@ Sierra Leone,SLE,Africa,Microinsurance,Health coverage ratio,0,,,,0,,,0
 Sierra Leone,SLE,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0.01
 Sierra Leone,SLE,Africa,Microinsurance,Property coverage ratio,0,,,,0.02,,,0.01
 Sierra Leone,SLE,Africa,Microinsurance,Agriculture coverage ratio,,,,,0,,,0.01
-Sierra Leone,SLE,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Sierra Leone,SLE,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0.18
+Sierra Leone,SLE,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Sierra Leone,SLE,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,177400
 Sierra Leone,SLE,Africa,Poverty,Income share held by lowest 20%,,,,,7.81,,,
 Sierra Leone,SLE,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,79.56,,,
 Sierra Leone,SLE,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,52.9,,,
@@ -6063,8 +6063,8 @@ Solomon Islands,SLB,Oceania,Microinsurance,Health coverage ratio,,,,,,0,,
 Solomon Islands,SLB,Oceania,Microinsurance,Accident coverage ratio,,,,,,0,,
 Solomon Islands,SLB,Oceania,Microinsurance,Property coverage ratio,,,,,,0,,
 Solomon Islands,SLB,Oceania,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Solomon Islands,SLB,Oceania,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Solomon Islands,SLB,Oceania,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0,,
+Solomon Islands,SLB,Oceania,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Solomon Islands,SLB,Oceania,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 Solomon Islands,SLB,Oceania,Poverty,Income share held by lowest 20%,,,,,,,,
 Solomon Islands,SLB,Oceania,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Solomon Islands,SLB,Oceania,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -6125,8 +6125,8 @@ Somalia,SOM,Africa,Microinsurance,Health coverage ratio,,,,,,,,0
 Somalia,SOM,Africa,Microinsurance,Accident coverage ratio,,,,,,,,0
 Somalia,SOM,Africa,Microinsurance,Property coverage ratio,,,,,,,,0
 Somalia,SOM,Africa,Microinsurance,Agriculture coverage ratio,,,,,,,,0
-Somalia,SOM,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Somalia,SOM,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0
+Somalia,SOM,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Somalia,SOM,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,0
 Somalia,SOM,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
 Somalia,SOM,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Somalia,SOM,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -6187,8 +6187,8 @@ South Africa,ZAF,Africa,Microinsurance,Health coverage ratio,,0.2,,,0,,,0
 South Africa,ZAF,Africa,Microinsurance,Accident coverage ratio,,,,,0,,,2.49
 South Africa,ZAF,Africa,Microinsurance,Property coverage ratio,,0.02,,,0.02,,,1.31
 South Africa,ZAF,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0.00065
-South Africa,ZAF,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,"50,616.00"
-South Africa,ZAF,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,608.86
+South Africa,ZAF,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,"50,616,192,026.40"
+South Africa,ZAF,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,608861200.8
 South Africa,ZAF,Africa,Poverty,Income share held by lowest 20%,,,2.7,,,,,
 South Africa,ZAF,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,31.33,,,,,
 South Africa,ZAF,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -6249,8 +6249,8 @@ South Sudan,SSD,Africa,Microinsurance,Health coverage ratio,,,,,,,,0
 South Sudan,SSD,Africa,Microinsurance,Accident coverage ratio,,,,,,,,0
 South Sudan,SSD,Africa,Microinsurance,Property coverage ratio,,,,,,,,0
 South Sudan,SSD,Africa,Microinsurance,Agriculture coverage ratio,,,,,,,,0
-South Sudan,SSD,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-South Sudan,SSD,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0
+South Sudan,SSD,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,
+South Sudan,SSD,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,0
 South Sudan,SSD,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
 South Sudan,SSD,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 South Sudan,SSD,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -6311,8 +6311,8 @@ Sri Lanka,LKA,Asia,Microinsurance,Health coverage ratio,,,,,,0.01,,
 Sri Lanka,LKA,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 Sri Lanka,LKA,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Sri Lanka,LKA,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0.03,,
-Sri Lanka,LKA,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Sri Lanka,LKA,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,11.36,,
+Sri Lanka,LKA,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Sri Lanka,LKA,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,11360000,,
 Sri Lanka,LKA,Asia,Poverty,Income share held by lowest 20%,,,,7.72,,,,
 Sri Lanka,LKA,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,23.85,,,,
 Sri Lanka,LKA,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,8.9,,,,
@@ -6373,8 +6373,8 @@ St. Lucia,LCA,Americas,Microinsurance,Health coverage ratio,,,,,,,0,
 St. Lucia,LCA,Americas,Microinsurance,Accident coverage ratio,,,,,,,0,
 St. Lucia,LCA,Americas,Microinsurance,Property coverage ratio,,,,,,,0,
 St. Lucia,LCA,Americas,Microinsurance,Agriculture coverage ratio,,,,,,,0,
-St. Lucia,LCA,Americas,Microinsurance,Total Gross Premium (USD millions),,,,,,,75.65,
-St. Lucia,LCA,Americas,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,0.000268,
+St. Lucia,LCA,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,75656988,
+St. Lucia,LCA,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,268,
 St. Lucia,LCA,Americas,Poverty,Income share held by lowest 20%,,,,,,,,
 St. Lucia,LCA,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 St. Lucia,LCA,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -6435,8 +6435,8 @@ Sudan,SDN,Africa,Microinsurance,Health coverage ratio,0,,,,0.27,,,0.98
 Sudan,SDN,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0
 Sudan,SDN,Africa,Microinsurance,Property coverage ratio,0,,,,0.14,,,0.11
 Sudan,SDN,Africa,Microinsurance,Agriculture coverage ratio,,,,,0.42,,,0.06
-Sudan,SDN,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,450
-Sudan,SDN,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0.18
+Sudan,SDN,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,450000000
+Sudan,SDN,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,177183.0325
 Sudan,SDN,Africa,Poverty,Income share held by lowest 20%,,,6.81,,,,,
 Sudan,SDN,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,44.14,,,,,
 Sudan,SDN,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,46.5,,,,,
@@ -6497,8 +6497,8 @@ Swaziland,SWZ,Africa,Microinsurance,Health coverage ratio,0,,,,0,,,0.001
 Swaziland,SWZ,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,6.78
 Swaziland,SWZ,Africa,Microinsurance,Property coverage ratio,0,,,,0,,,0.001
 Swaziland,SWZ,Africa,Microinsurance,Agriculture coverage ratio,,,,,0,,,0.001
-Swaziland,SWZ,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,68.92
-Swaziland,SWZ,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,5.16
+Swaziland,SWZ,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,68924829.67
+Swaziland,SWZ,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,5154917.922
 Swaziland,SWZ,Africa,Poverty,Income share held by lowest 20%,,,,4.05,,,,
 Swaziland,SWZ,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,60.4,,,,
 Swaziland,SWZ,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,63,,,,,
@@ -6559,8 +6559,8 @@ Syrian Arab Republic,SYR,Asia,Microinsurance,Health coverage ratio,,,,,,0,,
 Syrian Arab Republic,SYR,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 Syrian Arab Republic,SYR,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Syrian Arab Republic,SYR,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Syrian Arab Republic,SYR,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Syrian Arab Republic,SYR,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0,,
+Syrian Arab Republic,SYR,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Syrian Arab Republic,SYR,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 Syrian Arab Republic,SYR,Asia,Poverty,Income share held by lowest 20%,,,,,,,,
 Syrian Arab Republic,SYR,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Syrian Arab Republic,SYR,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -6621,8 +6621,8 @@ Tajikistan,TJK,Asia,Microinsurance,Health coverage ratio,,,,,,0,,
 Tajikistan,TJK,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 Tajikistan,TJK,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Tajikistan,TJK,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Tajikistan,TJK,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Tajikistan,TJK,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,, -   ,,
+Tajikistan,TJK,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Tajikistan,TJK,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 Tajikistan,TJK,Asia,Poverty,Income share held by lowest 20%,,,8.29,,,,,
 Tajikistan,TJK,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,27.69,,,,,
 Tajikistan,TJK,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,,47.2,,,,,
@@ -6683,8 +6683,8 @@ Tanzania,TZA,Africa,Microinsurance,Health coverage ratio,0.02,0.07,,,0,,,0.46
 Tanzania,TZA,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0.91
 Tanzania,TZA,Africa,Microinsurance,Property coverage ratio,0,0,,,0.33,,,0
 Tanzania,TZA,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0.05,,,0
-Tanzania,TZA,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,284.46
-Tanzania,TZA,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,18.14
+Tanzania,TZA,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,284460000
+Tanzania,TZA,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,18137783.35
 Tanzania,TZA,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
 Tanzania,TZA,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Tanzania,TZA,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,28.2,,
@@ -6745,8 +6745,8 @@ Thailand,THA,Asia,Microinsurance,Health coverage ratio,,,,,,1.84,,
 Thailand,THA,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 Thailand,THA,Asia,Microinsurance,Property coverage ratio,,,,,,3.07,,
 Thailand,THA,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0.08,,
-Thailand,THA,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Thailand,THA,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,
+Thailand,THA,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Thailand,THA,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,
 Thailand,THA,Asia,Poverty,Income share held by lowest 20%,,6.6,6.67,6.76,,,,
 Thailand,THA,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,4.98,4.58,4.05,,,,
 Thailand,THA,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,20.5,19.1,16.9,13.2,,,
@@ -6807,8 +6807,8 @@ Timor-Leste,TLS,Asia,Microinsurance,Health coverage ratio,,,,,,,,
 Timor-Leste,TLS,Asia,Microinsurance,Accident coverage ratio,,,,,,,,
 Timor-Leste,TLS,Asia,Microinsurance,Property coverage ratio,,,,,,,,
 Timor-Leste,TLS,Asia,Microinsurance,Agriculture coverage ratio,,,,,,,,
-Timor-Leste,TLS,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Timor-Leste,TLS,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,
+Timor-Leste,TLS,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Timor-Leste,TLS,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,
 Timor-Leste,TLS,Asia,Poverty,Income share held by lowest 20%,,,,,,,,
 Timor-Leste,TLS,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Timor-Leste,TLS,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -6869,8 +6869,8 @@ Togo,TGO,Africa,Microinsurance,Health coverage ratio,0.04,0.02,,,0.01,,,0.06
 Togo,TGO,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0.04
 Togo,TGO,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,0.02
 Togo,TGO,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0
-Togo,TGO,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,44.93
-Togo,TGO,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,2.83
+Togo,TGO,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,44925000
+Togo,TGO,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,2831515.16
 Togo,TGO,Africa,Poverty,Income share held by lowest 20%,,,,,5.99,,,
 Togo,TGO,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,52.65,,,
 Togo,TGO,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,58.7,,,
@@ -6931,8 +6931,8 @@ Tonga,TON,Oceania,Microinsurance,Health coverage ratio,,,,,,0,,
 Tonga,TON,Oceania,Microinsurance,Accident coverage ratio,,,,,,0,,
 Tonga,TON,Oceania,Microinsurance,Property coverage ratio,,,,,,0,,
 Tonga,TON,Oceania,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Tonga,TON,Oceania,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Tonga,TON,Oceania,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,
+Tonga,TON,Oceania,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Tonga,TON,Oceania,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,
 Tonga,TON,Oceania,Poverty,Income share held by lowest 20%,,,,,,,,
 Tonga,TON,Oceania,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Tonga,TON,Oceania,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -6993,8 +6993,8 @@ Tunisia,TUN,Africa,Microinsurance,Health coverage ratio,,0,,,1.86,,,0
 Tunisia,TUN,Africa,Microinsurance,Accident coverage ratio,,,,,0,,,2.24
 Tunisia,TUN,Africa,Microinsurance,Property coverage ratio,,0,,,0,,,0
 Tunisia,TUN,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0
-Tunisia,TUN,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,888
-Tunisia,TUN,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,
+Tunisia,TUN,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,888000000
+Tunisia,TUN,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,
 Tunisia,TUN,Africa,Poverty,Income share held by lowest 20%,5.92,,,6.74,,,,
 Tunisia,TUN,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),8.06,,,4.25,,,,
 Tunisia,TUN,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),23.3,,,15.5,,,,
@@ -7055,8 +7055,8 @@ Turkey,TUR,Asia,Microinsurance,Health coverage ratio,,,,,,0,,
 Turkey,TUR,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 Turkey,TUR,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Turkey,TUR,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Turkey,TUR,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Turkey,TUR,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0,,
+Turkey,TUR,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Turkey,TUR,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 Turkey,TUR,Asia,Poverty,Income share held by lowest 20%,5.18,5.7,5.83,5.53,,,,
 Turkey,TUR,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),6.87,4.16,2.7,4.71,,,,
 Turkey,TUR,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),20.5,17.1,18.1,,,,,
@@ -7117,8 +7117,8 @@ Turkmenistan,TKM,Asia,Microinsurance,Health coverage ratio,,,,,,0,,
 Turkmenistan,TKM,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 Turkmenistan,TKM,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Turkmenistan,TKM,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Turkmenistan,TKM,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Turkmenistan,TKM,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0,,
+Turkmenistan,TKM,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Turkmenistan,TKM,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 Turkmenistan,TKM,Asia,Poverty,Income share held by lowest 20%,,,,,,,,
 Turkmenistan,TKM,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Turkmenistan,TKM,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -7179,8 +7179,8 @@ Tuvalu,TUV,Oceania,Microinsurance,Health coverage ratio,,,,,,0,,
 Tuvalu,TUV,Oceania,Microinsurance,Accident coverage ratio,,,,,,0,,
 Tuvalu,TUV,Oceania,Microinsurance,Property coverage ratio,,,,,,0,,
 Tuvalu,TUV,Oceania,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Tuvalu,TUV,Oceania,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Tuvalu,TUV,Oceania,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0,,
+Tuvalu,TUV,Oceania,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Tuvalu,TUV,Oceania,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 Tuvalu,TUV,Oceania,Poverty,Income share held by lowest 20%,,,,,,,,
 Tuvalu,TUV,Oceania,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Tuvalu,TUV,Oceania,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -7241,8 +7241,8 @@ Uganda,UGA,Africa,Microinsurance,Health coverage ratio,0.06,0.49,,,0.11,,,0.58
 Uganda,UGA,Africa,Microinsurance,Accident coverage ratio,5.63,,,,4.45,,,6.63
 Uganda,UGA,Africa,Microinsurance,Property coverage ratio,0.94,0.22,,,0.02,,,6.12
 Uganda,UGA,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0
-Uganda,UGA,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,201.92
-Uganda,UGA,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,0.26
+Uganda,UGA,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,201920000
+Uganda,UGA,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,256269.8476
 Uganda,UGA,Africa,Poverty,Income share held by lowest 20%,,,5.84,,,,,
 Uganda,UGA,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,64.74,,,,,
 Uganda,UGA,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),31.1,,24.5,,,,,
@@ -7303,8 +7303,8 @@ Uruguay,URU,Americas,Microinsurance,Health coverage ratio,,,,,,,0,
 Uruguay,URU,Americas,Microinsurance,Accident coverage ratio,,,,,,,0,
 Uruguay,URU,Americas,Microinsurance,Property coverage ratio,,,,,,,0,
 Uruguay,URU,Americas,Microinsurance,Agriculture coverage ratio,,,,,,,0,
-Uruguay,URU,Americas,Microinsurance,Total Gross Premium (USD millions),,,,,,,"1,242.39",
-Uruguay,URU,Americas,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,0,
+Uruguay,URU,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,"1,242,399,800.00",
+Uruguay,URU,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,0,,0,
 Uruguay,URU,Americas,Poverty,Income share held by lowest 20%,,,,,,,,
 Uruguay,URU,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Uruguay,URU,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -7365,8 +7365,8 @@ Uzbekistan,UZB,Asia,Microinsurance,Health coverage ratio,,,,,,0.04,,
 Uzbekistan,UZB,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 Uzbekistan,UZB,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Uzbekistan,UZB,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Uzbekistan,UZB,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Uzbekistan,UZB,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0.27,,
+Uzbekistan,UZB,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Uzbekistan,UZB,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,270000,,
 Uzbekistan,UZB,Asia,Poverty,Income share held by lowest 20%,,,,,,,,
 Uzbekistan,UZB,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Uzbekistan,UZB,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,17.7,16,,,
@@ -7427,8 +7427,8 @@ Vanuatu,VUT,Oceania,Microinsurance,Health coverage ratio,,,,,,0,,
 Vanuatu,VUT,Oceania,Microinsurance,Accident coverage ratio,,,,,,0,,
 Vanuatu,VUT,Oceania,Microinsurance,Property coverage ratio,,,,,,0,,
 Vanuatu,VUT,Oceania,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Vanuatu,VUT,Oceania,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Vanuatu,VUT,Oceania,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0,,
+Vanuatu,VUT,Oceania,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Vanuatu,VUT,Oceania,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 Vanuatu,VUT,Oceania,Poverty,Income share held by lowest 20%,,,,,,,,
 Vanuatu,VUT,Oceania,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Vanuatu,VUT,Oceania,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
@@ -7489,8 +7489,8 @@ Venezuela,VEN,Americas,Microinsurance,Health coverage ratio,0.06,,,,0,,0.04,
 Venezuela,VEN,Americas,Microinsurance,Accident coverage ratio,0,,,,0,,0.04,
 Venezuela,VEN,Americas,Microinsurance,Property coverage ratio,0,,,,0,,0,
 Venezuela,VEN,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,
-Venezuela,VEN,Americas,Microinsurance,Total Gross Premium (USD millions),,,,,,,"13,817.71",
-Venezuela,VEN,Americas,Microinsurance,Microinsurance Gross Premium (USD millions),0.23,,,,,,2.39,
+Venezuela,VEN,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,"13,817,714,300.00",
+Venezuela,VEN,Americas,Microinsurance,Microinsurance Gross Premium (USD),227434,,,,,,2391870,
 Venezuela,VEN,Americas,Poverty,Income share held by lowest 20%,2.8,,,,,,,
 Venezuela,VEN,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),21.93,,,,,,,
 Venezuela,VEN,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),43.7,32.6,31.8,32.5,31.6,25.4,,
@@ -7551,8 +7551,8 @@ Vietnam,VNM,Asia,Microinsurance,Health coverage ratio,,,,,,0.09,,
 Vietnam,VNM,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 Vietnam,VNM,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Vietnam,VNM,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Vietnam,VNM,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Vietnam,VNM,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,
+Vietnam,VNM,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Vietnam,VNM,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,
 Vietnam,VNM,Asia,Poverty,Income share held by lowest 20%,,7.42,,,,,,
 Vietnam,VNM,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,43.36,,,,,,
 Vietnam,VNM,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,20.7,,17.2,,
@@ -7613,8 +7613,8 @@ Yemen,YEM,Asia,Microinsurance,Health coverage ratio,,,,,,0,,
 Yemen,YEM,Asia,Microinsurance,Accident coverage ratio,,,,,,0,,
 Yemen,YEM,Asia,Microinsurance,Property coverage ratio,,,,,,0,,
 Yemen,YEM,Asia,Microinsurance,Agriculture coverage ratio,,,,,,0,,
-Yemen,YEM,Asia,Microinsurance,Total Gross Premium (USD millions),,,,,,,,
-Yemen,YEM,Asia,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,0,,
+Yemen,YEM,Asia,Microinsurance,Total Gross Premium (USD),,,,,,,,
+Yemen,YEM,Asia,Microinsurance,Microinsurance Gross Premium (USD),,,,,,0,,
 Yemen,YEM,Asia,Poverty,Income share held by lowest 20%,7.18,,,,,,,
 Yemen,YEM,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),46.6,,,,,,,
 Yemen,YEM,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population),34.8,,,,,,,
@@ -7675,8 +7675,8 @@ Zambia,ZMB,Africa,Microinsurance,Health coverage ratio,0,0,,,0,,,0.03
 Zambia,ZMB,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0
 Zambia,ZMB,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,0
 Zambia,ZMB,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0.06
-Zambia,ZMB,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,305.09
-Zambia,ZMB,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,16.61
+Zambia,ZMB,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,305091000
+Zambia,ZMB,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,16604566.72
 Zambia,ZMB,Africa,Poverty,Income share held by lowest 20%,,,,3.58,,,,
 Zambia,ZMB,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,86.64,,,,
 Zambia,ZMB,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,60.5,,,,
@@ -7737,8 +7737,8 @@ Zimbabwe,ZWE,Africa,Microinsurance,Health coverage ratio,0,0,,,0.16,,,0.73
 Zimbabwe,ZWE,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0.51
 Zimbabwe,ZWE,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,0
 Zimbabwe,ZWE,Africa,Microinsurance,Agriculture coverage ratio,,0.02,,,0,,,0.01
-Zimbabwe,ZWE,Africa,Microinsurance,Total Gross Premium (USD millions),,,,,,,,550.49
-Zimbabwe,ZWE,Africa,Microinsurance,Microinsurance Gross Premium (USD millions),,,,,,,,3.72
+Zimbabwe,ZWE,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,550485868
+Zimbabwe,ZWE,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,3716714
 Zimbabwe,ZWE,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
 Zimbabwe,ZWE,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
 Zimbabwe,ZWE,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,72.3,,,
