@@ -1673,68 +1673,68 @@ Costa Rica,CRI,Americas,Poverty,"Life expectancy at birth, female",80.9,,81.34,8
 Costa Rica,CRI,Americas,Poverty,"Life expectancy at birth, male",76.11,,76.58,76.78,77.01,77.51,,
 Costa Rica,CRI,Americas,Poverty,"Life expectancy at birth, total",78.45,,78.9,79.08,79.28,79.71,,
 Costa Rica,CRI,Americas,Poverty,"Physicians (per 1,000 people)", ,,,,,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Demographics,Population (Total),17393994,,18260044,18601342,18976588,19839750,,20804774
-CÃƒÂ´te d'Ivoire,CIV,Africa,Demographics,Population ages 15-64 (% of total),54.73,,54.86,54.96,55.08,55.37,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Demographics,Population density (people per sq. km of land area),54.7,,57.42,58.49,59.67,62.39,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Demographics,Population growth (annual %),1.45,,1.72,1.85,2,2.29,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Demographics,Urban population (% of total),46.84,,49.07,49.81,50.56,52,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Development,Human Development Index,0.41,,0.42,0.42,0.43,0.43,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Development,"Literacy rate, adult female (% of females ages 15 and above)",,,,,,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Development,"Literacy rate, adult male (% of males ages 15 and above)",,,,,,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Development,"Literacy rate, adult total (% of people ages 15 and above)",,,,,,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Economy,GDP (current US$),16363437145,,23414253328,23041633638,22920779598,24680372724,,34253607832
-CÃƒÂ´te d'Ivoire,CIV,Africa,Economy,GDP growth (annual %),1.26,,2.33,3.75,2.39,9.5,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Economy,GDP per capita (current US$),940.75,,1282.27,1238.71,1207.85,1243.99,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Finance,Commercial_deposit_accounts_2010,,,,,75.44,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Finance,Coop_and_credit_union_deposit_accounts_2010,,,,,0,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Finance,State_Financial_Institution_deposit_accounts_2010,,,,,0,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Finance,MFI_deposit_accounts_2010,,,,,95.12,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Finance,Remittances received (US$),,,,,,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Finance,Number_of_MFIs_2011,,,,,,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Finance,Number_of_active_MFI_borrowers_2011,,,,,,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Finance,MFI_Gross_Loan_Portfolio_2011,,,,,,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Health,External resources for health (% of total expenditure on health),4.05,,11.71,9.93,10.2,8.74,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Health,Health expenditure per capita (current US$),53.26,,82.71,83.71,82.93,87.87,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Health,"Health expenditure, private (% of GDP)",4.34,,4.87,4.97,5.05,5.12,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Health,"Health expenditure, public (% of GDP)",1.33,,1.58,1.79,1.82,1.94,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Health,Out-of-pocket health expenditure (% of private expenditure on health),77.84,,79.69,78.09,76.85,76.99,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Health,"Under-5 mortality rate (per 1,000)",131.2,,120.8,117.4,113.9,107.6,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Health,"Maternal mortality ratio (per 100,000 live births)",750,,,,750,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Health,"Life expectancy at birth, female",48.1,,49.6,50.06,50.48,51.23,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Health,"Life expectancy at birth, male",46.4,,48.01,48.49,48.91,49.61,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Health,"Life expectancy at birth, total",47.23,,48.79,49.26,49.68,50.4,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Health,"Physicians (per 1,000 people)",,,1.44,,1.44,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Index Coverage Indicators,Permanent cropland (% of land area),13.21,,13.84,13.84,13.84,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,,0,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,,96,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Microinsurance,Total microinsurance coverage,0,30644,,,74363,,,151268
-CÃƒÂ´te d'Ivoire,CIV,Africa,Microinsurance,Credit life coverage,0,5000,,,15747,,,39603
-CÃƒÂ´te d'Ivoire,CIV,Africa,Microinsurance,Life coverage (excluding credit life),0,,,,50616,,,117681
-CÃƒÂ´te d'Ivoire,CIV,Africa,Microinsurance,Life and accident coverage (excluding credit life),0,350,,,50616,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Microinsurance,Health coverage,0,25394,,,8000,,,33387
-CÃƒÂ´te d'Ivoire,CIV,Africa,Microinsurance,Accident coverage,0,,,,0,,,117681
-CÃƒÂ´te d'Ivoire,CIV,Africa,Microinsurance,Property coverage,0,0,,,0,,,0
-CÃƒÂ´te d'Ivoire,CIV,Africa,Microinsurance,Agriculture coverage,,0,,,0,,,200
-CÃƒÂ´te d'Ivoire,CIV,Africa,Microinsurance,Total microinsurance coverage ratio,0,0.2,,,0.38,,,0.73
-CÃƒÂ´te d'Ivoire,CIV,Africa,Microinsurance,Credit life coverage ratio,0,0,,,0.1,,,0.19
-CÃƒÂ´te d'Ivoire,CIV,Africa,Microinsurance,Life coverage ratio (excluding credit life),0,,,,0.3,,,0.57
-CÃƒÂ´te d'Ivoire,CIV,Africa,Microinsurance,Life and accident coverage ratio (excluding credit life),0,0,,,0.3,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Microinsurance,Health coverage ratio,0,0.1,,,0,,,0.16
-CÃƒÂ´te d'Ivoire,CIV,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0.57
-CÃƒÂ´te d'Ivoire,CIV,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,0
-CÃƒÂ´te d'Ivoire,CIV,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0.001
-CÃƒÂ´te d'Ivoire,CIV,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,250693000
-CÃƒÂ´te d'Ivoire,CIV,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,6247675.182
-CÃƒÂ´te d'Ivoire,CIV,Africa,Poverty,Income share held by lowest 20%,,,5.6,,,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,46.34,,,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,42.7,,,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Poverty,Poverty headcount ratio at rural poverty line (% of rural population),,,54.2,,,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Poverty,Poverty headcount ratio at urban poverty line (% of urban population),,,29.4,,,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Poverty,GINI index,,,41.5,,,,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Poverty,"Life expectancy at birth, female",48.1,,49.6,50.06,50.48,51.23,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Poverty,"Life expectancy at birth, male",46.4,,48.01,48.49,48.91,49.61,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Poverty,"Life expectancy at birth, total",47.23,,48.79,49.26,49.68,50.4,,
-CÃƒÂ´te d'Ivoire,CIV,Africa,Poverty,"Physicians (per 1,000 people)",,,1.44,,1.44,,,
+Cote d'Ivoire,CIV,Africa,Demographics,Population (Total),17393994,,18260044,18601342,18976588,19839750,,20804774
+Cote d'Ivoire,CIV,Africa,Demographics,Population ages 15-64 (% of total),54.73,,54.86,54.96,55.08,55.37,,
+Cote d'Ivoire,CIV,Africa,Demographics,Population density (people per sq. km of land area),54.7,,57.42,58.49,59.67,62.39,,
+Cote d'Ivoire,CIV,Africa,Demographics,Population growth (annual %),1.45,,1.72,1.85,2,2.29,,
+Cote d'Ivoire,CIV,Africa,Demographics,Urban population (% of total),46.84,,49.07,49.81,50.56,52,,
+Cote d'Ivoire,CIV,Africa,Development,Human Development Index,0.41,,0.42,0.42,0.43,0.43,,
+Cote d'Ivoire,CIV,Africa,Development,"Literacy rate, adult female (% of females ages 15 and above)",,,,,,,,
+Cote d'Ivoire,CIV,Africa,Development,"Literacy rate, adult male (% of males ages 15 and above)",,,,,,,,
+Cote d'Ivoire,CIV,Africa,Development,"Literacy rate, adult total (% of people ages 15 and above)",,,,,,,,
+Cote d'Ivoire,CIV,Africa,Economy,GDP (current US$),16363437145,,23414253328,23041633638,22920779598,24680372724,,34253607832
+Cote d'Ivoire,CIV,Africa,Economy,GDP growth (annual %),1.26,,2.33,3.75,2.39,9.5,,
+Cote d'Ivoire,CIV,Africa,Economy,GDP per capita (current US$),940.75,,1282.27,1238.71,1207.85,1243.99,,
+Cote d'Ivoire,CIV,Africa,Finance,Commercial_deposit_accounts_2010,,,,,75.44,,,
+Cote d'Ivoire,CIV,Africa,Finance,Coop_and_credit_union_deposit_accounts_2010,,,,,0,,,
+Cote d'Ivoire,CIV,Africa,Finance,State_Financial_Institution_deposit_accounts_2010,,,,,0,,,
+Cote d'Ivoire,CIV,Africa,Finance,MFI_deposit_accounts_2010,,,,,95.12,,,
+Cote d'Ivoire,CIV,Africa,Finance,Remittances received (US$),,,,,,,,
+Cote d'Ivoire,CIV,Africa,Finance,Number_of_MFIs_2011,,,,,,,,
+Cote d'Ivoire,CIV,Africa,Finance,Number_of_active_MFI_borrowers_2011,,,,,,,,
+Cote d'Ivoire,CIV,Africa,Finance,MFI_Gross_Loan_Portfolio_2011,,,,,,,,
+Cote d'Ivoire,CIV,Africa,Health,External resources for health (% of total expenditure on health),4.05,,11.71,9.93,10.2,8.74,,
+Cote d'Ivoire,CIV,Africa,Health,Health expenditure per capita (current US$),53.26,,82.71,83.71,82.93,87.87,,
+Cote d'Ivoire,CIV,Africa,Health,"Health expenditure, private (% of GDP)",4.34,,4.87,4.97,5.05,5.12,,
+Cote d'Ivoire,CIV,Africa,Health,"Health expenditure, public (% of GDP)",1.33,,1.58,1.79,1.82,1.94,,
+Cote d'Ivoire,CIV,Africa,Health,Out-of-pocket health expenditure (% of private expenditure on health),77.84,,79.69,78.09,76.85,76.99,,
+Cote d'Ivoire,CIV,Africa,Health,"Under-5 mortality rate (per 1,000)",131.2,,120.8,117.4,113.9,107.6,,
+Cote d'Ivoire,CIV,Africa,Health,"Maternal mortality ratio (per 100,000 live births)",750,,,,750,,,
+Cote d'Ivoire,CIV,Africa,Health,"Life expectancy at birth, female",48.1,,49.6,50.06,50.48,51.23,,
+Cote d'Ivoire,CIV,Africa,Health,"Life expectancy at birth, male",46.4,,48.01,48.49,48.91,49.61,,
+Cote d'Ivoire,CIV,Africa,Health,"Life expectancy at birth, total",47.23,,48.79,49.26,49.68,50.4,,
+Cote d'Ivoire,CIV,Africa,Health,"Physicians (per 1,000 people)",,,1.44,,1.44,,,
+Cote d'Ivoire,CIV,Africa,Index Coverage Indicators,Permanent cropland (% of land area),13.21,,13.84,13.84,13.84,,,
+Cote d'Ivoire,CIV,Africa,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,,0,,,
+Cote d'Ivoire,CIV,Africa,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,,96,,,
+Cote d'Ivoire,CIV,Africa,Microinsurance,Total microinsurance coverage,0,30644,,,74363,,,151268
+Cote d'Ivoire,CIV,Africa,Microinsurance,Credit life coverage,0,5000,,,15747,,,39603
+Cote d'Ivoire,CIV,Africa,Microinsurance,Life coverage (excluding credit life),0,,,,50616,,,117681
+Cote d'Ivoire,CIV,Africa,Microinsurance,Life and accident coverage (excluding credit life),0,350,,,50616,,,
+Cote d'Ivoire,CIV,Africa,Microinsurance,Health coverage,0,25394,,,8000,,,33387
+Cote d'Ivoire,CIV,Africa,Microinsurance,Accident coverage,0,,,,0,,,117681
+Cote d'Ivoire,CIV,Africa,Microinsurance,Property coverage,0,0,,,0,,,0
+Cote d'Ivoire,CIV,Africa,Microinsurance,Agriculture coverage,,0,,,0,,,200
+Cote d'Ivoire,CIV,Africa,Microinsurance,Total microinsurance coverage ratio,0,0.2,,,0.38,,,0.73
+Cote d'Ivoire,CIV,Africa,Microinsurance,Credit life coverage ratio,0,0,,,0.1,,,0.19
+Cote d'Ivoire,CIV,Africa,Microinsurance,Life coverage ratio (excluding credit life),0,,,,0.3,,,0.57
+Cote d'Ivoire,CIV,Africa,Microinsurance,Life and accident coverage ratio (excluding credit life),0,0,,,0.3,,,
+Cote d'Ivoire,CIV,Africa,Microinsurance,Health coverage ratio,0,0.1,,,0,,,0.16
+Cote d'Ivoire,CIV,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0.57
+Cote d'Ivoire,CIV,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,0
+Cote d'Ivoire,CIV,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0.001
+Cote d'Ivoire,CIV,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,250693000
+Cote d'Ivoire,CIV,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,6247675.182
+Cote d'Ivoire,CIV,Africa,Poverty,Income share held by lowest 20%,,,5.6,,,,,
+Cote d'Ivoire,CIV,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,46.34,,,,,
+Cote d'Ivoire,CIV,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,42.7,,,,,
+Cote d'Ivoire,CIV,Africa,Poverty,Poverty headcount ratio at rural poverty line (% of rural population),,,54.2,,,,,
+Cote d'Ivoire,CIV,Africa,Poverty,Poverty headcount ratio at urban poverty line (% of urban population),,,29.4,,,,,
+Cote d'Ivoire,CIV,Africa,Poverty,GINI index,,,41.5,,,,,
+Cote d'Ivoire,CIV,Africa,Poverty,"Life expectancy at birth, female",48.1,,49.6,50.06,50.48,51.23,,
+Cote d'Ivoire,CIV,Africa,Poverty,"Life expectancy at birth, male",46.4,,48.01,48.49,48.91,49.61,,
+Cote d'Ivoire,CIV,Africa,Poverty,"Life expectancy at birth, total",47.23,,48.79,49.26,49.68,50.4,,
+Cote d'Ivoire,CIV,Africa,Poverty,"Physicians (per 1,000 people)",,,1.44,,1.44,,,
 Dem. Rep. of Congo,COD,Africa,Demographics,Population (Total),54028003,,58819038,60486276,62191161,65705093,,69360118
 Dem. Rep. of Congo,COD,Africa,Demographics,Population ages 15-64 (% of total),50.95,,51.37,51.54,51.7,52.04,,
 Dem. Rep. of Congo,COD,Africa,Demographics,Population density (people per sq. km of land area),23.83,,25.95,26.68,27.43,28.98,,
@@ -5703,68 +5703,68 @@ Samoa,WSM,Oceania,Poverty,"Life expectancy at birth, female",74.23,75.06,75.35,7
 Samoa,WSM,Oceania,Poverty,"Life expectancy at birth, male",67.91,68.77,69.05,69.33,69.61,69.88,,
 Samoa,WSM,Oceania,Poverty,"Life expectancy at birth, total",71,71.84,72.12,72.41,72.7,72.98,,
 Samoa,WSM,Oceania,Poverty,"Physicians (per 1,000 people)",0.27,0.45,,0.48,,,,
-São Tomé and Príncipe,STP,Africa,Demographics,Population (Total),,,,,,,,197882
-São Tomé and Príncipe,STP,Africa,Demographics,Population ages 15-64 (% of total),,,,,,,,
-São Tomé and Príncipe,STP,Africa,Demographics,Population density (people per sq. km of land area),,,,,,,,
-São Tomé and Príncipe,STP,Africa,Demographics,Population growth (annual %),,,,,,,,
-São Tomé and Príncipe,STP,Africa,Demographics,Urban population (% of total),,,,,,,,
-São Tomé and Príncipe,STP,Africa,Development,Human Development Index,,,,,,,,
-São Tomé and Príncipe,STP,Africa,Development,"Literacy rate, adult female (% of females ages 15 and above)",,,,,,,,
-São Tomé and Príncipe,STP,Africa,Development,"Literacy rate, adult male (% of males ages 15 and above)",,,,,,,,
-São Tomé and Príncipe,STP,Africa,Development,"Literacy rate, adult total (% of people ages 15 and above)",,,,,,,,
-São Tomé and Príncipe,STP,Africa,Economy,GDP (current US$),,,,,,,,337413478
-São Tomé and Príncipe,STP,Africa,Economy,GDP growth (annual %),,,,,,,,
-São Tomé and Príncipe,STP,Africa,Economy,GDP per capita (current US$),,,,,,,,
-São Tomé and Príncipe,STP,Africa,Finance,Commercial_deposit_accounts_2010,,,,,,,,
-São Tomé and Príncipe,STP,Africa,Finance,Coop_and_credit_union_deposit_accounts_2010,,,,,,,,
-São Tomé and Príncipe,STP,Africa,Finance,State_Financial_Institution_deposit_accounts_2010,,,,,,,,
-São Tomé and Príncipe,STP,Africa,Finance,MFI_deposit_accounts_2010,,,,,,,,
-São Tomé and Príncipe,STP,Africa,Finance,Remittances received (US$),,,,,,,,
-São Tomé and Príncipe,STP,Africa,Finance,Number_of_MFIs_2011,,,,,,,,
-São Tomé and Príncipe,STP,Africa,Finance,Number_of_active_MFI_borrowers_2011,,,,,,,,
-São Tomé and Príncipe,STP,Africa,Finance,MFI_Gross_Loan_Portfolio_2011,,,,,,,,
-São Tomé and Príncipe,STP,Africa,Health,External resources for health (% of total expenditure on health),,,,,,,,
-São Tomé and Príncipe,STP,Africa,Health,Health expenditure per capita (current US$),,,,,,,,
-São Tomé and Príncipe,STP,Africa,Health,"Health expenditure, private (% of GDP)",,,,,,,,
-São Tomé and Príncipe,STP,Africa,Health,"Health expenditure, public (% of GDP)",,,,,,,,
-São Tomé and Príncipe,STP,Africa,Health,Out-of-pocket health expenditure (% of private expenditure on health),,,,,,,,
-São Tomé and Príncipe,STP,Africa,Health,"Under-5 mortality rate (per 1,000)",,,,,,,,
-São Tomé and Príncipe,STP,Africa,Health,"Maternal mortality ratio (per 100,000 live births)",,,,,,,,
-São Tomé and Príncipe,STP,Africa,Health,"Life expectancy at birth, female",,,,,,,,
-São Tomé and Príncipe,STP,Africa,Health,"Life expectancy at birth, male",,,,,,,,
-São Tomé and Príncipe,STP,Africa,Health,"Life expectancy at birth, total",,,,,,,,
-São Tomé and Príncipe,STP,Africa,Health,"Physicians (per 1,000 people)",,,,,,,,
-São Tomé and Príncipe,STP,Africa,Index Coverage Indicators,Permanent cropland (% of land area),,,,,,,,
-São Tomé and Príncipe,STP,Africa,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,,,,,
-São Tomé and Príncipe,STP,Africa,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,,,,,
-São Tomé and Príncipe,STP,Africa,Microinsurance,Total microinsurance coverage,,,,,,,,0
-São Tomé and Príncipe,STP,Africa,Microinsurance,Credit life coverage,,,,,,,,0
-São Tomé and Príncipe,STP,Africa,Microinsurance,Life coverage (excluding credit life),,,,,,,,0
-São Tomé and Príncipe,STP,Africa,Microinsurance,Life and accident coverage (excluding credit life),,,,,,,,
-São Tomé and Príncipe,STP,Africa,Microinsurance,Health coverage,,,,,,,,0
-São Tomé and Príncipe,STP,Africa,Microinsurance,Accident coverage,,,,,,,,0
-São Tomé and Príncipe,STP,Africa,Microinsurance,Property coverage,,,,,,,,0
-São Tomé and Príncipe,STP,Africa,Microinsurance,Agriculture coverage,,,,,,,,0
-São Tomé and Príncipe,STP,Africa,Microinsurance,Total microinsurance coverage ratio,,,,,,,,0
-São Tomé and Príncipe,STP,Africa,Microinsurance,Credit life coverage ratio,,,,,,,,0
-São Tomé and Príncipe,STP,Africa,Microinsurance,Life coverage ratio (excluding credit life),,,,,,,,0
-São Tomé and Príncipe,STP,Africa,Microinsurance,Life and accident coverage ratio (excluding credit life),,,,,,,,
-São Tomé and Príncipe,STP,Africa,Microinsurance,Health coverage ratio,,,,,,,,0
-São Tomé and Príncipe,STP,Africa,Microinsurance,Accident coverage ratio,,,,,,,,0
-São Tomé and Príncipe,STP,Africa,Microinsurance,Property coverage ratio,,,,,,,,0
-São Tomé and Príncipe,STP,Africa,Microinsurance,Agriculture coverage ratio,,,,,,,,0
-São Tomé and Príncipe,STP,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,2150000
-São Tomé and Príncipe,STP,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,0
-São Tomé and Príncipe,STP,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
-São Tomé and Príncipe,STP,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
-São Tomé and Príncipe,STP,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
-São Tomé and Príncipe,STP,Africa,Poverty,Poverty headcount ratio at rural poverty line (% of rural population),,,,,,,,
-São Tomé and Príncipe,STP,Africa,Poverty,Poverty headcount ratio at urban poverty line (% of urban population),,,,,,,,
-São Tomé and Príncipe,STP,Africa,Poverty,GINI index,,,,,,,,
-São Tomé and Príncipe,STP,Africa,Poverty,"Life expectancy at birth, female",,,,,,,,
-São Tomé and Príncipe,STP,Africa,Poverty,"Life expectancy at birth, male",,,,,,,,
-São Tomé and Príncipe,STP,Africa,Poverty,"Life expectancy at birth, total",,,,,,,,
-São Tomé and Príncipe,STP,Africa,Poverty,"Physicians (per 1,000 people)",,,,,,,,
+Sao Tome and Principe,STP,Africa,Demographics,Population (Total),,,,,,,,197882
+Sao Tome and Principe,STP,Africa,Demographics,Population ages 15-64 (% of total),,,,,,,,
+Sao Tome and Principe,STP,Africa,Demographics,Population density (people per sq. km of land area),,,,,,,,
+Sao Tome and Principe,STP,Africa,Demographics,Population growth (annual %),,,,,,,,
+Sao Tome and Principe,STP,Africa,Demographics,Urban population (% of total),,,,,,,,
+Sao Tome and Principe,STP,Africa,Development,Human Development Index,,,,,,,,
+Sao Tome and Principe,STP,Africa,Development,"Literacy rate, adult female (% of females ages 15 and above)",,,,,,,,
+Sao Tome and Principe,STP,Africa,Development,"Literacy rate, adult male (% of males ages 15 and above)",,,,,,,,
+Sao Tome and Principe,STP,Africa,Development,"Literacy rate, adult total (% of people ages 15 and above)",,,,,,,,
+Sao Tome and Principe,STP,Africa,Economy,GDP (current US$),,,,,,,,337413478
+Sao Tome and Principe,STP,Africa,Economy,GDP growth (annual %),,,,,,,,
+Sao Tome and Principe,STP,Africa,Economy,GDP per capita (current US$),,,,,,,,
+Sao Tome and Principe,STP,Africa,Finance,Commercial_deposit_accounts_2010,,,,,,,,
+Sao Tome and Principe,STP,Africa,Finance,Coop_and_credit_union_deposit_accounts_2010,,,,,,,,
+Sao Tome and Principe,STP,Africa,Finance,State_Financial_Institution_deposit_accounts_2010,,,,,,,,
+Sao Tome and Principe,STP,Africa,Finance,MFI_deposit_accounts_2010,,,,,,,,
+Sao Tome and Principe,STP,Africa,Finance,Remittances received (US$),,,,,,,,
+Sao Tome and Principe,STP,Africa,Finance,Number_of_MFIs_2011,,,,,,,,
+Sao Tome and Principe,STP,Africa,Finance,Number_of_active_MFI_borrowers_2011,,,,,,,,
+Sao Tome and Principe,STP,Africa,Finance,MFI_Gross_Loan_Portfolio_2011,,,,,,,,
+Sao Tome and Principe,STP,Africa,Health,External resources for health (% of total expenditure on health),,,,,,,,
+Sao Tome and Principe,STP,Africa,Health,Health expenditure per capita (current US$),,,,,,,,
+Sao Tome and Principe,STP,Africa,Health,"Health expenditure, private (% of GDP)",,,,,,,,
+Sao Tome and Principe,STP,Africa,Health,"Health expenditure, public (% of GDP)",,,,,,,,
+Sao Tome and Principe,STP,Africa,Health,Out-of-pocket health expenditure (% of private expenditure on health),,,,,,,,
+Sao Tome and Principe,STP,Africa,Health,"Under-5 mortality rate (per 1,000)",,,,,,,,
+Sao Tome and Principe,STP,Africa,Health,"Maternal mortality ratio (per 100,000 live births)",,,,,,,,
+Sao Tome and Principe,STP,Africa,Health,"Life expectancy at birth, female",,,,,,,,
+Sao Tome and Principe,STP,Africa,Health,"Life expectancy at birth, male",,,,,,,,
+Sao Tome and Principe,STP,Africa,Health,"Life expectancy at birth, total",,,,,,,,
+Sao Tome and Principe,STP,Africa,Health,"Physicians (per 1,000 people)",,,,,,,,
+Sao Tome and Principe,STP,Africa,Index Coverage Indicators,Permanent cropland (% of land area),,,,,,,,
+Sao Tome and Principe,STP,Africa,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,,,,,
+Sao Tome and Principe,STP,Africa,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,,,,,
+Sao Tome and Principe,STP,Africa,Microinsurance,Total microinsurance coverage,,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Credit life coverage,,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Life coverage (excluding credit life),,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Life and accident coverage (excluding credit life),,,,,,,,
+Sao Tome and Principe,STP,Africa,Microinsurance,Health coverage,,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Accident coverage,,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Property coverage,,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Agriculture coverage,,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Total microinsurance coverage ratio,,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Credit life coverage ratio,,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Life coverage ratio (excluding credit life),,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Life and accident coverage ratio (excluding credit life),,,,,,,,
+Sao Tome and Principe,STP,Africa,Microinsurance,Health coverage ratio,,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Accident coverage ratio,,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Property coverage ratio,,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Agriculture coverage ratio,,,,,,,,0
+Sao Tome and Principe,STP,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,2150000
+Sao Tome and Principe,STP,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,0
+Sao Tome and Principe,STP,Africa,Poverty,Income share held by lowest 20%,,,,,,,,
+Sao Tome and Principe,STP,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,
+Sao Tome and Principe,STP,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,
+Sao Tome and Principe,STP,Africa,Poverty,Poverty headcount ratio at rural poverty line (% of rural population),,,,,,,,
+Sao Tome and Principe,STP,Africa,Poverty,Poverty headcount ratio at urban poverty line (% of urban population),,,,,,,,
+Sao Tome and Principe,STP,Africa,Poverty,GINI index,,,,,,,,
+Sao Tome and Principe,STP,Africa,Poverty,"Life expectancy at birth, female",,,,,,,,
+Sao Tome and Principe,STP,Africa,Poverty,"Life expectancy at birth, male",,,,,,,,
+Sao Tome and Principe,STP,Africa,Poverty,"Life expectancy at birth, total",,,,,,,,
+Sao Tome and Principe,STP,Africa,Poverty,"Physicians (per 1,000 people)",,,,,,,,
 Saudi Arabia,SAU,Asia,Demographics,Population (Total),24690067,26366358,26796375,27258387,27761728,28287855,,
 Saudi Arabia,SAU,Asia,Demographics,Population ages 15-64 (% of total),62.61,64.95,65.66,66.3,66.88,67.4,,
 Saudi Arabia,SAU,Asia,Demographics,Population density (people per sq. km of land area),11.49,12.27,12.47,12.68,12.91,13.16,,
