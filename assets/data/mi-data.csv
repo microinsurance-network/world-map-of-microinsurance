@@ -111,7 +111,7 @@ Algeria,DZA,Africa,Microinsurance,Health coverage ratio,0,0,,,0,,,0,,
 Algeria,DZA,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0,,
 Algeria,DZA,Africa,Microinsurance,Property coverage ratio,0,0,,,0.01,,,0.31,,
 Algeria,DZA,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0.01,,,0.31,,
-Algeria,DZA,Africa,Microinsurance,Total Gross Premium (USD),   ,,,,,,,"1,597,000,000.00",,
+Algeria,DZA,Africa,Microinsurance,Total Gross Premium (USD),   ,,,,,,,1597000000,,
 Algeria,DZA,Africa,Microinsurance,Microinsurance Gross Premium (USD),   ,,,,,,,625000,,
 Algeria,DZA,Africa,Poverty,Income share held by lowest 20%, ,,,,,,,,,
 Algeria,DZA,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population), ,,,,,,,,,
@@ -173,7 +173,7 @@ Angola,AGO,Africa,Microinsurance,Health coverage ratio,0,,,,0,,,0,,
 Angola,AGO,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0,,
 Angola,AGO,Africa,Microinsurance,Property coverage ratio,0,,,,0,,,0,,
 Angola,AGO,Africa,Microinsurance,Agriculture coverage ratio,,,,,0,,,0,,
-Angola,AGO,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,"1,142,000,000.00",,
+Angola,AGO,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,1142000000,,
 Angola,AGO,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,0,,
 Angola,AGO,Africa,Poverty,Income share held by lowest 20%,,,5.4,,,,,,,
 Angola,AGO,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,67.42,,,,,,,
@@ -219,24 +219,24 @@ Argentina,ARG,Americas,Health,"Physicians (per 1,000 people)",3.21,,,3.21,,,,,,
 Argentina,ARG,Americas,Index Coverage Indicators,Permanent cropland (% of land area),0.37,0.37,0.37,0.37,0.37,,,,,
 Argentina,ARG,Americas,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,0,,,,,,
 Argentina,ARG,Americas,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,1790,,,,,,
-Argentina,ARG,Americas,Microinsurance,Total microinsurance coverage,,,,,1356247,," 2,565,435.00 ",,," 3,730,000.00 "
-Argentina,ARG,Americas,Microinsurance,Credit life coverage,,,,,0,, -   ,,,
-Argentina,ARG,Americas,Microinsurance,Life coverage (excluding credit life),,,,,1337009,," 2,565,435.00 ",,," 3,730,000.00 "
+Argentina,ARG,Americas,Microinsurance,Total microinsurance coverage,,,,,1356247,,2565435,,,3730000
+Argentina,ARG,Americas,Microinsurance,Credit life coverage,,,,,0,,0,,,
+Argentina,ARG,Americas,Microinsurance,Life coverage (excluding credit life),,,,,1337009,,2565435,,,3730000
 Argentina,ARG,Americas,Microinsurance,Life and accident coverage (excluding credit life),,,,,1337009,,,,,
-Argentina,ARG,Americas,Microinsurance,Health coverage,,,,,19238,," 137,206.00 ",,,
-Argentina,ARG,Americas,Microinsurance,Accident coverage,,,,,430000,," 137,206.00 ",,,
-Argentina,ARG,Americas,Microinsurance,Property coverage,,,,,0,, -   ,,,
-Argentina,ARG,Americas,Microinsurance,Agriculture coverage,,,,,0,, -   ,,,
-Argentina,ARG,Americas,Microinsurance,Total microinsurance coverage ratio,,,,,3.36,, 6.19 ,,, 8.5 
-Argentina,ARG,Americas,Microinsurance,Credit life coverage ratio,,,,,0,, -   ,,,
-Argentina,ARG,Americas,Microinsurance,Life coverage ratio (excluding credit life),,,,,3.31,, 6.19 ,,,
+Argentina,ARG,Americas,Microinsurance,Health coverage,,,,,19238,,137206,,,
+Argentina,ARG,Americas,Microinsurance,Accident coverage,,,,,430000,,137206,,,
+Argentina,ARG,Americas,Microinsurance,Property coverage,,,,,0,,0,,,
+Argentina,ARG,Americas,Microinsurance,Agriculture coverage,,,,,0,,0,,,
+Argentina,ARG,Americas,Microinsurance,Total microinsurance coverage ratio,,,,,3.36,,6.19,,,8.5
+Argentina,ARG,Americas,Microinsurance,Credit life coverage ratio,,,,,0,,0,,,
+Argentina,ARG,Americas,Microinsurance,Life coverage ratio (excluding credit life),,,,,3.31,,6.19,,,
 Argentina,ARG,Americas,Microinsurance,Life and accident coverage ratio (excluding credit life),,,,,3.31,,,,,
-Argentina,ARG,Americas,Microinsurance,Health coverage ratio,,,,,0.05,, 0.33 ,,,
-Argentina,ARG,Americas,Microinsurance,Accident coverage ratio,,,,,1.06,, 0.33 ,,,
-Argentina,ARG,Americas,Microinsurance,Property coverage ratio,,,,,0,, -   ,,,
-Argentina,ARG,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,, -   ,,,
-Argentina,ARG,Americas,Microinsurance,Total Gross Premium (USD),,,,,,," 17,362,091,300.00 ",,," 14,291,000,000.00 "
-Argentina,ARG,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,27026428,," 51,711,841.00 ",,," 33,380,823 "
+Argentina,ARG,Americas,Microinsurance,Health coverage ratio,,,,,0.05,,0.33,,,
+Argentina,ARG,Americas,Microinsurance,Accident coverage ratio,,,,,1.06,,0.33,,,
+Argentina,ARG,Americas,Microinsurance,Property coverage ratio,,,,,0,,0,,,
+Argentina,ARG,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,,,
+Argentina,ARG,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,17362091300,,,14291000000
+Argentina,ARG,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,27026428,,51711841,,,33380823
 Argentina,ARG,Americas,Poverty,Income share held by lowest 20%,3.44,3.93,3.92,4.38,,,,,,
 Argentina,ARG,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),9.41,3.66,3.44,1.87,,,,,,
 Argentina,ARG,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,,,
@@ -467,24 +467,24 @@ Belize,BLZ,Americas,Health,"Physicians (per 1,000 people)",,,0.83,0.83,,,,,,
 Belize,BLZ,Americas,Index Coverage Indicators,Permanent cropland (% of land area),1.4,1.4,1.4,1.4,1.4,,,,,
 Belize,BLZ,Americas,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,13,,,,,,
 Belize,BLZ,Americas,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,28239,,,,,,
-Belize,BLZ,Americas,Microinsurance,Total microinsurance coverage,0,,,,540,, 530.00 ,,," 4,800 "
-Belize,BLZ,Americas,Microinsurance,Credit life coverage,0,,,,0,, -   ,,,
-Belize,BLZ,Americas,Microinsurance,Life coverage (excluding credit life),0,,,,0,, -   ,,," 252,232 "
+Belize,BLZ,Americas,Microinsurance,Total microinsurance coverage,0,,,,540,,530,,,4800
+Belize,BLZ,Americas,Microinsurance,Credit life coverage,0,,,,0,,0,,,
+Belize,BLZ,Americas,Microinsurance,Life coverage (excluding credit life),0,,,,0,,0,,,252232
 Belize,BLZ,Americas,Microinsurance,Life and accident coverage (excluding credit life),0,,,,0,,,,,
-Belize,BLZ,Americas,Microinsurance,Health coverage,0,,,,0,, -   ,,,
-Belize,BLZ,Americas,Microinsurance,Accident coverage,0,,,,0,, 430.00 ,,,
-Belize,BLZ,Americas,Microinsurance,Property coverage,0,,,,540,, 100.00 ,,,
-Belize,BLZ,Americas,Microinsurance,Agriculture coverage,,,,,0,, -   ,,,
-Belize,BLZ,Americas,Microinsurance,Total microinsurance coverage ratio,0,,,,0.16,, 0.16 ,,, 1.3 
-Belize,BLZ,Americas,Microinsurance,Credit life coverage ratio,0,,,,0,, -   ,,,
-Belize,BLZ,Americas,Microinsurance,Life coverage ratio (excluding credit life),0,,,,0,, -   ,,, 1.31 
+Belize,BLZ,Americas,Microinsurance,Health coverage,0,,,,0,,0,,,
+Belize,BLZ,Americas,Microinsurance,Accident coverage,0,,,,0,,430,,,
+Belize,BLZ,Americas,Microinsurance,Property coverage,0,,,,540,,100,,,
+Belize,BLZ,Americas,Microinsurance,Agriculture coverage,,,,,0,,0,,,
+Belize,BLZ,Americas,Microinsurance,Total microinsurance coverage ratio,0,,,,0.16,,0.16,,,1.3
+Belize,BLZ,Americas,Microinsurance,Credit life coverage ratio,0,,,,0,,0,,,
+Belize,BLZ,Americas,Microinsurance,Life coverage ratio (excluding credit life),0,,,,0,,0,,,1.31
 Belize,BLZ,Americas,Microinsurance,Life and accident coverage ratio (excluding credit life),0,,,,0,,,,,
-Belize,BLZ,Americas,Microinsurance,Health coverage ratio,0,,,,0,, -   ,,,
-Belize,BLZ,Americas,Microinsurance,Accident coverage ratio,0,,,,0,, 0.13 ,,,
-Belize,BLZ,Americas,Microinsurance,Property coverage ratio,0,,,,0.16,, 0.03 ,,,
-Belize,BLZ,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,, -   ,,,
-Belize,BLZ,Americas,Microinsurance,Total Gross Premium (USD),,,,,,," 63,456,885.92 ",,,
-Belize,BLZ,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,6392,," 39,859.00 ",,," 252,232 "
+Belize,BLZ,Americas,Microinsurance,Health coverage ratio,0,,,,0,,0,,,
+Belize,BLZ,Americas,Microinsurance,Accident coverage ratio,0,,,,0,,0.13,,,
+Belize,BLZ,Americas,Microinsurance,Property coverage ratio,0,,,,0.16,,0.03,,,
+Belize,BLZ,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,,,
+Belize,BLZ,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,63456885.92,,,
+Belize,BLZ,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,6392,,39859,,,252232
 Belize,BLZ,Americas,Poverty,Income share held by lowest 20%, ,,,,,,,,,
 Belize,BLZ,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population), ,,,,,,,,,
 Belize,BLZ,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population), ,,,,,,,,,
@@ -653,24 +653,24 @@ Bolivia,BOL,Americas,Health,"Physicians (per 1,000 people)",,,,,,,,,,
 Bolivia,BOL,Americas,Index Coverage Indicators,Permanent cropland (% of land area),0.18,,0.2,0.2,0.2,,,,,
 Bolivia,BOL,Americas,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,,5,,,,,
 Bolivia,BOL,Americas,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,,18428,,,,,
-Bolivia,BOL,Americas,Microinsurance,Total microinsurance coverage,250000,,,,718117,," 586,394.00 ",,," 710,000.00 "
-Bolivia,BOL,Americas,Microinsurance,Credit life coverage,0,,,,488177,," 461,463.00 ",,,
-Bolivia,BOL,Americas,Microinsurance,Life coverage (excluding credit life),0,,,,716334,," 123,631.00 ",,," 5,650,264.00 "
+Bolivia,BOL,Americas,Microinsurance,Total microinsurance coverage,250000,,,,718117,,586394,,,710000
+Bolivia,BOL,Americas,Microinsurance,Credit life coverage,0,,,,488177,,461463,,,
+Bolivia,BOL,Americas,Microinsurance,Life coverage (excluding credit life),0,,,,716334,,123631,,,5650264
 Bolivia,BOL,Americas,Microinsurance,Life and accident coverage (excluding credit life),0,,,,717413,,,,,
-Bolivia,BOL,Americas,Microinsurance,Health coverage,250000,,,,6079,," 22,400.00 ",,,
-Bolivia,BOL,Americas,Microinsurance,Accident coverage,0,,,,467675,," 44,900.00 ",,,
-Bolivia,BOL,Americas,Microinsurance,Property coverage,0,,,,708,, 44.00 ,,,
-Bolivia,BOL,Americas,Microinsurance,Agriculture coverage,,,,,4,, 44.00 ,,,
-Bolivia,BOL,Americas,Microinsurance,Total microinsurance coverage ratio,2.73,,,,7.23,, 5.50 ,,, 6.5 
-Bolivia,BOL,Americas,Microinsurance,Credit life coverage ratio,0,,,,4.92,, 4.32 ,,,
-Bolivia,BOL,Americas,Microinsurance,Life coverage ratio (excluding credit life),0,,,,7.21,, 1.16 ,,,
+Bolivia,BOL,Americas,Microinsurance,Health coverage,250000,,,,6079,,22400,,,
+Bolivia,BOL,Americas,Microinsurance,Accident coverage,0,,,,467675,,44900,,,
+Bolivia,BOL,Americas,Microinsurance,Property coverage,0,,,,708,,44,,,
+Bolivia,BOL,Americas,Microinsurance,Agriculture coverage,,,,,4,,44,,,
+Bolivia,BOL,Americas,Microinsurance,Total microinsurance coverage ratio,2.73,,,,7.23,,5.5,,,6.5
+Bolivia,BOL,Americas,Microinsurance,Credit life coverage ratio,0,,,,4.92,,4.32,,,
+Bolivia,BOL,Americas,Microinsurance,Life coverage ratio (excluding credit life),0,,,,7.21,,1.16,,,
 Bolivia,BOL,Americas,Microinsurance,Life and accident coverage ratio (excluding credit life),0,,,,,,,,,
-Bolivia,BOL,Americas,Microinsurance,Health coverage ratio,2.73,,,,0.06,, 0.21 ,,,
-Bolivia,BOL,Americas,Microinsurance,Accident coverage ratio,0,,,,4.71,, 0.42 ,,,
-Bolivia,BOL,Americas,Microinsurance,Property coverage ratio,0,,,,0.01,, -   ,,,
-Bolivia,BOL,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,, -   ,,,
-Bolivia,BOL,Americas,Microinsurance,Total Gross Premium (USD),,,,,,," 376,310,792.00 ",,," 506,000,000.00 "
-Bolivia,BOL,Americas,Microinsurance,Microinsurance Gross Premium (USD),489000,,,,6543035,," 4,520,999.00 ",,," 5,650,264 "
+Bolivia,BOL,Americas,Microinsurance,Health coverage ratio,2.73,,,,0.06,,0.21,,,
+Bolivia,BOL,Americas,Microinsurance,Accident coverage ratio,0,,,,4.71,,0.42,,,
+Bolivia,BOL,Americas,Microinsurance,Property coverage ratio,0,,,,0.01,,0,,,
+Bolivia,BOL,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,,,
+Bolivia,BOL,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,376310792,,,506000000
+Bolivia,BOL,Americas,Microinsurance,Microinsurance Gross Premium (USD),489000,,,,6543035,,4520999,,,5650264
 Bolivia,BOL,Americas,Poverty,Income share held by lowest 20%,1.95,,2.13,,,,,,,
 Bolivia,BOL,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),27.96,,24.89,,,,,,,
 Bolivia,BOL,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),59.6,,57.3,51.3,,,,,,
@@ -777,24 +777,24 @@ Brazil,BRA,Americas,Health,"Physicians (per 1,000 people)",,,1.76,,1.76,,,,,
 Brazil,BRA,Americas,Index Coverage Indicators,Permanent cropland (% of land area),0.86,,0.86,0.84,0.84,,,,,
 Brazil,BRA,Americas,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,,1,,,,,
 Brazil,BRA,Americas,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,,3440,,,,,
-Brazil,BRA,Americas,Microinsurance,Total microinsurance coverage,,,,,10447500,," 10,852,151 ",,," 13,790,000 "
-Brazil,BRA,Americas,Microinsurance,Credit life coverage,,,,,500,," 262,966 ",,," 37,294,714 "
-Brazil,BRA,Americas,Microinsurance,Life coverage (excluding credit life),,,,,7767000,," 5,398,471 ",,,
+Brazil,BRA,Americas,Microinsurance,Total microinsurance coverage,,,,,10447500,,10852151,,,13790000
+Brazil,BRA,Americas,Microinsurance,Credit life coverage,,,,,500,,262966,,,37294714
+Brazil,BRA,Americas,Microinsurance,Life coverage (excluding credit life),,,,,7767000,,5398471,,,
 Brazil,BRA,Americas,Microinsurance,Life and accident coverage (excluding credit life),,,,,10392500,,,,,
-Brazil,BRA,Americas,Microinsurance,Health coverage,,,,,4100000,," 2,245,118 ",,,
-Brazil,BRA,Americas,Microinsurance,Accident coverage,,,,,9592500,," 10,769,960 ",,,
-Brazil,BRA,Americas,Microinsurance,Property coverage,,,,,2055000,," 234,745 ",,,
-Brazil,BRA,Americas,Microinsurance,Agriculture coverage,,,,,0,, -   ,,,
-Brazil,BRA,Americas,Microinsurance,Total microinsurance coverage ratio,,,,,5.36,, 5.42 ,,, 6.6 
-Brazil,BRA,Americas,Microinsurance,Credit life coverage ratio,,,,,0,, 0.13 ,,,
-Brazil,BRA,Americas,Microinsurance,Life coverage ratio (excluding credit life),,,,,3.98,, 2.69 ,,, 2.50 
+Brazil,BRA,Americas,Microinsurance,Health coverage,,,,,4100000,,2245118,,,
+Brazil,BRA,Americas,Microinsurance,Accident coverage,,,,,9592500,,10769960,,,
+Brazil,BRA,Americas,Microinsurance,Property coverage,,,,,2055000,,234745,,,
+Brazil,BRA,Americas,Microinsurance,Agriculture coverage,,,,,0,,0,,,
+Brazil,BRA,Americas,Microinsurance,Total microinsurance coverage ratio,,,,,5.36,,5.42,,,6.6
+Brazil,BRA,Americas,Microinsurance,Credit life coverage ratio,,,,,0,,0.13,,,
+Brazil,BRA,Americas,Microinsurance,Life coverage ratio (excluding credit life),,,,,3.98,,2.69,,,2.5
 Brazil,BRA,Americas,Microinsurance,Life and accident coverage ratio (excluding credit life),,,,,,,,,,
-Brazil,BRA,Americas,Microinsurance,Health coverage ratio,,,,,2.1,, 1.12 ,,,
-Brazil,BRA,Americas,Microinsurance,Accident coverage ratio,,,,,4.92,, 5.38 ,,,
-Brazil,BRA,Americas,Microinsurance,Property coverage ratio,,,,,1.05,, 0.12 ,,,
-Brazil,BRA,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,, -   ,,,
-Brazil,BRA,Americas,Microinsurance,Total Gross Premium (USD),,,,,,," 89,032,320,000 ",,," 72,646,000,000.00 "
-Brazil,BRA,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,339150689,," 242,096,889 ",,," 66,134,082 "
+Brazil,BRA,Americas,Microinsurance,Health coverage ratio,,,,,2.1,,1.12,,,
+Brazil,BRA,Americas,Microinsurance,Accident coverage ratio,,,,,4.92,,5.38,,,
+Brazil,BRA,Americas,Microinsurance,Property coverage ratio,,,,,1.05,,0.12,,,
+Brazil,BRA,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,,,
+Brazil,BRA,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,89032320000,,,72646000000
+Brazil,BRA,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,339150689,,242096889,,,66134082
 Brazil,BRA,Americas,Poverty,Income share held by lowest 20%,2.76,,2.87,2.85,,,,,,
 Brazil,BRA,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),16.63,,11.32,10.82,,,,,,
 Brazil,BRA,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),30.8,,22.6,21.4,,15.9,,,,
@@ -1335,24 +1335,24 @@ Chile,CHL,Americas,Health,"Physicians (per 1,000 people)",,,,1.02,1.03,,,,,
 Chile,CHL,Americas,Index Coverage Indicators,Permanent cropland (% of land area),0.59,,0.61,0.61,0.61,,,,,
 Chile,CHL,Americas,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,,1,,,,,
 Chile,CHL,Americas,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,,3051,,,,,
-Chile,CHL,Americas,Microinsurance,Total microinsurance coverage,,,,,496000,," 1,226,082 ",,," 1,930,000 "
-Chile,CHL,Americas,Microinsurance,Credit life coverage,,,,,0,, -   ,,," 2,251,080 "
-Chile,CHL,Americas,Microinsurance,Life coverage (excluding credit life),,,,,42000,," 535,082.00 ",,,
+Chile,CHL,Americas,Microinsurance,Total microinsurance coverage,,,,,496000,,1226082,,,1930000
+Chile,CHL,Americas,Microinsurance,Credit life coverage,,,,,0,,0,,,2251080
+Chile,CHL,Americas,Microinsurance,Life coverage (excluding credit life),,,,,42000,,535082,,,
 Chile,CHL,Americas,Microinsurance,Life and accident coverage (excluding credit life),,,,,290000,,,,,
-Chile,CHL,Americas,Microinsurance,Health coverage,,,,,120000,," 646,690.00 ",,,
-Chile,CHL,Americas,Microinsurance,Accident coverage,,,,,290000,," 992,690.00 ",,,
-Chile,CHL,Americas,Microinsurance,Property coverage,,,,,86000,," 360,000.00 ",,,
-Chile,CHL,Americas,Microinsurance,Agriculture coverage,,,,,0,, -   ,,,
-Chile,CHL,Americas,Microinsurance,Total microinsurance coverage ratio,,,,,2.9,, 6.96 ,,, 10.8 
-Chile,CHL,Americas,Microinsurance,Credit life coverage ratio,,,,,0,, -   ,,,
-Chile,CHL,Americas,Microinsurance,Life coverage ratio (excluding credit life),,,,,0.25,, 3.04 ,,, 0.06 
+Chile,CHL,Americas,Microinsurance,Health coverage,,,,,120000,,646690,,,
+Chile,CHL,Americas,Microinsurance,Accident coverage,,,,,290000,,992690,,,
+Chile,CHL,Americas,Microinsurance,Property coverage,,,,,86000,,360000,,,
+Chile,CHL,Americas,Microinsurance,Agriculture coverage,,,,,0,,0,,,
+Chile,CHL,Americas,Microinsurance,Total microinsurance coverage ratio,,,,,2.9,,6.96,,,10.8
+Chile,CHL,Americas,Microinsurance,Credit life coverage ratio,,,,,0,,0,,,
+Chile,CHL,Americas,Microinsurance,Life coverage ratio (excluding credit life),,,,,0.25,,3.04,,,0.06
 Chile,CHL,Americas,Microinsurance,Life and accident coverage ratio (excluding credit life),,,,,,,,,,
-Chile,CHL,Americas,Microinsurance,Health coverage ratio,,,,,0.7,, 3.67 ,,,
-Chile,CHL,Americas,Microinsurance,Accident coverage ratio,,,,,1.69,, 5.63 ,,,
-Chile,CHL,Americas,Microinsurance,Property coverage ratio,,,,,0.5,, 2.04 ,,,
-Chile,CHL,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,, -   ,,,
-Chile,CHL,Americas,Microinsurance,Total Gross Premium (USD),,,,,,," 11,602,610,000.00 ",,," 11,682,000,000.00 "
-Chile,CHL,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,8904782,," 61,695,844.00 ",,," 80,128,030 "
+Chile,CHL,Americas,Microinsurance,Health coverage ratio,,,,,0.7,,3.67,,,
+Chile,CHL,Americas,Microinsurance,Accident coverage ratio,,,,,1.69,,5.63,,,
+Chile,CHL,Americas,Microinsurance,Property coverage ratio,,,,,0.5,,2.04,,,
+Chile,CHL,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,,,
+Chile,CHL,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,11602610000,,,11682000000
+Chile,CHL,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,8904782,,61695844,,,80128030
 Chile,CHL,Americas,Poverty,Income share held by lowest 20%,,,,4.26,,,,,,
 Chile,CHL,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,2.72,,,,,,
 Chile,CHL,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,15.1,,,,,,
@@ -1459,24 +1459,24 @@ Colombia,COL,Americas,Health,"Physicians (per 1,000 people)",1.39,,1.43,,0.15,,,
 Colombia,COL,Americas,Index Coverage Indicators,Permanent cropland (% of land area),1.43,,1.47,1.42,1.43,,,,,
 Colombia,COL,Americas,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,,4,,,,,
 Colombia,COL,Americas,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,,14482,,,,,
-Colombia,COL,Americas,Microinsurance,Total microinsurance coverage,2559000,,,,7976751,," 7,068,860.00 ",,," 5,218,080.00 "
-Colombia,COL,Americas,Microinsurance,Credit life coverage,42000,,,,968827,," 957,461.00 ",,," 5,121,904.00 "
-Colombia,COL,Americas,Microinsurance,Life coverage (excluding credit life),2517000,,,,4190985,," 4,367,280.00 ",,," 45,716,379.00 "
+Colombia,COL,Americas,Microinsurance,Total microinsurance coverage,2559000,,,,7976751,,7068860,,,5218080
+Colombia,COL,Americas,Microinsurance,Credit life coverage,42000,,,,968827,,957461,,,5121904
+Colombia,COL,Americas,Microinsurance,Life coverage (excluding credit life),2517000,,,,4190985,,4367280,,,45716379
 Colombia,COL,Americas,Microinsurance,Life and accident coverage (excluding credit life),2517000,,,,6672568,,,,,
-Colombia,COL,Americas,Microinsurance,Health coverage,0,,,,118405,," 313,776.00 ",,," 658,313.00 "
-Colombia,COL,Americas,Microinsurance,Accident coverage,0,,,,2482583,," 1,552,694.00 ",,," 13,245,881.00 "
-Colombia,COL,Americas,Microinsurance,Property coverage,0,,,,215951,," 417,891.00 ",,," 14,391,175.00 "
-Colombia,COL,Americas,Microinsurance,Agriculture coverage,,,,,0,, -   ,,,
-Colombia,COL,Americas,Microinsurance,Total microinsurance coverage ratio,5.95,,,,17.23,, 14.63 ,,, 10.7 
-Colombia,COL,Americas,Microinsurance,Credit life coverage ratio,0.1,,,,2.09,, 1.98 ,,,
-Colombia,COL,Americas,Microinsurance,Life coverage ratio (excluding credit life),5.85,,,,9.05,, 9.04 ,,, 15.60 
+Colombia,COL,Americas,Microinsurance,Health coverage,0,,,,118405,,313776,,,658313
+Colombia,COL,Americas,Microinsurance,Accident coverage,0,,,,2482583,,1552694,,,13245881
+Colombia,COL,Americas,Microinsurance,Property coverage,0,,,,215951,,417891,,,14391175
+Colombia,COL,Americas,Microinsurance,Agriculture coverage,,,,,0,,0,,,
+Colombia,COL,Americas,Microinsurance,Total microinsurance coverage ratio,5.95,,,,17.23,,14.63,,,10.7
+Colombia,COL,Americas,Microinsurance,Credit life coverage ratio,0.1,,,,2.09,,1.98,,,
+Colombia,COL,Americas,Microinsurance,Life coverage ratio (excluding credit life),5.85,,,,9.05,,9.04,,,15.6
 Colombia,COL,Americas,Microinsurance,Life and accident coverage ratio (excluding credit life),5.85,,,,,,,,,
-Colombia,COL,Americas,Microinsurance,Health coverage ratio,0,,,,0.26,, 0.65 ,,,
-Colombia,COL,Americas,Microinsurance,Accident coverage ratio,0,,,,5.36,, 3.21 ,,,
-Colombia,COL,Americas,Microinsurance,Property coverage ratio,0,,,,0.47,, 0.86 ,,,
-Colombia,COL,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,, -   ,,,
-Colombia,COL,Americas,Microinsurance,Total Gross Premium (USD),,,,,,," 9,201,506,617.45 ",,," 7,809,000,000.00 "
-Colombia,COL,Americas,Microinsurance,Microinsurance Gross Premium (USD),18598287,,,,128842554,," 114,702,730.00 ",,," 79,133,653 "
+Colombia,COL,Americas,Microinsurance,Health coverage ratio,0,,,,0.26,,0.65,,,
+Colombia,COL,Americas,Microinsurance,Accident coverage ratio,0,,,,5.36,,3.21,,,
+Colombia,COL,Americas,Microinsurance,Property coverage ratio,0,,,,0.47,,0.86,,,
+Colombia,COL,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,,,
+Colombia,COL,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,9201506617,,,7809000000
+Colombia,COL,Americas,Microinsurance,Microinsurance Gross Premium (USD),18598287,,,,128842554,,114702730,,,79133653
 Colombia,COL,Americas,Poverty,Income share held by lowest 20%,2.79,,2.52,2.73,3,,,,,
 Colombia,COL,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),23.54,,20.89,18.46,15.82,,,,,
 Colombia,COL,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),45,,42,40.3,37.2,32.7,,,,
@@ -1645,24 +1645,24 @@ Costa Rica,CRI,Americas,Health,"Physicians (per 1,000 people)",,,,,,,,,,
 Costa Rica,CRI,Americas,Index Coverage Indicators,Permanent cropland (% of land area),5.48,,5.88,6.27,6.46,,,,,
 Costa Rica,CRI,Americas,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,,,,,,,
 Costa Rica,CRI,Americas,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,,,,,,,
-Costa Rica,CRI,Americas,Microinsurance,Total microinsurance coverage,,,,,0,," 330,000.00 ",,," 430,000.00 "
-Costa Rica,CRI,Americas,Microinsurance,Credit life coverage,,,,,0,, -   ,,,
-Costa Rica,CRI,Americas,Microinsurance,Life coverage (excluding credit life),,,,,0,, -   ,,,
+Costa Rica,CRI,Americas,Microinsurance,Total microinsurance coverage,,,,,0,,330000,,,430000
+Costa Rica,CRI,Americas,Microinsurance,Credit life coverage,,,,,0,,0,,,
+Costa Rica,CRI,Americas,Microinsurance,Life coverage (excluding credit life),,,,,0,,0,,,
 Costa Rica,CRI,Americas,Microinsurance,Life and accident coverage (excluding credit life),,,,,0,,,,,
-Costa Rica,CRI,Americas,Microinsurance,Health coverage,,,,,0,," 33,000.00 ",,,
-Costa Rica,CRI,Americas,Microinsurance,Accident coverage,,,,,0,," 297,000.00 ",,,
-Costa Rica,CRI,Americas,Microinsurance,Property coverage,,,,,0,, -   ,,,
-Costa Rica,CRI,Americas,Microinsurance,Agriculture coverage,,,,,0,, -   ,,,
-Costa Rica,CRI,Americas,Microinsurance,Total microinsurance coverage ratio,,,,,0,, 6.77 ,,, 8.9 
-Costa Rica,CRI,Americas,Microinsurance,Credit life coverage ratio,,,,,0,, -   ,,,
-Costa Rica,CRI,Americas,Microinsurance,Life coverage ratio (excluding credit life),,,,,0,, -   ,,,
+Costa Rica,CRI,Americas,Microinsurance,Health coverage,,,,,0,,33000,,,
+Costa Rica,CRI,Americas,Microinsurance,Accident coverage,,,,,0,,297000,,,
+Costa Rica,CRI,Americas,Microinsurance,Property coverage,,,,,0,,0,,,
+Costa Rica,CRI,Americas,Microinsurance,Agriculture coverage,,,,,0,,0,,,
+Costa Rica,CRI,Americas,Microinsurance,Total microinsurance coverage ratio,,,,,0,,6.77,,,8.9
+Costa Rica,CRI,Americas,Microinsurance,Credit life coverage ratio,,,,,0,,0,,,
+Costa Rica,CRI,Americas,Microinsurance,Life coverage ratio (excluding credit life),,,,,0,,0,,,
 Costa Rica,CRI,Americas,Microinsurance,Life and accident coverage ratio (excluding credit life),,,,,,,,,,
-Costa Rica,CRI,Americas,Microinsurance,Health coverage ratio,,,,,0,, 0.68 ,,,
-Costa Rica,CRI,Americas,Microinsurance,Accident coverage ratio,,,,,0,, 6.10 ,,,
-Costa Rica,CRI,Americas,Microinsurance,Property coverage ratio,,,,,0,, -   ,,,
-Costa Rica,CRI,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,, -   ,,,
-Costa Rica,CRI,Americas,Microinsurance,Total Gross Premium (USD),,,,,,," 1,035,960,000.00 ",,," 1,216,000,000.00 "
-Costa Rica,CRI,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,0,,,,," 3,062,803 "
+Costa Rica,CRI,Americas,Microinsurance,Health coverage ratio,,,,,0,,0.68,,,
+Costa Rica,CRI,Americas,Microinsurance,Accident coverage ratio,,,,,0,,6.1,,,
+Costa Rica,CRI,Americas,Microinsurance,Property coverage ratio,,,,,0,,0,,,
+Costa Rica,CRI,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,,,
+Costa Rica,CRI,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,1035960000,,,1216000000
+Costa Rica,CRI,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,0,,,,,3062803
 Costa Rica,CRI,Americas,Poverty,Income share held by lowest 20%,4.1,,4.27,3.85,,,,,,
 Costa Rica,CRI,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),8.08,,4.99,5.97,,,,,,
 Costa Rica,CRI,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,21.3,20.3,,,,
@@ -1893,24 +1893,24 @@ Dominican Republic,DOM,Americas,Health,"Physicians (per 1,000 people)",,,,,1.49,
 Dominican Republic,DOM,Americas,Index Coverage Indicators,Permanent cropland (% of land area),9.31,9.31,9.31,9.31,9.31,,,,,
 Dominican Republic,DOM,Americas,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,9,,,,,,
 Dominican Republic,DOM,Americas,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,3480,,,,,,
-Dominican Republic,DOM,Americas,Microinsurance,Total microinsurance coverage,525,,,,253760,," 263,646.00 ",,," 390,000 "
-Dominican Republic,DOM,Americas,Microinsurance,Credit life coverage,0,,,,49643,," 100,000.00 ",,," 4,454,452 "
-Dominican Republic,DOM,Americas,Microinsurance,Life coverage (excluding credit life),525,,,,123583,," 244,457.00 ",,,
+Dominican Republic,DOM,Americas,Microinsurance,Total microinsurance coverage,525,,,,253760,,263646,,,390000
+Dominican Republic,DOM,Americas,Microinsurance,Credit life coverage,0,,,,49643,,100000,,,4454452
+Dominican Republic,DOM,Americas,Microinsurance,Life coverage (excluding credit life),525,,,,123583,,244457,,,
 Dominican Republic,DOM,Americas,Microinsurance,Life and accident coverage (excluding credit life),525,,,,229981,,,,,
-Dominican Republic,DOM,Americas,Microinsurance,Health coverage,0,,,,64097,, 189.00 ,,,
-Dominican Republic,DOM,Americas,Microinsurance,Accident coverage,0,,,,223939,," 109,742.00 ",,,
-Dominican Republic,DOM,Americas,Microinsurance,Property coverage,0,,,,28350,," 42,115.00 ",,," 182,826.00 "
-Dominican Republic,DOM,Americas,Microinsurance,Agriculture coverage,,,,,0,, -   ,,,
-Dominican Republic,DOM,Americas,Microinsurance,Total microinsurance coverage ratio,0.01,,,,2.56,, 2.53 ,,, 3.7 
-Dominican Republic,DOM,Americas,Microinsurance,Credit life coverage ratio,0,,,,0.5,, 0.96 ,,,
-Dominican Republic,DOM,Americas,Microinsurance,Life coverage ratio (excluding credit life),0.01,,,,1.24,, 2.35 ,,, 2.03 
+Dominican Republic,DOM,Americas,Microinsurance,Health coverage,0,,,,64097,,189,,,
+Dominican Republic,DOM,Americas,Microinsurance,Accident coverage,0,,,,223939,,109742,,,
+Dominican Republic,DOM,Americas,Microinsurance,Property coverage,0,,,,28350,,42115,,,182826
+Dominican Republic,DOM,Americas,Microinsurance,Agriculture coverage,,,,,0,,0,,,
+Dominican Republic,DOM,Americas,Microinsurance,Total microinsurance coverage ratio,0.01,,,,2.56,,2.53,,,3.7
+Dominican Republic,DOM,Americas,Microinsurance,Credit life coverage ratio,0,,,,0.5,,0.96,,,
+Dominican Republic,DOM,Americas,Microinsurance,Life coverage ratio (excluding credit life),0.01,,,,1.24,,2.35,,,2.03
 Dominican Republic,DOM,Americas,Microinsurance,Life and accident coverage ratio (excluding credit life),0.01,,,,2.32,,,,,
-Dominican Republic,DOM,Americas,Microinsurance,Health coverage ratio,0,,,,0.65,, -   ,,,
-Dominican Republic,DOM,Americas,Microinsurance,Accident coverage ratio,0,,,,2.26,, 1.05 ,,,
-Dominican Republic,DOM,Americas,Microinsurance,Property coverage ratio,0,,,,0.29,, 0.40 ,,,
-Dominican Republic,DOM,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,, -   ,,,
-Dominican Republic,DOM,Americas,Microinsurance,Total Gross Premium (USD),,,,,,," 750,699,900.00 ",,," 879,000,000.00 "
-Dominican Republic,DOM,Americas,Microinsurance,Microinsurance Gross Premium (USD),30000,,,,2336774,," 1,404,668.00 ",,," 1,787,568 "
+Dominican Republic,DOM,Americas,Microinsurance,Health coverage ratio,0,,,,0.65,,0,,,
+Dominican Republic,DOM,Americas,Microinsurance,Accident coverage ratio,0,,,,2.26,,1.05,,,
+Dominican Republic,DOM,Americas,Microinsurance,Property coverage ratio,0,,,,0.29,,0.4,,,
+Dominican Republic,DOM,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,,,
+Dominican Republic,DOM,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,750699900,,,879000000
+Dominican Republic,DOM,Americas,Microinsurance,Microinsurance Gross Premium (USD),30000,,,,2336774,,1404668,,,1787568
 Dominican Republic,DOM,Americas,Poverty,Income share held by lowest 20%,3.82,4.5,4.49,4.67,,,,,,
 Dominican Republic,DOM,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),14.94,11.08,9.97,9.88,,,,,,
 Dominican Republic,DOM,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),47.8,44.2,42.1,41.6,40.4,40.9,,,,
@@ -1955,24 +1955,24 @@ Ecuador,ECU,Americas,Health,"Physicians (per 1,000 people)",,,1.69,1.69,,,,,,
 Ecuador,ECU,Americas,Index Coverage Indicators,Permanent cropland (% of land area),4.89,5.09,5.43,5.6,5.55,,,,,
 Ecuador,ECU,Americas,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,1,,,,,,
 Ecuador,ECU,Americas,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,3769,,,,,,
-Ecuador,ECU,Americas,Microinsurance,Total microinsurance coverage,551422,,,,2637315,," 1,911,086.00 ",,," 2,950,000 "
-Ecuador,ECU,Americas,Microinsurance,Credit life coverage,550000,,,,1235541,," 1,191,656.00 ",,,
-Ecuador,ECU,Americas,Microinsurance,Life coverage (excluding credit life),0,,,,2254000,," 1,471,394.00 ",,,
+Ecuador,ECU,Americas,Microinsurance,Total microinsurance coverage,551422,,,,2637315,,1911086,,,2950000
+Ecuador,ECU,Americas,Microinsurance,Credit life coverage,550000,,,,1235541,,1191656,,,
+Ecuador,ECU,Americas,Microinsurance,Life coverage (excluding credit life),0,,,,2254000,,1471394,,,
 Ecuador,ECU,Americas,Microinsurance,Life and accident coverage (excluding credit life),0,,,,2385559,,,,,
-Ecuador,ECU,Americas,Microinsurance,Health coverage,1422,,,,1574015,," 1,435,580.00 ",,," 256,798 "
-Ecuador,ECU,Americas,Microinsurance,Accident coverage,0,,,,526559,," 1,721,936.00 ",,," 3,545,539 "
-Ecuador,ECU,Americas,Microinsurance,Property coverage,0,,,,486200,," 752,350.00 ",,," 4,233,367 "
-Ecuador,ECU,Americas,Microinsurance,Agriculture coverage,,,,,0,," 35,000.00 ",,," 11,000,000 "
-Ecuador,ECU,Americas,Microinsurance,Total microinsurance coverage ratio,4.11,,,,18.23,, 12.14 ,,, 18.0 
-Ecuador,ECU,Americas,Microinsurance,Credit life coverage ratio,4.1,,,,8.54,, 7.57 ,,,
-Ecuador,ECU,Americas,Microinsurance,Life coverage ratio (excluding credit life),0,,,,15.58,, 9.35 ,,, 2.11 
+Ecuador,ECU,Americas,Microinsurance,Health coverage,1422,,,,1574015,,1435580,,,256798
+Ecuador,ECU,Americas,Microinsurance,Accident coverage,0,,,,526559,,1721936,,,3545539
+Ecuador,ECU,Americas,Microinsurance,Property coverage,0,,,,486200,,752350,,,4233367
+Ecuador,ECU,Americas,Microinsurance,Agriculture coverage,,,,,0,,35000,,,11000000
+Ecuador,ECU,Americas,Microinsurance,Total microinsurance coverage ratio,4.11,,,,18.23,,12.14,,,18
+Ecuador,ECU,Americas,Microinsurance,Credit life coverage ratio,4.1,,,,8.54,,7.57,,,
+Ecuador,ECU,Americas,Microinsurance,Life coverage ratio (excluding credit life),0,,,,15.58,,9.35,,,2.11
 Ecuador,ECU,Americas,Microinsurance,Life and accident coverage ratio (excluding credit life),0,,,,16.49,,,,,
-Ecuador,ECU,Americas,Microinsurance,Health coverage ratio,0.01,,,,10.88,, 9.12 ,,,
-Ecuador,ECU,Americas,Microinsurance,Accident coverage ratio,0,,,,3.64,, 10.94 ,,,
-Ecuador,ECU,Americas,Microinsurance,Property coverage ratio,0,,,,3.36,, 4.78 ,,,
-Ecuador,ECU,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,, 0.22 ,,,
-Ecuador,ECU,Americas,Microinsurance,Total Gross Premium (USD),,,,,,," 1,659,000,000.00 ",,," 1,618,000,000.00 "
-Ecuador,ECU,Americas,Microinsurance,Microinsurance Gross Premium (USD),1188552,,,,52622074,," 51,408,498.00 ",,," 86,259,503 "
+Ecuador,ECU,Americas,Microinsurance,Health coverage ratio,0.01,,,,10.88,,9.12,,,
+Ecuador,ECU,Americas,Microinsurance,Accident coverage ratio,0,,,,3.64,,10.94,,,
+Ecuador,ECU,Americas,Microinsurance,Property coverage ratio,0,,,,3.36,,4.78,,,
+Ecuador,ECU,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0.22,,,
+Ecuador,ECU,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,1659000000,,,1618000000
+Ecuador,ECU,Americas,Microinsurance,Microinsurance Gross Premium (USD),1188552,,,,52622074,,51408498,,,86259503
 Ecuador,ECU,Americas,Poverty,Income share held by lowest 20%,3.09,3.74,3.88,4.29,,,,,,
 Ecuador,ECU,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),18.52,13.02,13.49,10.59,,,,,,
 Ecuador,ECU,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),42.2,35.1,36,32.8,28.6,27.3,,,,
@@ -2033,7 +2033,7 @@ Egypt,EGY,Africa,Microinsurance,Health coverage ratio,0,0,,,0,,,0,,
 Egypt,EGY,Africa,Microinsurance,Accident coverage ratio,0,,,,0.22,,,0.32,,
 Egypt,EGY,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,0,,
 Egypt,EGY,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0,,
-Egypt,EGY,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,"2,041,920,000.00",,
+Egypt,EGY,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,2041920000,,
 Egypt,EGY,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,208282,,
 Egypt,EGY,Africa,Poverty,Income share held by lowest 20%,8.96,9.24,,,,,,,,
 Egypt,EGY,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),18.46,15.43,,,,,,,,
@@ -2079,24 +2079,24 @@ El Salvador,SLV,Americas,Health,"Physicians (per 1,000 people)",,1.6,,1.6,,,,,,
 El Salvador,SLV,Americas,Index Coverage Indicators,Permanent cropland (% of land area),10.96,11.1,11.1,11.1,11.1,,,,,
 El Salvador,SLV,Americas,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,7,,,,,,
 El Salvador,SLV,Americas,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,9436,,,,,,
-El Salvador,SLV,Americas,Microinsurance,Total microinsurance coverage,85989,,,,129377,," 296,428.00 ",,," 390,000.00 "
-El Salvador,SLV,Americas,Microinsurance,Credit life coverage,20989,,,,63513,, -   ,,,
-El Salvador,SLV,Americas,Microinsurance,Life coverage (excluding credit life),65000,,,,112114,," 263,970.00 ",,,
+El Salvador,SLV,Americas,Microinsurance,Total microinsurance coverage,85989,,,,129377,,296428,,,390000
+El Salvador,SLV,Americas,Microinsurance,Credit life coverage,20989,,,,63513,,0,,,
+El Salvador,SLV,Americas,Microinsurance,Life coverage (excluding credit life),65000,,,,112114,,263970,,,
 El Salvador,SLV,Americas,Microinsurance,Life and accident coverage (excluding credit life),65000,,,,92592,,,,,
-El Salvador,SLV,Americas,Microinsurance,Health coverage,0,,,,12279,," 84,458.00 ",,,
-El Salvador,SLV,Americas,Microinsurance,Accident coverage,0,,,,78071,," 106,475.00 ",,,
-El Salvador,SLV,Americas,Microinsurance,Property coverage,0,,,,12103,, -   ,,,
-El Salvador,SLV,Americas,Microinsurance,Agriculture coverage,,,,,0,, -   ,,,
-El Salvador,SLV,Americas,Microinsurance,Total microinsurance coverage ratio,1.42,,,,2.09,, 4.68 ,,, 6.1 
-El Salvador,SLV,Americas,Microinsurance,Credit life coverage ratio,0.35,,,,1.03,, -   ,,,
-El Salvador,SLV,Americas,Microinsurance,Life coverage ratio (excluding credit life),1.07,,,,1.81,, 4.16 ,,,
+El Salvador,SLV,Americas,Microinsurance,Health coverage,0,,,,12279,,84458,,,
+El Salvador,SLV,Americas,Microinsurance,Accident coverage,0,,,,78071,,106475,,,
+El Salvador,SLV,Americas,Microinsurance,Property coverage,0,,,,12103,,0,,,
+El Salvador,SLV,Americas,Microinsurance,Agriculture coverage,,,,,0,,0,,,
+El Salvador,SLV,Americas,Microinsurance,Total microinsurance coverage ratio,1.42,,,,2.09,,4.68,,,6.1
+El Salvador,SLV,Americas,Microinsurance,Credit life coverage ratio,0.35,,,,1.03,,0,,,
+El Salvador,SLV,Americas,Microinsurance,Life coverage ratio (excluding credit life),1.07,,,,1.81,,4.16,,,
 El Salvador,SLV,Americas,Microinsurance,Life and accident coverage ratio (excluding credit life),1.07,,,,1.5,,,,,
-El Salvador,SLV,Americas,Microinsurance,Health coverage ratio,0,,,,0.2,, 1.33 ,,,
-El Salvador,SLV,Americas,Microinsurance,Accident coverage ratio,0,,,,1.26,, 1.68 ,,,
-El Salvador,SLV,Americas,Microinsurance,Property coverage ratio,0,,,,0.2,, -   ,,,
-El Salvador,SLV,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,, -   ,,,
-El Salvador,SLV,Americas,Microinsurance,Total Gross Premium (USD),,,,,,," 464,300,000.00 ",,," 546,000,000.00 "
-El Salvador,SLV,Americas,Microinsurance,Microinsurance Gross Premium (USD),496517,,,,1547632,," 4,328,323.00 ",,," 6,656,829 "
+El Salvador,SLV,Americas,Microinsurance,Health coverage ratio,0,,,,0.2,,1.33,,,
+El Salvador,SLV,Americas,Microinsurance,Accident coverage ratio,0,,,,1.26,,1.68,,,
+El Salvador,SLV,Americas,Microinsurance,Property coverage ratio,0,,,,0.2,,0,,,
+El Salvador,SLV,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,,,
+El Salvador,SLV,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,464300000,,,546000000
+El Salvador,SLV,Americas,Microinsurance,Microinsurance Gross Premium (USD),496517,,,,1547632,,4328323,,,6656829
 El Salvador,SLV,Americas,Poverty,Income share held by lowest 20%,3,4.51,3.71,,,,,,,
 El Salvador,SLV,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),20.49,14.03,16.94,,,,,,,
 El Salvador,SLV,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),35.2,40,37.8,36.5,40.6,34.5,,,,
@@ -2637,24 +2637,24 @@ Guatemala,GTM,Americas,Health,"Physicians (per 1,000 people)",,,0.93,,,,,,,
 Guatemala,GTM,Americas,Index Coverage Indicators,Permanent cropland (% of land area),7.85,8.8,8.82,8.82,8.82,,,,,
 Guatemala,GTM,Americas,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,14,,,,,,
 Guatemala,GTM,Americas,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,26888,,,,,,
-Guatemala,GTM,Americas,Microinsurance,Total microinsurance coverage,218600,,,,575658,," 588,538.00 ",,," 940,000.00 "
-Guatemala,GTM,Americas,Microinsurance,Credit life coverage,0,,,,20294,," 63,929.00 ",,," 156,724 "
-Guatemala,GTM,Americas,Microinsurance,Life coverage (excluding credit life),218000,,,,575658,," 543,609.00 ",,," 13,187,130 "
+Guatemala,GTM,Americas,Microinsurance,Total microinsurance coverage,218600,,,,575658,,588538,,,940000
+Guatemala,GTM,Americas,Microinsurance,Credit life coverage,0,,,,20294,,63929,,,156724
+Guatemala,GTM,Americas,Microinsurance,Life coverage (excluding credit life),218000,,,,575658,,543609,,,13187130
 Guatemala,GTM,Americas,Microinsurance,Life and accident coverage (excluding credit life),218000,,,,575658,,,,,
-Guatemala,GTM,Americas,Microinsurance,Health coverage,0,,,,381749,," 428,386.00 ",,," 1,028,232.00 "
-Guatemala,GTM,Americas,Microinsurance,Accident coverage,218000,,,,555628,," 168,769.00 ",,," 3,915,105 "
-Guatemala,GTM,Americas,Microinsurance,Property coverage,600,,,,0,, -   ,,,
-Guatemala,GTM,Americas,Microinsurance,Agriculture coverage,,,,,0,, -   ,,,
-Guatemala,GTM,Americas,Microinsurance,Total microinsurance coverage ratio,1.72,,,,4,, 3.80 ,,, 5.7 
-Guatemala,GTM,Americas,Microinsurance,Credit life coverage ratio,0,,,,0.14,, 0.41 ,,,
-Guatemala,GTM,Americas,Microinsurance,Life coverage ratio (excluding credit life),1.71,,,,4,, 3.51 ,,, 4.37 
+Guatemala,GTM,Americas,Microinsurance,Health coverage,0,,,,381749,,428386,,,1028232
+Guatemala,GTM,Americas,Microinsurance,Accident coverage,218000,,,,555628,,168769,,,3915105
+Guatemala,GTM,Americas,Microinsurance,Property coverage,600,,,,0,,0,,,
+Guatemala,GTM,Americas,Microinsurance,Agriculture coverage,,,,,0,,0,,,
+Guatemala,GTM,Americas,Microinsurance,Total microinsurance coverage ratio,1.72,,,,4,,3.8,,,5.7
+Guatemala,GTM,Americas,Microinsurance,Credit life coverage ratio,0,,,,0.14,,0.41,,,
+Guatemala,GTM,Americas,Microinsurance,Life coverage ratio (excluding credit life),1.71,,,,4,,3.51,,,4.37
 Guatemala,GTM,Americas,Microinsurance,Life and accident coverage ratio (excluding credit life),1.71,,,,4,,,,,
-Guatemala,GTM,Americas,Microinsurance,Health coverage ratio,0,,,,2.65,, 2.77 ,,,
-Guatemala,GTM,Americas,Microinsurance,Accident coverage ratio,1.71,,,,3.86,, 1.09 ,,,
-Guatemala,GTM,Americas,Microinsurance,Property coverage ratio,0,,,,0,, -   ,,,
-Guatemala,GTM,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,, -   ,,,
-Guatemala,GTM,Americas,Microinsurance,Total Gross Premium (USD),,,,,,," 695,304,000.00 ",,," 808,000,000.00 "
-Guatemala,GTM,Americas,Microinsurance,Microinsurance Gross Premium (USD),973835,,,,15457508,," 18,613,457.00 ",,," 32,949,761 "
+Guatemala,GTM,Americas,Microinsurance,Health coverage ratio,0,,,,2.65,,2.77,,,
+Guatemala,GTM,Americas,Microinsurance,Accident coverage ratio,1.71,,,,3.86,,1.09,,,
+Guatemala,GTM,Americas,Microinsurance,Property coverage ratio,0,,,,0,,0,,,
+Guatemala,GTM,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,,,
+Guatemala,GTM,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,695304000,,,808000000
+Guatemala,GTM,Americas,Microinsurance,Microinsurance Gross Premium (USD),973835,,,,15457508,,18613457,,,32949761
 Guatemala,GTM,Americas,Poverty,Income share held by lowest 20%,,,,,,,,,,
 Guatemala,GTM,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,,,
 Guatemala,GTM,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,53.7,,,,,
@@ -2823,24 +2823,24 @@ Haiti,HTI,Americas,Health,"Physicians (per 1,000 people)",,,,,,,,,,
 Haiti,HTI,Americas,Index Coverage Indicators,Permanent cropland (% of land area),10.16,10.16,10.16,10.16,10.16,,,,,
 Haiti,HTI,Americas,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,66,,,,,,
 Haiti,HTI,Americas,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,12565,,,,,,
-Haiti,HTI,Americas,Microinsurance,Total microinsurance coverage,0,,,,71773,," 70,416.00 ",,,
-Haiti,HTI,Americas,Microinsurance,Credit life coverage,0,,,,58773,," 55,773.00 ",,,
-Haiti,HTI,Americas,Microinsurance,Life coverage (excluding credit life),0,,,,13000,," 14,643.00 ",,,
+Haiti,HTI,Americas,Microinsurance,Total microinsurance coverage,0,,,,71773,,70416,,,
+Haiti,HTI,Americas,Microinsurance,Credit life coverage,0,,,,58773,,55773,,,
+Haiti,HTI,Americas,Microinsurance,Life coverage (excluding credit life),0,,,,13000,,14643,,,
 Haiti,HTI,Americas,Microinsurance,Life and accident coverage (excluding credit life),0,,,,13000,,,,,
-Haiti,HTI,Americas,Microinsurance,Health coverage,0,,,,0,, -   ,,,
-Haiti,HTI,Americas,Microinsurance,Accident coverage,0,,,,0,, -   ,,,
-Haiti,HTI,Americas,Microinsurance,Property coverage,0,,,,58773,, -   ,,,
-Haiti,HTI,Americas,Microinsurance,Agriculture coverage,,,,,0,, -   ,,,
-Haiti,HTI,Americas,Microinsurance,Total microinsurance coverage ratio,0,,,,0.72,, 0.68 ,,,
-Haiti,HTI,Americas,Microinsurance,Credit life coverage ratio,0,,,,0.59,, 0.54 ,,,
-Haiti,HTI,Americas,Microinsurance,Life coverage ratio (excluding credit life),0,,,,0.13,, 0.14 ,,,
+Haiti,HTI,Americas,Microinsurance,Health coverage,0,,,,0,,0,,,
+Haiti,HTI,Americas,Microinsurance,Accident coverage,0,,,,0,,0,,,
+Haiti,HTI,Americas,Microinsurance,Property coverage,0,,,,58773,,0,,,
+Haiti,HTI,Americas,Microinsurance,Agriculture coverage,,,,,0,,0,,,
+Haiti,HTI,Americas,Microinsurance,Total microinsurance coverage ratio,0,,,,0.72,,0.68,,,
+Haiti,HTI,Americas,Microinsurance,Credit life coverage ratio,0,,,,0.59,,0.54,,,
+Haiti,HTI,Americas,Microinsurance,Life coverage ratio (excluding credit life),0,,,,0.13,,0.14,,,
 Haiti,HTI,Americas,Microinsurance,Life and accident coverage ratio (excluding credit life),0,,,,0.13,,,,,
-Haiti,HTI,Americas,Microinsurance,Health coverage ratio,0,,,,0,, -   ,,,
-Haiti,HTI,Americas,Microinsurance,Accident coverage ratio,0,,,,0,, -   ,,,
-Haiti,HTI,Americas,Microinsurance,Property coverage ratio,0,,,,0.59,, -   ,,,
-Haiti,HTI,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,, -   ,,,
-Haiti,HTI,Americas,Microinsurance,Total Gross Premium (USD),,,,,,," 50,347,500.00 ",,,
-Haiti,HTI,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,243174,," 698,398.00 ",,,
+Haiti,HTI,Americas,Microinsurance,Health coverage ratio,0,,,,0,,0,,,
+Haiti,HTI,Americas,Microinsurance,Accident coverage ratio,0,,,,0,,0,,,
+Haiti,HTI,Americas,Microinsurance,Property coverage ratio,0,,,,0.59,,0,,,
+Haiti,HTI,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,,,
+Haiti,HTI,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,50347500,,,
+Haiti,HTI,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,243174,,698398,,,
 Haiti,HTI,Americas,Poverty,Income share held by lowest 20%, ,,,,,,,,,
 Haiti,HTI,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population), ,,,,,,,,,
 Haiti,HTI,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population), ,,,,,,,,,
@@ -2885,24 +2885,24 @@ Honduras,HND,Americas,Health,"Physicians (per 1,000 people)",0.37,,,,,,,,,
 Honduras,HND,Americas,Index Coverage Indicators,Permanent cropland (% of land area),3.57,3.66,3.71,3.93,3.93,,,,,
 Honduras,HND,Americas,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,4,,,,,,
 Honduras,HND,Americas,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,13628,,,,,,
-Honduras,HND,Americas,Microinsurance,Total microinsurance coverage,0,,,,50693,," 29,338.00 ",,," 70,000 "
-Honduras,HND,Americas,Microinsurance,Credit life coverage,0,,,,10233,," 15,997.00 ",,," 319,642 "
-Honduras,HND,Americas,Microinsurance,Life coverage (excluding credit life),0,,,,50693,," 29,338.00 ",,," 74,752 "
+Honduras,HND,Americas,Microinsurance,Total microinsurance coverage,0,,,,50693,,29338,,,70000
+Honduras,HND,Americas,Microinsurance,Credit life coverage,0,,,,10233,,15997,,,319642
+Honduras,HND,Americas,Microinsurance,Life coverage (excluding credit life),0,,,,50693,,29338,,,74752
 Honduras,HND,Americas,Microinsurance,Life and accident coverage (excluding credit life),0,,,,50693,,,,,
-Honduras,HND,Americas,Microinsurance,Health coverage,0,,,,10233,," 1,139.00 ",,,
-Honduras,HND,Americas,Microinsurance,Accident coverage,0,,,,10233,," 29,338.00 ",,,
-Honduras,HND,Americas,Microinsurance,Property coverage,0,,,,0,, -   ,,," 5,507 "
-Honduras,HND,Americas,Microinsurance,Agriculture coverage,,,,,0,, -   ,,,
-Honduras,HND,Americas,Microinsurance,Total microinsurance coverage ratio,0,,,,0.67,, 0.36 ,,, 0.8 
-Honduras,HND,Americas,Microinsurance,Credit life coverage ratio,0,,,,0.13,, 0.20 ,,,
-Honduras,HND,Americas,Microinsurance,Life coverage ratio (excluding credit life),0,,,,0.67,, 0.36 ,,, 0.29 
+Honduras,HND,Americas,Microinsurance,Health coverage,0,,,,10233,,1139,,,
+Honduras,HND,Americas,Microinsurance,Accident coverage,0,,,,10233,,29338,,,
+Honduras,HND,Americas,Microinsurance,Property coverage,0,,,,0,,0,,,5507
+Honduras,HND,Americas,Microinsurance,Agriculture coverage,,,,,0,,0,,,
+Honduras,HND,Americas,Microinsurance,Total microinsurance coverage ratio,0,,,,0.67,,0.36,,,0.8
+Honduras,HND,Americas,Microinsurance,Credit life coverage ratio,0,,,,0.13,,0.2,,,
+Honduras,HND,Americas,Microinsurance,Life coverage ratio (excluding credit life),0,,,,0.67,,0.36,,,0.29
 Honduras,HND,Americas,Microinsurance,Life and accident coverage ratio (excluding credit life),0,,,,0.67,,,,,
-Honduras,HND,Americas,Microinsurance,Health coverage ratio,0,,,,0.13,, 0.01 ,,,
-Honduras,HND,Americas,Microinsurance,Accident coverage ratio,0,,,,0.13,, 0.36 ,,,
-Honduras,HND,Americas,Microinsurance,Property coverage ratio,0,,,,0,, -   ,,,
-Honduras,HND,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,, -   ,,,
-Honduras,HND,Americas,Microinsurance,Total Gross Premium (USD),,,,,,," 486,764,616.00 ",,," 418,000,000.00 "
-Honduras,HND,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,344113,," 498,279.00 ",,," 624,455 "
+Honduras,HND,Americas,Microinsurance,Health coverage ratio,0,,,,0.13,,0.01,,,
+Honduras,HND,Americas,Microinsurance,Accident coverage ratio,0,,,,0.13,,0.36,,,
+Honduras,HND,Americas,Microinsurance,Property coverage ratio,0,,,,0,,0,,,
+Honduras,HND,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,,,
+Honduras,HND,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,486764616,,,418000000
+Honduras,HND,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,344113,,498279,,,624455
 Honduras,HND,Americas,Poverty,Income share held by lowest 20%,1.86,1.51,2.02,,,,,,,
 Honduras,HND,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),40.07,32.61,29.84,,,,,,,
 Honduras,HND,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),63.7,59.2,58.8,60,,,,,,
@@ -3133,24 +3133,24 @@ Jamaica,JAM,Americas,Health,"Physicians (per 1,000 people)",,0.41,,,,,,,,
 Jamaica,JAM,Americas,Index Coverage Indicators,Permanent cropland (% of land area),10.16,9.23,9.23,9.23,9.23,,,,,
 Jamaica,JAM,Americas,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,3,,,,,,
 Jamaica,JAM,Americas,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,15757,,,,,,
-Jamaica,JAM,Americas,Microinsurance,Total microinsurance coverage,0,,,,50000,," 120,558.00 ",,,
-Jamaica,JAM,Americas,Microinsurance,Credit life coverage,0,,,,0,, -   ,,,
-Jamaica,JAM,Americas,Microinsurance,Life coverage (excluding credit life),0,,,,0,, 500.00 ,,,
+Jamaica,JAM,Americas,Microinsurance,Total microinsurance coverage,0,,,,50000,,120558,,,
+Jamaica,JAM,Americas,Microinsurance,Credit life coverage,0,,,,0,,0,,,
+Jamaica,JAM,Americas,Microinsurance,Life coverage (excluding credit life),0,,,,0,,500,,,
 Jamaica,JAM,Americas,Microinsurance,Life and accident coverage (excluding credit life),0,,,,566000,,,,,
-Jamaica,JAM,Americas,Microinsurance,Health coverage,0,,,,0,, 500.00 ,,,
-Jamaica,JAM,Americas,Microinsurance,Accident coverage,0,,,,50000,," 120,500.00 ",,,
-Jamaica,JAM,Americas,Microinsurance,Property coverage,0,,,,0,, 58.00 ,,,
-Jamaica,JAM,Americas,Microinsurance,Agriculture coverage,,,,,0,, 58.00 ,,,
-Jamaica,JAM,Americas,Microinsurance,Total microinsurance coverage ratio,0,,,,1.9,, 4.44 ,,,
-Jamaica,JAM,Americas,Microinsurance,Credit life coverage ratio,0,,,,0,, -   ,,,
-Jamaica,JAM,Americas,Microinsurance,Life coverage ratio (excluding credit life),0,,,,0,, 0.02 ,,,
+Jamaica,JAM,Americas,Microinsurance,Health coverage,0,,,,0,,500,,,
+Jamaica,JAM,Americas,Microinsurance,Accident coverage,0,,,,50000,,120500,,,
+Jamaica,JAM,Americas,Microinsurance,Property coverage,0,,,,0,,58,,,
+Jamaica,JAM,Americas,Microinsurance,Agriculture coverage,,,,,0,,58,,,
+Jamaica,JAM,Americas,Microinsurance,Total microinsurance coverage ratio,0,,,,1.9,,4.44,,,
+Jamaica,JAM,Americas,Microinsurance,Credit life coverage ratio,0,,,,0,,0,,,
+Jamaica,JAM,Americas,Microinsurance,Life coverage ratio (excluding credit life),0,,,,0,,0.02,,,
 Jamaica,JAM,Americas,Microinsurance,Life and accident coverage ratio (excluding credit life),0,,,,20.95,,,,,
-Jamaica,JAM,Americas,Microinsurance,Health coverage ratio,0,,,,0,, 0.02 ,,,
-Jamaica,JAM,Americas,Microinsurance,Accident coverage ratio,0,,,,1.85,, 4.44 ,,,
-Jamaica,JAM,Americas,Microinsurance,Property coverage ratio,0,,,,0,, -   ,,,
-Jamaica,JAM,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,, -   ,,,
-Jamaica,JAM,Americas,Microinsurance,Total Gross Premium (USD),,,,,,," 738,165,248.40 ",,,
-Jamaica,JAM,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,0,," 117,662.00 ",,,
+Jamaica,JAM,Americas,Microinsurance,Health coverage ratio,0,,,,0,,0.02,,,
+Jamaica,JAM,Americas,Microinsurance,Accident coverage ratio,0,,,,1.85,,4.44,,,
+Jamaica,JAM,Americas,Microinsurance,Property coverage ratio,0,,,,0,,0,,,
+Jamaica,JAM,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,,,
+Jamaica,JAM,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,738165248.4,,,
+Jamaica,JAM,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,0,,117662,,,
 Jamaica,JAM,Americas,Poverty,Income share held by lowest 20%,,,,,,,,,,
 Jamaica,JAM,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,,,
 Jamaica,JAM,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),14.8,12.3,16.5,17.6,,,,,,
@@ -3335,7 +3335,7 @@ Kenya,KEN,Africa,Microinsurance,Health coverage ratio,0,1.26,,,0.66,,,1.73,,
 Kenya,KEN,Africa,Microinsurance,Accident coverage ratio,0,,,,0.5,,,0.89,,
 Kenya,KEN,Africa,Microinsurance,Property coverage ratio,0,0.23,,,0.3,,,0.64,,
 Kenya,KEN,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0.06,,,0.38,,
-Kenya,KEN,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,"1,860,640,000.00",,
+Kenya,KEN,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,1860640000,,
 Kenya,KEN,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,28526667.3,,
 Kenya,KEN,Africa,Poverty,Income share held by lowest 20%,4.84,,,,,,,,,
 Kenya,KEN,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),67.21,,,,,,,,,
@@ -4373,24 +4373,24 @@ Mexico,MEX,Americas,Health,"Physicians (per 1,000 people)",,,1.96,1.96,2.1,,,,,
 Mexico,MEX,Americas,Index Coverage Indicators,Permanent cropland (% of land area),1.34,1.41,1.42,1.38,1.38,,,,,
 Mexico,MEX,Americas,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,1,,,,,,
 Mexico,MEX,Americas,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,7097,,,,,,
-Mexico,MEX,Americas,Microinsurance,Total microinsurance coverage,,,,,12031412,," 18,347,410.00 ",,," 14,657,348 "
-Mexico,MEX,Americas,Microinsurance,Credit life coverage,,,,,8770320,," 14,409,755.00 ",,," 3,305,248 "
-Mexico,MEX,Americas,Microinsurance,Life coverage (excluding credit life),,,,,11243492,," 14,798,559.00 ",,," 49,163,513 "
+Mexico,MEX,Americas,Microinsurance,Total microinsurance coverage,,,,,12031412,,18347410,,,14657348
+Mexico,MEX,Americas,Microinsurance,Credit life coverage,,,,,8770320,,14409755,,,3305248
+Mexico,MEX,Americas,Microinsurance,Life coverage (excluding credit life),,,,,11243492,,14798559,,,49163513
 Mexico,MEX,Americas,Microinsurance,Life and accident coverage (excluding credit life),,,,,13981412,,,,,
-Mexico,MEX,Americas,Microinsurance,Health coverage,,,,,3605658,," 1,935,738.00 ",,," 582,939 "
-Mexico,MEX,Americas,Microinsurance,Accident coverage,,,,,5338931,," 3,354,869.00 ",,," 3,173,266 "
-Mexico,MEX,Americas,Microinsurance,Property coverage,,,,,0,," 10,642.00 ",,,
-Mexico,MEX,Americas,Microinsurance,Agriculture coverage,,,,,0,," 2,026,616.00 ",,,
-Mexico,MEX,Americas,Microinsurance,Total microinsurance coverage ratio,,,,,10.61,, 15.00 ,,, 11.5 
-Mexico,MEX,Americas,Microinsurance,Credit life coverage ratio,,,,,7.73,, 11.78 ,,,
-Mexico,MEX,Americas,Microinsurance,Life coverage ratio (excluding credit life),,,,,9.91,, 12.10 ,,, 5.47 
+Mexico,MEX,Americas,Microinsurance,Health coverage,,,,,3605658,,1935738,,,582939
+Mexico,MEX,Americas,Microinsurance,Accident coverage,,,,,5338931,,3354869,,,3173266
+Mexico,MEX,Americas,Microinsurance,Property coverage,,,,,0,,10642,,,
+Mexico,MEX,Americas,Microinsurance,Agriculture coverage,,,,,0,,2026616,,,
+Mexico,MEX,Americas,Microinsurance,Total microinsurance coverage ratio,,,,,10.61,,15,,,11.5
+Mexico,MEX,Americas,Microinsurance,Credit life coverage ratio,,,,,7.73,,11.78,,,
+Mexico,MEX,Americas,Microinsurance,Life coverage ratio (excluding credit life),,,,,9.91,,12.1,,,5.47
 Mexico,MEX,Americas,Microinsurance,Life and accident coverage ratio (excluding credit life),,,,,12.33,,,,,
-Mexico,MEX,Americas,Microinsurance,Health coverage ratio,,,,,3.18,, 1.58 ,,,
-Mexico,MEX,Americas,Microinsurance,Accident coverage ratio,,,,,4.71,, 2.74 ,,,
-Mexico,MEX,Americas,Microinsurance,Property coverage ratio,,,,,0,, 0.01 ,,,
-Mexico,MEX,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,, 1.66 ,,,
-Mexico,MEX,Americas,Microinsurance,Total Gross Premium (USD),,,,,,," 27,361,756,800.00 ",,," 24,403,000,000.00 "
-Mexico,MEX,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,123990658,," 210,488,579.00 ",,," 44,210,412 "
+Mexico,MEX,Americas,Microinsurance,Health coverage ratio,,,,,3.18,,1.58,,,
+Mexico,MEX,Americas,Microinsurance,Accident coverage ratio,,,,,4.71,,2.74,,,
+Mexico,MEX,Americas,Microinsurance,Property coverage ratio,,,,,0,,0.01,,,
+Mexico,MEX,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,1.66,,,
+Mexico,MEX,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,27361756800,,,24403000000
+Mexico,MEX,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,123990658,,210488579,,,44210412
 Mexico,MEX,Americas,Poverty,Income share held by lowest 20%,3.68,4.73,,4.93,,,,,,
 Mexico,MEX,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),10.59,5.19,,4.54,,,,,,
 Mexico,MEX,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),47,47.8,,51.1,,52.3,,,,
@@ -4472,7 +4472,7 @@ Morocco,MAR,Africa,Development,Human Development Index,0.56,0.58,0.58,0.59,0.59,
 Morocco,MAR,Africa,Development,"Literacy rate, adult female (% of females ages 15 and above)",,42.59,43.92,,57.64,,,,,
 Morocco,MAR,Africa,Development,"Literacy rate, adult male (% of males ages 15 and above)",,68.37,68.92,,76.07,,,,,
 Morocco,MAR,Africa,Development,"Literacy rate, adult total (% of people ages 15 and above)",,55.15,56.08,,67.08,,,,,
-Morocco,MAR,Africa,Economy,GDP (current US$),59523857868,88882967742,90908402631,90770671432,99211339029,95981572517,,1.10E+11,,
+Morocco,MAR,Africa,Economy,GDP (current US$),59523857868,88882967742,90908402631,90770671432,99211339029,95981572517,,1.1E+11,,
 Morocco,MAR,Africa,Economy,GDP growth (annual %),2.98,5.59,4.76,3.64,5.75,4.2,,,,
 Morocco,MAR,Africa,Economy,GDP per capita (current US$),1948.2,2827.29,2861.03,2822.73,3044.11,2902.33,,,,
 Morocco,MAR,Africa,Finance,Commercial_deposit_accounts_2010,,,,265.28,,,,,,
@@ -4513,7 +4513,7 @@ Morocco,MAR,Africa,Microinsurance,Health coverage ratio,0,0,,,0,,,1.05,,
 Morocco,MAR,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0.85,,
 Morocco,MAR,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,0.12,,
 Morocco,MAR,Africa,Microinsurance,Agriculture coverage ratio,,0.03,,,0.06,,,0.09,,
-Morocco,MAR,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,"3,434,594,800.00",,
+Morocco,MAR,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,3434594800,,
 Morocco,MAR,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,3594322.57,,
 Morocco,MAR,Africa,Poverty,Income share held by lowest 20%,,,,,,,,,,
 Morocco,MAR,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,,,
@@ -4807,24 +4807,24 @@ Nicaragua,NIC,Americas,Health,"Physicians (per 1,000 people)",,,,,,,,,,
 Nicaragua,NIC,Americas,Index Coverage Indicators,Permanent cropland (% of land area),1.94,1.91,1.91,1.91,1.91,,,,,
 Nicaragua,NIC,Americas,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,7,,,,,,
 Nicaragua,NIC,Americas,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,11487,,,,,,
-Nicaragua,NIC,Americas,Microinsurance,Total microinsurance coverage,29035,,,,120904,," 401,901.00 ",,," 58,914 "
-Nicaragua,NIC,Americas,Microinsurance,Credit life coverage,0,,,,78256,," 367,011.00 ",,,
-Nicaragua,NIC,Americas,Microinsurance,Life coverage (excluding credit life),29035,,,,118247,," 81,028.00 ",,," 475,759 "
+Nicaragua,NIC,Americas,Microinsurance,Total microinsurance coverage,29035,,,,120904,,401901,,,58914
+Nicaragua,NIC,Americas,Microinsurance,Credit life coverage,0,,,,78256,,367011,,,
+Nicaragua,NIC,Americas,Microinsurance,Life coverage (excluding credit life),29035,,,,118247,,81028,,,475759
 Nicaragua,NIC,Americas,Microinsurance,Life and accident coverage (excluding credit life),29035,,,,118247,,,,,
-Nicaragua,NIC,Americas,Microinsurance,Health coverage,0,,,,602,," 9,313.00 ",,,
-Nicaragua,NIC,Americas,Microinsurance,Accident coverage,0,,,,99997,," 76,415.00 ",,,
-Nicaragua,NIC,Americas,Microinsurance,Property coverage,0,,,,0,, -   ,,,
-Nicaragua,NIC,Americas,Microinsurance,Agriculture coverage,,,,,0,, -   ,,," 2,000,000 "
-Nicaragua,NIC,Americas,Microinsurance,Total microinsurance coverage ratio,0.54,,,,2.09,, 6.61 ,,, 1.0 
-Nicaragua,NIC,Americas,Microinsurance,Credit life coverage ratio,0,,,,1.35,, 6.04 ,,,
-Nicaragua,NIC,Americas,Microinsurance,Life coverage ratio (excluding credit life),0.54,,,,2.04,, 1.33 ,,, 0.89 
+Nicaragua,NIC,Americas,Microinsurance,Health coverage,0,,,,602,,9313,,,
+Nicaragua,NIC,Americas,Microinsurance,Accident coverage,0,,,,99997,,76415,,,
+Nicaragua,NIC,Americas,Microinsurance,Property coverage,0,,,,0,,0,,,
+Nicaragua,NIC,Americas,Microinsurance,Agriculture coverage,,,,,0,,0,,,2000000
+Nicaragua,NIC,Americas,Microinsurance,Total microinsurance coverage ratio,0.54,,,,2.09,,6.61,,,1
+Nicaragua,NIC,Americas,Microinsurance,Credit life coverage ratio,0,,,,1.35,,6.04,,,
+Nicaragua,NIC,Americas,Microinsurance,Life coverage ratio (excluding credit life),0.54,,,,2.04,,1.33,,,0.89
 Nicaragua,NIC,Americas,Microinsurance,Life and accident coverage ratio (excluding credit life),0.54,,,,2.04,,,,,
-Nicaragua,NIC,Americas,Microinsurance,Health coverage ratio,0,,,,0.01,, 0.15 ,,,
-Nicaragua,NIC,Americas,Microinsurance,Accident coverage ratio,0,,,,1.73,, 1.26 ,,,
-Nicaragua,NIC,Americas,Microinsurance,Property coverage ratio,0,,,,0,, -   ,,,
-Nicaragua,NIC,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,, -   ,,,
-Nicaragua,NIC,Americas,Microinsurance,Total Gross Premium (USD),,,,,,," 153,080,000 ",,," 204,000,000 "
-Nicaragua,NIC,Americas,Microinsurance,Microinsurance Gross Premium (USD),34535,,,,1037225,," 7,189,340 ",,," 837,238 "
+Nicaragua,NIC,Americas,Microinsurance,Health coverage ratio,0,,,,0.01,,0.15,,,
+Nicaragua,NIC,Americas,Microinsurance,Accident coverage ratio,0,,,,1.73,,1.26,,,
+Nicaragua,NIC,Americas,Microinsurance,Property coverage ratio,0,,,,0,,0,,,
+Nicaragua,NIC,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,,,
+Nicaragua,NIC,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,153080000,,,204000000
+Nicaragua,NIC,Americas,Microinsurance,Microinsurance Gross Premium (USD),34535,,,,1037225,,7189340,,,837238
 Nicaragua,NIC,Americas,Poverty,Income share held by lowest 20%,6.22,,,,,,,,,
 Nicaragua,NIC,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),31.74,,,,,,,,,
 Nicaragua,NIC,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),48.3,,42.5,,,,,,,
@@ -4947,7 +4947,7 @@ Nigeria,NGA,Africa,Microinsurance,Health coverage ratio,0,0.04,,,0.06,,,0.37,,
 Nigeria,NGA,Africa,Microinsurance,Accident coverage ratio,0,,,,0,,,0.91,,
 Nigeria,NGA,Africa,Microinsurance,Property coverage ratio,0,0,,,0,,,0.31,,
 Nigeria,NGA,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0.31,,
-Nigeria,NGA,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,"1,713,929,200.00",,
+Nigeria,NGA,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,1713929200,,
 Nigeria,NGA,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,7803829.817,,
 Nigeria,NGA,Africa,Poverty,Income share held by lowest 20%,,,,4.41,,,,,,
 Nigeria,NGA,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,84.49,,,,,,
@@ -5241,24 +5241,24 @@ Panama,PAN,Americas,Health,"Physicians (per 1,000 people)",,,,,1.55,,,,,
 Panama,PAN,Americas,Index Coverage Indicators,Permanent cropland (% of land area),2.15,2.35,2.42,2.49,2.54,,,,,
 Panama,PAN,Americas,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,2,,,,,,
 Panama,PAN,Americas,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,3612,,,,,,
-Panama,PAN,Americas,Microinsurance,Total microinsurance coverage,62000,,,,63569,," 49,515.00 ",,," 70,000.00 "
-Panama,PAN,Americas,Microinsurance,Credit life coverage,40000,,,,10069,," 13,335.00 ",,,
-Panama,PAN,Americas,Microinsurance,Life coverage (excluding credit life),22000,,,,53745,, 180.00 ,,,
+Panama,PAN,Americas,Microinsurance,Total microinsurance coverage,62000,,,,63569,,49515,,,70000
+Panama,PAN,Americas,Microinsurance,Credit life coverage,40000,,,,10069,,13335,,,
+Panama,PAN,Americas,Microinsurance,Life coverage (excluding credit life),22000,,,,53745,,180,,,
 Panama,PAN,Americas,Microinsurance,Life and accident coverage (excluding credit life),22000,,,,53745,,,,,
-Panama,PAN,Americas,Microinsurance,Health coverage,0,,,,50000,, -   ,,,
-Panama,PAN,Americas,Microinsurance,Accident coverage,0,,,,53745,," 36,180.00 ",,,
-Panama,PAN,Americas,Microinsurance,Property coverage,0,,,,0,, -   ,,,
-Panama,PAN,Americas,Microinsurance,Agriculture coverage,,,,,0,, -   ,,,
-Panama,PAN,Americas,Microinsurance,Total microinsurance coverage ratio,1.91,,,,1.81,, 1.28 ,,, 1.7 
-Panama,PAN,Americas,Microinsurance,Credit life coverage ratio,1.24,,,,0.29,, 0.35 ,,,
-Panama,PAN,Americas,Microinsurance,Life coverage ratio (excluding credit life),0.68,,,,1.53,, -   ,,, 0.06 
+Panama,PAN,Americas,Microinsurance,Health coverage,0,,,,50000,,0,,,
+Panama,PAN,Americas,Microinsurance,Accident coverage,0,,,,53745,,36180,,,
+Panama,PAN,Americas,Microinsurance,Property coverage,0,,,,0,,0,,,
+Panama,PAN,Americas,Microinsurance,Agriculture coverage,,,,,0,,0,,,
+Panama,PAN,Americas,Microinsurance,Total microinsurance coverage ratio,1.91,,,,1.81,,1.28,,,1.7
+Panama,PAN,Americas,Microinsurance,Credit life coverage ratio,1.24,,,,0.29,,0.35,,,
+Panama,PAN,Americas,Microinsurance,Life coverage ratio (excluding credit life),0.68,,,,1.53,,0,,,0.06
 Panama,PAN,Americas,Microinsurance,Life and accident coverage ratio (excluding credit life),0.68,,,,1.53,,,,,
-Panama,PAN,Americas,Microinsurance,Health coverage ratio,0,,,,1.42,, -   ,,,
-Panama,PAN,Americas,Microinsurance,Accident coverage ratio,0,,,,1.53,, 0.94 ,,,
-Panama,PAN,Americas,Microinsurance,Property coverage ratio,0,,,,0,, -   ,,,
-Panama,PAN,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,, -   ,,,
-Panama,PAN,Americas,Microinsurance,Total Gross Premium (USD),,,,,,," 1,211,600,000.00 ",,," 1,396,000,000.00 "
-Panama,PAN,Americas,Microinsurance,Microinsurance Gross Premium (USD),1100000,,,,650372,," 75,675.00 ",,," 135,588 "
+Panama,PAN,Americas,Microinsurance,Health coverage ratio,0,,,,1.42,,0,,,
+Panama,PAN,Americas,Microinsurance,Accident coverage ratio,0,,,,1.53,,0.94,,,
+Panama,PAN,Americas,Microinsurance,Property coverage ratio,0,,,,0,,0,,,
+Panama,PAN,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,,,
+Panama,PAN,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,1211600000,,,1396000000
+Panama,PAN,Americas,Microinsurance,Microinsurance Gross Premium (USD),1100000,,,,650372,,75675,,,135588
 Panama,PAN,Americas,Poverty,Income share held by lowest 20%,2.74,,3.55,3.3,,,,,,
 Panama,PAN,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),16.94,,14.63,13.8,,,,,,
 Panama,PAN,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),,33.8,33.4,29.8,27.6,,,,,
@@ -5365,24 +5365,24 @@ Paraguay,PRY,Americas,Health,"Physicians (per 1,000 people)",,,,,,,,,,
 Paraguay,PRY,Americas,Index Coverage Indicators,Permanent cropland (% of land area),0.25,0.23,0.23,0.23,0.23,,,,,
 Paraguay,PRY,Americas,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,0,,,,,,
 Paraguay,PRY,Americas,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,7307,,,,,,
-Paraguay,PRY,Americas,Microinsurance,Total microinsurance coverage,42000,,,,53505,," 310,869.00 ",,," 380,000.00 "
-Paraguay,PRY,Americas,Microinsurance,Credit life coverage,42000,,,,7,," 298,869.00 ",,,
-Paraguay,PRY,Americas,Microinsurance,Life coverage (excluding credit life),0,,,,53505,," 12,000.00 ",,,
+Paraguay,PRY,Americas,Microinsurance,Total microinsurance coverage,42000,,,,53505,,310869,,,380000
+Paraguay,PRY,Americas,Microinsurance,Credit life coverage,42000,,,,7,,298869,,,
+Paraguay,PRY,Americas,Microinsurance,Life coverage (excluding credit life),0,,,,53505,,12000,,,
 Paraguay,PRY,Americas,Microinsurance,Life and accident coverage (excluding credit life),0,,,,53505,,,,,
-Paraguay,PRY,Americas,Microinsurance,Health coverage,0,,,,0,, -   ,,,
-Paraguay,PRY,Americas,Microinsurance,Accident coverage,0,,,,53302,," 301,869.00 ",,,
-Paraguay,PRY,Americas,Microinsurance,Property coverage,0,,,,149,," 298,869.00 ",,,
-Paraguay,PRY,Americas,Microinsurance,Agriculture coverage,,,,,142,, -   ,,,
-Paraguay,PRY,Americas,Microinsurance,Total microinsurance coverage ratio,0.71,,,,0.83,, 4.57 ,,, 5.7 
-Paraguay,PRY,Americas,Microinsurance,Credit life coverage ratio,0.71,,,,0,, 4.39 ,,,
-Paraguay,PRY,Americas,Microinsurance,Life coverage ratio (excluding credit life),0,,,,0.83,, 0.18 ,,,
+Paraguay,PRY,Americas,Microinsurance,Health coverage,0,,,,0,,0,,,
+Paraguay,PRY,Americas,Microinsurance,Accident coverage,0,,,,53302,,301869,,,
+Paraguay,PRY,Americas,Microinsurance,Property coverage,0,,,,149,,298869,,,
+Paraguay,PRY,Americas,Microinsurance,Agriculture coverage,,,,,142,,0,,,
+Paraguay,PRY,Americas,Microinsurance,Total microinsurance coverage ratio,0.71,,,,0.83,,4.57,,,5.7
+Paraguay,PRY,Americas,Microinsurance,Credit life coverage ratio,0.71,,,,0,,4.39,,,
+Paraguay,PRY,Americas,Microinsurance,Life coverage ratio (excluding credit life),0,,,,0.83,,0.18,,,
 Paraguay,PRY,Americas,Microinsurance,Life and accident coverage ratio (excluding credit life),0,,,,0.83,,,,,
-Paraguay,PRY,Americas,Microinsurance,Health coverage ratio,0,,,,0,, -   ,,,
-Paraguay,PRY,Americas,Microinsurance,Accident coverage ratio,0,,,,0.83,, 4.44 ,,,
-Paraguay,PRY,Americas,Microinsurance,Property coverage ratio,0,,,,0,, 4.39 ,,,
-Paraguay,PRY,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,, -   ,,,
-Paraguay,PRY,Americas,Microinsurance,Total Gross Premium (USD),,,,,,," 359,260,000.00 ",,," 382,000,000.00 "
-Paraguay,PRY,Americas,Microinsurance,Microinsurance Gross Premium (USD),374,,,,1049120,," 2,359,011.00 ",,," 2,456,405 "
+Paraguay,PRY,Americas,Microinsurance,Health coverage ratio,0,,,,0,,0,,,
+Paraguay,PRY,Americas,Microinsurance,Accident coverage ratio,0,,,,0.83,,4.44,,,
+Paraguay,PRY,Americas,Microinsurance,Property coverage ratio,0,,,,0,,4.39,,,
+Paraguay,PRY,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,,,
+Paraguay,PRY,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,359260000,,,382000000
+Paraguay,PRY,Americas,Microinsurance,Microinsurance Gross Premium (USD),374,,,,1049120,,2359011,,,2456405
 Paraguay,PRY,Americas,Poverty,Income share held by lowest 20%,3.42,3.65,3.34,3.26,,,,,,
 Paraguay,PRY,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),14.44,13.56,14.23,13.22,,,,,,
 Paraguay,PRY,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),38.6,37.9,35.1,34.7,32.4,,,,,
@@ -5489,24 +5489,24 @@ Peru,PER,Americas,Health,"Physicians (per 1,000 people)",,,0.92,0.92,,1.13,,,,
 Peru,PER,Americas,Index Coverage Indicators,Permanent cropland (% of land area),0.55,0.61,0.62,0.64,0.66,,,,,
 Peru,PER,Americas,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,6,,,,,,
 Peru,PER,Americas,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,20752,,,,,,
-Peru,PER,Americas,Microinsurance,Total microinsurance coverage,4091292,,,,5283286,," 3,024,566.00 ",,," 5,075,185 "
-Peru,PER,Americas,Microinsurance,Credit life coverage,3846838,,,,4094708,," 1,491,595.00 ",,," 172,685 "
-Peru,PER,Americas,Microinsurance,Life coverage (excluding credit life),241295,,,,1210872,," 1,577,064.00 ",,," 10,284,655 "
+Peru,PER,Americas,Microinsurance,Total microinsurance coverage,4091292,,,,5283286,,3024566,,,5075185
+Peru,PER,Americas,Microinsurance,Credit life coverage,3846838,,,,4094708,,1491595,,,172685
+Peru,PER,Americas,Microinsurance,Life coverage (excluding credit life),241295,,,,1210872,,1577064,,,10284655
 Peru,PER,Americas,Microinsurance,Life and accident coverage (excluding credit life),241295,,,,3482574,,,,,
-Peru,PER,Americas,Microinsurance,Health coverage,34454,,,,205294,," 331,323.00 ",,," 1,731 "
-Peru,PER,Americas,Microinsurance,Accident coverage,0,,,,3226469,," 1,113,989.00 ",,," 9,009,926 "
-Peru,PER,Americas,Microinsurance,Property coverage,0,,,,0,," 75,278.00 ",,," 6,008,069 "
-Peru,PER,Americas,Microinsurance,Agriculture coverage,,,,,0,," 184,065.00 ",,," 2,337,907 "
-Peru,PER,Americas,Microinsurance,Total microinsurance coverage ratio,14.85,,,,18.17,, 9.96 ,,, 16 
-Peru,PER,Americas,Microinsurance,Credit life coverage ratio,13.96,,,,14.08,, 4.91 ,,,
-Peru,PER,Americas,Microinsurance,Life coverage ratio (excluding credit life),0.88,,,,4.16,, 5.19 ,,, 15.97 
+Peru,PER,Americas,Microinsurance,Health coverage,34454,,,,205294,,331323,,,1731
+Peru,PER,Americas,Microinsurance,Accident coverage,0,,,,3226469,,1113989,,,9009926
+Peru,PER,Americas,Microinsurance,Property coverage,0,,,,0,,75278,,,6008069
+Peru,PER,Americas,Microinsurance,Agriculture coverage,,,,,0,,184065,,,2337907
+Peru,PER,Americas,Microinsurance,Total microinsurance coverage ratio,14.85,,,,18.17,,9.96,,,16
+Peru,PER,Americas,Microinsurance,Credit life coverage ratio,13.96,,,,14.08,,4.91,,,
+Peru,PER,Americas,Microinsurance,Life coverage ratio (excluding credit life),0.88,,,,4.16,,5.19,,,15.97
 Peru,PER,Americas,Microinsurance,Life and accident coverage ratio (excluding credit life),0.88,,,,11.98,,,,,
-Peru,PER,Americas,Microinsurance,Health coverage ratio,0.13,,,,0.71,, 1.09 ,,,
-Peru,PER,Americas,Microinsurance,Accident coverage ratio,0,,,,11.1,, 3.67 ,,,
-Peru,PER,Americas,Microinsurance,Property coverage ratio,0,,,,0,, 0.25 ,,,
-Peru,PER,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,, 0.61 ,,,
-Peru,PER,Americas,Microinsurance,Total Gross Premium (USD),,,,,,," 3,413,262,600.00 ",,," 3,330,000,000.00 "
-Peru,PER,Americas,Microinsurance,Microinsurance Gross Premium (USD),5169463,,,,37498866,," 53,278,905.00 ",,," 27,814,973 "
+Peru,PER,Americas,Microinsurance,Health coverage ratio,0.13,,,,0.71,,1.09,,,
+Peru,PER,Americas,Microinsurance,Accident coverage ratio,0,,,,11.1,,3.67,,,
+Peru,PER,Americas,Microinsurance,Property coverage ratio,0,,,,0,,0.25,,,
+Peru,PER,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0.61,,,
+Peru,PER,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,3413262600,,,3330000000
+Peru,PER,Americas,Microinsurance,Microinsurance Gross Premium (USD),5169463,,,,37498866,,53278905,,,27814973
 Peru,PER,Americas,Poverty,Income share held by lowest 20%,3.86,3.79,3.79,3.91,,,,,,
 Peru,PER,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),20.48,14.81,14.01,12.74,,,,,,
 Peru,PER,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),55.6,37.3,33.5,30.8,27.8,25.8,,,,
@@ -6146,7 +6146,7 @@ South Africa,ZAF,Africa,Development,Human Development Index,0.6,0.61,0.62,0.62,0
 South Africa,ZAF,Africa,Development,"Literacy rate, adult female (% of females ages 15 and above)",,,,,92.18,,,,,
 South Africa,ZAF,Africa,Development,"Literacy rate, adult male (% of males ages 15 and above)",,,,,93.86,,,,,
 South Africa,ZAF,Africa,Development,"Literacy rate, adult total (% of people ages 15 and above)",,,,,92.98,,,,,
-South Africa,ZAF,Africa,Economy,GDP (current US$),2.47E+11,2.73E+11,2.84E+11,3.63E+11,4.02E+11,3.84E+11,,3.50E+11,,
+South Africa,ZAF,Africa,Economy,GDP (current US$),2.47E+11,2.73E+11,2.84E+11,3.63E+11,4.02E+11,3.84E+11,,3.5E+11,,
 South Africa,ZAF,Africa,Economy,GDP growth (annual %),5.28,3.62,-1.53,3.09,3.46,2.55,,,,
 South Africa,ZAF,Africa,Economy,GDP per capita (current US$),5185.85,5511.2,5654.49,7136.96,7789.94,7351.76,,,,
 South Africa,ZAF,Africa,Finance,Commercial_deposit_accounts_2010,,,,839.13,,,,,,
@@ -6187,7 +6187,7 @@ South Africa,ZAF,Africa,Microinsurance,Health coverage ratio,,0.2,,,0,,,0,,
 South Africa,ZAF,Africa,Microinsurance,Accident coverage ratio,,,,,0,,,2.49,,
 South Africa,ZAF,Africa,Microinsurance,Property coverage ratio,,0.02,,,0.02,,,1.31,,
 South Africa,ZAF,Africa,Microinsurance,Agriculture coverage ratio,,0,,,0,,,0.00065,,
-South Africa,ZAF,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,"50,616,192,026.40",,
+South Africa,ZAF,Africa,Microinsurance,Total Gross Premium (USD),,,,,,,,50616192026,,
 South Africa,ZAF,Africa,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,,608861200.8,,
 South Africa,ZAF,Africa,Poverty,Income share held by lowest 20%,,,2.7,,,,,,,
 South Africa,ZAF,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,31.33,,,,,,,
@@ -6357,24 +6357,24 @@ St. Lucia,LCA,Americas,Health,"Physicians (per 1,000 people)",,,,,,,,,,
 St. Lucia,LCA,Americas,Index Coverage Indicators,Permanent cropland (% of land area),,,,,,,,,,
 St. Lucia,LCA,Americas,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,,,,,,,
 St. Lucia,LCA,Americas,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,,,,,,,
-St. Lucia,LCA,Americas,Microinsurance,Total microinsurance coverage,,,,,,, 4.00 ,,,
-St. Lucia,LCA,Americas,Microinsurance,Credit life coverage,,,,,,, -   ,,,
-St. Lucia,LCA,Americas,Microinsurance,Life coverage (excluding credit life),,,,,,, -   ,,,
+St. Lucia,LCA,Americas,Microinsurance,Total microinsurance coverage,,,,,,,4,,,
+St. Lucia,LCA,Americas,Microinsurance,Credit life coverage,,,,,,,0,,,
+St. Lucia,LCA,Americas,Microinsurance,Life coverage (excluding credit life),,,,,,,0,,,
 St. Lucia,LCA,Americas,Microinsurance,Life and accident coverage (excluding credit life),,,,,,,,,,
-St. Lucia,LCA,Americas,Microinsurance,Health coverage,,,,,,, -   ,,,
-St. Lucia,LCA,Americas,Microinsurance,Accident coverage,,,,,,, -   ,,,
-St. Lucia,LCA,Americas,Microinsurance,Property coverage,,,,,,, 4.00 ,,,
-St. Lucia,LCA,Americas,Microinsurance,Agriculture coverage,,,,,,, 4.00 ,,,
-St. Lucia,LCA,Americas,Microinsurance,Total microinsurance coverage ratio,,,,,,, -   ,,,
-St. Lucia,LCA,Americas,Microinsurance,Credit life coverage ratio,,,,,,, -   ,,,
-St. Lucia,LCA,Americas,Microinsurance,Life coverage ratio (excluding credit life),,,,,,, -   ,,,
+St. Lucia,LCA,Americas,Microinsurance,Health coverage,,,,,,,0,,,
+St. Lucia,LCA,Americas,Microinsurance,Accident coverage,,,,,,,0,,,
+St. Lucia,LCA,Americas,Microinsurance,Property coverage,,,,,,,4,,,
+St. Lucia,LCA,Americas,Microinsurance,Agriculture coverage,,,,,,,4,,,
+St. Lucia,LCA,Americas,Microinsurance,Total microinsurance coverage ratio,,,,,,,0,,,
+St. Lucia,LCA,Americas,Microinsurance,Credit life coverage ratio,,,,,,,0,,,
+St. Lucia,LCA,Americas,Microinsurance,Life coverage ratio (excluding credit life),,,,,,,0,,,
 St. Lucia,LCA,Americas,Microinsurance,Life and accident coverage ratio (excluding credit life),,,,,,,,,,
-St. Lucia,LCA,Americas,Microinsurance,Health coverage ratio,,,,,,, -   ,,,
-St. Lucia,LCA,Americas,Microinsurance,Accident coverage ratio,,,,,,, -   ,,,
-St. Lucia,LCA,Americas,Microinsurance,Property coverage ratio,,,,,,, -   ,,,
-St. Lucia,LCA,Americas,Microinsurance,Agriculture coverage ratio,,,,,,, -   ,,,
-St. Lucia,LCA,Americas,Microinsurance,Total Gross Premium (USD),,,,,,," 75,656,988.00 ",,,
-St. Lucia,LCA,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,,, 268.00 ,,,
+St. Lucia,LCA,Americas,Microinsurance,Health coverage ratio,,,,,,,0,,,
+St. Lucia,LCA,Americas,Microinsurance,Accident coverage ratio,,,,,,,0,,,
+St. Lucia,LCA,Americas,Microinsurance,Property coverage ratio,,,,,,,0,,,
+St. Lucia,LCA,Americas,Microinsurance,Agriculture coverage ratio,,,,,,,0,,,
+St. Lucia,LCA,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,75656988,,,
+St. Lucia,LCA,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,,,268,,,
 St. Lucia,LCA,Americas,Poverty,Income share held by lowest 20%,,,,,,,,,,
 St. Lucia,LCA,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,,,
 St. Lucia,LCA,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,,,
@@ -7287,24 +7287,24 @@ Uruguay,URU,Americas,Health,"Physicians (per 1,000 people)",,,,,,,,,,
 Uruguay,URU,Americas,Index Coverage Indicators,Permanent cropland (% of land area),,,,,,,,,,
 Uruguay,URU,Americas,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,,,,,,,
 Uruguay,URU,Americas,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,,,,,,,
-Uruguay,URU,Americas,Microinsurance,Total microinsurance coverage,,,,,,, -   ,,," 60,000.00 "
-Uruguay,URU,Americas,Microinsurance,Credit life coverage,,,,,,, -   ,,,
-Uruguay,URU,Americas,Microinsurance,Life coverage (excluding credit life),,,,,,, -   ,,,
+Uruguay,URU,Americas,Microinsurance,Total microinsurance coverage,,,,,,,0,,,60000
+Uruguay,URU,Americas,Microinsurance,Credit life coverage,,,,,,,0,,,
+Uruguay,URU,Americas,Microinsurance,Life coverage (excluding credit life),,,,,,,0,,,
 Uruguay,URU,Americas,Microinsurance,Life and accident coverage (excluding credit life),,,,,,,,,,
-Uruguay,URU,Americas,Microinsurance,Health coverage,,,,,,, -   ,,,
-Uruguay,URU,Americas,Microinsurance,Accident coverage,,,,,,, -   ,,,
-Uruguay,URU,Americas,Microinsurance,Property coverage,,,,,,, -   ,,,
-Uruguay,URU,Americas,Microinsurance,Agriculture coverage,,,,,,, -   ,,,
-Uruguay,URU,Americas,Microinsurance,Total microinsurance coverage ratio,,,,,,, -   ,,, 1.7 
-Uruguay,URU,Americas,Microinsurance,Credit life coverage ratio,,,,,,, -   ,,,
-Uruguay,URU,Americas,Microinsurance,Life coverage ratio (excluding credit life),,,,,,, -   ,,,
+Uruguay,URU,Americas,Microinsurance,Health coverage,,,,,,,0,,,
+Uruguay,URU,Americas,Microinsurance,Accident coverage,,,,,,,0,,,
+Uruguay,URU,Americas,Microinsurance,Property coverage,,,,,,,0,,,
+Uruguay,URU,Americas,Microinsurance,Agriculture coverage,,,,,,,0,,,
+Uruguay,URU,Americas,Microinsurance,Total microinsurance coverage ratio,,,,,,,0,,,1.7
+Uruguay,URU,Americas,Microinsurance,Credit life coverage ratio,,,,,,,0,,,
+Uruguay,URU,Americas,Microinsurance,Life coverage ratio (excluding credit life),,,,,,,0,,,
 Uruguay,URU,Americas,Microinsurance,Life and accident coverage ratio (excluding credit life),,,,,,,,,,
-Uruguay,URU,Americas,Microinsurance,Health coverage ratio,,,,,,, -   ,,,
-Uruguay,URU,Americas,Microinsurance,Accident coverage ratio,,,,,,, -   ,,,
-Uruguay,URU,Americas,Microinsurance,Property coverage ratio,,,,,,, -   ,,,
-Uruguay,URU,Americas,Microinsurance,Agriculture coverage ratio,,,,,,, -   ,,,
-Uruguay,URU,Americas,Microinsurance,Total Gross Premium (USD),,,,,,," 1,242,399,800.00 ",,," 1,281,000,000.00 "
-Uruguay,URU,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,0,, -   ,,," 4,655,216 "
+Uruguay,URU,Americas,Microinsurance,Health coverage ratio,,,,,,,0,,,
+Uruguay,URU,Americas,Microinsurance,Accident coverage ratio,,,,,,,0,,,
+Uruguay,URU,Americas,Microinsurance,Property coverage ratio,,,,,,,0,,,
+Uruguay,URU,Americas,Microinsurance,Agriculture coverage ratio,,,,,,,0,,,
+Uruguay,URU,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,1242399800,,,1281000000
+Uruguay,URU,Americas,Microinsurance,Microinsurance Gross Premium (USD),,,,,0,,0,,,4655216
 Uruguay,URU,Americas,Poverty,Income share held by lowest 20%,,,,,,,,,,
 Uruguay,URU,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),,,,,,,,,,
 Uruguay,URU,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),,,,,,,,,,
@@ -7439,7 +7439,7 @@ Vanuatu,VUT,Oceania,Poverty,"Life expectancy at birth, female",71.23,72.23,72.55
 Vanuatu,VUT,Oceania,Poverty,"Life expectancy at birth, male",67.49,68.36,68.64,68.92,69.19,69.46,,,,
 Vanuatu,VUT,Oceania,Poverty,"Life expectancy at birth, total",69.32,70.25,70.55,70.84,71.13,71.41,,,,
 Vanuatu,VUT,Oceania,Poverty,"Physicians (per 1,000 people)",,0.12,,0.12,,,,,,
-Venezuela,VEN,Americas,Demographics,Population (Total),26725897,28120312,28583040,29043283,29500625,29954782,30405207,,,"31,568,179"
+Venezuela,VEN,Americas,Demographics,Population (Total),26725897,28120312,28583040,29043283,29500625,29954782,30405207,,,31568179
 Venezuela,VEN,Americas,Demographics,Population ages 15-64 (% of total),63.7,64.52,64.72,64.9,65.05,65.18,,,,
 Venezuela,VEN,Americas,Demographics,Population density (people per sq. km of land area),30.3,31.88,32.41,32.93,33.45,33.96,,,,
 Venezuela,VEN,Americas,Demographics,Population growth (annual %),1.75,1.67,1.63,1.6,1.56,1.53,,,,
@@ -7473,24 +7473,24 @@ Venezuela,VEN,Americas,Health,"Physicians (per 1,000 people)",,,,,,,,,,
 Venezuela,VEN,Americas,Index Coverage Indicators,Permanent cropland (% of land area),0.79,0.74,0.74,0.74,0.74,,,,,
 Venezuela,VEN,Americas,Index Coverage Indicators,"Impact of natural disasters, number of deaths",,,,1,,,,,,
 Venezuela,VEN,Americas,Index Coverage Indicators,"Impact of natural disasters, population affected",,,,704,,,,,,
-Venezuela,VEN,Americas,Microinsurance,Total microinsurance coverage,38375,,,,1200,," 532,900.00 ",,," 640,000.00 "
-Venezuela,VEN,Americas,Microinsurance,Credit life coverage,23375,,,,1200,," 58,586.00 ",,,
-Venezuela,VEN,Americas,Microinsurance,Life coverage (excluding credit life),0,,,,0,," 462,728.00 ",,,
+Venezuela,VEN,Americas,Microinsurance,Total microinsurance coverage,38375,,,,1200,,532900,,,640000
+Venezuela,VEN,Americas,Microinsurance,Credit life coverage,23375,,,,1200,,58586,,,
+Venezuela,VEN,Americas,Microinsurance,Life coverage (excluding credit life),0,,,,0,,462728,,,
 Venezuela,VEN,Americas,Microinsurance,Life and accident coverage (excluding credit life),0,,,,1200,,,,,
-Venezuela,VEN,Americas,Microinsurance,Health coverage,15000,,,,0,," 11,586.00 ",,,
-Venezuela,VEN,Americas,Microinsurance,Accident coverage,0,,,,1200,," 11,586.00 ",,,
-Venezuela,VEN,Americas,Microinsurance,Property coverage,0,,,,0,, -   ,,,
-Venezuela,VEN,Americas,Microinsurance,Agriculture coverage,,,,,0,, -   ,,,
-Venezuela,VEN,Americas,Microinsurance,Total microinsurance coverage ratio,0.14,,,,0,, 1.75 ,,, 2.0 
-Venezuela,VEN,Americas,Microinsurance,Credit life coverage ratio,0.09,,,,0,, 0.19 ,,,
-Venezuela,VEN,Americas,Microinsurance,Life coverage ratio (excluding credit life),0,,,,0,,,,, 0.01 
+Venezuela,VEN,Americas,Microinsurance,Health coverage,15000,,,,0,,11586,,,
+Venezuela,VEN,Americas,Microinsurance,Accident coverage,0,,,,1200,,11586,,,
+Venezuela,VEN,Americas,Microinsurance,Property coverage,0,,,,0,,0,,,
+Venezuela,VEN,Americas,Microinsurance,Agriculture coverage,,,,,0,,0,,,
+Venezuela,VEN,Americas,Microinsurance,Total microinsurance coverage ratio,0.14,,,,0,,1.75,,,2
+Venezuela,VEN,Americas,Microinsurance,Credit life coverage ratio,0.09,,,,0,,0.19,,,
+Venezuela,VEN,Americas,Microinsurance,Life coverage ratio (excluding credit life),0,,,,0,,,,,0.01
 Venezuela,VEN,Americas,Microinsurance,Life and accident coverage ratio (excluding credit life),0,,,,0,,,,,
-Venezuela,VEN,Americas,Microinsurance,Health coverage ratio,0.06,,,,0,, 0.04 ,,,
-Venezuela,VEN,Americas,Microinsurance,Accident coverage ratio,0,,,,0,, 0.04 ,,,
-Venezuela,VEN,Americas,Microinsurance,Property coverage ratio,0,,,,0,, -   ,,,
-Venezuela,VEN,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,, -   ,,,
-Venezuela,VEN,Americas,Microinsurance,Total Gross Premium (USD),,,,,,," 13,817,714,300.00 ",,," 37,853,305,933.00 "
-Venezuela,VEN,Americas,Microinsurance,Microinsurance Gross Premium (USD),227434,,,,,," 2,391,870.00 ",,," 102,828 "
+Venezuela,VEN,Americas,Microinsurance,Health coverage ratio,0.06,,,,0,,0.04,,,
+Venezuela,VEN,Americas,Microinsurance,Accident coverage ratio,0,,,,0,,0.04,,,
+Venezuela,VEN,Americas,Microinsurance,Property coverage ratio,0,,,,0,,0,,,
+Venezuela,VEN,Americas,Microinsurance,Agriculture coverage ratio,,,,,0,,0,,,
+Venezuela,VEN,Americas,Microinsurance,Total Gross Premium (USD),,,,,,,13817714300,,,37853305933
+Venezuela,VEN,Americas,Microinsurance,Microinsurance Gross Premium (USD),227434,,,,,,2391870,,,102828
 Venezuela,VEN,Americas,Poverty,Income share held by lowest 20%,2.8,,,,,,,,,
 Venezuela,VEN,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population),21.93,,,,,,,,,
 Venezuela,VEN,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population),43.7,32.6,31.8,32.5,31.6,25.4,,,,
