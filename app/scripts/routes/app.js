@@ -108,21 +108,8 @@ Mi.Routers = Mi.Routers || {};
         };
       }, function(error, data) {
         Mi.data = data;
-        // NOTE: temporary fix for removing 2015/6 Sri Lanka data from charts
-        Mi.dataNoSriLankaUpdate = data.map(function(d) {
-          return {
-            timeseries: d.timeseries.slice(0, d.timeseries.length - 1),
-            category: d.category,
-            country: d.country,
-            name: d.name,
-            varName: d.varName,
-            region: d.region,
-            iso: d.iso
-          }
-        })
         Mi.countryGrouped = _.groupBy(Mi.data, 'country');
         Mi.varNameGrouped = _.groupBy(Mi.data, 'varName');
-        Mi.varNameGroupedNSLU = _.groupBy(Mi.dataNoSriLankaUpdate, 'varName');
         Mi.doubledGrouped = {};
         _.each(Mi.countryGrouped, function (country, key) {
           Mi.doubledGrouped[key] = _.groupBy(country, 'varName');
@@ -154,11 +141,11 @@ Mi.Routers = Mi.Routers || {};
           data: Mi.varNameGrouped[Mi.name],
           graphData: {
             population: Mi.varNameGrouped['population-(total)'],
-            crudeCoverage: Mi.varNameGroupedNSLU[Mi.name.replace('-ratio','')]
+            crudeCoverage: Mi.varNameGrouped[Mi.name.replace('-ratio','')]
           }
         });
       } else {
-        var extraData = Mi.dataNoSriLankaUpdate.filter(function (f) {
+        var extraData = Mi.data.filter(function (f) {
           return _self.regionMatch(f.region, Mi.region);
         });
         var data = Mi.varNameGrouped[Mi.name].filter(function (f) {
