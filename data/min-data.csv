@@ -71,7 +71,7 @@
 ,,,,,0.13,,,,,,Lebanon,LBN,Asia,Microinsurance,Total microinsurance coverage ratio
 0,,,,0,,,0,,,,Lesotho,LSO,Africa,Microinsurance,Total microinsurance coverage ratio
 ,,,,0,,,0,,,,Liberia,LBR,Africa,Microinsurance,Total microinsurance coverage ratio
-,,,,0,,,0,,,,Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Total microinsurance coverage ratio
+,,,,0,,,0,,,,Libya,LBY,Africa,Microinsurance,Total microinsurance coverage ratio
 0.01,0.01,,,0.08,,,0.21,,,,Madagascar,MDG,Africa,Microinsurance,Total microinsurance coverage ratio
 0.87,1.33,,,1.68,,,1.64,,,,Malawi,MWI,Africa,Microinsurance,Total microinsurance coverage ratio
 ,,,,,3.84,,,,,,Malaysia,MYS,Asia,Microinsurance,Total microinsurance coverage ratio
@@ -108,7 +108,7 @@
 ,,,,,,,0,,,,South Sudan,SSD,Africa,Microinsurance,Total microinsurance coverage ratio
 ,,,,,,0.00,,,,,St. Lucia,LCA,Americas,Microinsurance,Total microinsurance coverage ratio
 0,,,,0.42,,,1.15,,,,Sudan,SDN,Africa,Microinsurance,Total microinsurance coverage ratio
-0,,,,12.03,,,21.41,,,,Swaziland,SWZ,Africa,Microinsurance,Total microinsurance coverage ratio
+0,,,,12.03,,,21.41,,,,Kingdom of Eswatini,SWZ,Africa,Microinsurance,Total microinsurance coverage ratio
 ,,,,,0.00,,,,,,Syrian Arab Republic,SYR,Asia,Microinsurance,Total microinsurance coverage ratio
 ,,,,,0.00,,,,,,Tajikistan,TJK,Asia,Microinsurance,Total microinsurance coverage ratio
 0.02,0.79,,,7.31,,,3.92,,,,Tanzania,TZA,Africa,Microinsurance,Total microinsurance coverage ratio
@@ -120,13 +120,13 @@
 ,,,,,0.00,,,,,,Turkey,TUR,Asia,Microinsurance,Total microinsurance coverage ratio
 ,,,,,0.00,,,,,,Turkmenistan,TKM,Asia,Microinsurance,Total microinsurance coverage ratio
 ,,,,,0.00,,,,,,Tuvalu,TUV,Oceania,Microinsurance,Total microinsurance coverage ratio
-5.69,4.78,,,4.57,,,6.71,,,,Uganda,UGA,Africa,Microinsurance,Total microinsurance coverage ratio
+5.69,4.78,,,4.57,,,6.71,,,3,Uganda,UGA,Africa,Microinsurance,Total microinsurance coverage ratio
 ,,,,,0.05,,,,,,Uzbekistan,UZB,Asia,Microinsurance,Total microinsurance coverage ratio
 ,,,,,0.00,,,,,,Vanuatu,VUT,Oceania,Microinsurance,Total microinsurance coverage ratio
 ,,,,,0.18,,,,,,Vietnam,VNM,Asia,Microinsurance,Total microinsurance coverage ratio
 ,,,,,0.00,,,,,,Yemen,YEM,Asia,Microinsurance,Total microinsurance coverage ratio
-0.56,0.3,,,0.94,,,22.23,,,,Zambia,ZMB,Africa,Microinsurance,Total microinsurance coverage ratio
-0,1.69,,,10.98,,,1.08,,,13.33,Zimbabwe,ZWE,Africa,Microinsurance,Total microinsurance coverage ratio
+0.56,0.3,,,0.94,,,22.23,,,13,Zambia,ZMB,Africa,Microinsurance,Total microinsurance coverage ratio
+0,1.69,,,10.98,,,1.08,,,,Zimbabwe,ZWE,Africa,Microinsurance,Total microinsurance coverage ratio
 ,,,,,0.00,,,,,,Afghanistan,AFG,Asia,Microinsurance,Total microinsurance coverage
 0,1500,,,2036,,,124145,,,,Algeria,DZA,Africa,Microinsurance,Total microinsurance coverage
 0,,,,0,,,0,,,,Angola,AGO,Africa,Microinsurance,Total microinsurance coverage
@@ -176,7 +176,7 @@
 ,,,,,5468.00,,,,,,Lebanon,LBN,Asia,Microinsurance,Total microinsurance coverage
 0,,,,0,,,0,,,,Lesotho,LSO,Africa,Microinsurance,Total microinsurance coverage
 ,,,,0,,,0,,,,Liberia,LBR,Africa,Microinsurance,Total microinsurance coverage
-,,,,15,,,0,,,,Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Total microinsurance coverage
+,,,,15,,,0,,,,Libya,LBY,Africa,Microinsurance,Total microinsurance coverage
 937,2000,,,17260,,,50535,,,,Madagascar,MDG,Africa,Microinsurance,Total microinsurance coverage
 112000,186521,,,249674,,,275634,,,,Malawi,MWI,Africa,Microinsurance,Total microinsurance coverage
 ,,,,,1085032.00,,,,,,Malaysia,MYS,Asia,Microinsurance,Total microinsurance coverage
@@ -213,7 +213,7 @@
 ,,,,,,,0,,,,South Sudan,SSD,Africa,Microinsurance,Total microinsurance coverage
 ,,,,,,4.00,,,,,St. Lucia,LCA,Americas,Microinsurance,Total microinsurance coverage
 0,,,,141195,,,447033,,,,Sudan,SDN,Africa,Microinsurance,Total microinsurance coverage
-0,,,,127000,,,271393,,,,Swaziland,SWZ,Africa,Microinsurance,Total microinsurance coverage
+0,,,,127000,,,271393,,,,Kingdom of Eswatini,SWZ,Africa,Microinsurance,Total microinsurance coverage
 ,,,,,0.00,,,,,,Syrian Arab Republic,SYR,Asia,Microinsurance,Total microinsurance coverage
 ,,,,,0.00,,,,,,Tajikistan,TJK,Asia,Microinsurance,Total microinsurance coverage
 6000,335022,,,3278372,,,1989914,,,,Tanzania,TZA,Africa,Microinsurance,Total microinsurance coverage
@@ -230,8 +230,8 @@
 ,,,,,0.00,,,,,,Vanuatu,VUT,Oceania,Microinsurance,Total microinsurance coverage
 ,,,,,158952.00,,,,,,Vietnam,VNM,Asia,Microinsurance,Total microinsurance coverage
 ,,,,,0.00,,,,,,Yemen,YEM,Asia,Microinsurance,Total microinsurance coverage
-64000,37188,,,121000,,,3338932,,,,Zambia,ZMB,Africa,Microinsurance,Total microinsurance coverage
-0,211000,,,1380793,,,157258,,,2200000,Zimbabwe,ZWE,Africa,Microinsurance,Total microinsurance coverage
+64000,37188,,,121000,,,3338932,,,2200000,Zambia,ZMB,Africa,Microinsurance,Total microinsurance coverage
+0,211000,,,1380793,,,157258,,,,Zimbabwe,ZWE,Africa,Microinsurance,Total microinsurance coverage
 19644000,20217000,20450000,20653000,20869000,20328000.00,20579000.00,20771000,21000000.00,,,Sri Lanka,LKA,Asia,Demographics,Population (Total)
 271920,293544,301016,308595,316280,324060.00,331900.00,,,366954,,Belize,BLZ,Americas,Demographics,Population (Total)
 ,,,,,,3407062.00,,,3444006,,Uruguay,URU,Americas,Demographics,Population (Total)
@@ -301,7 +301,7 @@
 3986865,4186088,4246924,4341092,4382790,4424888.00,,,,,,Lebanon,LBN,Asia,Demographics,Population (Total)
 1925844,1972199,1989873,2008921,2029516,2051545.00,,2097511,,,,Lesotho,LSO,Africa,Demographics,Population (Total)
 3269786,3672714,3821440,3957990,4079697,4190435.00,,4396873,,,,Liberia,LBR,Africa,Demographics,Population (Total)
-5594450,5876805,5964325,6040612,6103233,6154623.00,,6253452,,,,Libyan Arab Jamahiriya,LBY,Africa,Demographics,Population (Total)
+5594450,5876805,5964325,6040612,6103233,6154623.00,,6253452,,,,Libya,LBY,Africa,Demographics,Population (Total)
 18290394,19926785,20495695,21079532,21678934,22293914.00,,23571962,,,,Madagascar,MDG,Africa,Demographics,Population (Total)
 12924746,14138207,14573338,15013694,15457531,15906483.00,,16829144,,,,Malawi,MWI,Africa,Demographics,Population (Total)
 25843466,27302348,27790324,28275835,28758968,29239927.00,,,,,,Malaysia,MYS,Asia,Demographics,Population (Total)
@@ -338,7 +338,7 @@
 ,,,,,,,11738718,,,,South Sudan,SSD,Africa,Demographics,Population (Total)
 ,,,,,,182273.00,,,,,St. Lucia,LCA,Americas,Demographics,Population (Total)
 31585871,34040065,34853178,35652002,36430923,37195349.00,,38764090,,,,Sudan,SDN,Africa,Demographics,Population (Total)
-1104642,1153929,1173678,1193148,1212159,1230985.00,,1267704,,,,Swaziland,SWZ,Africa,Demographics,Population (Total)
+1104642,1153929,1173678,1193148,1212159,1230985.00,,1267704,,,,Kingdom of Eswatini,SWZ,Africa,Demographics,Population (Total)
 18167367,20346056,21031546,21532647,21961676,22399254.00,,,,,,Syrian Arab Republic,SYR,Asia,Demographics,Population (Total)
 6805655,7275252,7447396,7627326,7814850,8008990.00,,,,,,Tajikistan,TJK,Asia,Demographics,Population (Total)
 38824384,42353790,43639752,44973330,46354607,47783107.00,,50757459,,,,Tanzania,TZA,Africa,Demographics,Population (Total)
@@ -424,7 +424,7 @@
 ,,,,,664588.00,,,,,,Lebanon,LBN,Asia,Microinsurance,Accident coverage
 0,,,,0,,,0,,,,Lesotho,LSO,Africa,Microinsurance,Accident coverage
 ,,,,0,,,0,,,,Liberia,LBR,Africa,Microinsurance,Accident coverage
-,,,,15,,,0,,,,Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Accident coverage
+,,,,15,,,0,,,,Libya,LBY,Africa,Microinsurance,Accident coverage
 0,,,,0,,,50535,,,,Madagascar,MDG,Africa,Microinsurance,Accident coverage
 0,,,,0,,,120600,,,,Malawi,MWI,Africa,Microinsurance,Accident coverage
 ,,,,,0.00,,,,,,Malaysia,MYS,Asia,Microinsurance,Accident coverage
@@ -464,7 +464,7 @@
 ,,,,,,,0,,,,South Sudan,SSD,Africa,Microinsurance,Accident coverage
 ,,,,,,0.00,,,,,St. Lucia,LCA,Americas,Microinsurance,Accident coverage
 0,,,,695,,,0,,,,Sudan,SDN,Africa,Microinsurance,Accident coverage
-0,,,,0,,,86000,,,,Swaziland,SWZ,Africa,Microinsurance,Accident coverage
+0,,,,0,,,86000,,,,Kingdom of Eswatini,SWZ,Africa,Microinsurance,Accident coverage
 ,,,,,0.00,,,,,,Syrian Arab Republic,SYR,Asia,Microinsurance,Accident coverage
 ,,,,,0.00,,,,,,Tajikistan,TJK,Asia,Microinsurance,Accident coverage
 0,,,,0,,,461334,,,,Tanzania,TZA,Africa,Microinsurance,Accident coverage
@@ -547,7 +547,7 @@
 ,,,,,2.28,,,,,,Lebanon,LBN,Asia,Microinsurance,Accident coverage ratio
 0,,,,0,,,0,,,,Lesotho,LSO,Africa,Microinsurance,Accident coverage ratio
 ,,,,0,,,0,,,,Liberia,LBR,Africa,Microinsurance,Accident coverage ratio
-,,,,0,,,0,,,,Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Accident coverage ratio
+,,,,0,,,0,,,,Libya,LBY,Africa,Microinsurance,Accident coverage ratio
 0,,,,0,,,0.21,,,,Madagascar,MDG,Africa,Microinsurance,Accident coverage ratio
 0,,,,0,,,0.72,,,,Malawi,MWI,Africa,Microinsurance,Accident coverage ratio
 ,,,,,0.00,,,,,,Malaysia,MYS,Asia,Microinsurance,Accident coverage ratio
@@ -589,7 +589,7 @@
 ,,,,,,,0,,,,South Sudan,SSD,Africa,Microinsurance,Accident coverage ratio
 ,,,,,,0.00,,,,,St. Lucia,LCA,Americas,Microinsurance,Accident coverage ratio
 0,,,,0,,,0,,,,Sudan,SDN,Africa,Microinsurance,Accident coverage ratio
-0,,,,0,,,6.78,,,,Swaziland,SWZ,Africa,Microinsurance,Accident coverage ratio
+0,,,,0,,,6.78,,,,Kingdom of Eswatini,SWZ,Africa,Microinsurance,Accident coverage ratio
 ,,,,,0.00,,,,,,Syrian Arab Republic,SYR,Asia,Microinsurance,Accident coverage ratio
 ,,,,,0.00,,,,,,Tajikistan,TJK,Asia,Microinsurance,Accident coverage ratio
 0,,,,0,,,0.91,,,,Tanzania,TZA,Africa,Microinsurance,Accident coverage ratio
@@ -674,7 +674,7 @@
 ,,,,,0.00,,,,,,Lebanon,LBN,Asia,Microinsurance,Agriculture coverage
 ,,,,0,,,0,,,,Lesotho,LSO,Africa,Microinsurance,Agriculture coverage
 ,,,,0,,,0,,,,Liberia,LBR,Africa,Microinsurance,Agriculture coverage
-,,,,0,,,0,,,,Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Agriculture coverage
+,,,,0,,,0,,,,Libya,LBY,Africa,Microinsurance,Agriculture coverage
 ,0,,,0,,,0,,,,Madagascar,MDG,Africa,Microinsurance,Agriculture coverage
 ,4800,,,0,,,0,,,,Malawi,MWI,Africa,Microinsurance,Agriculture coverage
 ,,,,,0.00,,,,,,Malaysia,MYS,Asia,Microinsurance,Agriculture coverage
@@ -714,7 +714,7 @@
 ,,,,,,,0,,,,South Sudan,SSD,Africa,Microinsurance,Agriculture coverage
 ,,,,,,4.00,,,,,St. Lucia,LCA,Americas,Microinsurance,Agriculture coverage
 ,,,,140500,,,23380,,,,Sudan,SDN,Africa,Microinsurance,Agriculture coverage
-,,,,0,,,16,,,,Swaziland,SWZ,Africa,Microinsurance,Agriculture coverage
+,,,,0,,,16,,,,Kingdom of Eswatini,SWZ,Africa,Microinsurance,Agriculture coverage
 ,,,,,0.00,,,,,,Syrian Arab Republic,SYR,Asia,Microinsurance,Agriculture coverage
 ,,,,,0.00,,,,,,Tajikistan,TJK,Asia,Microinsurance,Agriculture coverage
 ,0,,,24000,,,0,,,,Tanzania,TZA,Africa,Microinsurance,Agriculture coverage
@@ -797,7 +797,7 @@
 ,,,,,0.00,,,,,,Lebanon,LBN,Asia,Microinsurance,Agriculture coverage ratio
 ,,,,0,,,0,,,,Lesotho,LSO,Africa,Microinsurance,Agriculture coverage ratio
 ,,,,0,,,0,,,,Liberia,LBR,Africa,Microinsurance,Agriculture coverage ratio
-,,,,0,,,0,,,,Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Agriculture coverage ratio
+,,,,0,,,0,,,,Libya,LBY,Africa,Microinsurance,Agriculture coverage ratio
 ,0,,,0,,,0,,,,Madagascar,MDG,Africa,Microinsurance,Agriculture coverage ratio
 ,0.03,,,0,,,0,,,,Malawi,MWI,Africa,Microinsurance,Agriculture coverage ratio
 ,,,,,0.00,,,,,,Malaysia,MYS,Asia,Microinsurance,Agriculture coverage ratio
@@ -839,7 +839,7 @@
 ,,,,,,,0,,,,South Sudan,SSD,Africa,Microinsurance,Agriculture coverage ratio
 ,,,,,,0.00,,,,,St. Lucia,LCA,Americas,Microinsurance,Agriculture coverage ratio
 ,,,,0.42,,,0.06,,,,Sudan,SDN,Africa,Microinsurance,Agriculture coverage ratio
-,,,,0,,,0,,,,Swaziland,SWZ,Africa,Microinsurance,Agriculture coverage ratio
+,,,,0,,,0,,,,Kingdom of Eswatini,SWZ,Africa,Microinsurance,Agriculture coverage ratio
 ,,,,,0.00,,,,,,Syrian Arab Republic,SYR,Asia,Microinsurance,Agriculture coverage ratio
 ,,,,,0.00,,,,,,Tajikistan,TJK,Asia,Microinsurance,Agriculture coverage ratio
 ,0,,,0.05,,,0,,,,Tanzania,TZA,Africa,Microinsurance,Agriculture coverage ratio
@@ -921,7 +921,7 @@
 ,,,,,,,,,,,Lebanon,LBN,Asia,Finance,Commercial_deposit_accounts_2010
 ,,,254.41,,,,,,,,Lesotho,LSO,Africa,Finance,Commercial_deposit_accounts_2010
 ,,,102.08,,,,,,,,Liberia,LBR,Africa,Finance,Commercial_deposit_accounts_2010
-,,,,,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Finance,Commercial_deposit_accounts_2010
+,,,,,,,,,,,Libya,LBY,Africa,Finance,Commercial_deposit_accounts_2010
 ,,,0,,,,,,,,Madagascar,MDG,Africa,Finance,Commercial_deposit_accounts_2010
 ,,,163.44,,,,,,,,Malawi,MWI,Africa,Finance,Commercial_deposit_accounts_2010
 ,,,,,,,,,,,Malaysia,MYS,Asia,Finance,Commercial_deposit_accounts_2010
@@ -964,7 +964,7 @@
 ,,,,,,,,,,,Sri Lanka,LKA,Asia,Finance,Commercial_deposit_accounts_2010
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Finance,Commercial_deposit_accounts_2010
 ,,,,,,,,,,,Sudan,SDN,Africa,Finance,Commercial_deposit_accounts_2010
-,,,236.11,,,,,,,,Swaziland,SWZ,Africa,Finance,Commercial_deposit_accounts_2010
+,,,236.11,,,,,,,,Kingdom of Eswatini,SWZ,Africa,Finance,Commercial_deposit_accounts_2010
 ,,,,,,,,,,,Syrian Arab Republic,SYR,Asia,Finance,Commercial_deposit_accounts_2010
 ,,,,,,,,,,,Tajikistan,TJK,Asia,Finance,Commercial_deposit_accounts_2010
 ,,,,,,,,,,,Tanzania,TZA,Africa,Finance,Commercial_deposit_accounts_2010
@@ -1046,7 +1046,7 @@
 ,,,,,,,,,,,Lebanon,LBN,Asia,Finance,Coop_and_credit_union_deposit_accounts_2010
 ,,,0,,,,,,,,Lesotho,LSO,Africa,Finance,Coop_and_credit_union_deposit_accounts_2010
 ,,,0,,,,,,,,Liberia,LBR,Africa,Finance,Coop_and_credit_union_deposit_accounts_2010
-,,,,,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Finance,Coop_and_credit_union_deposit_accounts_2010
+,,,,,,,,,,,Libya,LBY,Africa,Finance,Coop_and_credit_union_deposit_accounts_2010
 ,,,0,,,,,,,,Madagascar,MDG,Africa,Finance,Coop_and_credit_union_deposit_accounts_2010
 ,,,12.13,,,,,,,,Malawi,MWI,Africa,Finance,Coop_and_credit_union_deposit_accounts_2010
 ,,,,,,,,,,,Malaysia,MYS,Asia,Finance,Coop_and_credit_union_deposit_accounts_2010
@@ -1089,7 +1089,7 @@
 ,,,,,,,,,,,Sri Lanka,LKA,Asia,Finance,Coop_and_credit_union_deposit_accounts_2010
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Finance,Coop_and_credit_union_deposit_accounts_2010
 ,,,,,,,,,,,Sudan,SDN,Africa,Finance,Coop_and_credit_union_deposit_accounts_2010
-,,,0,,,,,,,,Swaziland,SWZ,Africa,Finance,Coop_and_credit_union_deposit_accounts_2010
+,,,0,,,,,,,,Kingdom of Eswatini,SWZ,Africa,Finance,Coop_and_credit_union_deposit_accounts_2010
 ,,,,,,,,,,,Syrian Arab Republic,SYR,Asia,Finance,Coop_and_credit_union_deposit_accounts_2010
 ,,,,,,,,,,,Tajikistan,TJK,Asia,Finance,Coop_and_credit_union_deposit_accounts_2010
 ,,,,,,,,,,,Tanzania,TZA,Africa,Finance,Coop_and_credit_union_deposit_accounts_2010
@@ -1173,7 +1173,7 @@
 ,,,,,,,,,,,Lebanon,LBN,Asia,Microinsurance,Credit life coverage
 0,,,,0,,,0,,,,Lesotho,LSO,Africa,Microinsurance,Credit life coverage
 ,,,,0,,,0,,,,Liberia,LBR,Africa,Microinsurance,Credit life coverage
-,,,,0,,,0,,,,Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Credit life coverage
+,,,,0,,,0,,,,Libya,LBY,Africa,Microinsurance,Credit life coverage
 937,2000,,,17260,,,48242,,,,Madagascar,MDG,Africa,Microinsurance,Credit life coverage
 56000,143668,,,249674,,,207034,,,,Malawi,MWI,Africa,Microinsurance,Credit life coverage
 ,,,,,,,,,,,Malaysia,MYS,Asia,Microinsurance,Credit life coverage
@@ -1214,7 +1214,7 @@
 ,,,,,,,,,,,Sri Lanka,LKA,Asia,Microinsurance,Credit life coverage
 ,,,,,,0.00,,,,,St. Lucia,LCA,Americas,Microinsurance,Credit life coverage
 0,,,,695,,,0,,,,Sudan,SDN,Africa,Microinsurance,Credit life coverage
-0,,,,35000,,,54377,,,,Swaziland,SWZ,Africa,Microinsurance,Credit life coverage
+0,,,,35000,,,54377,,,,Kingdom of Eswatini,SWZ,Africa,Microinsurance,Credit life coverage
 ,,,,,,,,,,,Syrian Arab Republic,SYR,Asia,Microinsurance,Credit life coverage
 ,,,,,,,,,,,Tajikistan,TJK,Asia,Microinsurance,Credit life coverage
 0,157006,,,118696,,,460534,,,,Tanzania,TZA,Africa,Microinsurance,Credit life coverage
@@ -1296,7 +1296,7 @@
 ,,,,,,,,,,,Lebanon,LBN,Asia,Microinsurance,Credit life coverage ratio
 0,,,,0,,,0,,,,Lesotho,LSO,Africa,Microinsurance,Credit life coverage ratio
 ,,,,0,,,0,,,,Liberia,LBR,Africa,Microinsurance,Credit life coverage ratio
-,,,,0,,,0,,,,Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Credit life coverage ratio
+,,,,0,,,0,,,,Libya,LBY,Africa,Microinsurance,Credit life coverage ratio
 0.01,0.01,,,0.08,,,0.2,,,,Madagascar,MDG,Africa,Microinsurance,Credit life coverage ratio
 0.44,1.03,,,1.68,,,1.23,,,,Malawi,MWI,Africa,Microinsurance,Credit life coverage ratio
 ,,,,,,,,,,,Malaysia,MYS,Asia,Microinsurance,Credit life coverage ratio
@@ -1339,7 +1339,7 @@
 ,,,,,,,,,,,Sri Lanka,LKA,Asia,Microinsurance,Credit life coverage ratio
 ,,,,,,0.00,,,,,St. Lucia,LCA,Americas,Microinsurance,Credit life coverage ratio
 0,,,,0,,,0,,,,Sudan,SDN,Africa,Microinsurance,Credit life coverage ratio
-0,,,,3.32,,,4.29,,,,Swaziland,SWZ,Africa,Microinsurance,Credit life coverage ratio
+0,,,,3.32,,,4.29,,,,Kingdom of Eswatini,SWZ,Africa,Microinsurance,Credit life coverage ratio
 ,,,,,,,,,,,Syrian Arab Republic,SYR,Asia,Microinsurance,Credit life coverage ratio
 ,,,,,,,,,,,Tajikistan,TJK,Asia,Microinsurance,Credit life coverage ratio
 0,0.37,,,0.26,,,0.91,,,,Tanzania,TZA,Africa,Microinsurance,Credit life coverage ratio
@@ -1422,7 +1422,7 @@
 0.53,1.21,1.76,0.85,0.88,0.73,,,,,,Lebanon,LBN,Asia,Health,External resources for health (% of total expenditure on health)
 16.61,16.27,24.41,19.22,26.47,30.11,,,,,,Lesotho,LSO,Africa,Health,External resources for health (% of total expenditure on health)
 31.33,47,62.57,41.41,53.97,34.61,,,,,,Liberia,LBR,Africa,Health,External resources for health (% of total expenditure on health)
-0,0.08,1.26,0.75,0.06,0.10,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Health,External resources for health (% of total expenditure on health)
+0,0.08,1.26,0.75,0.06,0.10,,,,,,Libya,LBY,Africa,Health,External resources for health (% of total expenditure on health)
 30.37,14.65,13.93,45.08,35.47,20.89,,,,,,Madagascar,MDG,Africa,Health,External resources for health (% of total expenditure on health)
 68.37,79.04,80.15,55.6,56.52,53.59,,,,,,Malawi,MWI,Africa,Health,External resources for health (% of total expenditure on health)
 0.06,0.02,0.01,0.01,0,0.02,,,,,,Malaysia,MYS,Asia,Health,External resources for health (% of total expenditure on health)
@@ -1464,7 +1464,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Health,External resources for health (% of total expenditure on health)
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Health,External resources for health (% of total expenditure on health)
 3.87,4.26,3.24,2.72,4.2,2.09,,,,,,Sudan,SDN,Africa,Health,External resources for health (% of total expenditure on health)
-3.04,7.39,8.45,13.67,19.98,21.96,,,,,,Swaziland,SWZ,Africa,Health,External resources for health (% of total expenditure on health)
+3.04,7.39,8.45,13.67,19.98,21.96,,,,,,Kingdom of Eswatini,SWZ,Africa,Health,External resources for health (% of total expenditure on health)
 0.48,0.93,1.33,1.87,1.18,0.89,,,,,,Syrian Arab Republic,SYR,Asia,Health,External resources for health (% of total expenditure on health)
 14.63,8.7,9.98,8.32,14.31,8.98,,,,,,Tajikistan,TJK,Asia,Health,External resources for health (% of total expenditure on health)
 35.3,45.51,49.11,39.58,40.19,37.74,,,,,,Tanzania,TZA,Africa,Health,External resources for health (% of total expenditure on health)
@@ -1547,7 +1547,7 @@
 21860696517,30079601990,34650746269,37124378109,40094328358,42945273632.00,,,,,,Lebanon,LBN,Asia,Economy,GDP (current US$)
 1368405301,1630667593,1716836000,2203835214,2524534245,2447573299.00,,2181300506,,,,Lesotho,LSO,Africa,Economy,GDP (current US$)
 542000000,850040458.8,1155146230,1292696476,1537753885,1733823553.00,,2013000000,,,,Liberia,LBR,Africa,Economy,GDP (current US$)
-44000000000,93167701863,62360446571,,,,,41142722414,,,,Libyan Arab Jamahiriya,LBY,Africa,Economy,GDP (current US$)
+44000000000,93167701863,62360446571,,,,,41142722414,,,,Libya,LBY,Africa,Economy,GDP (current US$)
 5038577520,9394330368,8589560142,8837041787,9911781297,9975124872.00,,10593147381,,,,Madagascar,MDG,Africa,Economy,GDP (current US$)
 2754995877,4276769712,5030639934,5398616985,5621000678,4263794984.00,,4258033615,,,,Malawi,MWI,Africa,Economy,GDP (current US$)
 144000000000,231000000000,202000000000,248000000000,289000000000,305000000000.00,,,,,,Malaysia,MYS,Asia,Economy,GDP (current US$)
@@ -1589,7 +1589,7 @@
 ,,,,,,,13282084042,,,,South Sudan,SSD,Africa,Economy,GDP (current US$)
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Economy,GDP (current US$)
 26524992225,54082389393,52839990731,64849930758,63997129027,58768800833.00,,73814947341,,,,Sudan,SDN,Africa,Economy,GDP (current US$)
-2584077931,3019770680,3161320520,3691050503,3969078027,3744472287.00,,4412891830,,,,Swaziland,SWZ,Africa,Economy,GDP (current US$)
+2584077931,3019770680,3161320520,3691050503,3969078027,3744472287.00,,4412891830,,,,Kingdom of Eswatini,SWZ,Africa,Economy,GDP (current US$)
 28858965517,,,,,,,,,,,Syrian Arab Republic,SYR,Asia,Economy,GDP (current US$)
 2312319579,5161336170,4979481980,5642221529,6522590721,7632614221.00,,,,,,Tajikistan,TJK,Asia,Economy,GDP (current US$)
 14141916592,20715086119,21368165400,22915004297,23874165047,28242425168.00,,48056680982,,,,Tanzania,TZA,Africa,Economy,GDP (current US$)
@@ -1672,7 +1672,7 @@
 1,9.27,8.5,7,3,1.40,,,,,,Lebanon,LBN,Asia,Economy,GDP growth (annual %)
 2.7,5.73,3.59,7.87,3.74,3.96,,,,,,Lesotho,LSO,Africa,Economy,GDP growth (annual %)
 9.48,10.53,13.76,10.94,9.13,10.24,,,,,,Liberia,LBR,Africa,Economy,GDP growth (annual %)
-9.9,3.8,2.1,,,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Economy,GDP growth (annual %)
+9.9,3.8,2.1,,,,,,,,,Libya,LBY,Africa,Economy,GDP growth (annual %)
 4.6,7.13,-4.13,0.53,1.87,3.10,,,,,,Madagascar,MDG,Africa,Economy,GDP growth (annual %)
 2.84,8.34,9.04,-9.53,4.35,1.89,,,,,,Malawi,MWI,Africa,Economy,GDP growth (annual %)
 5.33,4.83,-1.51,7.43,5.13,5.64,,,,,,Malaysia,MYS,Asia,Economy,GDP growth (annual %)
@@ -1714,7 +1714,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Economy,GDP growth (annual %)
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Economy,GDP growth (annual %)
 7.49,3,3.23,3.48,-3.29,-10.10,,,,,,Sudan,SDN,Africa,Economy,GDP growth (annual %)
-2.46,2.36,1.27,1.87,0.3,-1.50,,,,,,Swaziland,SWZ,Africa,Economy,GDP growth (annual %)
+2.46,2.36,1.27,1.87,0.3,-1.50,,,,,,Kingdom of Eswatini,SWZ,Africa,Economy,GDP growth (annual %)
 6.2,,,,,,,,,,,Syrian Arab Republic,SYR,Asia,Economy,GDP growth (annual %)
 6.7,8,3.51,6.5,7.4,7.50,,,,,,Tajikistan,TJK,Asia,Economy,GDP growth (annual %)
 7.37,7.44,6.02,7.04,6.45,6.86,,,,,,Tanzania,TZA,Africa,Economy,GDP growth (annual %)
@@ -1797,7 +1797,7 @@
 5483.18,7185.61,8159.02,8551.85,9148.13,9705.39,,,,,,Lebanon,LBN,Asia,Economy,GDP per capita (current US$)
 710.55,826.83,862.79,1097.02,1243.91,1193.04,,,,,,Lesotho,LSO,Africa,Economy,GDP per capita (current US$)
 165.76,231.45,302.28,326.6,376.93,413.76,,,,,,Liberia,LBR,Africa,Economy,GDP per capita (current US$)
-7864.94,15853.46,10455.57,,,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Economy,GDP per capita (current US$)
+7864.94,15853.46,10455.57,,,,,,,,,Libya,LBY,Africa,Economy,GDP per capita (current US$)
 275.48,471.44,419.09,419.22,457.21,447.44,,,,,,Madagascar,MDG,Africa,Economy,GDP per capita (current US$)
 213.16,302.5,345.19,359.58,363.64,268.05,,,,,,Malawi,MWI,Africa,Economy,GDP per capita (current US$)
 5553.94,8460.36,7277.76,8754.24,10058.04,10432.06,,,,,,Malaysia,MYS,Asia,Economy,GDP per capita (current US$)
@@ -1839,7 +1839,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Economy,GDP per capita (current US$)
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Economy,GDP per capita (current US$)
 669.4,1253.11,1190.79,1422.37,1537.6,1580.00,,,,,,Sudan,SDN,Africa,Economy,GDP per capita (current US$)
-2339.29,2616.95,2693.52,3093.54,3274.39,3041.85,,,,,,Swaziland,SWZ,Africa,Economy,GDP per capita (current US$)
+2339.29,2616.95,2693.52,3093.54,3274.39,3041.85,,,,,,Kingdom of Eswatini,SWZ,Africa,Economy,GDP per capita (current US$)
 1588.51,,,,,,,,,,,Syrian Arab Republic,SYR,Asia,Economy,GDP per capita (current US$)
 339.76,709.44,668.62,739.74,834.64,953.01,,,,,,Tajikistan,TJK,Asia,Economy,GDP per capita (current US$)
 375,503.6,504.2,524.69,530.39,608.72,,,,,,Tanzania,TZA,Africa,Economy,GDP per capita (current US$)
@@ -1922,7 +1922,7 @@
 ,,,,,,,,,,,Lebanon,LBN,Asia,Poverty,GINI index
 ,,,,,,,,,,,Lesotho,LSO,Africa,Poverty,GINI index
 ,,,,,,,,,,,Liberia,LBR,Africa,Poverty,GINI index
-,,,,,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Poverty,GINI index
+,,,,,,,,,,,Libya,LBY,Africa,Poverty,GINI index
 47.24,,,44.11,,,,,,,,Madagascar,MDG,Africa,Poverty,GINI index
 ,,,43.91,,,,,,,,Malawi,MWI,Africa,Poverty,GINI index
 ,,46.21,,,,,,,,,Malaysia,MYS,Asia,Poverty,GINI index
@@ -1964,7 +1964,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Poverty,GINI index
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Poverty,GINI index
 ,,35.29,,,,,,,,,Sudan,SDN,Africa,Poverty,GINI index
-,,,51.49,,,,,,,,Swaziland,SWZ,Africa,Poverty,GINI index
+,,,51.49,,,,,,,,Kingdom of Eswatini,SWZ,Africa,Poverty,GINI index
 ,,,,,,,,,,,Syrian Arab Republic,SYR,Asia,Poverty,GINI index
 ,,30.83,,,,,,,,,Tajikistan,TJK,Asia,Poverty,GINI index
 ,,,,,,,,,,,Tanzania,TZA,Africa,Poverty,GINI index
@@ -2048,7 +2048,7 @@
 ,,,,,1073.00,,,,,,Lebanon,LBN,Asia,Microinsurance,Health coverage
 0,,,,0,,,0,,,,Lesotho,LSO,Africa,Microinsurance,Health coverage
 ,,,,0,,,0,,,,Liberia,LBR,Africa,Microinsurance,Health coverage
-,,,,0,,,0,,,,Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Health coverage
+,,,,0,,,0,,,,Libya,LBY,Africa,Microinsurance,Health coverage
 0,0,,,0,,,2293,,,,Madagascar,MDG,Africa,Microinsurance,Health coverage
 0,34815,,,50798,,,123000,,,,Malawi,MWI,Africa,Microinsurance,Health coverage
 ,,,,,0.00,,,,,,Malaysia,MYS,Asia,Microinsurance,Health coverage
@@ -2089,7 +2089,7 @@
 ,,,,,2400.00,,,,,,Sri Lanka,LKA,Asia,Microinsurance,Health coverage
 ,,,,,,0.00,,,,,St. Lucia,LCA,Americas,Microinsurance,Health coverage
 0,,,,92020,,,380000,,,,Sudan,SDN,Africa,Microinsurance,Health coverage
-0,,,,0,,,16,,,,Swaziland,SWZ,Africa,Microinsurance,Health coverage
+0,,,,0,,,16,,,,Kingdom of Eswatini,SWZ,Africa,Microinsurance,Health coverage
 ,,,,,0.00,,,,,,Syrian Arab Republic,SYR,Asia,Microinsurance,Health coverage
 ,,,,,0.00,,,,,,Tajikistan,TJK,Asia,Microinsurance,Health coverage
 6000,29992,,,0,,,236000,,,,Tanzania,TZA,Africa,Microinsurance,Health coverage
@@ -2171,7 +2171,7 @@
 ,,,,,0.02,,,,,,Lebanon,LBN,Asia,Microinsurance,Health coverage ratio
 0,,,,0,,,0,,,,Lesotho,LSO,Africa,Microinsurance,Health coverage ratio
 ,,,,0,,,0,,,,Liberia,LBR,Africa,Microinsurance,Health coverage ratio
-,,,,0,,,0,,,,Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Health coverage ratio
+,,,,0,,,0,,,,Libya,LBY,Africa,Microinsurance,Health coverage ratio
 0,0,,,0,,,0.01,,,,Madagascar,MDG,Africa,Microinsurance,Health coverage ratio
 0,0.25,,,0.34,,,0.73,,,,Malawi,MWI,Africa,Microinsurance,Health coverage ratio
 ,,,,,0.00,,,,,,Malaysia,MYS,Asia,Microinsurance,Health coverage ratio
@@ -2214,7 +2214,7 @@
 ,,,,,0.01,,,,,,Sri Lanka,LKA,Asia,Microinsurance,Health coverage ratio
 ,,,,,,0.00,,,,,St. Lucia,LCA,Americas,Microinsurance,Health coverage ratio
 0,,,,0.27,,,0.98,,,,Sudan,SDN,Africa,Microinsurance,Health coverage ratio
-0,,,,0,,,0,,,,Swaziland,SWZ,Africa,Microinsurance,Health coverage ratio
+0,,,,0,,,0,,,,Kingdom of Eswatini,SWZ,Africa,Microinsurance,Health coverage ratio
 ,,,,,0.00,,,,,,Syrian Arab Republic,SYR,Asia,Microinsurance,Health coverage ratio
 ,,,,,0.00,,,,,,Tajikistan,TJK,Asia,Microinsurance,Health coverage ratio
 0.02,0.07,,,0,,,0.46,,,,Tanzania,TZA,Africa,Microinsurance,Health coverage ratio
@@ -2297,7 +2297,7 @@
 419.74,529.34,604.25,619.54,645.92,674.68,,,,,,Lebanon,LBN,Asia,Health,Health expenditure per capita (current US$)
 44.73,73.18,84.3,118.13,145.85,137.82,,,,,,Lesotho,LSO,Africa,Health,Health expenditure per capita (current US$)
 13.32,27.37,43.5,42.69,59.07,65.47,,,,,,Liberia,LBR,Africa,Health,Health expenditure per capita (current US$)
-213.12,318.27,348.66,388.79,211.05,578.45,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Health,Health expenditure per capita (current US$)
+213.12,318.27,348.66,388.79,211.05,578.45,,,,,,Libya,LBY,Africa,Health,Health expenditure per capita (current US$)
 13.49,20.44,18.86,18.59,18.65,18.23,,,,,,Madagascar,MDG,Africa,Health,Health expenditure per capita (current US$)
 17.48,25.36,28.73,30.42,30.15,24.55,,,,,,Malawi,MWI,Africa,Health,Health expenditure per capita (current US$)
 179.2,288.19,285.25,345.12,384.16,409.53,,,,,,Malaysia,MYS,Asia,Health,Health expenditure per capita (current US$)
@@ -2339,7 +2339,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Health,Health expenditure per capita (current US$)
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Health,Health expenditure per capita (current US$)
 34.51,117.71,111.83,118.62,118.58,114.51,,,,,,Sudan,SDN,Africa,Health,Health expenditure per capita (current US$)
-159.03,214.45,227.18,261.2,270.41,259.46,,,,,,Swaziland,SWZ,Africa,Health,Health expenditure per capita (current US$)
+159.03,214.45,227.18,261.2,270.41,259.46,,,,,,Kingdom of Eswatini,SWZ,Africa,Health,Health expenditure per capita (current US$)
 62.57,89.89,95.44,96.59,101.71,104.70,,,,,,Syrian Arab Republic,SYR,Asia,Health,Health expenditure per capita (current US$)
 16.43,39.62,39.64,44.25,48.28,54.88,,,,,,Tajikistan,TJK,Asia,Health,Health expenditure per capita (current US$)
 14.64,26.23,27.52,36.65,37.96,41.34,,,,,,Tanzania,TZA,Africa,Health,Health expenditure per capita (current US$)
@@ -2422,7 +2422,7 @@
 4.64,4.79,4.42,4.47,4.6,4.71,,,,,,Lebanon,LBN,Asia,Health,"Health expenditure, private (% of GDP)"
 2.99,2.79,2.79,2.75,2.64,2.47,,,,,,Lesotho,LSO,Africa,Health,"Health expenditure, private (% of GDP)"
 6.48,7.92,11.05,10.69,10.96,10.90,,,,,,Liberia,LBR,Africa,Health,"Health expenditure, private (% of GDP)"
-0.92,0.72,1.08,0.99,0.89,0.89,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Health,"Health expenditure, private (% of GDP)"
+0.92,0.72,1.08,0.99,0.89,0.89,,,,,,Libya,LBY,Africa,Health,"Health expenditure, private (% of GDP)"
 2.44,2.1,2.32,2.26,1.81,1.61,,,,,,Madagascar,MDG,Africa,Health,"Health expenditure, private (% of GDP)"
 2.14,2.29,2.14,2.2,2.29,2.15,,,,,,Malawi,MWI,Africa,Health,"Health expenditure, private (% of GDP)"
 1.58,1.51,1.61,1.68,1.72,1.78,,,,,,Malaysia,MYS,Asia,Health,"Health expenditure, private (% of GDP)"
@@ -2464,7 +2464,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Health,"Health expenditure, private (% of GDP)"
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Health,"Health expenditure, private (% of GDP)"
 2.69,5,5.17,4.48,4.71,5.55,,,,,,Sudan,SDN,Africa,Health,"Health expenditure, private (% of GDP)"
-2.21,2.49,2.7,2.74,2.53,2.21,,,,,,Swaziland,SWZ,Africa,Health,"Health expenditure, private (% of GDP)"
+2.21,2.49,2.7,2.74,2.53,2.21,,,,,,Kingdom of Eswatini,SWZ,Africa,Health,"Health expenditure, private (% of GDP)"
 2.03,1.8,1.92,1.84,1.81,1.84,,,,,,Syrian Arab Republic,SYR,Asia,Health,"Health expenditure, private (% of GDP)"
 3.69,4.21,4.45,4.39,4.07,4.05,,,,,,Tajikistan,TJK,Asia,Health,"Health expenditure, private (% of GDP)"
 2.13,1.99,1.97,4.38,4.61,4.24,,,,,,Tanzania,TZA,Africa,Health,"Health expenditure, private (% of GDP)"
@@ -2547,7 +2547,7 @@
 3.16,2.68,2.99,2.77,2.82,2.88,,,,,,Lebanon,LBN,Asia,Health,"Health expenditure, public (% of GDP)"
 3.31,6.06,6.98,8.02,9.08,9.08,,,,,,Lesotho,LSO,Africa,Health,"Health expenditure, public (% of GDP)"
 1.55,3.9,3.34,2.38,4.63,4.63,,,,,,Liberia,LBR,Africa,Health,"Health expenditure, public (% of GDP)"
-1.68,1.53,2.39,2.31,3.02,3.02,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Health,"Health expenditure, public (% of GDP)"
+1.68,1.53,2.39,2.31,3.02,3.02,,,,,,Libya,LBY,Africa,Health,"Health expenditure, public (% of GDP)"
 2.46,2.22,2.2,2.23,2.3,2.50,,,,,,Madagascar,MDG,Africa,Health,"Health expenditure, public (% of GDP)"
 6.07,6.1,6.19,6.25,6,7.01,,,,,,Malawi,MWI,Africa,Health,"Health expenditure, public (% of GDP)"
 1.65,1.9,2.31,2.27,2.12,2.17,,,,,,Malaysia,MYS,Asia,Health,"Health expenditure, public (% of GDP)"
@@ -2589,7 +2589,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Health,"Health expenditure, public (% of GDP)"
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Health,"Health expenditure, public (% of GDP)"
 1.42,2.47,2.23,2.05,2.04,1.70,,,,,,Sudan,SDN,Africa,Health,"Health expenditure, public (% of GDP)"
-4.59,5.7,5.74,5.7,5.73,6.32,,,,,,Swaziland,SWZ,Africa,Health,"Health expenditure, public (% of GDP)"
+4.59,5.7,5.74,5.7,5.73,6.32,,,,,,Kingdom of Eswatini,SWZ,Africa,Health,"Health expenditure, public (% of GDP)"
 2.08,1.57,1.63,1.57,1.57,1.57,,,,,,Syrian Arab Republic,SYR,Asia,Health,"Health expenditure, public (% of GDP)"
 1.14,1.37,1.48,1.59,1.71,1.71,,,,,,Tajikistan,TJK,Asia,Health,"Health expenditure, public (% of GDP)"
 1.89,3.37,3.65,2.82,2.76,2.75,,,,,,Tanzania,TZA,Africa,Health,"Health expenditure, public (% of GDP)"
@@ -2672,7 +2672,7 @@
 0.71,0.73,0.74,0.74,0.74,0.75,,,,,,Lebanon,LBN,Asia,Development,Human Development Index
 0.43,0.44,0.45,0.45,0.46,0.46,,,,,,Lesotho,LSO,Africa,Development,Human Development Index
 0.3,0.35,0.36,0.37,0.38,0.39,,,,,,Liberia,LBR,Africa,Development,Human Development Index
-0.75,0.76,0.77,0.77,0.73,0.77,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Development,Human Development Index
+0.75,0.76,0.77,0.77,0.73,0.77,,,,,,Libya,LBY,Africa,Development,Human Development Index
 0.47,0.49,0.49,0.48,0.48,0.48,,,,,,Madagascar,MDG,Africa,Development,Human Development Index
 0.36,0.39,0.4,0.41,0.42,0.42,,,,,,Malawi,MWI,Africa,Development,Human Development Index
 0.74,0.76,0.76,0.76,0.77,0.77,,,,,,Malaysia,MYS,Asia,Development,Human Development Index
@@ -2714,7 +2714,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Development,Human Development Index
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Development,Human Development Index
 0.39,0.41,0.41,0.41,0.42,0.41,,,,,,Sudan,SDN,Africa,Development,Human Development Index
-0.5,0.53,0.53,0.53,0.54,0.54,,,,,,Swaziland,SWZ,Africa,Development,Human Development Index
+0.5,0.53,0.53,0.53,0.54,0.54,,,,,,Kingdom of Eswatini,SWZ,Africa,Development,Human Development Index
 0.62,0.62,0.65,0.65,0.65,0.65,,,,,,Syrian Arab Republic,SYR,Asia,Development,Human Development Index
 0.58,0.61,0.61,0.61,0.62,0.62,,,,,,Tajikistan,TJK,Asia,Development,Human Development Index
 0.4,0.41,0.46,0.47,0.47,0.48,,,,,,Tanzania,TZA,Africa,Development,Human Development Index
@@ -2796,7 +2796,7 @@
 ,,,,,,,,,,,Lebanon,LBN,Asia,Index Coverage Indicators,"Impact of natural disasters, number of deaths"
 ,,,0,,,,,,,,Lesotho,LSO,Africa,Index Coverage Indicators,"Impact of natural disasters, number of deaths"
 ,,,0,,,,,,,,Liberia,LBR,Africa,Index Coverage Indicators,"Impact of natural disasters, number of deaths"
-,,,,,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Index Coverage Indicators,"Impact of natural disasters, number of deaths"
+,,,,,,,,,,,Libya,LBY,Africa,Index Coverage Indicators,"Impact of natural disasters, number of deaths"
 ,,,5,,,,,,,,Madagascar,MDG,Africa,Index Coverage Indicators,"Impact of natural disasters, number of deaths"
 ,,,4,,,,,,,,Malawi,MWI,Africa,Index Coverage Indicators,"Impact of natural disasters, number of deaths"
 ,,,,,,,,,,,Malaysia,MYS,Asia,Index Coverage Indicators,"Impact of natural disasters, number of deaths"
@@ -2839,7 +2839,7 @@
 ,,,,,,,,,,,Sri Lanka,LKA,Asia,Index Coverage Indicators,"Impact of natural disasters, number of deaths"
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Index Coverage Indicators,"Impact of natural disasters, number of deaths"
 ,,,1,,,,,,,,Sudan,SDN,Africa,Index Coverage Indicators,"Impact of natural disasters, number of deaths"
-,,,0,,,,,,,,Swaziland,SWZ,Africa,Index Coverage Indicators,"Impact of natural disasters, number of deaths"
+,,,0,,,,,,,,Kingdom of Eswatini,SWZ,Africa,Index Coverage Indicators,"Impact of natural disasters, number of deaths"
 ,,,,,,,,,,,Syrian Arab Republic,SYR,Asia,Index Coverage Indicators,"Impact of natural disasters, number of deaths"
 ,,,,,,,,,,,Tajikistan,TJK,Asia,Index Coverage Indicators,"Impact of natural disasters, number of deaths"
 ,,,0,,,,,,,,Tanzania,TZA,Africa,Index Coverage Indicators,"Impact of natural disasters, number of deaths"
@@ -2921,7 +2921,7 @@
 ,,,,,,,,,,,Lebanon,LBN,Asia,Index Coverage Indicators,"Impact of natural disasters, population affected"
 ,,,45203,,,,,,,,Lesotho,LSO,Africa,Index Coverage Indicators,"Impact of natural disasters, population affected"
 ,,,924,,,,,,,,Liberia,LBR,Africa,Index Coverage Indicators,"Impact of natural disasters, population affected"
-,,,,,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Index Coverage Indicators,"Impact of natural disasters, population affected"
+,,,,,,,,,,,Libya,LBY,Africa,Index Coverage Indicators,"Impact of natural disasters, population affected"
 ,,,17121,,,,,,,,Madagascar,MDG,Africa,Index Coverage Indicators,"Impact of natural disasters, population affected"
 ,,,64924,,,,,,,,Malawi,MWI,Africa,Index Coverage Indicators,"Impact of natural disasters, population affected"
 ,,,,,,,,,,,Malaysia,MYS,Asia,Index Coverage Indicators,"Impact of natural disasters, population affected"
@@ -2964,7 +2964,7 @@
 ,,,,,,,,,,,Sri Lanka,LKA,Asia,Index Coverage Indicators,"Impact of natural disasters, population affected"
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Index Coverage Indicators,"Impact of natural disasters, population affected"
 ,,,13909,,,,,,,,Sudan,SDN,Africa,Index Coverage Indicators,"Impact of natural disasters, population affected"
-,,,117337,,,,,,,,Swaziland,SWZ,Africa,Index Coverage Indicators,"Impact of natural disasters, population affected"
+,,,117337,,,,,,,,Kingdom of Eswatini,SWZ,Africa,Index Coverage Indicators,"Impact of natural disasters, population affected"
 ,,,,,,,,,,,Syrian Arab Republic,SYR,Asia,Index Coverage Indicators,"Impact of natural disasters, population affected"
 ,,,,,,,,,,,Tajikistan,TJK,Asia,Index Coverage Indicators,"Impact of natural disasters, population affected"
 ,,,13270,,,,,,,,Tanzania,TZA,Africa,Index Coverage Indicators,"Impact of natural disasters, population affected"
@@ -3047,7 +3047,7 @@
 ,,,,,,,,,,,Lebanon,LBN,Asia,Poverty,Income share held by lowest 20%
 ,,,,,,,,,,,Lesotho,LSO,Africa,Poverty,Income share held by lowest 20%
 ,,,,,,,,,,,Liberia,LBR,Africa,Poverty,Income share held by lowest 20%
-,,,,,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Poverty,Income share held by lowest 20%
+,,,,,,,,,,,Libya,LBY,Africa,Poverty,Income share held by lowest 20%
 6.15,,,5.41,,,,,,,,Madagascar,MDG,Africa,Poverty,Income share held by lowest 20%
 ,,,5.64,,,,,,,,Malawi,MWI,Africa,Poverty,Income share held by lowest 20%
 ,,4.54,,,,,,,,,Malaysia,MYS,Asia,Poverty,Income share held by lowest 20%
@@ -3089,7 +3089,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Poverty,Income share held by lowest 20%
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Poverty,Income share held by lowest 20%
 ,,6.81,,,,,,,,,Sudan,SDN,Africa,Poverty,Income share held by lowest 20%
-,,,4.05,,,,,,,,Swaziland,SWZ,Africa,Poverty,Income share held by lowest 20%
+,,,4.05,,,,,,,,Kingdom of Eswatini,SWZ,Africa,Poverty,Income share held by lowest 20%
 ,,,,,,,,,,,Syrian Arab Republic,SYR,Asia,Poverty,Income share held by lowest 20%
 ,,8.29,,,,,,,,,Tajikistan,TJK,Asia,Poverty,Income share held by lowest 20%
 ,,,,,,,,,,,Tanzania,TZA,Africa,Poverty,Income share held by lowest 20%
@@ -3171,7 +3171,7 @@
 ,,,,,,,,,,,Lebanon,LBN,Asia,Microinsurance,Life and accident coverage (excluding credit life)
 0,,,,0,,,,,,,Lesotho,LSO,Africa,Microinsurance,Life and accident coverage (excluding credit life)
 ,,,,0,,,,,,,Liberia,LBR,Africa,Microinsurance,Life and accident coverage (excluding credit life)
-,,,,15,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Life and accident coverage (excluding credit life)
+,,,,15,,,,,,,Libya,LBY,Africa,Microinsurance,Life and accident coverage (excluding credit life)
 0,0,,,0,,,,,,,Madagascar,MDG,Africa,Microinsurance,Life and accident coverage (excluding credit life)
 56000,174521,,,170138,,,,,,,Malawi,MWI,Africa,Microinsurance,Life and accident coverage (excluding credit life)
 ,,,,,,,,,,,Malaysia,MYS,Asia,Microinsurance,Life and accident coverage (excluding credit life)
@@ -3214,7 +3214,7 @@
 ,,,,,,,,,,,Sri Lanka,LKA,Asia,Microinsurance,Life and accident coverage (excluding credit life)
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Microinsurance,Life and accident coverage (excluding credit life)
 0,,,,92715,,,,,,,Sudan,SDN,Africa,Microinsurance,Life and accident coverage (excluding credit life)
-0,,,,127000,,,,,,,Swaziland,SWZ,Africa,Microinsurance,Life and accident coverage (excluding credit life)
+0,,,,127000,,,,,,,Kingdom of Eswatini,SWZ,Africa,Microinsurance,Life and accident coverage (excluding credit life)
 ,,,,,,,,,,,Syrian Arab Republic,SYR,Asia,Microinsurance,Life and accident coverage (excluding credit life)
 ,,,,,,,,,,,Tajikistan,TJK,Asia,Microinsurance,Life and accident coverage (excluding credit life)
 0,194822,,,3144411,,,,,,,Tanzania,TZA,Africa,Microinsurance,Life and accident coverage (excluding credit life)
@@ -3296,7 +3296,7 @@
 ,,,,,,,,,,,Lebanon,LBN,Asia,Microinsurance,Life and accident coverage ratio (excluding credit life)
 0,,,,0,,,,,,,Lesotho,LSO,Africa,Microinsurance,Life and accident coverage ratio (excluding credit life)
 ,,,,0,,,,,,,Liberia,LBR,Africa,Microinsurance,Life and accident coverage ratio (excluding credit life)
-,,,,0,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Life and accident coverage ratio (excluding credit life)
+,,,,0,,,,,,,Libya,LBY,Africa,Microinsurance,Life and accident coverage ratio (excluding credit life)
 0,0,,,0,,,,,,,Madagascar,MDG,Africa,Microinsurance,Life and accident coverage ratio (excluding credit life)
 0.44,1.25,,,1.14,,,,,,,Malawi,MWI,Africa,Microinsurance,Life and accident coverage ratio (excluding credit life)
 ,,,,,,,,,,,Malaysia,MYS,Asia,Microinsurance,Life and accident coverage ratio (excluding credit life)
@@ -3339,7 +3339,7 @@
 ,,,,,,,,,,,Sri Lanka,LKA,Asia,Microinsurance,Life and accident coverage ratio (excluding credit life)
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Microinsurance,Life and accident coverage ratio (excluding credit life)
 0,,,,0.28,,,,,,,Sudan,SDN,Africa,Microinsurance,Life and accident coverage ratio (excluding credit life)
-0,,,,12.03,,,,,,,Swaziland,SWZ,Africa,Microinsurance,Life and accident coverage ratio (excluding credit life)
+0,,,,12.03,,,,,,,Kingdom of Eswatini,SWZ,Africa,Microinsurance,Life and accident coverage ratio (excluding credit life)
 ,,,,,,,,,,,Syrian Arab Republic,SYR,Asia,Microinsurance,Life and accident coverage ratio (excluding credit life)
 ,,,,,,,,,,,Tajikistan,TJK,Asia,Microinsurance,Life and accident coverage ratio (excluding credit life)
 0,0.46,,,7.01,,,,,,,Tanzania,TZA,Africa,Microinsurance,Life and accident coverage ratio (excluding credit life)
@@ -3425,7 +3425,7 @@
 ,,,,,5468.00,,,,,,Lebanon,LBN,Asia,Microinsurance,Life coverage (excluding credit life)
 0,,,,0,,,0,,,,Lesotho,LSO,Africa,Microinsurance,Life coverage (excluding credit life)
 ,,,,0,,,0,,,,Liberia,LBR,Africa,Microinsurance,Life coverage (excluding credit life)
-,,,,0,,,0,,,,Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Life coverage (excluding credit life)
+,,,,0,,,0,,,,Libya,LBY,Africa,Microinsurance,Life coverage (excluding credit life)
 0,,,,0,,,2293,,,,Madagascar,MDG,Africa,Microinsurance,Life coverage (excluding credit life)
 56000,,,,170138,,,275634,,,,Malawi,MWI,Africa,Microinsurance,Life coverage (excluding credit life)
 ,,,,,0.00,,,,,,Malaysia,MYS,Asia,Microinsurance,Life coverage (excluding credit life)
@@ -3464,7 +3464,7 @@
 ,,,,,,,0,,,,South Sudan,SSD,Africa,Microinsurance,Life coverage (excluding credit life)
 ,,,,,,0.00,,,,,St. Lucia,LCA,Americas,Microinsurance,Life coverage (excluding credit life)
 0,,,,92020,,,0,,,,Sudan,SDN,Africa,Microinsurance,Life coverage (excluding credit life)
-0,,,,127000,,,271377,,,,Swaziland,SWZ,Africa,Microinsurance,Life coverage (excluding credit life)
+0,,,,127000,,,271377,,,,Kingdom of Eswatini,SWZ,Africa,Microinsurance,Life coverage (excluding credit life)
 ,,,,,0.00,,,,,,Syrian Arab Republic,SYR,Asia,Microinsurance,Life coverage (excluding credit life)
 ,,,,,0.00,,,,,,Tajikistan,TJK,Asia,Microinsurance,Life coverage (excluding credit life)
 0,,,,3144411,,,1528580,,,,Tanzania,TZA,Africa,Microinsurance,Life coverage (excluding credit life)
@@ -3552,7 +3552,7 @@
 ,,,,,0.12,,,,,,Lebanon,LBN,Asia,Microinsurance,Life coverage ratio (excluding credit life)
 0,,,,0,,,0,,,,Lesotho,LSO,Africa,Microinsurance,Life coverage ratio (excluding credit life)
 ,,,,0,,,0,,,,Liberia,LBR,Africa,Microinsurance,Life coverage ratio (excluding credit life)
-,,,,0,,,0,,,,Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Life coverage ratio (excluding credit life)
+,,,,0,,,0,,,,Libya,LBY,Africa,Microinsurance,Life coverage ratio (excluding credit life)
 0,,,,0,,,0.01,,,,Madagascar,MDG,Africa,Microinsurance,Life coverage ratio (excluding credit life)
 0.44,,,,1.14,,,1.64,,,,Malawi,MWI,Africa,Microinsurance,Life coverage ratio (excluding credit life)
 ,,,,,0.00,,,,,,Malaysia,MYS,Asia,Microinsurance,Life coverage ratio (excluding credit life)
@@ -3590,7 +3590,7 @@
 ,,,,,,,0,,,,South Sudan,SSD,Africa,Microinsurance,Life coverage ratio (excluding credit life)
 ,,,,,,0.00,,,,,St. Lucia,LCA,Americas,Microinsurance,Life coverage ratio (excluding credit life)
 0,,,,0.27,,,0,,,,Sudan,SDN,Africa,Microinsurance,Life coverage ratio (excluding credit life)
-0,,,,12.03,,,21.41,,,,Swaziland,SWZ,Africa,Microinsurance,Life coverage ratio (excluding credit life)
+0,,,,12.03,,,21.41,,,,Kingdom of Eswatini,SWZ,Africa,Microinsurance,Life coverage ratio (excluding credit life)
 ,,,,,0.00,,,,,,Syrian Arab Republic,SYR,Asia,Microinsurance,Life coverage ratio (excluding credit life)
 ,,,,,0.00,,,,,,Tajikistan,TJK,Asia,Microinsurance,Life coverage ratio (excluding credit life)
 0,,,,7.01,,,3.01,,,,Tanzania,TZA,Africa,Microinsurance,Life coverage ratio (excluding credit life)
@@ -3733,8 +3733,8 @@
 43.75,45.96,46.88,47.74,48.46,49.05,,,,,,Lesotho,LSO,Africa,Poverty,"Life expectancy at birth, female"
 ,,,,,,,,,,,Liberia,LBR,Africa,Health,"Life expectancy at birth, female"
 ,,,,,,,,,,,Liberia,LBR,Africa,Poverty,"Life expectancy at birth, female"
-75.43,,,,,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Health,"Life expectancy at birth, female"
-75.43,,,,,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Poverty,"Life expectancy at birth, female"
+75.43,,,,,,,,,,,Libya,LBY,Africa,Health,"Life expectancy at birth, female"
+75.43,,,,,,,,,,,Libya,LBY,Africa,Poverty,"Life expectancy at birth, female"
 62.54,63.93,64.39,64.85,65.32,65.78,,,,,,Madagascar,MDG,Africa,Health,"Life expectancy at birth, female"
 62.54,63.93,64.39,64.85,65.32,65.78,,,,,,Madagascar,MDG,Africa,Poverty,"Life expectancy at birth, female"
 48.9,51.8,52.7,53.52,54.23,54.84,,,,,,Malawi,MWI,Africa,Health,"Life expectancy at birth, female"
@@ -3818,8 +3818,8 @@
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Poverty,"Life expectancy at birth, female"
 61.78,62.77,63.03,63.27,63.49,63.69,,,,,,Sudan,SDN,Africa,Health,"Life expectancy at birth, female"
 61.78,62.77,63.03,63.27,63.49,63.69,,,,,,Sudan,SDN,Africa,Poverty,"Life expectancy at birth, female"
-45.75,47.04,47.53,47.92,48.16,48.28,,,,,,Swaziland,SWZ,Africa,Health,"Life expectancy at birth, female"
-45.75,47.04,47.53,47.92,48.16,48.28,,,,,,Swaziland,SWZ,Africa,Poverty,"Life expectancy at birth, female"
+45.75,47.04,47.53,47.92,48.16,48.28,,,,,,Kingdom of Eswatini,SWZ,Africa,Health,"Life expectancy at birth, female"
+45.75,47.04,47.53,47.92,48.16,48.28,,,,,,Kingdom of Eswatini,SWZ,Africa,Poverty,"Life expectancy at birth, female"
 76.64,77.32,77.44,77.53,77.6,77.68,,,,,,Syrian Arab Republic,SYR,Asia,Health,"Life expectancy at birth, female"
 76.64,77.32,77.44,77.53,77.6,77.68,,,,,,Syrian Arab Republic,SYR,Asia,Poverty,"Life expectancy at birth, female"
 69.33,70.03,70.21,70.38,70.53,70.67,,,,,,Tajikistan,TJK,Asia,Health,"Life expectancy at birth, female"
@@ -3983,8 +3983,8 @@
 43.57,45.53,46.4,47.24,47.99,48.64,,,,,,Lesotho,LSO,Africa,Poverty,"Life expectancy at birth, male"
 ,,,,,,,,,,,Liberia,LBR,Africa,Health,"Life expectancy at birth, male"
 ,,,,,,,,,,,Liberia,LBR,Africa,Poverty,"Life expectancy at birth, male"
-71.81,,,,,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Health,"Life expectancy at birth, male"
-71.81,,,,,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Poverty,"Life expectancy at birth, male"
+71.81,,,,,,,,,,,Libya,LBY,Africa,Health,"Life expectancy at birth, male"
+71.81,,,,,,,,,,,Libya,LBY,Africa,Poverty,"Life expectancy at birth, male"
 59.9,61.09,61.49,61.92,62.36,62.79,,,,,,Madagascar,MDG,Africa,Health,"Life expectancy at birth, male"
 59.9,61.09,61.49,61.92,62.36,62.79,,,,,,Madagascar,MDG,Africa,Poverty,"Life expectancy at birth, male"
 48.98,51.82,52.66,53.41,54.06,54.62,,,,,,Malawi,MWI,Africa,Health,"Life expectancy at birth, male"
@@ -4068,8 +4068,8 @@
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Poverty,"Life expectancy at birth, male"
 58.16,59.27,59.55,59.77,59.96,60.12,,,,,,Sudan,SDN,Africa,Health,"Life expectancy at birth, male"
 58.16,59.27,59.55,59.77,59.96,60.12,,,,,,Sudan,SDN,Africa,Poverty,"Life expectancy at birth, male"
-45.96,47.64,48.24,48.76,49.14,49.40,,,,,,Swaziland,SWZ,Africa,Health,"Life expectancy at birth, male"
-45.96,47.64,48.24,48.76,49.14,49.40,,,,,,Swaziland,SWZ,Africa,Poverty,"Life expectancy at birth, male"
+45.96,47.64,48.24,48.76,49.14,49.40,,,,,,Kingdom of Eswatini,SWZ,Africa,Health,"Life expectancy at birth, male"
+45.96,47.64,48.24,48.76,49.14,49.40,,,,,,Kingdom of Eswatini,SWZ,Africa,Poverty,"Life expectancy at birth, male"
 72.88,72.82,72.6,72.33,72.07,71.88,,,,,,Syrian Arab Republic,SYR,Asia,Health,"Life expectancy at birth, male"
 72.88,72.82,72.6,72.33,72.07,71.88,,,,,,Syrian Arab Republic,SYR,Asia,Poverty,"Life expectancy at birth, male"
 62.2,63.35,63.59,63.78,63.9,64.00,,,,,,Tajikistan,TJK,Asia,Health,"Life expectancy at birth, male"
@@ -4233,8 +4233,8 @@
 43.66,45.74,46.63,47.48,48.22,48.84,,,,,,Lesotho,LSO,Africa,Poverty,"Life expectancy at birth, total"
 ,,,,,,,,,,,Liberia,LBR,Africa,Health,"Life expectancy at birth, total"
 ,,,,,,,,,,,Liberia,LBR,Africa,Poverty,"Life expectancy at birth, total"
-73.58,,,,,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Health,"Life expectancy at birth, total"
-73.58,,,,,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Poverty,"Life expectancy at birth, total"
+73.58,,,,,,,,,,,Libya,LBY,Africa,Health,"Life expectancy at birth, total"
+73.58,,,,,,,,,,,Libya,LBY,Africa,Poverty,"Life expectancy at birth, total"
 61.19,62.47,62.91,63.35,63.8,64.25,,,,,,Madagascar,MDG,Africa,Health,"Life expectancy at birth, total"
 61.19,62.47,62.91,63.35,63.8,64.25,,,,,,Madagascar,MDG,Africa,Poverty,"Life expectancy at birth, total"
 48.94,51.81,52.68,53.47,54.14,54.72,,,,,,Malawi,MWI,Africa,Health,"Life expectancy at birth, total"
@@ -4318,8 +4318,8 @@
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Poverty,"Life expectancy at birth, total"
 59.93,60.98,61.25,61.48,61.68,61.86,,,,,,Sudan,SDN,Africa,Health,"Life expectancy at birth, total"
 59.93,60.98,61.25,61.48,61.68,61.86,,,,,,Sudan,SDN,Africa,Poverty,"Life expectancy at birth, total"
-45.86,47.35,47.89,48.35,48.66,48.85,,,,,,Swaziland,SWZ,Africa,Health,"Life expectancy at birth, total"
-45.86,47.35,47.89,48.35,48.66,48.85,,,,,,Swaziland,SWZ,Africa,Poverty,"Life expectancy at birth, total"
+45.86,47.35,47.89,48.35,48.66,48.85,,,,,,Kingdom of Eswatini,SWZ,Africa,Health,"Life expectancy at birth, total"
+45.86,47.35,47.89,48.35,48.66,48.85,,,,,,Kingdom of Eswatini,SWZ,Africa,Poverty,"Life expectancy at birth, total"
 74.72,75.02,74.96,74.87,74.77,74.71,,,,,,Syrian Arab Republic,SYR,Asia,Health,"Life expectancy at birth, total"
 74.72,75.02,74.96,74.87,74.77,74.71,,,,,,Syrian Arab Republic,SYR,Asia,Poverty,"Life expectancy at birth, total"
 65.68,66.6,66.82,67,67.14,67.26,,,,,,Tajikistan,TJK,Asia,Health,"Life expectancy at birth, total"
@@ -4422,7 +4422,7 @@
 ,,,,,,,,,,,Lebanon,LBN,Asia,Development,"Literacy rate, adult female (% of females ages 15 and above)"
 ,,84.96,,,,,,,,,Lesotho,LSO,Africa,Development,"Literacy rate, adult female (% of females ages 15 and above)"
 ,,,,,,,,,,,Liberia,LBR,Africa,Development,"Literacy rate, adult female (% of females ages 15 and above)"
-,,,,83.32,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Development,"Literacy rate, adult female (% of females ages 15 and above)"
+,,,,83.32,,,,,,,Libya,LBY,Africa,Development,"Literacy rate, adult female (% of females ages 15 and above)"
 ,,61.64,,,,,,,,,Madagascar,MDG,Africa,Development,"Literacy rate, adult female (% of females ages 15 and above)"
 ,,,51.25,,,,,,,,Malawi,MWI,Africa,Development,"Literacy rate, adult female (% of females ages 15 and above)"
 ,,,90.75,,,,,,,,Malaysia,MYS,Asia,Development,"Literacy rate, adult female (% of females ages 15 and above)"
@@ -4464,7 +4464,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Development,"Literacy rate, adult female (% of females ages 15 and above)"
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Development,"Literacy rate, adult female (% of females ages 15 and above)"
 ,,,,63.16,,,,,,,Sudan,SDN,Africa,Development,"Literacy rate, adult female (% of females ages 15 and above)"
-,,,,87.33,,,,,,,Swaziland,SWZ,Africa,Development,"Literacy rate, adult female (% of females ages 15 and above)"
+,,,,87.33,,,,,,,Kingdom of Eswatini,SWZ,Africa,Development,"Literacy rate, adult female (% of females ages 15 and above)"
 ,,,,77.75,,,,,,,Syrian Arab Republic,SYR,Asia,Development,"Literacy rate, adult female (% of females ages 15 and above)"
 ,,,,99.62,,,,,,,Tajikistan,TJK,Asia,Development,"Literacy rate, adult female (% of females ages 15 and above)"
 ,,,60.75,,,,,,,,Tanzania,TZA,Africa,Development,"Literacy rate, adult female (% of females ages 15 and above)"
@@ -4547,7 +4547,7 @@
 ,,,,,,,,,,,Lebanon,LBN,Asia,Development,"Literacy rate, adult male (% of males ages 15 and above)"
 ,,65.52,,,,,,,,,Lesotho,LSO,Africa,Development,"Literacy rate, adult male (% of males ages 15 and above)"
 ,,,,,,,,,,,Liberia,LBR,Africa,Development,"Literacy rate, adult male (% of males ages 15 and above)"
-,,,,95.8,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Development,"Literacy rate, adult male (% of males ages 15 and above)"
+,,,,95.8,,,,,,,Libya,LBY,Africa,Development,"Literacy rate, adult male (% of males ages 15 and above)"
 ,,67.42,,,,,,,,,Madagascar,MDG,Africa,Development,"Literacy rate, adult male (% of males ages 15 and above)"
 ,,,72.1,,,,,,,,Malawi,MWI,Africa,Development,"Literacy rate, adult male (% of males ages 15 and above)"
 ,,,95.43,,,,,,,,Malaysia,MYS,Asia,Development,"Literacy rate, adult male (% of males ages 15 and above)"
@@ -4589,7 +4589,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Development,"Literacy rate, adult male (% of males ages 15 and above)"
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Development,"Literacy rate, adult male (% of males ages 15 and above)"
 ,,,,80.71,,,,,,,Sudan,SDN,Africa,Development,"Literacy rate, adult male (% of males ages 15 and above)"
-,,,,88.39,,,,,,,Swaziland,SWZ,Africa,Development,"Literacy rate, adult male (% of males ages 15 and above)"
+,,,,88.39,,,,,,,Kingdom of Eswatini,SWZ,Africa,Development,"Literacy rate, adult male (% of males ages 15 and above)"
 ,,,,90.32,,,,,,,Syrian Arab Republic,SYR,Asia,Development,"Literacy rate, adult male (% of males ages 15 and above)"
 ,,,,99.81,,,,,,,Tajikistan,TJK,Asia,Development,"Literacy rate, adult male (% of males ages 15 and above)"
 ,,,75.47,,,,,,,,Tanzania,TZA,Africa,Development,"Literacy rate, adult male (% of males ages 15 and above)"
@@ -4672,7 +4672,7 @@
 ,,,,,,,,,,,Lebanon,LBN,Asia,Development,"Literacy rate, adult total (% of people ages 15 and above)"
 ,,75.8,,,,,,,,,Lesotho,LSO,Africa,Development,"Literacy rate, adult total (% of people ages 15 and above)"
 ,,,,,,,,,,,Liberia,LBR,Africa,Development,"Literacy rate, adult total (% of people ages 15 and above)"
-,,,,89.54,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Development,"Literacy rate, adult total (% of people ages 15 and above)"
+,,,,89.54,,,,,,,Libya,LBY,Africa,Development,"Literacy rate, adult total (% of people ages 15 and above)"
 ,,64.48,,,,,,,,,Madagascar,MDG,Africa,Development,"Literacy rate, adult total (% of people ages 15 and above)"
 ,,,61.31,,,,,,,,Malawi,MWI,Africa,Development,"Literacy rate, adult total (% of people ages 15 and above)"
 ,,,93.12,,,,,,,,Malaysia,MYS,Asia,Development,"Literacy rate, adult total (% of people ages 15 and above)"
@@ -4714,7 +4714,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Development,"Literacy rate, adult total (% of people ages 15 and above)"
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Development,"Literacy rate, adult total (% of people ages 15 and above)"
 ,,,,71.94,,,,,,,Sudan,SDN,Africa,Development,"Literacy rate, adult total (% of people ages 15 and above)"
-,,,,87.84,,,,,,,Swaziland,SWZ,Africa,Development,"Literacy rate, adult total (% of people ages 15 and above)"
+,,,,87.84,,,,,,,Kingdom of Eswatini,SWZ,Africa,Development,"Literacy rate, adult total (% of people ages 15 and above)"
 ,,,,84.06,,,,,,,Syrian Arab Republic,SYR,Asia,Development,"Literacy rate, adult total (% of people ages 15 and above)"
 ,,,,99.71,,,,,,,Tajikistan,TJK,Asia,Development,"Literacy rate, adult total (% of people ages 15 and above)"
 ,,,67.8,,,,,,,,Tanzania,TZA,Africa,Development,"Literacy rate, adult total (% of people ages 15 and above)"
@@ -4797,7 +4797,7 @@
 26,,,18,,,,,,,,Lebanon,LBN,Asia,Health,"Maternal mortality ratio (per 100,000 live births)"
 670,,,540,,,,,,,,Lesotho,LSO,Africa,Health,"Maternal mortality ratio (per 100,000 live births)"
 880,,,680,,,,,,,,Liberia,LBR,Africa,Health,"Maternal mortality ratio (per 100,000 live births)"
-17,,,15,,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Health,"Maternal mortality ratio (per 100,000 live births)"
+17,,,15,,,,,,,,Libya,LBY,Africa,Health,"Maternal mortality ratio (per 100,000 live births)"
 530,,,480,,,,,,,,Madagascar,MDG,Africa,Health,"Maternal mortality ratio (per 100,000 live births)"
 570,,,540,,,,,,,,Malawi,MWI,Africa,Health,"Maternal mortality ratio (per 100,000 live births)"
 36,,,31,,,,,,,,Malaysia,MYS,Asia,Health,"Maternal mortality ratio (per 100,000 live births)"
@@ -4839,7 +4839,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Health,"Maternal mortality ratio (per 100,000 live births)"
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Health,"Maternal mortality ratio (per 100,000 live births)"
 460,,,390,,,,,,,,Sudan,SDN,Africa,Health,"Maternal mortality ratio (per 100,000 live births)"
-480,,,350,,,,,,,,Swaziland,SWZ,Africa,Health,"Maternal mortality ratio (per 100,000 live births)"
+480,,,350,,,,,,,,Kingdom of Eswatini,SWZ,Africa,Health,"Maternal mortality ratio (per 100,000 live births)"
 58,,,50,,,,,,,,Syrian Arab Republic,SYR,Asia,Health,"Maternal mortality ratio (per 100,000 live births)"
 59,,,48,,,,,,,,Tajikistan,TJK,Asia,Health,"Maternal mortality ratio (per 100,000 live births)"
 610,,,460,,,,,,,,Tanzania,TZA,Africa,Health,"Maternal mortality ratio (per 100,000 live births)"
@@ -4921,7 +4921,7 @@
 ,,,,,,,,,,,Lebanon,LBN,Asia,Finance,MFI_deposit_accounts_2010
 ,,,0,,,,,,,,Lesotho,LSO,Africa,Finance,MFI_deposit_accounts_2010
 ,,,0,,,,,,,,Liberia,LBR,Africa,Finance,MFI_deposit_accounts_2010
-,,,,,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Finance,MFI_deposit_accounts_2010
+,,,,,,,,,,,Libya,LBY,Africa,Finance,MFI_deposit_accounts_2010
 ,,,33.29,,,,,,,,Madagascar,MDG,Africa,Finance,MFI_deposit_accounts_2010
 ,,,0,,,,,,,,Malawi,MWI,Africa,Finance,MFI_deposit_accounts_2010
 ,,,,,,,,,,,Malaysia,MYS,Asia,Finance,MFI_deposit_accounts_2010
@@ -4964,7 +4964,7 @@
 ,,,,,,,,,,,Sri Lanka,LKA,Asia,Finance,MFI_deposit_accounts_2010
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Finance,MFI_deposit_accounts_2010
 ,,,,,,,,,,,Sudan,SDN,Africa,Finance,MFI_deposit_accounts_2010
-,,,0,,,,,,,,Swaziland,SWZ,Africa,Finance,MFI_deposit_accounts_2010
+,,,0,,,,,,,,Kingdom of Eswatini,SWZ,Africa,Finance,MFI_deposit_accounts_2010
 ,,,,,,,,,,,Syrian Arab Republic,SYR,Asia,Finance,MFI_deposit_accounts_2010
 ,,,,,,,,,,,Tajikistan,TJK,Asia,Finance,MFI_deposit_accounts_2010
 ,,,,,,,,,,,Tanzania,TZA,Africa,Finance,MFI_deposit_accounts_2010
@@ -5046,7 +5046,7 @@
 ,,,,,,,,,,,Lebanon,LBN,Asia,Finance,MFI_Gross_Loan_Portfolio_2011
 ,,,,0,,,,,,,Lesotho,LSO,Africa,Finance,MFI_Gross_Loan_Portfolio_2011
 ,,,,3686059,,,,,,,Liberia,LBR,Africa,Finance,MFI_Gross_Loan_Portfolio_2011
-,,,,0,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Finance,MFI_Gross_Loan_Portfolio_2011
+,,,,0,,,,,,,Libya,LBY,Africa,Finance,MFI_Gross_Loan_Portfolio_2011
 ,,,,73122230,,,,,,,Madagascar,MDG,Africa,Finance,MFI_Gross_Loan_Portfolio_2011
 ,,,,27696107,,,,,,,Malawi,MWI,Africa,Finance,MFI_Gross_Loan_Portfolio_2011
 ,,,,,,,,,,,Malaysia,MYS,Asia,Finance,MFI_Gross_Loan_Portfolio_2011
@@ -5089,7 +5089,7 @@
 ,,,,,,,,,,,Sri Lanka,LKA,Asia,Finance,MFI_Gross_Loan_Portfolio_2011
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Finance,MFI_Gross_Loan_Portfolio_2011
 ,,,,0,,,,,,,Sudan,SDN,Africa,Finance,MFI_Gross_Loan_Portfolio_2011
-,,,,0,,,,,,,Swaziland,SWZ,Africa,Finance,MFI_Gross_Loan_Portfolio_2011
+,,,,0,,,,,,,Kingdom of Eswatini,SWZ,Africa,Finance,MFI_Gross_Loan_Portfolio_2011
 ,,,,,,,,,,,Syrian Arab Republic,SYR,Asia,Finance,MFI_Gross_Loan_Portfolio_2011
 ,,,,,,,,,,,Tajikistan,TJK,Asia,Finance,MFI_Gross_Loan_Portfolio_2011
 ,,,,950449451,,,,,,,Tanzania,TZA,Africa,Finance,MFI_Gross_Loan_Portfolio_2011
@@ -5179,7 +5179,7 @@
 ,,,,,280000.00,,,,,,Lebanon,LBN,Asia,Microinsurance,Microinsurance Gross Premium (USD)
 ,,,,,,,0,,,,Lesotho,LSO,Africa,Microinsurance,Microinsurance Gross Premium (USD)
 ,,,,,,,0,,,,Liberia,LBR,Africa,Microinsurance,Microinsurance Gross Premium (USD)
-,,,,,,,0,,,,Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Microinsurance Gross Premium (USD)
+,,,,,,,0,,,,Libya,LBY,Africa,Microinsurance,Microinsurance Gross Premium (USD)
 ,,,,,,,227052,,,,Madagascar,MDG,Africa,Microinsurance,Microinsurance Gross Premium (USD)
 ,,,,,,,1154400,,,,Malawi,MWI,Africa,Microinsurance,Microinsurance Gross Premium (USD)
 ,,,,,24510000.00,,,,,,Malaysia,MYS,Asia,Microinsurance,Microinsurance Gross Premium (USD)
@@ -5216,7 +5216,7 @@
 ,,,,,,,0,,,,South Sudan,SSD,Africa,Microinsurance,Microinsurance Gross Premium (USD)
 ,,,,,,268.00,,,,,St. Lucia,LCA,Americas,Microinsurance,Microinsurance Gross Premium (USD)
 ,,,,,,,177183.03,,,,Sudan,SDN,Africa,Microinsurance,Microinsurance Gross Premium (USD)
-,,,,,,,5154917.92,,,,Swaziland,SWZ,Africa,Microinsurance,Microinsurance Gross Premium (USD)
+,,,,,,,5154917.92,,,,Kingdom of Eswatini,SWZ,Africa,Microinsurance,Microinsurance Gross Premium (USD)
 ,,,,,0.00,,,,,,Syrian Arab Republic,SYR,Asia,Microinsurance,Microinsurance Gross Premium (USD)
 ,,,,,0.00,,,,,,Tajikistan,TJK,Asia,Microinsurance,Microinsurance Gross Premium (USD)
 ,,,,,,,18137783.35,,,,Tanzania,TZA,Africa,Microinsurance,Microinsurance Gross Premium (USD)
@@ -5296,7 +5296,7 @@
 ,,,,,,,,,,,Lebanon,LBN,Asia,Finance,Number_of_active_MFI_borrowers_2011
 ,,,,0,,,,,,,Lesotho,LSO,Africa,Finance,Number_of_active_MFI_borrowers_2011
 ,,,,25814,,,,,,,Liberia,LBR,Africa,Finance,Number_of_active_MFI_borrowers_2011
-,,,,0,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Finance,Number_of_active_MFI_borrowers_2011
+,,,,0,,,,,,,Libya,LBY,Africa,Finance,Number_of_active_MFI_borrowers_2011
 ,,,,111971,,,,,,,Madagascar,MDG,Africa,Finance,Number_of_active_MFI_borrowers_2011
 ,,,,123324,,,,,,,Malawi,MWI,Africa,Finance,Number_of_active_MFI_borrowers_2011
 ,,,,,,,,,,,Malaysia,MYS,Asia,Finance,Number_of_active_MFI_borrowers_2011
@@ -5339,7 +5339,7 @@
 ,,,,,,,,,,,Sri Lanka,LKA,Asia,Finance,Number_of_active_MFI_borrowers_2011
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Finance,Number_of_active_MFI_borrowers_2011
 ,,,,0,,,,,,,Sudan,SDN,Africa,Finance,Number_of_active_MFI_borrowers_2011
-,,,,0,,,,,,,Swaziland,SWZ,Africa,Finance,Number_of_active_MFI_borrowers_2011
+,,,,0,,,,,,,Kingdom of Eswatini,SWZ,Africa,Finance,Number_of_active_MFI_borrowers_2011
 ,,,,,,,,,,,Syrian Arab Republic,SYR,Asia,Finance,Number_of_active_MFI_borrowers_2011
 ,,,,,,,,,,,Tajikistan,TJK,Asia,Finance,Number_of_active_MFI_borrowers_2011
 ,,,,276302,,,,,,,Tanzania,TZA,Africa,Finance,Number_of_active_MFI_borrowers_2011
@@ -5421,7 +5421,7 @@
 ,,,,,,,,,,,Lebanon,LBN,Asia,Finance,Number_of_MFIs_2011
 ,,,,0,,,,,,,Lesotho,LSO,Africa,Finance,Number_of_MFIs_2011
 ,,,,1,,,,,,,Liberia,LBR,Africa,Finance,Number_of_MFIs_2011
-,,,,0,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Finance,Number_of_MFIs_2011
+,,,,0,,,,,,,Libya,LBY,Africa,Finance,Number_of_MFIs_2011
 ,,,,7,,,,,,,Madagascar,MDG,Africa,Finance,Number_of_MFIs_2011
 ,,,,3,,,,,,,Malawi,MWI,Africa,Finance,Number_of_MFIs_2011
 ,,,,,,,,,,,Malaysia,MYS,Asia,Finance,Number_of_MFIs_2011
@@ -5464,7 +5464,7 @@
 ,,,,,,,,,,,Sri Lanka,LKA,Asia,Finance,Number_of_MFIs_2011
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Finance,Number_of_MFIs_2011
 ,,,,0,,,,,,,Sudan,SDN,Africa,Finance,Number_of_MFIs_2011
-,,,,0,,,,,,,Swaziland,SWZ,Africa,Finance,Number_of_MFIs_2011
+,,,,0,,,,,,,Kingdom of Eswatini,SWZ,Africa,Finance,Number_of_MFIs_2011
 ,,,,,,,,,,,Syrian Arab Republic,SYR,Asia,Finance,Number_of_MFIs_2011
 ,,,,,,,,,,,Tajikistan,TJK,Asia,Finance,Number_of_MFIs_2011
 ,,,,8,,,,,,,Tanzania,TZA,Africa,Finance,Number_of_MFIs_2011
@@ -5547,7 +5547,7 @@
 77.14,71.85,72.19,72.19,72.19,72.19,,,,,,Lebanon,LBN,Asia,Health,Out-of-pocket health expenditure (% of private expenditure on health)
 69.01,69.01,69.01,69.01,69.01,69.01,,,,,,Lesotho,LSO,Africa,Health,Out-of-pocket health expenditure (% of private expenditure on health)
 51.69,52.24,30.05,30.03,30.05,30.23,,,,,,Liberia,LBR,Africa,Health,Out-of-pocket health expenditure (% of private expenditure on health)
-100,100,100,100,100,100.00,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Health,Out-of-pocket health expenditure (% of private expenditure on health)
+100,100,100,100,100,100.00,,,,,,Libya,LBY,Africa,Health,Out-of-pocket health expenditure (% of private expenditure on health)
 80.43,80.01,80.37,86.01,82.03,80.15,,,,,,Madagascar,MDG,Africa,Health,Out-of-pocket health expenditure (% of private expenditure on health)
 33.86,48.49,53.52,53.67,53.86,53.55,,,,,,Malawi,MWI,Africa,Health,Out-of-pocket health expenditure (% of private expenditure on health)
 79.36,79.64,77.26,77.98,78.98,78.98,,,,,,Malaysia,MYS,Asia,Health,Out-of-pocket health expenditure (% of private expenditure on health)
@@ -5589,7 +5589,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Health,Out-of-pocket health expenditure (% of private expenditure on health)
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Health,Out-of-pocket health expenditure (% of private expenditure on health)
 91.32,95.81,95.91,95.49,95.71,96.21,,,,,,Sudan,SDN,Africa,Health,Out-of-pocket health expenditure (% of private expenditure on health)
-42.15,42.84,43.24,43.32,42.92,42.15,,,,,,Swaziland,SWZ,Africa,Health,Out-of-pocket health expenditure (% of private expenditure on health)
+42.15,42.84,43.24,43.32,42.92,42.15,,,,,,Kingdom of Eswatini,SWZ,Africa,Health,Out-of-pocket health expenditure (% of private expenditure on health)
 100,100,100,100,100,100.00,,,,,,Syrian Arab Republic,SYR,Asia,Health,Out-of-pocket health expenditure (% of private expenditure on health)
 96.47,95.84,90.31,90.68,85.36,85.35,,,,,,Tajikistan,TJK,Asia,Health,Out-of-pocket health expenditure (% of private expenditure on health)
 70.3,41.71,41.71,52.43,52.56,52.34,,,,,,Tanzania,TZA,Africa,Health,Out-of-pocket health expenditure (% of private expenditure on health)
@@ -5672,7 +5672,7 @@
 13.81,13.69,13.69,12.32,12.32,,,,,,,Lebanon,LBN,Asia,Index Coverage Indicators,Permanent cropland (% of land area)
 0.13,0.13,0.13,0.13,0.13,,,,,,,Lesotho,LSO,Africa,Index Coverage Indicators,Permanent cropland (% of land area)
 2.23,2.08,1.87,1.87,1.87,,,,,,,Liberia,LBR,Africa,Index Coverage Indicators,Permanent cropland (% of land area)
-0.19,0.19,0.19,0.19,0.19,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Index Coverage Indicators,Permanent cropland (% of land area)
+0.19,0.19,0.19,0.19,0.19,,,,,,,Libya,LBY,Africa,Index Coverage Indicators,Permanent cropland (% of land area)
 1.03,1.03,1.03,1.03,1.03,,,,,,,Madagascar,MDG,Africa,Index Coverage Indicators,Permanent cropland (% of land area)
 1.27,1.33,1.38,1.38,1.38,,,,,,,Malawi,MWI,Africa,Index Coverage Indicators,Permanent cropland (% of land area)
 17.61,17.61,17.61,17.61,17.61,,,,,,,Malaysia,MYS,Asia,Index Coverage Indicators,Permanent cropland (% of land area)
@@ -5714,7 +5714,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Index Coverage Indicators,Permanent cropland (% of land area)
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Index Coverage Indicators,Permanent cropland (% of land area)
 0.05,0.06,0.06,0.07,0.07,,,,,,,Sudan,SDN,Africa,Index Coverage Indicators,Permanent cropland (% of land area)
-0.81,0.81,0.87,0.87,0.87,,,,,,,Swaziland,SWZ,Africa,Index Coverage Indicators,Permanent cropland (% of land area)
+0.81,0.81,0.87,0.87,0.87,,,,,,,Kingdom of Eswatini,SWZ,Africa,Index Coverage Indicators,Permanent cropland (% of land area)
 4.83,5.27,5.41,5.49,5.74,,,,,,,Syrian Arab Republic,SYR,Asia,Index Coverage Indicators,Permanent cropland (% of land area)
 0.84,0.93,0.95,0.93,0.93,,,,,,,Tajikistan,TJK,Asia,Index Coverage Indicators,Permanent cropland (% of land area)
 1.87,1.86,1.92,1.92,1.92,,,,,,,Tanzania,TZA,Africa,Index Coverage Indicators,Permanent cropland (% of land area)
@@ -5858,8 +5858,8 @@
 ,,,,,,,,,,,Lesotho,LSO,Africa,Poverty,"Physicians (per 1,000 people)"
 ,0.01,,0.01,,,,,,,,Liberia,LBR,Africa,Health,"Physicians (per 1,000 people)"
 ,,,,,,,,,,,Liberia,LBR,Africa,Poverty,"Physicians (per 1,000 people)"
-,,1.9,1.9,,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Health,"Physicians (per 1,000 people)"
-,,,,,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Poverty,"Physicians (per 1,000 people)"
+,,1.9,1.9,,,,,,,,Libya,LBY,Africa,Health,"Physicians (per 1,000 people)"
+,,,,,,,,,,,Libya,LBY,Africa,Poverty,"Physicians (per 1,000 people)"
 ,,,0.16,,,,,,,,Madagascar,MDG,Africa,Health,"Physicians (per 1,000 people)"
 ,,,0.16,,,,,,,,Madagascar,MDG,Africa,Poverty,"Physicians (per 1,000 people)"
 ,0.02,0.02,0.02,,,,,,,,Malawi,MWI,Africa,Health,"Physicians (per 1,000 people)"
@@ -5943,8 +5943,8 @@
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Poverty,"Physicians (per 1,000 people)"
 ,0.28,,0.28,,,,,,,,Sudan,SDN,Africa,Health,"Physicians (per 1,000 people)"
 ,0.28,,0.28,,,,,,,,Sudan,SDN,Africa,Poverty,"Physicians (per 1,000 people)"
-,,0.17,,,,,,,,,Swaziland,SWZ,Africa,Health,"Physicians (per 1,000 people)"
-,,0.17,,,,,,,,,Swaziland,SWZ,Africa,Poverty,"Physicians (per 1,000 people)"
+,,0.17,,,,,,,,,Kingdom of Eswatini,SWZ,Africa,Health,"Physicians (per 1,000 people)"
+,,0.17,,,,,,,,,Kingdom of Eswatini,SWZ,Africa,Poverty,"Physicians (per 1,000 people)"
 ,1.5,,1.5,,,,,,,,Syrian Arab Republic,SYR,Asia,Health,"Physicians (per 1,000 people)"
 ,1.5,,1.5,,,,,,,,Syrian Arab Republic,SYR,Asia,Poverty,"Physicians (per 1,000 people)"
 ,,,2.1,1.9,,,,,,,Tajikistan,TJK,Asia,Health,"Physicians (per 1,000 people)"
@@ -6047,7 +6047,7 @@
 64.63,66.18,66.97,67.84,68.81,69.80,,,,,,Lebanon,LBN,Asia,Demographics,Population ages 15-64 (% of total)
 55.7,57.08,57.59,58.08,58.57,59.05,,,,,,Lesotho,LSO,Africa,Demographics,Population ages 15-64 (% of total)
 53.66,53.51,53.51,53.58,53.71,53.89,,,,,,Liberia,LBR,Africa,Demographics,Population ages 15-64 (% of total)
-65.11,65.83,65.94,65.98,65.94,65.83,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Demographics,Population ages 15-64 (% of total)
+65.11,65.83,65.94,65.98,65.94,65.83,,,,,,Libya,LBY,Africa,Demographics,Population ages 15-64 (% of total)
 52.26,53.09,53.41,53.74,54.1,54.46,,,,,,Madagascar,MDG,Africa,Demographics,Population ages 15-64 (% of total)
 50.83,50.93,51.01,51.12,51.25,51.41,,,,,,Malawi,MWI,Africa,Demographics,Population ages 15-64 (% of total)
 65.39,66.7,67.1,67.48,67.84,68.19,,,,,,Malaysia,MYS,Asia,Demographics,Population ages 15-64 (% of total)
@@ -6089,7 +6089,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Demographics,Population ages 15-64 (% of total)
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Demographics,Population ages 15-64 (% of total)
 53.76,54.33,54.56,54.8,55.06,55.32,,,,,,Sudan,SDN,Africa,Demographics,Population ages 15-64 (% of total)
-55,56.81,57.35,57.82,58.21,58.53,,,,,,Swaziland,SWZ,Africa,Demographics,Population ages 15-64 (% of total)
+55,56.81,57.35,57.82,58.21,58.53,,,,,,Kingdom of Eswatini,SWZ,Africa,Demographics,Population ages 15-64 (% of total)
 57.97,59.75,60.22,60.54,60.68,60.70,,,,,,Syrian Arab Republic,SYR,Asia,Demographics,Population ages 15-64 (% of total)
 57.91,59.98,60.45,60.78,60.98,61.05,,,,,,Tajikistan,TJK,Asia,Demographics,Population ages 15-64 (% of total)
 52.37,52.17,52.1,52.05,52,51.98,,,,,,Tanzania,TZA,Africa,Demographics,Population ages 15-64 (% of total)
@@ -6172,7 +6172,7 @@
 389.72,409.2,415.14,424.35,428.43,432.54,,,,,,Lebanon,LBN,Asia,Demographics,Population density (people per sq. km of land area)
 63.43,64.96,65.54,66.17,66.85,67.57,,,,,,Lesotho,LSO,Africa,Demographics,Population density (people per sq. km of land area)
 33.95,38.13,39.67,41.09,42.36,43.51,,,,,,Liberia,LBR,Africa,Demographics,Population density (people per sq. km of land area)
-3.18,3.34,3.39,3.43,3.47,3.50,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Demographics,Population density (people per sq. km of land area)
+3.18,3.34,3.39,3.43,3.47,3.50,,,,,,Libya,LBY,Africa,Demographics,Population density (people per sq. km of land area)
 31.45,34.27,35.24,36.25,37.28,38.34,,,,,,Madagascar,MDG,Africa,Demographics,Population density (people per sq. km of land area)
 137.09,149.96,154.58,159.25,163.95,168.72,,,,,,Malawi,MWI,Africa,Demographics,Population density (people per sq. km of land area)
 78.66,83.1,84.58,86.06,87.53,89.00,,,,,,Malaysia,MYS,Asia,Demographics,Population density (people per sq. km of land area)
@@ -6214,7 +6214,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Demographics,Population density (people per sq. km of land area)
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Demographics,Population density (people per sq. km of land area)
 16.68,18.16,18.68,19.19,19.7,20.22,,,,,,Sudan,SDN,Africa,Demographics,Population density (people per sq. km of land area)
-64.22,67.09,68.24,69.37,70.47,71.57,,,,,,Swaziland,SWZ,Africa,Demographics,Population density (people per sq. km of land area)
+64.22,67.09,68.24,69.37,70.47,71.57,,,,,,Kingdom of Eswatini,SWZ,Africa,Demographics,Population density (people per sq. km of land area)
 98.97,110.79,114.53,117.26,119.6,121.98,,,,,,Syrian Arab Republic,SYR,Asia,Demographics,Population density (people per sq. km of land area)
 48.63,51.98,53.21,54.5,55.84,57.22,,,,,,Tajikistan,TJK,Asia,Demographics,Population density (people per sq. km of land area)
 43.83,47.81,49.27,50.77,52.33,53.94,,,,,,Tanzania,TZA,Africa,Demographics,Population density (people per sq. km of land area)
@@ -6297,7 +6297,7 @@
 3.4,1.11,1.44,2.19,0.96,0.96,,,,,,Lebanon,LBN,Asia,Demographics,Population growth (annual %)
 0.72,0.84,0.89,0.95,1.02,1.08,,,,,,Lesotho,LSO,Africa,Demographics,Population growth (annual %)
 2.64,4.18,3.97,3.51,3.03,2.68,,,,,,Liberia,LBR,Africa,Demographics,Population growth (annual %)
-1.58,1.62,1.48,1.27,1.03,0.84,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Demographics,Population growth (annual %)
+1.58,1.62,1.48,1.27,1.03,0.84,,,,,,Libya,LBY,Africa,Demographics,Population growth (annual %)
 2.92,2.83,2.82,2.81,2.8,2.80,,,,,,Madagascar,MDG,Africa,Demographics,Population growth (annual %)
 2.79,3.05,3.03,2.98,2.91,2.86,,,,,,Malawi,MWI,Africa,Demographics,Population growth (annual %)
 1.87,1.81,1.77,1.73,1.69,1.66,,,,,,Malaysia,MYS,Asia,Demographics,Population growth (annual %)
@@ -6339,7 +6339,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Demographics,Population growth (annual %)
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Demographics,Population growth (annual %)
 2.59,2.44,2.36,2.27,2.16,2.08,,,,,,Sudan,SDN,Africa,Demographics,Population growth (annual %)
-0.9,1.66,1.7,1.65,1.58,1.54,,,,,,Swaziland,SWZ,Africa,Demographics,Population growth (annual %)
+0.9,1.66,1.7,1.65,1.58,1.54,,,,,,Kingdom of Eswatini,SWZ,Africa,Demographics,Population growth (annual %)
 2.74,3.93,3.31,2.35,1.97,1.97,,,,,,Syrian Arab Republic,SYR,Asia,Demographics,Population growth (annual %)
 2.1,2.28,2.34,2.39,2.43,2.45,,,,,,Tajikistan,TJK,Asia,Demographics,Population growth (annual %)
 2.77,2.96,2.99,3.01,3.03,3.04,,,,,,Tanzania,TZA,Africa,Demographics,Population growth (annual %)
@@ -6422,7 +6422,7 @@
 ,,,,,,,,,,,Lebanon,LBN,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population)
 ,,,,,,,,,,,Lesotho,LSO,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population)
 ,,,,,,,,,,,Liberia,LBR,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population)
-,,,,,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population)
+,,,,,,,,,,,Libya,LBY,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population)
 89.61,,,92.62,,,,,,,,Madagascar,MDG,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population)
 ,,,82.31,,,,,,,,Malawi,MWI,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population)
 ,,2.27,,,,,,,,,Malaysia,MYS,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population)
@@ -6464,7 +6464,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population)
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population)
 ,,44.14,,,,,,,,,Sudan,SDN,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population)
-,,,60.4,,,,,,,,Swaziland,SWZ,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population)
+,,,60.4,,,,,,,,Kingdom of Eswatini,SWZ,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population)
 ,,,,,,,,,,,Syrian Arab Republic,SYR,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population)
 ,,27.69,,,,,,,,,Tajikistan,TJK,Asia,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population)
 ,,,,,,,,,,,Tanzania,TZA,Africa,Poverty,Poverty headcount ratio at $2 a day (PPP) (% of population)
@@ -6547,7 +6547,7 @@
 ,,,,,,,,,,,Lebanon,LBN,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population)
 ,,,,,,,,,,,Lesotho,LSO,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population)
 ,,,,,,,,,,,Liberia,LBR,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population)
-,,,,,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population)
+,,,,,,,,,,,Libya,LBY,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population)
 75,,,75.3,,,,,,,,Madagascar,MDG,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population)
 ,,,50.7,,,,,,,,Malawi,MWI,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population)
 ,,3.8,,,1.70,,,,,,Malaysia,MYS,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population)
@@ -6589,7 +6589,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population)
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Poverty,Poverty headcount ratio at national poverty line (% of population)
 ,,46.5,,,,,,,,,Sudan,SDN,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population)
-,,63,,,,,,,,,Swaziland,SWZ,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population)
+,,63,,,,,,,,,Kingdom of Eswatini,SWZ,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population)
 ,,,,,,,,,,,Syrian Arab Republic,SYR,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population)
 ,,47.2,,,,,,,,,Tajikistan,TJK,Asia,Poverty,Poverty headcount ratio at national poverty line (% of population)
 ,,,,,28.20,,,,,,Tanzania,TZA,Africa,Poverty,Poverty headcount ratio at national poverty line (% of population)
@@ -6672,7 +6672,7 @@
 ,,,,,,,,,,,Lebanon,LBN,Asia,Poverty,Poverty headcount ratio at rural poverty line (% of rural population)
 ,,,,,,,,,,,Lesotho,LSO,Africa,Poverty,Poverty headcount ratio at rural poverty line (% of rural population)
 ,,,,,,,,,,,Liberia,LBR,Africa,Poverty,Poverty headcount ratio at rural poverty line (% of rural population)
-,,,,,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Poverty,Poverty headcount ratio at rural poverty line (% of rural population)
+,,,,,,,,,,,Libya,LBY,Africa,Poverty,Poverty headcount ratio at rural poverty line (% of rural population)
 80.6,,,81.5,,,,,,,,Madagascar,MDG,Africa,Poverty,Poverty headcount ratio at rural poverty line (% of rural population)
 ,,,56.6,,,,,,,,Malawi,MWI,Africa,Poverty,Poverty headcount ratio at rural poverty line (% of rural population)
 ,,8.4,,,3.40,,,,,,Malaysia,MYS,Asia,Poverty,Poverty headcount ratio at rural poverty line (% of rural population)
@@ -6714,7 +6714,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Poverty,Poverty headcount ratio at rural poverty line (% of rural population)
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Poverty,Poverty headcount ratio at rural poverty line (% of rural population)
 ,,57.6,,,,,,,,,Sudan,SDN,Africa,Poverty,Poverty headcount ratio at rural poverty line (% of rural population)
-,,73.1,,,,,,,,,Swaziland,SWZ,Africa,Poverty,Poverty headcount ratio at rural poverty line (% of rural population)
+,,73.1,,,,,,,,,Kingdom of Eswatini,SWZ,Africa,Poverty,Poverty headcount ratio at rural poverty line (% of rural population)
 ,,,,,,,,,,,Syrian Arab Republic,SYR,Asia,Poverty,Poverty headcount ratio at rural poverty line (% of rural population)
 ,,49.2,,,,,,,,,Tajikistan,TJK,Asia,Poverty,Poverty headcount ratio at rural poverty line (% of rural population)
 ,,,,,33.30,,,,,,Tanzania,TZA,Africa,Poverty,Poverty headcount ratio at rural poverty line (% of rural population)
@@ -6797,7 +6797,7 @@
 ,,,,,,,,,,,Lebanon,LBN,Asia,Poverty,Poverty headcount ratio at urban poverty line (% of urban population)
 ,,,,,,,,,,,Lesotho,LSO,Africa,Poverty,Poverty headcount ratio at urban poverty line (% of urban population)
 ,,,,,,,,,,,Liberia,LBR,Africa,Poverty,Poverty headcount ratio at urban poverty line (% of urban population)
-,,,,,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Poverty,Poverty headcount ratio at urban poverty line (% of urban population)
+,,,,,,,,,,,Libya,LBY,Africa,Poverty,Poverty headcount ratio at urban poverty line (% of urban population)
 55.2,,,51.1,,,,,,,,Madagascar,MDG,Africa,Poverty,Poverty headcount ratio at urban poverty line (% of urban population)
 ,,,17.3,,,,,,,,Malawi,MWI,Africa,Poverty,Poverty headcount ratio at urban poverty line (% of urban population)
 ,,1.7,,,1.00,,,,,,Malaysia,MYS,Asia,Poverty,Poverty headcount ratio at urban poverty line (% of urban population)
@@ -6839,7 +6839,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Poverty,Poverty headcount ratio at urban poverty line (% of urban population)
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Poverty,Poverty headcount ratio at urban poverty line (% of urban population)
 ,,26.5,,,,,,,,,Sudan,SDN,Africa,Poverty,Poverty headcount ratio at urban poverty line (% of urban population)
-,,31.1,,,,,,,,,Swaziland,SWZ,Africa,Poverty,Poverty headcount ratio at urban poverty line (% of urban population)
+,,31.1,,,,,,,,,Kingdom of Eswatini,SWZ,Africa,Poverty,Poverty headcount ratio at urban poverty line (% of urban population)
 ,,,,,,,,,,,Syrian Arab Republic,SYR,Asia,Poverty,Poverty headcount ratio at urban poverty line (% of urban population)
 ,,41.8,,,,,,,,,Tajikistan,TJK,Asia,Poverty,Poverty headcount ratio at urban poverty line (% of urban population)
 ,,,,,15.50,,,,,,Tanzania,TZA,Africa,Poverty,Poverty headcount ratio at urban poverty line (% of urban population)
@@ -6923,7 +6923,7 @@
 ,,,,,420444.00,,,,,,Lebanon,LBN,Asia,Microinsurance,Property coverage
 0,,,,0,,,0,,,,Lesotho,LSO,Africa,Microinsurance,Property coverage
 ,,,,0,,,0,,,,Liberia,LBR,Africa,Microinsurance,Property coverage
-,,,,15,,,0,,,,Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Property coverage
+,,,,15,,,0,,,,Libya,LBY,Africa,Microinsurance,Property coverage
 0,0,,,0,,,0,,,,Madagascar,MDG,Africa,Microinsurance,Property coverage
 0,12000,,,53536,,,120000,,,,Malawi,MWI,Africa,Microinsurance,Property coverage
 ,,,,,0.00,,,,,,Malaysia,MYS,Asia,Microinsurance,Property coverage
@@ -6964,7 +6964,7 @@
 ,,,,,,,0,,,,South Sudan,SSD,Africa,Microinsurance,Property coverage
 ,,,,,,4.00,,,,,St. Lucia,LCA,Americas,Microinsurance,Property coverage
 0,,,,48480,,,43653,,,,Sudan,SDN,Africa,Microinsurance,Property coverage
-0,,,,0,,,16,,,,Swaziland,SWZ,Africa,Microinsurance,Property coverage
+0,,,,0,,,16,,,,Kingdom of Eswatini,SWZ,Africa,Microinsurance,Property coverage
 ,,,,,0.00,,,,,,Syrian Arab Republic,SYR,Asia,Microinsurance,Property coverage
 ,,,,,0.00,,,,,,Tajikistan,TJK,Asia,Microinsurance,Property coverage
 0,0,,,148160,,,0,,,,Tanzania,TZA,Africa,Microinsurance,Property coverage
@@ -7047,7 +7047,7 @@
 ,,,,,1.44,,,,,,Lebanon,LBN,Asia,Microinsurance,Property coverage ratio
 0,,,,0,,,0,,,,Lesotho,LSO,Africa,Microinsurance,Property coverage ratio
 ,,,,0,,,0,,,,Liberia,LBR,Africa,Microinsurance,Property coverage ratio
-,,,,0,,,0,,,,Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Property coverage ratio
+,,,,0,,,0,,,,Libya,LBY,Africa,Microinsurance,Property coverage ratio
 0,0,,,0,,,0,,,,Madagascar,MDG,Africa,Microinsurance,Property coverage ratio
 0,0.09,,,0.36,,,0.71,,,,Malawi,MWI,Africa,Microinsurance,Property coverage ratio
 ,,,,,0.00,,,,,,Malaysia,MYS,Asia,Microinsurance,Property coverage ratio
@@ -7089,7 +7089,7 @@
 ,,,,,,,0,,,,South Sudan,SSD,Africa,Microinsurance,Property coverage ratio
 ,,,,,,0.00,,,,,St. Lucia,LCA,Americas,Microinsurance,Property coverage ratio
 0,,,,0.14,,,0.11,,,,Sudan,SDN,Africa,Microinsurance,Property coverage ratio
-0,,,,0,,,0,,,,Swaziland,SWZ,Africa,Microinsurance,Property coverage ratio
+0,,,,0,,,0,,,,Kingdom of Eswatini,SWZ,Africa,Microinsurance,Property coverage ratio
 ,,,,,0.00,,,,,,Syrian Arab Republic,SYR,Asia,Microinsurance,Property coverage ratio
 ,,,,,0.00,,,,,,Tajikistan,TJK,Asia,Microinsurance,Property coverage ratio
 0,0,,,0.33,,,0,,,,Tanzania,TZA,Africa,Microinsurance,Property coverage ratio
@@ -7171,7 +7171,7 @@
 ,,,,,,,,,,,Lebanon,LBN,Asia,Finance,Remittances received (US$)
 ,,,,355,,,,,,,Lesotho,LSO,Africa,Finance,Remittances received (US$)
 ,,,,163,,,,,,,Liberia,LBR,Africa,Finance,Remittances received (US$)
-,,,,134,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Finance,Remittances received (US$)
+,,,,134,,,,,,,Libya,LBY,Africa,Finance,Remittances received (US$)
 ,,,,316,,,,,,,Madagascar,MDG,Africa,Finance,Remittances received (US$)
 ,,,,102,,,,,,,Malawi,MWI,Africa,Finance,Remittances received (US$)
 ,,,,,,,,,,,Malaysia,MYS,Asia,Finance,Remittances received (US$)
@@ -7214,7 +7214,7 @@
 ,,,,,,,,,,,Sri Lanka,LKA,Asia,Finance,Remittances received (US$)
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Finance,Remittances received (US$)
 ,,,,769,,,,,,,Sudan,SDN,Africa,Finance,Remittances received (US$)
-,,,,89,,,,,,,Swaziland,SWZ,Africa,Finance,Remittances received (US$)
+,,,,89,,,,,,,Kingdom of Eswatini,SWZ,Africa,Finance,Remittances received (US$)
 ,,,,,,,,,,,Syrian Arab Republic,SYR,Asia,Finance,Remittances received (US$)
 ,,,,,,,,,,,Tajikistan,TJK,Asia,Finance,Remittances received (US$)
 ,,,,313,,,,,,,Tanzania,TZA,Africa,Finance,Remittances received (US$)
@@ -7296,7 +7296,7 @@
 ,,,,,,,,,,,Lebanon,LBN,Asia,Finance,State_Financial_Institution_deposit_accounts_2010
 ,,,64.96,,,,,,,,Lesotho,LSO,Africa,Finance,State_Financial_Institution_deposit_accounts_2010
 ,,,0,,,,,,,,Liberia,LBR,Africa,Finance,State_Financial_Institution_deposit_accounts_2010
-,,,,,,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Finance,State_Financial_Institution_deposit_accounts_2010
+,,,,,,,,,,,Libya,LBY,Africa,Finance,State_Financial_Institution_deposit_accounts_2010
 ,,,0,,,,,,,,Madagascar,MDG,Africa,Finance,State_Financial_Institution_deposit_accounts_2010
 ,,,0,,,,,,,,Malawi,MWI,Africa,Finance,State_Financial_Institution_deposit_accounts_2010
 ,,,,,,,,,,,Malaysia,MYS,Asia,Finance,State_Financial_Institution_deposit_accounts_2010
@@ -7339,7 +7339,7 @@
 ,,,,,,,,,,,Sri Lanka,LKA,Asia,Finance,State_Financial_Institution_deposit_accounts_2010
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Finance,State_Financial_Institution_deposit_accounts_2010
 ,,,,,,,,,,,Sudan,SDN,Africa,Finance,State_Financial_Institution_deposit_accounts_2010
-,,,147.38,,,,,,,,Swaziland,SWZ,Africa,Finance,State_Financial_Institution_deposit_accounts_2010
+,,,147.38,,,,,,,,Kingdom of Eswatini,SWZ,Africa,Finance,State_Financial_Institution_deposit_accounts_2010
 ,,,,,,,,,,,Syrian Arab Republic,SYR,Asia,Finance,State_Financial_Institution_deposit_accounts_2010
 ,,,,,,,,,,,Tajikistan,TJK,Asia,Finance,State_Financial_Institution_deposit_accounts_2010
 ,,,,,,,,,,,Tanzania,TZA,Africa,Finance,State_Financial_Institution_deposit_accounts_2010
@@ -7429,7 +7429,7 @@
 ,,,,,,,,,,,Lebanon,LBN,Asia,Microinsurance,Total Gross Premium (USD)
 ,,,,,,,84084000,,,,Lesotho,LSO,Africa,Microinsurance,Total Gross Premium (USD)
 ,,,,,,,,,,,Liberia,LBR,Africa,Microinsurance,Total Gross Premium (USD)
-,,,,,,,681100000,,,,Libyan Arab Jamahiriya,LBY,Africa,Microinsurance,Total Gross Premium (USD)
+,,,,,,,681100000,,,,Libya,LBY,Africa,Microinsurance,Total Gross Premium (USD)
 ,,,,,,,,,,,Madagascar,MDG,Africa,Microinsurance,Total Gross Premium (USD)
 ,,,,,,,87840000,,,,Malawi,MWI,Africa,Microinsurance,Total Gross Premium (USD)
 ,,,,,,,,,,,Malaysia,MYS,Asia,Microinsurance,Total Gross Premium (USD)
@@ -7466,7 +7466,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Microinsurance,Total Gross Premium (USD)
 ,,,,,,75656988.00,,,,,St. Lucia,LCA,Americas,Microinsurance,Total Gross Premium (USD)
 ,,,,,,,450000000,,,,Sudan,SDN,Africa,Microinsurance,Total Gross Premium (USD)
-,,,,,,,68924829.67,,,,Swaziland,SWZ,Africa,Microinsurance,Total Gross Premium (USD)
+,,,,,,,68924829.67,,,,Kingdom of Eswatini,SWZ,Africa,Microinsurance,Total Gross Premium (USD)
 ,,,,,,,,,,,Syrian Arab Republic,SYR,Asia,Microinsurance,Total Gross Premium (USD)
 ,,,,,,,,,,,Tajikistan,TJK,Asia,Microinsurance,Total Gross Premium (USD)
 ,,,,,,,284460000,,,,Tanzania,TZA,Africa,Microinsurance,Total Gross Premium (USD)
@@ -7478,7 +7478,7 @@
 ,,,,,,,,,,,Turkey,TUR,Asia,Microinsurance,Total Gross Premium (USD)
 ,,,,,,,,,,,Turkmenistan,TKM,Asia,Microinsurance,Total Gross Premium (USD)
 ,,,,,,,,,,,Tuvalu,TUV,Oceania,Microinsurance,Total Gross Premium (USD)
-,,,,,,,201920000,,,,Uganda,UGA,Africa,Microinsurance,Total Gross Premium (USD)
+,,,,,,,201920000,,,1200000,Uganda,UGA,Africa,Microinsurance,Total Gross Premium (USD)
 ,,,,,,,,,,,Uzbekistan,UZB,Asia,Microinsurance,Total Gross Premium (USD)
 ,,,,,,,,,,,Vanuatu,VUT,Oceania,Microinsurance,Total Gross Premium (USD)
 ,,,,,,,,,,,Vietnam,VNM,Asia,Microinsurance,Total Gross Premium (USD)
@@ -7567,7 +7567,7 @@
 13.9,11.3,10.7,10.2,9.7,9.30,,,,,,Lebanon,LBN,Asia,Health,"Under-5 mortality rate (per 1,000)"
 122.9,117,112.7,108.4,102.1,99.60,,,,,,Lesotho,LSO,Africa,Health,"Under-5 mortality rate (per 1,000)"
 118.5,93.1,87.3,82.5,78.4,74.80,,,,,,Liberia,LBR,Africa,Health,"Under-5 mortality rate (per 1,000)"
-23.1,18.9,17.8,16.9,16.1,15.40,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Health,"Under-5 mortality rate (per 1,000)"
+23.1,18.9,17.8,16.9,16.1,15.40,,,,,,Libya,LBY,Africa,Health,"Under-5 mortality rate (per 1,000)"
 81.4,69,65.8,62.9,60.6,58.20,,,,,,Madagascar,MDG,Africa,Health,"Under-5 mortality rate (per 1,000)"
 119.8,95.4,88.5,82.9,77.1,71.00,,,,,,Malawi,MWI,Africa,Health,"Under-5 mortality rate (per 1,000)"
 8.2,8.2,8.3,8.4,8.5,8.50,,,,,,Malaysia,MYS,Asia,Health,"Under-5 mortality rate (per 1,000)"
@@ -7609,7 +7609,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Health,"Under-5 mortality rate (per 1,000)"
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Health,"Under-5 mortality rate (per 1,000)"
 90.5,82.6,80.3,77.9,75.5,73.10,,,,,,Sudan,SDN,Africa,Health,"Under-5 mortality rate (per 1,000)"
-127.2,113.6,106.1,91.9,84.9,79.70,,,,,,Swaziland,SWZ,Africa,Health,"Under-5 mortality rate (per 1,000)"
+127.2,113.6,106.1,91.9,84.9,79.70,,,,,,Kingdom of Eswatini,SWZ,Africa,Health,"Under-5 mortality rate (per 1,000)"
 18.8,16.5,15.8,15.2,14.9,15.10,,,,,,Syrian Arab Republic,SYR,Asia,Health,"Under-5 mortality rate (per 1,000)"
 74.1,66.8,64.4,62.5,60.4,58.30,,,,,,Tajikistan,TJK,Asia,Health,"Under-5 mortality rate (per 1,000)"
 90.1,71.4,66.4,61.6,57.3,54.00,,,,,,Tanzania,TZA,Africa,Health,"Under-5 mortality rate (per 1,000)"
@@ -7692,7 +7692,7 @@
 86.57,86.91,87.02,87.14,87.25,87.36,,,,,,Lebanon,LBN,Asia,Demographics,Urban population (% of total)
 23.28,25.42,26.13,26.85,27.57,28.30,,,,,,Lesotho,LSO,Africa,Demographics,Urban population (% of total)
 46.05,47.1,47.45,47.8,48.18,48.56,,,,,,Liberia,LBR,Africa,Demographics,Urban population (% of total)
-76.86,77.28,77.42,77.56,77.74,77.91,,,,,,Libyan Arab Jamahiriya,LBY,Africa,Demographics,Urban population (% of total)
+76.86,77.28,77.42,77.56,77.74,77.91,,,,,,Libya,LBY,Africa,Demographics,Urban population (% of total)
 28.81,30.68,31.31,31.93,32.57,33.21,,,,,,Madagascar,MDG,Africa,Demographics,Urban population (% of total)
 15.05,15.35,15.45,15.54,15.7,15.85,,,,,,Malawi,MWI,Africa,Demographics,Urban population (% of total)
 67.58,70.23,71.12,72.01,72.68,73.36,,,,,,Malaysia,MYS,Asia,Demographics,Urban population (% of total)
@@ -7734,7 +7734,7 @@
 ,,,,,,,,,,,South Sudan,SSD,Africa,Demographics,Urban population (% of total)
 ,,,,,,,,,,,St. Lucia,LCA,Americas,Demographics,Urban population (% of total)
 32.76,32.95,33.02,33.08,33.24,33.39,,,,,,Sudan,SDN,Africa,Demographics,Urban population (% of total)
-21.92,21.56,21.44,21.32,21.28,21.25,,,,,,Swaziland,SWZ,Africa,Demographics,Urban population (% of total)
+21.92,21.56,21.44,21.32,21.28,21.25,,,,,,Kingdom of Eswatini,SWZ,Africa,Demographics,Urban population (% of total)
 53.78,54.92,55.3,55.67,56.07,56.46,,,,,,Syrian Arab Republic,SYR,Asia,Demographics,Urban population (% of total)
 26.43,26.47,26.49,26.5,26.55,26.61,,,,,,Tajikistan,TJK,Asia,Demographics,Urban population (% of total)
 24.19,25.44,25.86,26.28,26.74,27.21,,,,,,Tanzania,TZA,Africa,Demographics,Urban population (% of total)
